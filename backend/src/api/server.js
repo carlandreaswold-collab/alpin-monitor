@@ -4,8 +4,12 @@ import { createServer } from 'http';
 import { Server } from 'socket.io';
 import cors from 'cors';
 import cron from 'node-cron';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { getRecentArticles, getCategorized, categorize, uncategorize, getDb } from '../db/index.js';
 import { fetchAll } from '../fetcher/index.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 const httpServer = createServer(app);
@@ -76,10 +80,18 @@ cron.schedule(`*/${INTERVAL} * * * *`, async () => {
   io.emit('fetch_done', { total, timestamp: new Date().toISOString() });
 });
 
+// ── FRONTEND (statiske filer) ──
+const frontendDist = path.join(__dirname, '../../../frontend/dist');
+app.use(express.static(frontendDist));
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api') || req.path.startsWith('/socket.io')) return next();
+  res.sendFile(path.join(frontendDist, 'index.html'));
+});
+
 // ── START ──
 const PORT = process.env.PORT || 3001;
 getDb(); // init + migrasjon
-httpServer.listen(PORT, () => {
+httpServer.listen(PORT, '0.0.0.0', () => {
   console.log(`\n🎿 Alpin Monitor backend kjører på http://localhost:${PORT}`);
   console.log(`   RSS-henting hvert ${INTERVAL} minutt`);
   console.log(`   Første henting om ${INTERVAL} min — eller POST /api/fetch for å kjøre nå\n`);

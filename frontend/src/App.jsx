@@ -3,10 +3,12 @@ import { fetchArticles, triggerFetch } from './lib/api'
 import { socket } from './lib/socket'
 import ArticleCard from './components/ArticleCard'
 import FilterBar from './components/FilterBar'
+import Sidebar from './components/Sidebar'
 
 export default function App() {
   const [articles, setArticles] = useState([])
   const [country, setCountry] = useState('')
+  const [search, setSearch] = useState('')
   const [fetching, setFetching] = useState(false)
   const [lastFetch, setLastFetch] = useState(null)
   const [newCount, setNewCount] = useState(0)
@@ -20,11 +22,10 @@ export default function App() {
 
   useEffect(() => {
     socket.on('fetch_done', ({ total, timestamp }) => {
-      setLastFetch(new Date(timestamp).toLocaleTimeString('no'))
-      setNewCount(n => n + total)
+      setLastFetch(new Date(timestamp).toLocaleTimeString('no', { hour: '2-digit', minute: '2-digit' }))
+      if (total > 0) setNewCount(n => n + total)
       load(country)
     })
-    socket.on('new_articles', () => load(country))
     socket.on('categorized', ({ article_id, category }) => {
       setArticles(prev => prev.map(a => a.id === article_id ? { ...a, category } : a))
     })
@@ -36,31 +37,37 @@ export default function App() {
 
   async function handleFetch() {
     setFetching(true)
+    setNewCount(0)
     await triggerFetch()
-    setTimeout(() => setFetching(false), 3000)
+    setTimeout(() => setFetching(false), 5000)
   }
 
   function handleCategoryChange(id, category) {
     setArticles(prev => prev.map(a => a.id === id ? { ...a, category } : a))
   }
 
-  const categorized = articles.filter(a => a.category)
-  const uncategorized = articles.filter(a => !a.category)
+  const filtered = articles.filter(a => {
+    if (!search) return true
+    const q = search.toLowerCase()
+    return (
+      (a.title_no || a.title_orig || '').toLowerCase().includes(q) ||
+      (a.athletes || '').toLowerCase().includes(q) ||
+      (a.source_name || '').toLowerCase().includes(q)
+    )
+  })
+
+  const uncategorized = filtered.filter(a => !a.category)
 
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white border-b border-gray-200 sticky top-0 z-20 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-3">
-          <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-3">
-              <span className="text-2xl">⛷</span>
-              <div>
-                <h1 className="text-lg font-bold text-gray-900 leading-tight">Alpin Monitor</h1>
-                <p className="text-xs text-gray-500">NRK-redaksjonen · alpindekning</p>
-              </div>
-            </div>
+          <div className="flex items-center gap-3 mb-3">
+            <span className="text-xl">⛷</span>
+            <h1 className="text-base font-bold text-gray-900">Alpin Monitor</h1>
+            <span className="text-xs text-gray-400">NRK-redaksjonen</span>
             {newCount > 0 && (
-              <span className="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">
+              <span className="ml-auto bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-full animate-pulse">
                 +{newCount} nye
               </span>
             )}
@@ -72,41 +79,37 @@ export default function App() {
             fetching={fetching}
             lastFetch={lastFetch}
             total={articles.length}
+            search={search}
+            onSearch={setSearch}
           />
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto px-4 py-6">
-        {categorized.length > 0 && (
-          <section className="mb-8">
-            <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
-              Kategorisert ({categorized.length})
-            </h2>
-            <div className="grid gap-3">
-              {categorized.map(a => (
-                <ArticleCard key={a.id} article={a} onCategoryChange={handleCategoryChange} />
-              ))}
-            </div>
-          </section>
-        )}
+      <main className="max-w-6xl mx-auto px-4 py-5">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-5 items-start">
 
-        <section>
-          <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
-            Innkommende saker ({uncategorized.length})
-          </h2>
-          {uncategorized.length === 0 ? (
-            <div className="text-center py-16 text-gray-400">
-              <p className="text-4xl mb-3">🎿</p>
-              <p>Ingen saker ennå — trykk «Hent nå»</p>
+          <section>
+            <div className="text-xs text-gray-400 mb-3 font-medium uppercase tracking-wider">
+              Innkommende — {uncategorized.length} saker
             </div>
-          ) : (
-            <div className="grid gap-3">
-              {uncategorized.map(a => (
-                <ArticleCard key={a.id} article={a} onCategoryChange={handleCategoryChange} />
-              ))}
-            </div>
-          )}
-        </section>
+            {uncategorized.length === 0 ? (
+              <div className="text-center py-16 text-gray-300">
+                <p className="text-4xl mb-3">🎿</p>
+                <p className="text-sm">
+                  {search ? 'Ingen treff på søket' : 'Ingen saker ennå — trykk «Hent nå»'}
+                </p>
+              </div>
+            ) : (
+              <div className="flex flex-col gap-2">
+                {uncategorized.map(a => (
+                  <ArticleCard key={a.id} article={a} onCategoryChange={handleCategoryChange} />
+                ))}
+              </div>
+            )}
+          </section>
+
+          <Sidebar articles={filtered} onCategoryChange={handleCategoryChange} />
+        </div>
       </main>
     </div>
   )
