@@ -118,6 +118,16 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
   return db.prepare(sql).all(...params);
 }
 
+export function getUntranslated(limit = 100) {
+  return getDb().prepare(`
+    SELECT id, lang_orig, title_orig, summary_no AS snippet
+    FROM articles
+    WHERE translated = 0
+    ORDER BY fetched_at DESC
+    LIMIT ?
+  `).all(limit);
+}
+
 export function getCategorized() {
   return getDb().prepare(`
     SELECT a.*, c.category
