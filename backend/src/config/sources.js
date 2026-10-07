@@ -20,9 +20,11 @@ export const SOURCES = [
   // ── SVEITS ──
   { id: 'swisski',     name: 'Swiss Ski',      url: 'https://www.swisski.ch/de/news/rss',                                   type: 'rss',    country: 'SUI',  lang: 'de' },
   { id: 'srf',         name: 'SRF Sport',      url: 'https://www.srf.ch/sport/qs/rss/sport.rss',                            type: 'rss',    country: 'SUI',  lang: 'de' },
+  { id: 'skinews',     name: 'SkinEWS',        url: 'https://www.skinews.ch/feed/',                                         type: 'rss',    country: 'SUI',  lang: 'de' },
 
   // ── ITALIA ──
   { id: 'fisi',        name: 'FISI',           url: 'https://www.fisi.org/it/news/rss',                                     type: 'rss',    country: 'ITA',  lang: 'it' },
+  { id: 'neveitalia',  name: 'Neveitalia',     url: 'https://www.neveitalia.it/feed/',                                      type: 'rss',    country: 'ITA',  lang: 'it' },
 
   // ── FRANKRIKE ──
   { id: 'lequipe',     name: "L'Équipe",       url: 'https://www.lequipe.fr/rss/actu_rss_ski-alpin.xml',                    type: 'rss',    country: 'FRA',  lang: 'fr' },
@@ -31,9 +33,6 @@ export const SOURCES = [
   // ── SVERIGE ──
   { id: 'svt',         name: 'SVT Sport',      url: 'https://www.svt.se/sport/rss.xml',                                     type: 'rss',    country: 'SWE',  lang: 'sv' },
 
-  // ── SIDER UTEN RSS — scraping kommer i neste runde ──
-  // { id: 'neveitalia',  name: 'Neveitalia',     url: 'https://www.neveitalia.it',                                            type: 'scrape', country: 'ITA',  lang: 'it' },
-  // { id: 'skinews',     name: 'SkinEWS',        url: 'https://www.skinews.ch',                                              type: 'scrape', country: 'SUI',  lang: 'de' },
 ];
 
 // Utøvere vi sporer spesielt (for auto-tagging)
