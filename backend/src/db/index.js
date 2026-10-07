@@ -109,7 +109,7 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
     LEFT JOIN categorizations c ON c.article_id = a.id
     LEFT JOIN article_tags t    ON t.article_id  = a.id
   `;
-  const where = ['a.is_duplicate = 0'];
+  const where = ['a.is_duplicate = 0', 'a.fact_ok = 1'];
   const params = [];
   if (country) { where.push("a.country = ?"); params.push(country); }
   if (athlete) {

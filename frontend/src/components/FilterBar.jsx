@@ -6,6 +6,7 @@ const COUNTRIES = [
   { code: 'SUI', label: '🇨🇭 Sveits' },
   { code: 'FRA', label: '🇫🇷 Frankrike' },
   { code: 'ITA', label: '🇮🇹 Italia' },
+  { code: 'SWE', label: '🇸🇪 Sverige' },
 ]
 
 export default function FilterBar({ country, onCountry, onFetch, fetching, total, search, onSearch }) {

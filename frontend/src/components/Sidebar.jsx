@@ -27,6 +27,9 @@ export default function Sidebar({ articles, onCategoryChange }) {
                   {title}
                 </a>
                 <div className="spik-source">{a.source_name} · {CATEGORIES.find(c => c.id === a.category)?.label}</div>
+                {a.spik_no && (
+                  <p className="spik-text">{a.spik_no}</p>
+                )}
               </div>
               <button
                 onClick={() => { uncategorizeArticle(a.id); onCategoryChange(a.id, null) }}

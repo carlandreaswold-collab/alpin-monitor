@@ -57,6 +57,13 @@ export default function ArticleCard({ article, onCategoryChange }) {
         <p className="card-summary">{article.summary_no}</p>
       )}
 
+      {article.spik_no && (
+        <div className="card-spik">
+          <span className="card-spik-label">📻 SPIK</span>
+          <span className="card-spik-text">{article.spik_no}</span>
+        </div>
+      )}
+
       <div className="cat-row">
         {CATEGORIES.map(cat => (
           <button

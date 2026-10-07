@@ -385,3 +385,41 @@ body {
   font-size: 13px;
 }
 .empty-icon { font-size: 32px; margin-bottom: 10px; }
+
+/* ── SPIK ── */
+.card-spik {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 7px;
+  padding: 7px 10px;
+  background: #4a9eff0d;
+  border-left: 2px solid var(--cat-sportslig);
+  border-radius: 0 4px 4px 0;
+}
+.card-spik-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: .08em;
+  color: var(--cat-sportslig);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.card-spik-text {
+  font-size: 12px;
+  color: var(--fg2);
+  line-height: 1.5;
+  font-style: italic;
+}
+.spik-text {
+  font-size: 11px;
+  color: var(--fg2);
+  line-height: 1.5;
+  margin-top: 5px;
+  font-style: italic;
+  padding: 5px 8px;
+  background: #4a9eff0d;
+  border-left: 2px solid var(--cat-sportslig);
+  border-radius: 0 3px 3px 0;
+}
