@@ -3,6 +3,7 @@ import crypto from 'crypto';
 import { SOURCES, TRACKED_ATHLETES, NATIONS } from '../config/sources.js';
 import { insertArticle, insertTag, getDb } from '../db/index.js';
 import { translatePending } from '../translate/index.js';
+import { factCheckPending } from '../factcheck/index.js';
 
 const parser = new Parser({ timeout: 10000, headers: { 'User-Agent': 'NRK-AlpinMonitor/1.0' } });
 
@@ -72,7 +73,10 @@ export async function fetchAll(emitter) {
     if (n > 0 && emitter) emitter.emit('new_articles', { source: source.name, count: n });
   }
   console.log(`✓ Ferdig — ${total} nye saker totalt\n`);
-  if (total > 0) await translatePending();
+  if (total > 0) {
+    await translatePending();
+    await factCheckPending();
+  }
   return total;
 }
 

@@ -128,6 +128,22 @@ export function getUntranslated(limit = 100) {
   `).all(limit);
 }
 
+export function getUnchecked(limit = 100) {
+  return getDb().prepare(`
+    SELECT id, title_orig, title_no, summary_no, source_name
+    FROM articles
+    WHERE translated = 1 AND fact_ok IS NULL
+    ORDER BY fetched_at DESC
+    LIMIT ?
+  `).all(limit);
+}
+
+export function updateFactCheck(id, fact_ok, fact_notes) {
+  getDb().prepare(`
+    UPDATE articles SET fact_ok=?, fact_notes=? WHERE id=?
+  `).run(fact_ok, fact_notes, id);
+}
+
 export function getCategorized() {
   return getDb().prepare(`
     SELECT a.*, c.category

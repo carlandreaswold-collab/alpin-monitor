@@ -1,7 +1,10 @@
-import Anthropic from '@anthropic-ai/sdk';
+import OpenAI from 'openai';
 import { getUntranslated, updateTranslation } from '../db/index.js';
 
-const client = new Anthropic();
+const client = new OpenAI({
+  apiKey: process.env.ANTHROPIC_API_KEY,
+  baseURL: process.env.ANTHROPIC_BASE_URL,
+});
 const BATCH_SIZE = 20;
 
 const LANG_NAMES = {
@@ -28,13 +31,13 @@ For each article, return:
 Input:
 ${JSON.stringify(items, null, 2)}`;
 
-  const msg = await client.messages.create({
-    model: 'claude-haiku-4-5',
+  const msg = await client.chat.completions.create({
+    model: 'claude-sonnet-4-6',
     max_tokens: 2048,
     messages: [{ role: 'user', content: prompt }],
   });
 
-  const text = msg.content[0].text.trim();
+  const text = msg.choices[0].message.content.trim();
   // Strip potential markdown code fence
   const json = text.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
   return JSON.parse(json);
