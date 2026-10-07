@@ -1,38 +1,40 @@
-// Alle overvåkede kilder. type: 'rss' | 'scrape' (scraping kommer i neste runde)
+// Overvåkede nyhetskilder — kun RSS-feeder som virker (sjekket 2026-10-07)
 export const SOURCES = [
-  // ── INTERNASJONALT / FIS ──
-  { id: 'fis',         name: 'FIS',            url: 'https://www.fis-ski.com/DB/general/rss.html',                          type: 'rss',    country: 'INT',  lang: 'en' },
-  { id: 'skiracing',   name: 'Ski Racing',     url: 'https://skiracing.com/feed/',                                          type: 'rss',    country: 'USA',  lang: 'en' },
-  { id: 'eurosport',   name: 'Eurosport',      url: 'https://www.eurosport.com/ski-alpine/rss.xml',                         type: 'rss',    country: 'INT',  lang: 'en' },
-  { id: 'skiweltcup',  name: 'Skiweltcup.tv',  url: 'https://www.skiweltcup.tv/feed/',                                      type: 'rss',    country: 'INT',  lang: 'de' },
-
-  // ── NORGE ──
-  { id: 'skino',       name: 'ski.no',         url: 'https://www.ski.no/nyheter/?format=rss',                               type: 'rss',    country: 'NOR',  lang: 'no' },
-  { id: 'vg',          name: 'VG',             url: 'https://www.vg.no/rss/feed/?categories=sport&tags=alpint',             type: 'rss',    country: 'NOR',  lang: 'no' },
-  { id: 'dagbladet',   name: 'Dagbladet',      url: 'https://www.dagbladet.no/sport/rss',                                   type: 'rss',    country: 'NOR',  lang: 'no' },
-  { id: 'nettavisen',  name: 'Nettavisen',     url: 'https://www.nettavisen.no/rss/sport',                                  type: 'rss',    country: 'NOR',  lang: 'no' },
-
-  // ── ØSTERRIKE ──
-  { id: 'oesv',        name: 'ÖSV',            url: 'https://www.oesv.at/rss/news.xml',                                     type: 'rss',    country: 'AUT',  lang: 'de' },
-  { id: 'orf',         name: 'ORF Sport',      url: 'https://rss.orf.at/sport.xml',                                         type: 'rss',    country: 'AUT',  lang: 'de' },
-  { id: 'krone',       name: 'Krone',          url: 'https://www.krone.at/rss/sport',                                       type: 'rss',    country: 'AUT',  lang: 'de' },
-
-  // ── SVEITS ──
-  { id: 'swisski',     name: 'Swiss Ski',      url: 'https://www.swisski.ch/de/news/rss',                                   type: 'rss',    country: 'SUI',  lang: 'de' },
-  { id: 'srf',         name: 'SRF Sport',      url: 'https://www.srf.ch/sport/qs/rss/sport.rss',                            type: 'rss',    country: 'SUI',  lang: 'de' },
-  { id: 'skinews',     name: 'SkinEWS',        url: 'https://www.skinews.ch/feed/',                                         type: 'rss',    country: 'SUI',  lang: 'de' },
+  // ── INTERNASJONALT ──
+  { id: 'skiracing',  name: 'Ski Racing',  url: 'https://skiracing.com/feed/',              type: 'rss', country: 'INT', lang: 'en' },
 
   // ── ITALIA ──
-  { id: 'fisi',        name: 'FISI',           url: 'https://www.fisi.org/it/news/rss',                                     type: 'rss',    country: 'ITA',  lang: 'it' },
-  { id: 'neveitalia',  name: 'Neveitalia',     url: 'https://www.neveitalia.it/feed/',                                      type: 'rss',    country: 'ITA',  lang: 'it' },
+  { id: 'neveitalia', name: 'Neveitalia',  url: 'https://www.neveitalia.it/feed/',           type: 'rss', country: 'ITA', lang: 'it' },
 
-  // ── FRANKRIKE ──
-  { id: 'lequipe',     name: "L'Équipe",       url: 'https://www.lequipe.fr/rss/actu_rss_ski-alpin.xml',                    type: 'rss',    country: 'FRA',  lang: 'fr' },
-  { id: 'eurosportfr', name: 'Eurosport FR',   url: 'https://www.eurosport.fr/ski-alpin/rss.xml',                           type: 'rss',    country: 'FRA',  lang: 'fr' },
+  // ── SVEITS ──
+  { id: 'skinews',    name: 'SkinEWS',     url: 'https://www.skinews.ch/feed/',              type: 'rss', country: 'SUI', lang: 'de' },
+
+  // ── NORGE ──
+  // VG har alpint-tag-filter — lite innhold utenfor sesong, men relevant i sesong
+  { id: 'vg',         name: 'VG',          url: 'https://www.vg.no/rss/feed/?categories=sport&tags=alpint', type: 'rss', country: 'NOR', lang: 'no' },
+
+  // ── ØSTERRIKE ──
+  // ORF Sport er generell sport — faktasjekk filtrerer bort rusk
+  { id: 'orf',        name: 'ORF Sport',   url: 'https://rss.orf.at/sport.xml',              type: 'rss', country: 'AUT', lang: 'de' },
 
   // ── SVERIGE ──
-  { id: 'svt',         name: 'SVT Sport',      url: 'https://www.svt.se/sport/rss.xml',                                     type: 'rss',    country: 'SWE',  lang: 'sv' },
+  // SVT Sport er generell sport — faktasjekk filtrerer bort rusk
+  { id: 'svt',        name: 'SVT Sport',   url: 'https://www.svt.se/sport/rss.xml',          type: 'rss', country: 'SWE', lang: 'sv' },
 
+  // ── DEAD PER 2026-10-07 (fjernet) ──
+  // FIS             https://www.fis-ski.com/DB/general/rss.html      → 404
+  // Eurosport EN    https://www.eurosport.com/ski-alpine/rss.xml      → 404
+  // Skiweltcup.tv   https://www.skiweltcup.tv/feed/                   → timeout
+  // ski.no          https://www.ski.no/nyheter/?format=rss            → DNS feil
+  // Dagbladet       https://www.dagbladet.no/sport/rss                → 404
+  // Nettavisen      https://www.nettavisen.no/rss/sport               → XML-feil
+  // ÖSV             https://www.oesv.at/rss/news.xml                  → 404
+  // Krone           https://www.krone.at/rss/sport                    → 404
+  // Swiss Ski       https://www.swisski.ch/de/news/rss                → 404
+  // SRF Sport       https://www.srf.ch/sport/qs/rss/sport.rss         → 404
+  // FISI            https://www.fisi.org/it/news/rss                  → 503
+  // L'Équipe        https://www.lequipe.fr/rss/actu_rss_ski-alpin.xml → 403
+  // Eurosport FR    https://www.eurosport.fr/ski-alpin/rss.xml        → 404
 ];
 
 // Utøvere vi sporer spesielt (for auto-tagging)
@@ -43,6 +45,7 @@ export const TRACKED_ATHLETES = [
   'Federica Brignone', 'Wendy Holdener', 'Marta Bassino',
   'Clement Noel', 'Manuel Feller', 'Vincent Kriechmayr',
   'Ragnhild Mowinckel', 'Kajsa Vickhoff Lie', 'Thea Louise Stjernesund',
+  'Marco Schwarz', 'Stefan Rogentin', 'Atle Lie McGrath',
 ];
 
 // Nasjoner for auto-tagging
@@ -55,4 +58,6 @@ export const NATIONS = {
   USA: ['USA', 'United States', 'Amerika'],
   GER: ['Tyskland', 'Germany', 'Deutschland', 'Allemagne'],
   SWE: ['Sverige', 'Sweden', 'Schweden', 'Suède'],
+  SVK: ['Slovakia', 'Slowakei'],
+  SLO: ['Slovenia', 'Slovenien', 'Slowenien'],
 };
