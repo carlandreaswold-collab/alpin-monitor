@@ -6,7 +6,7 @@ import cors from 'cors';
 import cron from 'node-cron';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getRecentArticles, getCategorized, categorize, uncategorize, getDb } from '../db/index.js';
+import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb } from '../db/index.js';
 import { fetchAll } from '../fetcher/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -60,6 +60,11 @@ app.post('/api/fetch', async (req, res) => {
   res.json({ ok: true, message: 'Henting startet' });
   const total = await fetchAll(io);
   io.emit('fetch_done', { total, timestamp: new Date().toISOString() });
+});
+
+// Utøvere med saksantall
+app.get('/api/athletes', (req, res) => {
+  res.json(getAthletes());
 });
 
 // Helsesjekk

@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback } from 'react'
-import { fetchArticles, triggerFetch } from './lib/api'
+import { fetchArticles, fetchAthletes, triggerFetch } from './lib/api'
 import { socket } from './lib/socket'
 import ArticleCard from './components/ArticleCard'
 import FilterBar from './components/FilterBar'
@@ -8,16 +8,22 @@ import Sidebar from './components/Sidebar'
 export default function App() {
   const [articles, setArticles] = useState([])
   const [country, setCountry] = useState('')
+  const [athlete, setAthlete] = useState('')
+  const [athletes, setAthletes] = useState([])
   const [search, setSearch] = useState('')
   const [fetching, setFetching] = useState(false)
   const [newCount, setNewCount] = useState(0)
 
-  const load = useCallback(async (c) => {
-    const data = await fetchArticles({ country: c || undefined })
+  const load = useCallback(async (c, a) => {
+    const data = await fetchArticles({ country: c || undefined, athlete: a || undefined })
     setArticles(data)
   }, [])
 
-  useEffect(() => { load(country) }, [country, load])
+  useEffect(() => { load(country, athlete) }, [country, athlete, load])
+
+  useEffect(() => {
+    fetchAthletes().then(setAthletes)
+  }, [])
 
   useEffect(() => {
     socket.on('fetch_done', ({ total }) => {
@@ -37,7 +43,7 @@ export default function App() {
     setFetching(true)
     setNewCount(0)
     await triggerFetch()
-    setTimeout(() => setFetching(false), 5000)
+    setTimeout(() => { setFetching(false); fetchAthletes().then(setAthletes) }, 5000)
   }
 
   function handleCategoryChange(id, category) {
@@ -69,7 +75,10 @@ export default function App() {
           )}
           <FilterBar
             country={country}
-            onCountry={c => { setCountry(c); setNewCount(0) }}
+            onCountry={c => { setCountry(c); setAthlete(''); setNewCount(0) }}
+            athlete={athlete}
+            onAthlete={a => { setAthlete(a); setCountry(''); setNewCount(0) }}
+            athletes={athletes}
             onFetch={handleFetch}
             fetching={fetching}
             total={articles.length}

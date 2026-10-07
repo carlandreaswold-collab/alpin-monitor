@@ -33,6 +33,16 @@ export async function fetchArticles({ country, athlete, limit = 80 } = {}) {
   }
 }
 
+export async function fetchAthletes() {
+  try {
+    const res = await fetch(`${BASE}/athletes`)
+    if (!res.ok) throw new Error()
+    return res.json()
+  } catch {
+    return []
+  }
+}
+
 export async function triggerFetch() {
   try {
     await fetch(`${BASE}/fetch`, { method: 'POST' })

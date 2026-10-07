@@ -166,6 +166,19 @@ export function updateSpik(id, spik_no) {
   getDb().prepare(`UPDATE articles SET spik_no=? WHERE id=?`).run(spik_no, id);
 }
 
+export function getAthletes() {
+  return getDb().prepare(`
+    SELECT t.tag_value as name, COUNT(DISTINCT t.article_id) as count
+    FROM article_tags t
+    JOIN articles a ON a.id = t.article_id
+    WHERE t.tag_type = 'athlete'
+      AND a.fact_ok = 1
+      AND a.is_duplicate = 0
+    GROUP BY t.tag_value
+    ORDER BY count DESC, t.tag_value ASC
+  `).all();
+}
+
 export function getRecentForDedup(hours = 48) {
   return getDb().prepare(`
     SELECT id, title_orig, title_no, source_id, fetched_at

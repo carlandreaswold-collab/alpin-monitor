@@ -9,7 +9,7 @@ const COUNTRIES = [
   { code: 'SWE', label: '🇸🇪 Sverige' },
 ]
 
-export default function FilterBar({ country, onCountry, onFetch, fetching, total, search, onSearch }) {
+export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, onFetch, fetching, total, search, onSearch }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 10, paddingBottom: 8 }}>
@@ -20,6 +20,20 @@ export default function FilterBar({ country, onCountry, onFetch, fetching, total
           onChange={e => onSearch(e.target.value)}
           placeholder="Søk i titler, utøvere…"
         />
+        {athletes.length > 0 && (
+          <select
+            className="athlete-select"
+            value={athlete}
+            onChange={e => onAthlete(e.target.value)}
+          >
+            <option value="">Alle utøvere</option>
+            {athletes.map(a => (
+              <option key={a.name} value={a.name}>
+                {a.name} ({a.count})
+              </option>
+            ))}
+          </select>
+        )}
         <span className="header-meta">{total} saker</span>
         <button className="fetch-btn" onClick={onFetch} disabled={fetching}>
           {fetching ? '⏳ Henter…' : '🔄 Hent nå'}
