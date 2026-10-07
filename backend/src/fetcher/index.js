@@ -14,11 +14,13 @@ function makeHash(url, title) {
 }
 
 function tagAthletes(text, articleId) {
-  for (const name of TRACKED_ATHLETES) {
-    if (text.includes(name)) insertTag(articleId, 'athlete', name);
-    // Fornavn alene (f.eks. «Shiffrin», «Odermatt»)
+  for (const athlete of TRACKED_ATHLETES) {
+    const { name, aliases = [] } = athlete;
     const lastName = name.split(' ').pop();
-    if (lastName.length > 4 && text.includes(lastName)) insertTag(articleId, 'athlete', name);
+    const allVariants = [name, lastName, ...aliases];
+    if (allVariants.some(v => v.length > 3 && text.includes(v))) {
+      insertTag(articleId, 'athlete', name);
+    }
   }
 }
 
