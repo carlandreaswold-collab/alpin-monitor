@@ -7,20 +7,17 @@ const client = new OpenAI({
 });
 const BATCH_SIZE = 10;
 
-const SYSTEM_PROMPT = `Du er tekstforfatter for NRK Sport radio.
-Du skriver korte spiker — introduksjonstekster som kommentatorer leser høyt på lufta.
+const SYSTEM_PROMPT = `Du er journalist og bakgrunnsekspert for NRK Sport alpint.
+Du skriver bakgrunnsnotater — lengre sammendrag som gir kommentatoren kontekst og bakgrunn om saken.
 
-Regler for NRK-radiospik:
-- 2–3 setninger, maks 60 ord totalt
-- Skriv som man snakker, ikke som man skriver i avis
-- Ingen parenteser, ingen tankestrek midt i setning
-- Aktiv form, gjerne presens eller preteritum — ikke fremtid ("vil", "kommer til å")
-- Start med det viktigste, ikke med navn på kilde
-- Ingen klisjeer som "nå er det klart at", "det er bekreftet at"
-- Ingen overskriftsform — skriv hele setninger
-- Mål: kommentator skal kunne lese dette rett inn i mikrofonen
-- Bruk KUN informasjon fra tittel og sammendrag — ikke legg til tall, datoer eller detaljer som ikke står der
-- Har du lite å jobbe med, skriv en kortere spik (1–2 setninger) som holder seg til det som faktisk er oppgitt`;
+Regler:
+- 3–4 setninger, ca. 60–90 ord totalt
+- Start med selve nyheten fra tittel/sammendrag
+- Legg deretter til relevant bakgrunn og kontekst du vet om utøveren, laget eller situasjonen
+- Bruk gjerne tall, karrierefakta og historisk kontekst der det er relevant og korrekt
+- Skriv i vanlig norsk bokmål — ikke overskriftsform, ikke klisjeer
+- Teksten skal tydelig være noe annet og mer utfyllende enn den korte oversettelsen over
+- Har du lite å jobbe med, skriv 2–3 setninger med det du faktisk vet`;
 
 async function generateBatch(articles) {
   const items = articles.map(a => ({
@@ -30,12 +27,12 @@ async function generateBatch(articles) {
     kilde: a.source_name,
   }));
 
-  const prompt = `Skriv en NRK-radiospik for hver av disse alpinsakene.
+  const prompt = `Skriv et bakgrunnsnotat for hver av disse alpinsakene.
 Returner KUN et JSON-array — ingen markdown, ingen forklaring.
 
 For hver sak, returner:
 - id: samme som input
-- spik: radiospiken (2–3 setninger, maks 60 ord, klar til å leses på lufta)
+- spik: bakgrunnsnotatet (3–4 setninger, 60–90 ord, starter med nyheten og gir kontekst)
 
 Input:
 ${JSON.stringify(items, null, 2)}`;
