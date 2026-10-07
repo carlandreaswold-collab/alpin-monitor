@@ -55,6 +55,11 @@ function initSchema(db) {
     CREATE INDEX IF NOT EXISTS idx_articles_source  ON articles(source_id);
     CREATE INDEX IF NOT EXISTS idx_articles_country ON articles(country);
   `);
+
+  // Migrasjon: legg til is_duplicate hvis kolonnen mangler
+  try {
+    db.exec(`ALTER TABLE articles ADD COLUMN is_duplicate INTEGER NOT NULL DEFAULT 0`);
+  } catch {}
 }
 
 // ── QUERIES ──
@@ -105,14 +110,14 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
     LEFT JOIN categorizations c ON c.article_id = a.id
     LEFT JOIN article_tags t    ON t.article_id  = a.id
   `;
-  const where = [];
+  const where = ['a.is_duplicate = 0'];
   const params = [];
   if (country) { where.push("a.country = ?"); params.push(country); }
   if (athlete) {
     sql += ` JOIN article_tags ta ON ta.article_id=a.id AND ta.tag_type='athlete' AND ta.tag_value=? `;
     params.push(athlete);
   }
-  if (where.length) sql += ' WHERE ' + where.join(' AND ');
+  sql += ' WHERE ' + where.join(' AND ');
   sql += ` GROUP BY a.id ORDER BY a.fetched_at DESC LIMIT ?`;
   params.push(limit);
   return db.prepare(sql).all(...params);
@@ -142,6 +147,20 @@ export function updateFactCheck(id, fact_ok, fact_notes) {
   getDb().prepare(`
     UPDATE articles SET fact_ok=?, fact_notes=? WHERE id=?
   `).run(fact_ok, fact_notes, id);
+}
+
+export function markDuplicate(id) {
+  getDb().prepare(`UPDATE articles SET is_duplicate=1 WHERE id=?`).run(id);
+}
+
+export function getRecentForDedup(hours = 48) {
+  return getDb().prepare(`
+    SELECT id, title_orig, title_no, source_id, fetched_at
+    FROM articles
+    WHERE fetched_at >= datetime('now', ?)
+      AND is_duplicate = 0
+    ORDER BY fetched_at ASC
+  `).all(`-${hours} hours`);
 }
 
 export function getCategorized() {

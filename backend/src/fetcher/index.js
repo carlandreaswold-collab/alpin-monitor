@@ -4,6 +4,7 @@ import { SOURCES, TRACKED_ATHLETES, NATIONS } from '../config/sources.js';
 import { insertArticle, insertTag, getDb } from '../db/index.js';
 import { translatePending } from '../translate/index.js';
 import { factCheckPending } from '../factcheck/index.js';
+import { dedupPending } from '../dedup/index.js';
 
 const parser = new Parser({ timeout: 10000, headers: { 'User-Agent': 'NRK-AlpinMonitor/1.0' } });
 
@@ -76,6 +77,7 @@ export async function fetchAll(emitter) {
   if (total > 0) {
     await translatePending();
     await factCheckPending();
+    dedupPending();
   }
   return total;
 }
