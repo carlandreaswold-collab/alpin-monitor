@@ -5,6 +5,7 @@ import { insertArticle, insertTag, getDb } from '../db/index.js';
 import { translatePending } from '../translate/index.js';
 import { factCheckPending } from '../factcheck/index.js';
 import { dedupPending } from '../dedup/index.js';
+import { generateSpiks } from '../spik/index.js';
 
 const parser = new Parser({ timeout: 10000, headers: { 'User-Agent': 'NRK-AlpinMonitor/1.0' } });
 
@@ -78,6 +79,7 @@ export async function fetchAll(emitter) {
     await translatePending();
     await factCheckPending();
     dedupPending();
+    await generateSpiks();
   }
   return total;
 }

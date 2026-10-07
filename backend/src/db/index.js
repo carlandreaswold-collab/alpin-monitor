@@ -56,10 +56,9 @@ function initSchema(db) {
     CREATE INDEX IF NOT EXISTS idx_articles_country ON articles(country);
   `);
 
-  // Migrasjon: legg til is_duplicate hvis kolonnen mangler
-  try {
-    db.exec(`ALTER TABLE articles ADD COLUMN is_duplicate INTEGER NOT NULL DEFAULT 0`);
-  } catch {}
+  // Migrasjoner for nye kolonner
+  try { db.exec(`ALTER TABLE articles ADD COLUMN is_duplicate INTEGER NOT NULL DEFAULT 0`); } catch {}
+  try { db.exec(`ALTER TABLE articles ADD COLUMN spik_no TEXT`); } catch {}
 }
 
 // ── QUERIES ──
@@ -151,6 +150,20 @@ export function updateFactCheck(id, fact_ok, fact_notes) {
 
 export function markDuplicate(id) {
   getDb().prepare(`UPDATE articles SET is_duplicate=1 WHERE id=?`).run(id);
+}
+
+export function getWithoutSpik(limit = 50) {
+  return getDb().prepare(`
+    SELECT id, title_no, summary_no, source_name, url
+    FROM articles
+    WHERE fact_ok = 1 AND is_duplicate = 0 AND spik_no IS NULL
+    ORDER BY fetched_at DESC
+    LIMIT ?
+  `).all(limit);
+}
+
+export function updateSpik(id, spik_no) {
+  getDb().prepare(`UPDATE articles SET spik_no=? WHERE id=?`).run(spik_no, id);
 }
 
 export function getRecentForDedup(hours = 48) {
