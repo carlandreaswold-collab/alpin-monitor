@@ -59,6 +59,7 @@ function initSchema(db) {
   // Migrasjoner for nye kolonner
   try { db.exec(`ALTER TABLE articles ADD COLUMN is_duplicate INTEGER NOT NULL DEFAULT 0`); } catch {}
   try { db.exec(`ALTER TABLE articles ADD COLUMN spik_no TEXT`); } catch {}
+  try { db.exec(`ALTER TABLE articles ADD COLUMN body_text TEXT`); } catch {}
 }
 
 // ── QUERIES ──
@@ -154,7 +155,7 @@ export function markDuplicate(id) {
 
 export function getWithoutSpik(limit = 50) {
   return getDb().prepare(`
-    SELECT id, title_no, summary_no, source_name, url
+    SELECT id, title_no, summary_no, body_text, source_name, url
     FROM articles
     WHERE fact_ok = 1 AND is_duplicate = 0 AND spik_no IS NULL
     ORDER BY fetched_at DESC
@@ -164,6 +165,20 @@ export function getWithoutSpik(limit = 50) {
 
 export function updateSpik(id, spik_no) {
   getDb().prepare(`UPDATE articles SET spik_no=? WHERE id=?`).run(spik_no, id);
+}
+
+export function updateBodyText(id, body_text) {
+  getDb().prepare(`UPDATE articles SET body_text=? WHERE id=?`).run(body_text, id);
+}
+
+export function getUnscraped(limit = 60) {
+  return getDb().prepare(`
+    SELECT id, url
+    FROM articles
+    WHERE body_text IS NULL
+    ORDER BY fetched_at DESC
+    LIMIT ?
+  `).all(limit);
 }
 
 export function getAthletes() {

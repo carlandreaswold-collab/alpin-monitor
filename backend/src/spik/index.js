@@ -24,6 +24,7 @@ async function generateBatch(articles) {
     id: a.id,
     tittel: a.title_no,
     sammendrag: a.summary_no || '',
+    artikkeltekst: a.body_text ? a.body_text.slice(0, 1500) : '',
     kilde: a.source_name,
   }));
 
@@ -33,6 +34,9 @@ Returner KUN et JSON-array — ingen markdown, ingen forklaring.
 For hver sak, returner:
 - id: samme som input
 - spik: bakgrunnsnotatet (3–4 setninger, 60–90 ord, starter med nyheten og gir kontekst)
+
+Bruk artikkelteksten (hvis tilgjengelig) for å hente konkrete detaljer, sitater og fakta.
+Suppler med din bakgrunnskunnskap om utøvere og alpinsporten.
 
 Input:
 ${JSON.stringify(items, null, 2)}`;

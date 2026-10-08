@@ -2,6 +2,7 @@ import Parser from 'rss-parser';
 import crypto from 'crypto';
 import { SOURCES, TRACKED_ATHLETES, NATIONS } from '../config/sources.js';
 import { insertArticle, insertTag, getDb } from '../db/index.js';
+import { scrapeBodyTexts } from '../scraper/index.js';
 import { translatePending } from '../translate/index.js';
 import { factCheckPending } from '../factcheck/index.js';
 import { dedupPending } from '../dedup/index.js';
@@ -78,6 +79,7 @@ export async function fetchAll(emitter) {
   }
   console.log(`✓ Ferdig — ${total} nye saker totalt\n`);
   if (total > 0) {
+    await scrapeBodyTexts();
     await translatePending();
     await factCheckPending();
     dedupPending();
