@@ -21,6 +21,10 @@ export const SOURCES = [
   // SVT Sport er generell sport — faktasjekk filtrerer bort rusk
   { id: 'svt',        name: 'SVT Sport',   url: 'https://www.svt.se/sport/rss.xml',          type: 'rss', country: 'SWE', lang: 'sv' },
 
+  // ── TYSKLAND ──
+  // Sportschau (ARD) — dedikert ski alpin-feed, offentlig kringkaster, solid redaksjon
+  { id: 'sportschau', name: 'Sportschau',  url: 'https://www.sportschau.de/wintersport/ski-alpin/index~rss2.xml', type: 'rss', country: 'GER', lang: 'de' },
+
   // ── DEAD PER 2026-10-07 (fjernet) ──
   // FIS             https://www.fis-ski.com/DB/general/rss.html      → 404
   // Eurosport EN    https://www.eurosport.com/ski-alpine/rss.xml      → 404
@@ -60,6 +64,9 @@ export const TRACKED_ATHLETES = [
   { name: 'Thea Louise Stjernesund',    aliases: ['Stjernesund'] },
   { name: 'Marco Schwarz',              aliases: ['Schwarz'] },
   { name: 'Stefan Rogentin',            aliases: ['Rogentin'] },
+  { name: 'Lena Dürr',                 aliases: ['Dürr', 'Duerr'] },
+  { name: 'Emma Aicher',               aliases: ['Aicher'] },
+  { name: 'Josef Ferstl',              aliases: ['Ferstl'] },
   { name: 'Atle Lie McGrath',           aliases: ['McGrath', 'Atle McGrath'] },
 ];
 

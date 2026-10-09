@@ -196,6 +196,7 @@ body {
 .src-SUI { background: var(--src-SUI); color: var(--cat-kjendis); }
 .src-FRA { background: var(--src-FRA); color: var(--cat-nerding); }
 .src-ITA { background: var(--src-INT); color: var(--cat-sportslig); }
+.src-GER { background: #ffd70018; color: #ffd700; }
 
 .lang-tag {
   font-family: 'IBM Plex Mono', monospace;

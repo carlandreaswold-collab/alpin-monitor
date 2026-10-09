@@ -106,7 +106,7 @@ a{color:inherit;text-decoration:none}
 .src-AUT{background:#e0555518;color:var(--viktig)}
 .src-SUI{background:#f0a04a18;color:var(--kjendis)}
 .src-SWE,.src-FIN{background:#a87ef018;color:var(--nerding)}
-.src-ITA,.src-FRA{background:#4a9eff18;color:var(--sportslig)}
+.src-ITA,.src-FRA,.src-GER{background:#4a9eff18;color:var(--sportslig)}
 .lang{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--fg3);background:var(--bg);border:1px solid var(--border);padding:1px 5px;border-radius:3px}
 .cat-chip{font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:3px}
 .cat-viktig{background:#e0555520;color:var(--viktig)}
@@ -226,6 +226,7 @@ const COUNTRIES = [
   {code:'ITA',label:'🇮🇹 Italia'},
   {code:'SWE',label:'🇸🇪 Sverige'},
   {code:'FRA',label:'🇫🇷 Frankrike'},
+  {code:'GER',label:'🇩🇪 Tyskland'},
 ];
 
 let activeCountry = '';
