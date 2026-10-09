@@ -23,13 +23,15 @@ export const CATEGORIES = [
   { id: 'kjendis',   label: '🌟 Kjendis' },
 ]
 
-function timeAgo(dateStr) {
+function formatDate(dateStr) {
   if (!dateStr) return ''
-  const diff = (Date.now() - new Date(dateStr)) / 1000
-  if (diff < 60) return 'akkurat nå'
-  if (diff < 3600) return `${Math.floor(diff / 60)} min`
-  if (diff < 86400) return `${Math.floor(diff / 3600)} t`
-  return `${Math.floor(diff / 86400)} d`
+  const d = new Date(dateStr)
+  if (isNaN(d)) return ''
+  const dd = String(d.getDate()).padStart(2, '0')
+  const mm = String(d.getMonth() + 1).padStart(2, '0')
+  const hh = String(d.getHours()).padStart(2, '0')
+  const min = String(d.getMinutes()).padStart(2, '0')
+  return `${dd}.${mm} kl. ${hh}:${min}`
 }
 
 function factStatus(fact_ok) {
@@ -84,7 +86,7 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
             🏁 {race.venue}
           </span>
         )}
-        <span className="card-time">{timeAgo(article.pub_date || article.fetched_at)}</span>
+        <span className="card-time">{formatDate(article.pub_date || article.fetched_at)}</span>
         <button className="dismiss-btn" onClick={handleDismiss} title="Ikke alpint — skjul saken">✕ Ikke alpint</button>
       </div>
 

@@ -10,6 +10,17 @@ function timeAgo(dateStr) {
   return `${Math.floor(diff / 86400)} d`
 }
 
+function formatDate(dateStr) {
+  if (!dateStr) return ''
+  const d = new Date(dateStr)
+  if (isNaN(d)) return ''
+  const dd = String(d.getDate()).padStart(2, '0')
+  const mm = String(d.getMonth() + 1).padStart(2, '0')
+  const hh = String(d.getHours()).padStart(2, '0')
+  const min = String(d.getMinutes()).padStart(2, '0')
+  return `${dd}.${mm} kl. ${hh}:${min}`
+}
+
 export default function Sidebar({ articles, onCategoryChange }) {
   const categorized = articles.filter(a => a.category)
 
@@ -37,7 +48,8 @@ export default function Sidebar({ articles, onCategoryChange }) {
                 </a>
                 <div className="spik-source">
                   {a.source_name} · {CATEGORIES.find(c => c.id === a.category)?.label}
-                  {a.cat_created_at && <span className="spik-time"> · {timeAgo(a.cat_created_at)} siden</span>}
+                  {(a.pub_date || a.fetched_at) && <span className="spik-time"> · {formatDate(a.pub_date || a.fetched_at)}</span>}
+                  {a.cat_created_at && <span className="spik-time"> · kategorisert {timeAgo(a.cat_created_at)} siden</span>}
                 </div>
                 {a.spik_no && (
                   <p className="spik-text">{a.spik_no}</p>
