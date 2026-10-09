@@ -402,6 +402,54 @@ body {
 }
 .empty-icon { font-size: 32px; margin-bottom: 10px; }
 
+/* ── SESONG-BADGE (header) ── */
+.season-badge {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.season-label {
+  font-family: 'Figtree', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.season-detail {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  opacity: .75;
+}
+.season-race {
+  background: #e0555515;
+  border-color: var(--cat-viktig);
+  color: var(--cat-viktig);
+  animation: pulse-border 2s infinite;
+}
+@keyframes pulse-border {
+  0%,100% { border-color: var(--cat-viktig); }
+  50%      { border-color: #e0555560; }
+}
+.season-active  { background: #52c78a12; border-color: #52c78a60; color: var(--cat-goy); }
+.season-pre     { background: #f0c04a12; border-color: #c8a03060; color: #c8a030; }
+.season-off     { background: var(--surface2); border-color: var(--border); color: var(--fg3); }
+
+/* ── RENN-BADGE (artikkelkort) ── */
+.race-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: #e0555518;
+  color: var(--cat-viktig);
+  letter-spacing: .03em;
+  flex-shrink: 0;
+}
+
 /* ── FACT STATUS BADGE ── */
 .fact-badge {
   font-family: 'IBM Plex Mono', monospace;

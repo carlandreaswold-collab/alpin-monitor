@@ -1,5 +1,6 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 import { categorizeArticle, uncategorizeArticle, dismissArticle } from '../lib/api'
+import { getRaceForDate } from '../lib/season'
 
 function useNote(id) {
   const key = `note_${id}`
@@ -45,6 +46,7 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
   const title = article.title_no || article.title_orig
   const currentCat = article.category
   const fact = factStatus(article.fact_ok)
+  const race = getRaceForDate(article.pub_date || article.fetched_at)
 
   async function handleCategory(catId) {
     setLoading(true)
@@ -76,6 +78,11 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
         )}
         {article.athletes && (
           <span className="athlete-tag">👤 {article.athletes.split(',')[0]}</span>
+        )}
+        {race && (
+          <span className="race-badge" title={`${race.venue}: ${race.disciplines.join(', ')}`}>
+            🏁 {race.venue}
+          </span>
         )}
         <span className="card-time">{timeAgo(article.pub_date || article.fetched_at)}</span>
         <button className="dismiss-btn" onClick={handleDismiss} title="Ikke alpint — skjul saken">✕ Ikke alpint</button>

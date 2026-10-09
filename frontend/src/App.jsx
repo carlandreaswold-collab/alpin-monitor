@@ -7,6 +7,7 @@ import Sidebar from './components/Sidebar'
 import CategoryModal from './components/CategoryModal'
 import FactcheckPage from './components/FactcheckPage'
 import StatsPage from './components/StatsPage'
+import SeasonBadge from './components/SeasonBadge'
 
 export default function App() {
   const [articles, setArticles] = useState([])
@@ -88,6 +89,7 @@ export default function App() {
         <div className="header-top">
           <div className="logo">⛷ Alpin<span className="logo-accent">Monitor</span></div>
           <div className="live-badge"><span className="live-dot" />LIVE</div>
+          <SeasonBadge />
           {newCount > 0 && (
             <span style={{ background: 'var(--cat-viktig)', color: '#fff', fontSize: 11, fontWeight: 700, padding: '2px 10px', borderRadius: 10 }}>
               +{newCount} nye
