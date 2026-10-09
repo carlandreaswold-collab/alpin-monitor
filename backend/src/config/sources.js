@@ -68,8 +68,6 @@ export const TRACKED_ATHLETES = [
   { name: 'Thea Louise Stjernesund',    aliases: ['Stjernesund'] },
   { name: 'Marco Schwarz',              aliases: ['Schwarz'] },
   { name: 'Stefan Rogentin',            aliases: ['Rogentin'] },
-  { name: 'Clément Noël',              aliases: ['Noel', 'Noël', 'Clement Noel'] },
-  { name: 'Alexis Pinturault',         aliases: ['Pinturault'] },
   { name: 'Tessa Worley',             aliases: ['Worley'] },
   { name: 'Valérie Grenier',          aliases: ['Grenier'] },
   { name: 'Laurence St-Germain',      aliases: ['St-Germain', 'Saint-Germain'] },
