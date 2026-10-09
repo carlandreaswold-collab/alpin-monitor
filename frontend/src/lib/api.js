@@ -45,3 +45,9 @@ export async function fetchFactcheck() {
   if (!res.ok) throw new Error()
   return res.json()
 }
+
+export async function fetchStats() {
+  const res = await fetch(`${BASE}/stats`)
+  if (!res.ok) throw new Error()
+  return res.json()
+}

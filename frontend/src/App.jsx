@@ -6,6 +6,7 @@ import FilterBar from './components/FilterBar'
 import Sidebar from './components/Sidebar'
 import CategoryModal from './components/CategoryModal'
 import FactcheckPage from './components/FactcheckPage'
+import StatsPage from './components/StatsPage'
 
 export default function App() {
   const [articles, setArticles] = useState([])
@@ -112,12 +113,20 @@ export default function App() {
           >
             🔍 Faktasjekk
           </button>
+          <button
+            className={`view-toggle-btn ${view === 'stats' ? 'active' : ''}`}
+            onClick={() => setView(v => v === 'stats' ? 'feed' : 'stats')}
+            style={{ '--active-color': 'var(--cat-nerding)' }}
+          >
+            📊 Statistikk
+          </button>
         </div>
       </header>
 
       {view === 'factcheck' && <FactcheckPage />}
+      {view === 'stats' && <StatsPage />}
 
-      <div className="main-layout" style={view === 'factcheck' ? { display: 'none' } : {}}>
+      <div className="main-layout" style={view !== 'feed' ? { display: 'none' } : {}}>
         <div className="feed-col">
           <div className="section-label">
             Innkommende — {uncategorized.length} saker

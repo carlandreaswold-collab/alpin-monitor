@@ -523,6 +523,212 @@ body {
   flex-shrink: 0;
 }
 
+/* ── STATISTIKK-SIDE ── */
+.stats-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 20px 60px;
+}
+.stats-heading {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--fg3);
+  margin-bottom: 14px;
+}
+.stats-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+}
+.stat-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+.stat-tile {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-top: 3px solid;
+  border-radius: 6px;
+  padding: 12px 14px;
+}
+.stat-tile-value {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.stat-tile-label {
+  font-size: 11px;
+  color: var(--fg3);
+}
+.stat-tile-sub {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  color: var(--fg3);
+  margin-top: 3px;
+}
+
+/* Day chart */
+.day-chart-wrap { overflow-x: auto; }
+.day-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  min-height: 140px;
+  padding-bottom: 24px;
+  position: relative;
+}
+.day-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  min-width: 28px;
+}
+.day-bars {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.day-bar-total {
+  width: 100%;
+  background: var(--border2);
+  border-radius: 2px 2px 0 0;
+  position: relative;
+}
+.day-bar-alpine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--cat-goy);
+  border-radius: 2px 2px 0 0;
+}
+.day-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px;
+  color: var(--fg3);
+  white-space: nowrap;
+  transform: rotate(-45deg);
+  transform-origin: top center;
+}
+.day-legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+  justify-content: flex-end;
+}
+.day-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--fg3);
+}
+.day-legend-dot {
+  width: 8px; height: 8px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* Source table */
+.source-table { display: flex; flex-direction: column; gap: 10px; }
+.source-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 160px;
+  align-items: center;
+  gap: 12px;
+}
+.source-row-name {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--fg);
+}
+.source-bar-track {
+  height: 8px;
+  background: var(--bg);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+.source-bar-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 4px;
+  transition: width .3s;
+}
+.source-bar-alpine { z-index: 1; }
+.source-row-stats {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+}
+.source-stat-alpine { color: var(--cat-goy); }
+.source-stat-total { color: var(--fg3); }
+.source-stat-rate { font-weight: 700; min-width: 34px; text-align: right; }
+
+/* Bar rows (category / athletes) */
+.stat-bar-row {
+  display: grid;
+  grid-template-columns: 160px 1fr 36px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.stat-bar-label {
+  font-size: 12px;
+  color: var(--fg2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stat-bar-track {
+  height: 6px;
+  background: var(--bg);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width .3s;
+}
+.stat-bar-value {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: var(--fg3);
+  text-align: right;
+}
+.stat-bar-sub { display: none; }
+
+/* Two-col layout */
+.stats-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 680px) {
+  .stats-two-col { grid-template-columns: 1fr; }
+  .source-row { grid-template-columns: 120px 1fr; }
+  .source-row-stats { display: none; }
+}
+
 /* ── FAKTASJEKK-SIDE ── */
 .fc-page {
   max-width: 900px;

@@ -202,6 +202,67 @@ export function getUnscraped(limit = 60) {
   `).all(limit);
 }
 
+export function getStats() {
+  const db = getDb();
+
+  const bySource = db.prepare(`
+    SELECT
+      source_name,
+      country,
+      COUNT(*) as total,
+      SUM(CASE WHEN fact_ok = 1 THEN 1 ELSE 0 END) as alpine,
+      SUM(CASE WHEN fact_ok = 0 THEN 1 ELSE 0 END) as rejected,
+      SUM(CASE WHEN fact_ok IS NULL THEN 1 ELSE 0 END) as pending
+    FROM articles
+    WHERE is_duplicate = 0
+    GROUP BY source_name
+    ORDER BY total DESC
+  `).all();
+
+  const rawDates = db.prepare(`
+    SELECT pub_date, fetched_at, fact_ok FROM articles WHERE is_duplicate = 0
+  `).all();
+  const cutoff = Date.now() - 14 * 86400 * 1000;
+  const dayMap = {};
+  for (const a of rawDates) {
+    const d = new Date(a.pub_date || a.fetched_at);
+    if (isNaN(d) || d.getTime() < cutoff) continue;
+    const day = d.toISOString().slice(0, 10);
+    if (!dayMap[day]) dayMap[day] = { day, total: 0, alpine: 0 };
+    dayMap[day].total++;
+    if (a.fact_ok === 1) dayMap[day].alpine++;
+  }
+  const byDay = Object.values(dayMap).sort((a, b) => a.day.localeCompare(b.day));
+
+  const byCategory = db.prepare(`
+    SELECT category, COUNT(*) as count
+    FROM categorizations
+    GROUP BY category
+    ORDER BY count DESC
+  `).all();
+
+  const topAthletes = db.prepare(`
+    SELECT t.tag_value as name, COUNT(DISTINCT t.article_id) as count
+    FROM article_tags t
+    JOIN articles a ON a.id = t.article_id
+    WHERE t.tag_type = 'athlete' AND a.fact_ok = 1 AND a.is_duplicate = 0
+    GROUP BY t.tag_value
+    ORDER BY count DESC
+    LIMIT 12
+  `).all();
+
+  const totals = db.prepare(`
+    SELECT
+      COUNT(*) as total,
+      SUM(CASE WHEN fact_ok = 1 THEN 1 ELSE 0 END) as alpine,
+      SUM(CASE WHEN fact_ok = 0 THEN 1 ELSE 0 END) as rejected,
+      SUM(CASE WHEN fact_ok IS NULL THEN 1 ELSE 0 END) as pending
+    FROM articles WHERE is_duplicate = 0
+  `).get();
+
+  return { bySource, byDay, byCategory, topAthletes, totals };
+}
+
 export function getAthletes() {
   return getDb().prepare(`
     SELECT t.tag_value as name, COUNT(DISTINCT t.article_id) as count

@@ -6,7 +6,7 @@ import cors from 'cors';
 import cron from 'node-cron';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb, dismissArticle, approveArticle, getAllForFactcheck } from '../db/index.js';
+import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb, dismissArticle, approveArticle, getAllForFactcheck, getStats } from '../db/index.js';
 import { fetchAll } from '../fetcher/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -88,6 +88,11 @@ app.post('/api/fetch', async (req, res) => {
 // Utøvere med saksantall
 app.get('/api/athletes', (req, res) => {
   res.json(getAthletes());
+});
+
+// Statistikk
+app.get('/api/stats', (req, res) => {
+  res.json(getStats());
 });
 
 // Helsesjekk
