@@ -8,6 +8,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb, dismissArticle, approveArticle, getAllForFactcheck, getStats } from '../db/index.js';
 import { fetchAll } from '../fetcher/index.js';
+import { generateSnapshot } from '../snapshot/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -83,6 +84,7 @@ app.post('/api/fetch', async (req, res) => {
   res.json({ ok: true, message: 'Henting startet' });
   const total = await fetchAll(io);
   io.emit('fetch_done', { total, timestamp: new Date().toISOString() });
+  generateSnapshot();
 });
 
 // Utøvere med saksantall
@@ -111,6 +113,7 @@ const INTERVAL = parseInt(process.env.FETCH_INTERVAL_MINUTES || '15');
 cron.schedule(`*/${INTERVAL} * * * *`, async () => {
   const total = await fetchAll(io);
   io.emit('fetch_done', { total, timestamp: new Date().toISOString() });
+  generateSnapshot();
 });
 
 // ── FRONTEND (statiske filer) ──
