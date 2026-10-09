@@ -21,6 +21,10 @@ export const SOURCES = [
   // SVT Sport er generell sport — faktasjekk filtrerer bort rusk
   { id: 'svt',        name: 'SVT Sport',   url: 'https://www.svt.se/sport/rss.xml',          type: 'rss', country: 'SWE', lang: 'sv' },
 
+  // ── FRANKRIKE ──
+  // franceinfo (France Télévisions) — dedikert ski alpin-feed, offentlig kringkaster
+  { id: 'franceinfo', name: 'franceinfo',  url: 'https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin.rss', type: 'rss', country: 'FRA', lang: 'fr' },
+
   // ── TYSKLAND ──
   // Sportschau (ARD) — dedikert ski alpin-feed, offentlig kringkaster, solid redaksjon
   { id: 'sportschau', name: 'Sportschau',  url: 'https://www.sportschau.de/wintersport/ski-alpin/index~rss2.xml', type: 'rss', country: 'GER', lang: 'de' },
@@ -64,6 +68,11 @@ export const TRACKED_ATHLETES = [
   { name: 'Thea Louise Stjernesund',    aliases: ['Stjernesund'] },
   { name: 'Marco Schwarz',              aliases: ['Schwarz'] },
   { name: 'Stefan Rogentin',            aliases: ['Rogentin'] },
+  { name: 'Clément Noël',              aliases: ['Noel', 'Noël', 'Clement Noel'] },
+  { name: 'Alexis Pinturault',         aliases: ['Pinturault'] },
+  { name: 'Tessa Worley',             aliases: ['Worley'] },
+  { name: 'Valérie Grenier',          aliases: ['Grenier'] },
+  { name: 'Laurence St-Germain',      aliases: ['St-Germain', 'Saint-Germain'] },
   { name: 'Lena Dürr',                 aliases: ['Dürr', 'Duerr'] },
   { name: 'Emma Aicher',               aliases: ['Aicher'] },
   { name: 'Josef Ferstl',              aliases: ['Ferstl'] },

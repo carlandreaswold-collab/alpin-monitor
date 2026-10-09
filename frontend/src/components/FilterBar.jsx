@@ -11,6 +11,7 @@ const COUNTRIES = [
   { code: 'ITA', label: '🇮🇹 Italia' },
   { code: 'SWE', label: '🇸🇪 Sverige' },
   { code: 'GER', label: '🇩🇪 Tyskland' },
+  { code: 'FRA', label: '🇫🇷 Frankrike' },
 ]
 
 export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, onFetch, fetching, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
