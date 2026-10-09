@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, '../../../data/alpin.db')
-const REPO_ROOT = path.join(__dirname, '../../../..')
+const REPO_ROOT = path.join(__dirname, '../../..')
 const OUT = path.join(REPO_ROOT, 'docs/index.html')
 
 const CATEGORIES = [
