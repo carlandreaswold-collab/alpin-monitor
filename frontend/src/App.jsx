@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback, useMemo } from 'react'
+import { useEffect, useState, useCallback, useMemo, useRef } from 'react'
 import { ReadonlyContext, isReadonlyUrl } from './lib/readonly'
 import { fetchArticles, fetchAthletes, triggerFetch } from './lib/api'
 import { socket } from './lib/socket'
@@ -20,7 +20,11 @@ export default function App() {
   const [newCount, setNewCount] = useState(0)
   const [categoryModal, setCategoryModal] = useState(null)
   const [view, setView] = useState('feed')
+  const [newIds, setNewIds] = useState(new Set())
+  const articlesRef = useRef([])
   const readonly = useMemo(() => isReadonlyUrl(), [])
+
+  useEffect(() => { articlesRef.current = articles }, [articles])
 
   const load = useCallback(async (c, a) => {
     const data = await fetchArticles({ country: c || undefined, athlete: a || undefined })
@@ -34,9 +38,12 @@ export default function App() {
   }, [])
 
   useEffect(() => {
-    socket.on('fetch_done', ({ total }) => {
+    socket.on('fetch_done', async ({ total }) => {
       if (total > 0) setNewCount(n => n + total)
-      load(country)
+      const prevIds = new Set(articlesRef.current.map(a => a.id))
+      const data = await fetchArticles({ country: country || undefined, athlete: athlete || undefined })
+      setNewIds(new Set(data.filter(a => !prevIds.has(a.id)).map(a => a.id)))
+      setArticles(data)
     })
     socket.on('categorized', ({ article_id, category }) => {
       setArticles(prev => prev.map(a => a.id === article_id ? { ...a, category } : a))
@@ -143,7 +150,7 @@ export default function App() {
             </div>
           ) : (
             uncategorized.map(a => (
-              <ArticleCard key={a.id} article={a} onCategoryChange={handleCategoryChange} onDismiss={handleDismiss} />
+              <ArticleCard key={a.id} article={a} onCategoryChange={handleCategoryChange} onDismiss={handleDismiss} isNew={newIds.has(a.id)} />
             ))
           )}
         </div>

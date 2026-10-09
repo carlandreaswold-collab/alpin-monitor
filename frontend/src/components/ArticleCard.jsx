@@ -41,7 +41,7 @@ function factStatus(fact_ok) {
   return                       { cls: 'fact-pending', label: '… Sjekkes' }
 }
 
-export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
+export default function ArticleCard({ article, onCategoryChange, onDismiss, isNew }) {
   const [loading, setLoading] = useState(false)
   const [dismissed, setDismissed] = useState(false)
   const [noteOpen, setNoteOpen] = useState(false)
@@ -75,6 +75,7 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
   return (
     <div className="article-card">
       <div className="card-meta">
+        {isNew && <span className="new-dot" title="Ny sak" />}
         <span className={`fact-badge ${fact.cls}`}>{fact.label}</span>
         <span className={`source-badge src-${article.country}`}>{article.source_name}</span>
         {article.lang_orig && article.lang_orig !== 'no' && (

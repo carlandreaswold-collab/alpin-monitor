@@ -451,6 +451,19 @@ body {
 }
 
 /* ── FACT STATUS BADGE ── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(1.4); }
+}
+.new-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--cat-viktig);
+  flex-shrink: 0;
+  animation: pulse-dot 1.2s ease-in-out infinite;
+}
+
 .fact-badge {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 9px;
