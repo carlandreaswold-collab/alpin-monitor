@@ -1,5 +1,17 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { categorizeArticle, uncategorizeArticle, dismissArticle } from '../lib/api'
+
+function useNote(id) {
+  const key = `note_${id}`
+  const [note, setNote] = useState(() => {
+    try { return localStorage.getItem(key) || '' } catch { return '' }
+  })
+  function save(val) {
+    setNote(val)
+    try { localStorage.setItem(key, val) } catch {}
+  }
+  return [note, save]
+}
 
 export const CATEGORIES = [
   { id: 'viktig',    label: '⚡ Viktig' },
@@ -19,11 +31,20 @@ function timeAgo(dateStr) {
   return `${Math.floor(diff / 86400)} d`
 }
 
+function factStatus(fact_ok) {
+  if (fact_ok === 1)    return { cls: 'fact-ok',      label: '✓ Alpint' }
+  if (fact_ok === 0)    return { cls: 'fact-no',      label: '✕ Avvist' }
+  return                       { cls: 'fact-pending', label: '… Sjekkes' }
+}
+
 export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
   const [loading, setLoading] = useState(false)
   const [dismissed, setDismissed] = useState(false)
+  const [noteOpen, setNoteOpen] = useState(false)
+  const [note, saveNote] = useNote(article.id)
   const title = article.title_no || article.title_orig
   const currentCat = article.category
+  const fact = factStatus(article.fact_ok)
 
   async function handleCategory(catId) {
     setLoading(true)
@@ -48,6 +69,7 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
   return (
     <div className="article-card">
       <div className="card-meta">
+        <span className={`fact-badge ${fact.cls}`}>{fact.label}</span>
         <span className={`source-badge src-${article.country}`}>{article.source_name}</span>
         {article.lang_orig && article.lang_orig !== 'no' && (
           <span className="lang-tag">{article.lang_orig.toUpperCase()} → NO</span>
@@ -90,7 +112,24 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
             {CATEGORIES.find(c => c.id === currentCat)?.label}
           </span>
         )}
+        <button
+          className="note-toggle"
+          onClick={() => setNoteOpen(o => !o)}
+          title="Notat"
+        >
+          {note ? '📝' : '✏️'} {noteOpen ? 'Lukk' : 'Notat'}
+        </button>
       </div>
+
+      {noteOpen && (
+        <textarea
+          className="card-note"
+          value={note}
+          onChange={e => saveNote(e.target.value)}
+          placeholder="Skriv notat her — lagres automatisk…"
+          rows={2}
+        />
+      )}
     </div>
   )
 }

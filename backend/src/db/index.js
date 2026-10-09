@@ -104,13 +104,14 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
     SELECT
       a.*,
       c.category,
+      c.created_at as cat_created_at,
       GROUP_CONCAT(CASE WHEN t.tag_type='athlete' THEN t.tag_value END) as athletes,
       GROUP_CONCAT(CASE WHEN t.tag_type='nation'  THEN t.tag_value END) as nations
     FROM articles a
     LEFT JOIN categorizations c ON c.article_id = a.id
     LEFT JOIN article_tags t    ON t.article_id  = a.id
   `;
-  const where = ['a.is_duplicate = 0', 'a.fact_ok = 1'];
+  const where = ['a.is_duplicate = 0', "(a.fact_ok = 1 OR a.fact_ok IS NULL)"];
   const params = [];
   if (country) { where.push("a.country = ?"); params.push(country); }
   if (athlete) {
@@ -118,7 +119,7 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
     params.push(athlete);
   }
   sql += ' WHERE ' + where.join(' AND ');
-  sql += ` GROUP BY a.id ORDER BY a.fetched_at DESC LIMIT ?`;
+  sql += ` GROUP BY a.id ORDER BY COALESCE(a.pub_date, a.fetched_at) DESC LIMIT ?`;
   params.push(limit);
   return db.prepare(sql).all(...params);
 }
@@ -173,6 +174,22 @@ export function updateBodyText(id, body_text) {
 
 export function dismissArticle(id) {
   getDb().prepare(`UPDATE articles SET fact_ok=0, fact_notes='Manuelt avvist' WHERE id=?`).run(id);
+}
+
+export function approveArticle(id) {
+  getDb().prepare(`UPDATE articles SET fact_ok=1, fact_notes=NULL WHERE id=?`).run(id);
+}
+
+export function getAllForFactcheck(limit = 300) {
+  return getDb().prepare(`
+    SELECT
+      a.id, a.source_name, a.country, a.title_no, a.title_orig,
+      a.url, a.pub_date, a.fetched_at, a.fact_ok, a.fact_notes, a.is_duplicate
+    FROM articles a
+    WHERE a.is_duplicate = 0
+    ORDER BY COALESCE(a.pub_date, a.fetched_at) DESC
+    LIMIT ?
+  `).all(limit);
 }
 
 export function getUnscraped(limit = 60) {

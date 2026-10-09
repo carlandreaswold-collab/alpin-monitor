@@ -402,6 +402,52 @@ body {
 }
 .empty-icon { font-size: 32px; margin-bottom: 10px; }
 
+/* ── FACT STATUS BADGE ── */
+.fact-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 3px;
+  letter-spacing: .04em;
+  flex-shrink: 0;
+}
+.fact-ok      { background: #52c78a18; color: #52c78a; }
+.fact-pending { background: #f0c04a18; color: #c8a030; }
+.fact-no      { background: #e0555518; color: var(--cat-viktig); }
+
+/* ── NOTE FIELD ── */
+.note-toggle {
+  background: none;
+  border: none;
+  color: var(--fg3);
+  font-size: 10px;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: color .15s, background .15s;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.note-toggle:hover { color: var(--fg2); background: var(--surface2); }
+.card-note {
+  width: 100%;
+  margin-top: 8px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--fg);
+  font-family: 'Figtree', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 7px 10px;
+  resize: vertical;
+  outline: none;
+  transition: border-color .15s;
+}
+.card-note:focus { border-color: var(--cat-nerding); }
+.card-note::placeholder { color: var(--fg3); }
+
 /* ── DISMISS BUTTON ── */
 .dismiss-btn {
   margin-left: auto;
@@ -452,6 +498,150 @@ body {
 .badge-goy       { background: #52c78a22; color: var(--cat-goy); }
 .badge-nerding   { background: #a87ef022; color: var(--cat-nerding); }
 .badge-kjendis   { background: #f0a04a22; color: var(--cat-kjendis); }
+
+/* ── VIEW TOGGLE ── */
+.view-toggle-btn {
+  font-family: 'Figtree', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 13px;
+  background: var(--surface2);
+  color: var(--fg2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color .15s, color .15s, background .15s;
+  flex-shrink: 0;
+}
+.view-toggle-btn:hover { border-color: var(--border2); color: var(--fg); }
+.view-toggle-btn.active { background: #f0c04a15; border-color: #c8a030; color: #c8a030; }
+
+/* ── MODAL SEARCH ── */
+.modal-search {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+/* ── FAKTASJEKK-SIDE ── */
+.fc-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 20px 60px;
+}
+.fc-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.fc-tabs {
+  display: flex;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  overflow: hidden;
+}
+.fc-tab {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: 'Figtree', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 16px;
+  background: var(--surface);
+  color: var(--fg2);
+  border: none;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+  border-right: 1px solid var(--border);
+}
+.fc-tab:last-child { border-right: none; }
+.fc-tab:hover { background: var(--surface2); color: var(--fg); }
+.fc-tab-active { background: var(--surface2); color: var(--fg); }
+.fc-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--fg3);
+}
+.fc-search { width: 220px; }
+.fc-empty {
+  text-align: center;
+  padding: 60px 0;
+  color: var(--fg3);
+  font-size: 13px;
+}
+.fc-list { display: flex; flex-direction: column; gap: 4px; }
+.fc-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  border-left: 3px solid;
+  transition: border-color .15s;
+}
+.fc-row-ok      { border-left-color: #52c78a; }
+.fc-row-pending { border-left-color: #c8a030; }
+.fc-row-no      { border-left-color: var(--cat-viktig); }
+.fc-row-main { flex: 1; min-width: 0; }
+.fc-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--fg);
+  text-decoration: none;
+  display: block;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+.fc-title:hover { color: var(--cat-sportslig); }
+.fc-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.fc-time {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: var(--fg3);
+}
+.fc-notes {
+  font-size: 11px;
+  color: var(--fg3);
+  font-style: italic;
+}
+.fc-actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.fc-btn {
+  font-family: 'Figtree', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid;
+  cursor: pointer;
+  background: transparent;
+  transition: background .12s, color .12s;
+  white-space: nowrap;
+}
+.fc-approve { color: #52c78a; border-color: #52c78a; }
+.fc-approve:hover { background: #52c78a20; }
+.fc-reject  { color: var(--cat-viktig); border-color: var(--cat-viktig); }
+.fc-reject:hover { background: #e0555520; }
+.spik-time { color: var(--fg3); }
 
 /* ── MODAL ── */
 .modal-overlay {

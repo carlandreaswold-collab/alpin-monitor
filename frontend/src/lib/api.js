@@ -35,3 +35,13 @@ export async function uncategorizeArticle(article_id) {
 export async function dismissArticle(article_id) {
   await fetch(`${BASE}/dismiss/${article_id}`, { method: 'POST' })
 }
+
+export async function approveArticle(article_id) {
+  await fetch(`${BASE}/approve/${article_id}`, { method: 'POST' })
+}
+
+export async function fetchFactcheck() {
+  const res = await fetch(`${BASE}/factcheck`)
+  if (!res.ok) throw new Error()
+  return res.json()
+}

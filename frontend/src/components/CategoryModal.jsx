@@ -1,10 +1,14 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { CATEGORIES } from './ArticleCard'
 import ArticleCard from './ArticleCard'
 
 export default function CategoryModal({ category, articles, onClose, onCategoryChange, onDismiss }) {
+  const [search, setSearch] = useState('')
   const cat = CATEGORIES.find(c => c.id === category)
-  const catArticles = articles.filter(a => a.category === category)
+  const q = search.toLowerCase()
+  const catArticles = articles
+    .filter(a => a.category === category)
+    .filter(a => !q || (a.title_no || a.title_orig || '').toLowerCase().includes(q) || (a.athletes || '').toLowerCase().includes(q))
 
   useEffect(() => {
     function onKey(e) { if (e.key === 'Escape') onClose() }
@@ -23,6 +27,14 @@ export default function CategoryModal({ category, articles, onClose, onCategoryC
         <div className="modal-header">
           <span className={`modal-title modal-title-${category}`}>{cat?.label}</span>
           <span className="modal-count">{catArticles.length} saker</span>
+          <input
+            className="search-input modal-search"
+            type="search"
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            placeholder="Søk…"
+            autoFocus
+          />
           <button className="modal-close" onClick={onClose}>✕</button>
         </div>
         <div className="modal-body">

@@ -6,7 +6,7 @@ import cors from 'cors';
 import cron from 'node-cron';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb, dismissArticle } from '../db/index.js';
+import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb, dismissArticle, approveArticle, getAllForFactcheck } from '../db/index.js';
 import { fetchAll } from '../fetcher/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -52,6 +52,20 @@ app.post('/api/categorize', (req, res) => {
 app.delete('/api/categorize/:id', (req, res) => {
   uncategorize(parseInt(req.params.id));
   io.emit('uncategorized', { article_id: parseInt(req.params.id) });
+  res.json({ ok: true });
+});
+
+// Faktasjekk-oversikt (alle saker uavhengig av status)
+app.get('/api/factcheck', (req, res) => {
+  res.json(getAllForFactcheck());
+});
+
+// Godkjenn en sak manuelt
+app.post('/api/approve/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  if (!id) return res.status(400).json({ error: 'Ugyldig id' });
+  approveArticle(id);
+  io.emit('approved', { article_id: id });
   res.json({ ok: true });
 });
 

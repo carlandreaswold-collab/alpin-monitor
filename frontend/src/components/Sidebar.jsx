@@ -1,6 +1,15 @@
 import { CATEGORIES } from './ArticleCard'
 import { uncategorizeArticle } from '../lib/api'
 
+function timeAgo(dateStr) {
+  if (!dateStr) return ''
+  const diff = (Date.now() - new Date(dateStr)) / 1000
+  if (diff < 60) return 'nå'
+  if (diff < 3600) return `${Math.floor(diff / 60)} min`
+  if (diff < 86400) return `${Math.floor(diff / 3600)} t`
+  return `${Math.floor(diff / 86400)} d`
+}
+
 export default function Sidebar({ articles, onCategoryChange }) {
   const categorized = articles.filter(a => a.category)
 
@@ -26,7 +35,10 @@ export default function Sidebar({ articles, onCategoryChange }) {
                 <a href={a.url} target="_blank" rel="noopener noreferrer" className="spik-title">
                   {title}
                 </a>
-                <div className="spik-source">{a.source_name} · {CATEGORIES.find(c => c.id === a.category)?.label}</div>
+                <div className="spik-source">
+                  {a.source_name} · {CATEGORIES.find(c => c.id === a.category)?.label}
+                  {a.cat_created_at && <span className="spik-time"> · {timeAgo(a.cat_created_at)} siden</span>}
+                </div>
                 {a.spik_no && (
                   <p className="spik-text">{a.spik_no}</p>
                 )}

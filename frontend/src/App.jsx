@@ -5,6 +5,7 @@ import ArticleCard from './components/ArticleCard'
 import FilterBar from './components/FilterBar'
 import Sidebar from './components/Sidebar'
 import CategoryModal from './components/CategoryModal'
+import FactcheckPage from './components/FactcheckPage'
 
 export default function App() {
   const [articles, setArticles] = useState([])
@@ -15,6 +16,7 @@ export default function App() {
   const [fetching, setFetching] = useState(false)
   const [newCount, setNewCount] = useState(0)
   const [categoryModal, setCategoryModal] = useState(null)
+  const [view, setView] = useState('feed')
 
   const load = useCallback(async (c, a) => {
     const data = await fetchArticles({ country: c || undefined, athlete: a || undefined })
@@ -40,6 +42,9 @@ export default function App() {
     })
     socket.on('dismissed', ({ article_id }) => {
       setArticles(prev => prev.filter(a => a.id !== article_id))
+    })
+    socket.on('approved', ({ article_id }) => {
+      load(country, athlete)
     })
     return () => socket.removeAllListeners()
   }, [country, load])
@@ -101,10 +106,18 @@ export default function App() {
             categoryCounts={categoryCounts}
             onCategoryOpen={setCategoryModal}
           />
+          <button
+            className={`view-toggle-btn ${view === 'factcheck' ? 'active' : ''}`}
+            onClick={() => setView(v => v === 'factcheck' ? 'feed' : 'factcheck')}
+          >
+            🔍 Faktasjekk
+          </button>
         </div>
       </header>
 
-      <div className="main-layout">
+      {view === 'factcheck' && <FactcheckPage />}
+
+      <div className="main-layout" style={view === 'factcheck' ? { display: 'none' } : {}}>
         <div className="feed-col">
           <div className="section-label">
             Innkommende — {uncategorized.length} saker
