@@ -36,10 +36,15 @@ async function fetchSource(source) {
     const feed = await parser.parseURL(source.url);
     let newCount = 0;
 
+    const CUTOFF = new Date('2026-08-01T00:00:00Z');
+
     for (const item of feed.items.slice(0, 20)) {
       const title = (item.title || '').trim();
       const url   = (item.link  || '').trim();
       if (!title || !url) continue;
+
+      const pubDate = item.pubDate || item.isoDate;
+      if (pubDate && new Date(pubDate) < CUTOFF) continue;
 
       const hash = makeHash(url, title);
       const result = insertArticle({
