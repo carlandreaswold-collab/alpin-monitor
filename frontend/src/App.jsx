@@ -1,4 +1,5 @@
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState, useCallback, useMemo } from 'react'
+import { ReadonlyContext, isReadonlyUrl } from './lib/readonly'
 import { fetchArticles, fetchAthletes, triggerFetch } from './lib/api'
 import { socket } from './lib/socket'
 import ArticleCard from './components/ArticleCard'
@@ -19,6 +20,7 @@ export default function App() {
   const [newCount, setNewCount] = useState(0)
   const [categoryModal, setCategoryModal] = useState(null)
   const [view, setView] = useState('feed')
+  const readonly = useMemo(() => isReadonlyUrl(), [])
 
   const load = useCallback(async (c, a) => {
     const data = await fetchArticles({ country: c || undefined, athlete: a || undefined })
@@ -84,13 +86,13 @@ export default function App() {
   }
 
   return (
-    <>
+    <ReadonlyContext.Provider value={readonly}>
       <header className="app-header">
         <div className="header-top">
           <div className="logo">⛷ Alpin<span className="logo-accent">Monitor</span></div>
           <div className="live-badge"><span className="live-dot" />LIVE</div>
           <SeasonBadge />
-          {newCount > 0 && (
+          {!readonly && newCount > 0 && (
             <span style={{ background: 'var(--cat-viktig)', color: '#fff', fontSize: 11, fontWeight: 700, padding: '2px 10px', borderRadius: 10 }}>
               +{newCount} nye
             </span>
@@ -109,23 +111,24 @@ export default function App() {
             categoryCounts={categoryCounts}
             onCategoryOpen={setCategoryModal}
           />
-          <button
-            className={`view-toggle-btn ${view === 'factcheck' ? 'active' : ''}`}
-            onClick={() => setView(v => v === 'factcheck' ? 'feed' : 'factcheck')}
-          >
-            🔍 Faktasjekk
-          </button>
+          {!readonly && (
+            <button
+              className={`view-toggle-btn ${view === 'factcheck' ? 'active' : ''}`}
+              onClick={() => setView(v => v === 'factcheck' ? 'feed' : 'factcheck')}
+            >
+              🔍 Faktasjekk
+            </button>
+          )}
           <button
             className={`view-toggle-btn ${view === 'stats' ? 'active' : ''}`}
             onClick={() => setView(v => v === 'stats' ? 'feed' : 'stats')}
-            style={{ '--active-color': 'var(--cat-nerding)' }}
           >
             📊 Statistikk
           </button>
         </div>
       </header>
 
-      {view === 'factcheck' && <FactcheckPage />}
+      {view === 'factcheck' && !readonly && <FactcheckPage />}
       {view === 'stats' && <StatsPage />}
 
       <div className="main-layout" style={view !== 'feed' ? { display: 'none' } : {}}>
@@ -157,6 +160,6 @@ export default function App() {
           onDismiss={handleDismiss}
         />
       )}
-    </>
+    </ReadonlyContext.Provider>
   )
 }

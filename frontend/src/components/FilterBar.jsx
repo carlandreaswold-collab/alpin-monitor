@@ -1,4 +1,5 @@
 import { CATEGORIES } from './ArticleCard'
+import { useReadonly } from '../lib/readonly'
 
 const COUNTRIES = [
   { code: '',    label: 'Alle' },
@@ -13,6 +14,7 @@ const COUNTRIES = [
 
 export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, onFetch, fetching, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
   const totalCategorized = Object.values(categoryCounts).reduce((s, n) => s + n, 0)
+  const readonly = useReadonly()
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
@@ -39,9 +41,11 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
           </select>
         )}
         <span className="header-meta">{total} saker</span>
-        <button className="fetch-btn" onClick={onFetch} disabled={fetching}>
-          {fetching ? '⏳ Henter…' : '🔄 Hent nå'}
-        </button>
+        {!readonly && (
+          <button className="fetch-btn" onClick={onFetch} disabled={fetching}>
+            {fetching ? '⏳ Henter…' : '🔄 Hent nå'}
+          </button>
+        )}
       </div>
       <div className="filter-tabs">
         {COUNTRIES.map(c => (

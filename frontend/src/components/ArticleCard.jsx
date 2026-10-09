@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { categorizeArticle, uncategorizeArticle, dismissArticle } from '../lib/api'
 import { getRaceForDate } from '../lib/season'
+import { useReadonly } from '../lib/readonly'
 
 function useNote(id) {
   const key = `note_${id}`
@@ -49,6 +50,7 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
   const currentCat = article.category
   const fact = factStatus(article.fact_ok)
   const race = getRaceForDate(article.pub_date || article.fetched_at)
+  const readonly = useReadonly()
 
   async function handleCategory(catId) {
     setLoading(true)
@@ -87,7 +89,7 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
           </span>
         )}
         <span className="card-time">{formatDate(article.pub_date || article.fetched_at)}</span>
-        <button className="dismiss-btn" onClick={handleDismiss} title="Ikke alpint — skjul saken">✕ Ikke alpint</button>
+        {!readonly && <button className="dismiss-btn" onClick={handleDismiss} title="Ikke alpint — skjul saken">✕ Ikke alpint</button>}
       </div>
 
       <a href={article.url} target="_blank" rel="noopener noreferrer" className="card-title">
@@ -106,7 +108,7 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
       )}
 
       <div className="cat-row">
-        {CATEGORIES.map(cat => (
+        {!readonly && CATEGORIES.map(cat => (
           <button
             key={cat.id}
             disabled={loading}
