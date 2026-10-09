@@ -6,7 +6,7 @@ import cors from 'cors';
 import cron from 'node-cron';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb } from '../db/index.js';
+import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb, dismissArticle } from '../db/index.js';
 import { fetchAll } from '../fetcher/index.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -52,6 +52,15 @@ app.post('/api/categorize', (req, res) => {
 app.delete('/api/categorize/:id', (req, res) => {
   uncategorize(parseInt(req.params.id));
   io.emit('uncategorized', { article_id: parseInt(req.params.id) });
+  res.json({ ok: true });
+});
+
+// Manuelt avvis en sak (ikke alpint)
+app.post('/api/dismiss/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  if (!id) return res.status(400).json({ error: 'Ugyldig id' });
+  dismissArticle(id);
+  io.emit('dismissed', { article_id: id });
   res.json({ ok: true });
 });
 

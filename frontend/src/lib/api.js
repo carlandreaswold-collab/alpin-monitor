@@ -31,3 +31,7 @@ export async function categorizeArticle(article_id, category) {
 export async function uncategorizeArticle(article_id) {
   await fetch(`${BASE}/categorize/${article_id}`, { method: 'DELETE' })
 }
+
+export async function dismissArticle(article_id) {
+  await fetch(`${BASE}/dismiss/${article_id}`, { method: 'POST' })
+}

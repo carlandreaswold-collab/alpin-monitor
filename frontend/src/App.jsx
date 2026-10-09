@@ -4,6 +4,7 @@ import { socket } from './lib/socket'
 import ArticleCard from './components/ArticleCard'
 import FilterBar from './components/FilterBar'
 import Sidebar from './components/Sidebar'
+import CategoryModal from './components/CategoryModal'
 
 export default function App() {
   const [articles, setArticles] = useState([])
@@ -13,6 +14,7 @@ export default function App() {
   const [search, setSearch] = useState('')
   const [fetching, setFetching] = useState(false)
   const [newCount, setNewCount] = useState(0)
+  const [categoryModal, setCategoryModal] = useState(null)
 
   const load = useCallback(async (c, a) => {
     const data = await fetchArticles({ country: c || undefined, athlete: a || undefined })
@@ -36,6 +38,9 @@ export default function App() {
     socket.on('uncategorized', ({ article_id }) => {
       setArticles(prev => prev.map(a => a.id === article_id ? { ...a, category: null } : a))
     })
+    socket.on('dismissed', ({ article_id }) => {
+      setArticles(prev => prev.filter(a => a.id !== article_id))
+    })
     return () => socket.removeAllListeners()
   }, [country, load])
 
@@ -50,6 +55,10 @@ export default function App() {
     setArticles(prev => prev.map(a => a.id === id ? { ...a, category } : a))
   }
 
+  function handleDismiss(id) {
+    setArticles(prev => prev.filter(a => a.id !== id))
+  }
+
   const filtered = articles.filter(a => {
     if (!search) return true
     const q = search.toLowerCase()
@@ -61,6 +70,11 @@ export default function App() {
   })
 
   const uncategorized = filtered.filter(a => !a.category)
+
+  const categoryCounts = {}
+  for (const a of filtered) {
+    if (a.category) categoryCounts[a.category] = (categoryCounts[a.category] || 0) + 1
+  }
 
   return (
     <>
@@ -84,6 +98,8 @@ export default function App() {
             total={articles.length}
             search={search}
             onSearch={setSearch}
+            categoryCounts={categoryCounts}
+            onCategoryOpen={setCategoryModal}
           />
         </div>
       </header>
@@ -100,13 +116,23 @@ export default function App() {
             </div>
           ) : (
             uncategorized.map(a => (
-              <ArticleCard key={a.id} article={a} onCategoryChange={handleCategoryChange} />
+              <ArticleCard key={a.id} article={a} onCategoryChange={handleCategoryChange} onDismiss={handleDismiss} />
             ))
           )}
         </div>
 
         <Sidebar articles={filtered} onCategoryChange={handleCategoryChange} />
       </div>
+
+      {categoryModal && (
+        <CategoryModal
+          category={categoryModal}
+          articles={filtered}
+          onClose={() => setCategoryModal(null)}
+          onCategoryChange={handleCategoryChange}
+          onDismiss={handleDismiss}
+        />
+      )}
     </>
   )
 }

@@ -15,16 +15,30 @@ async function checkBatch(articles) {
     source: a.source_name,
   }));
 
-  const prompt = `You are a relevance filter for an alpine skiing newsroom tool.
+  const prompt = `You are a STRICT relevance filter for an alpine skiing (alpint) newsroom tool used by Norwegian radio commentators.
 
-For each article, determine if it is actually about alpine skiing (downhill, slalom, giant slalom, super-G, combined, World Cup, Olympics, World Championships — or alpine skiing athletes and teams).
+ACCEPT (alpine: true) ONLY articles where alpine ski racing is the PRIMARY subject:
+- Race results, startlists, previews, or analysis for: downhill (utfor), slalom, giant slalom (storslalåm), super-G, super combined, parallel events
+- Training, injury, or team news about named alpine ski RACERS (e.g. Marco Odermatt, Mikaela Shiffrin, Henrik Kristoffersen)
+- Alpine skiing equipment, ski preparation, or race technique
+- FIS Alpine World Cup, Alpine World Championships, Alpine Olympic events
 
-Return ONLY a JSON array, no markdown.
+REJECT (alpine: false) everything else, including:
+- Other ski disciplines: cross-country (langrenn), biathlon, ski jumping (hopp), freestyle, Nordic combined, ski touring
+- Football (fotball), handball (håndball), ice hockey (ishockey), swimming (svømming), athletics, tennis, cycling, or ANY other sport
+- General multi-sport Olympics coverage not specifically about alpine skiing
+- General sports news that merely mentions an alpine athlete in passing
+- Celebrity, lifestyle, travel, or winter tourism articles
+- Weather reports or resort conditions unless directly tied to a specific alpine race
+
+When in doubt, REJECT. It is better to miss a borderline article than to include non-alpine content.
+
+Return ONLY a JSON array, no markdown, no text outside the array.
 
 For each article return:
 - id: same as input
-- alpine: true if about alpine skiing, false otherwise
-- reason: one short Norwegian sentence explaining why if false (empty string if true)
+- alpine: true or false
+- reason: one short Norwegian sentence if false (empty string if true)
 
 Input:
 ${JSON.stringify(items, null, 2)}`;

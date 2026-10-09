@@ -1,3 +1,5 @@
+import { CATEGORIES } from './ArticleCard'
+
 const COUNTRIES = [
   { code: '',    label: 'Alle' },
   { code: 'NOR', label: '🇳🇴 Norge' },
@@ -9,7 +11,9 @@ const COUNTRIES = [
   { code: 'SWE', label: '🇸🇪 Sverige' },
 ]
 
-export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, onFetch, fetching, total, search, onSearch }) {
+export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, onFetch, fetching, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
+  const totalCategorized = Object.values(categoryCounts).reduce((s, n) => s + n, 0)
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 10, paddingBottom: 8 }}>
@@ -49,6 +53,25 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
             {c.label}
           </button>
         ))}
+        {totalCategorized > 0 && (
+          <>
+            <span className="filter-tab-divider" />
+            {CATEGORIES.map(cat => {
+              const count = categoryCounts[cat.id] || 0
+              if (!count) return null
+              return (
+                <button
+                  key={cat.id}
+                  className={`filter-tab cat-nav-tab cat-nav-${cat.id}`}
+                  onClick={() => onCategoryOpen(cat.id)}
+                >
+                  {cat.label}
+                  <span className={`cat-nav-badge badge-${cat.id}`}>{count}</span>
+                </button>
+              )
+            })}
+          </>
+        )}
       </div>
     </div>
   )

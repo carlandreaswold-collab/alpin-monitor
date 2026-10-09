@@ -171,6 +171,10 @@ export function updateBodyText(id, body_text) {
   getDb().prepare(`UPDATE articles SET body_text=? WHERE id=?`).run(body_text, id);
 }
 
+export function dismissArticle(id) {
+  getDb().prepare(`UPDATE articles SET fact_ok=0, fact_notes='Manuelt avvist' WHERE id=?`).run(id);
+}
+
 export function getUnscraped(limit = 60) {
   return getDb().prepare(`
     SELECT id, url

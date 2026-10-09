@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { categorizeArticle, uncategorizeArticle } from '../lib/api'
+import { categorizeArticle, uncategorizeArticle, dismissArticle } from '../lib/api'
 
 export const CATEGORIES = [
   { id: 'viktig',    label: '⚡ Viktig' },
@@ -19,8 +19,9 @@ function timeAgo(dateStr) {
   return `${Math.floor(diff / 86400)} d`
 }
 
-export default function ArticleCard({ article, onCategoryChange }) {
+export default function ArticleCard({ article, onCategoryChange, onDismiss }) {
   const [loading, setLoading] = useState(false)
+  const [dismissed, setDismissed] = useState(false)
   const title = article.title_no || article.title_orig
   const currentCat = article.category
 
@@ -36,6 +37,14 @@ export default function ArticleCard({ article, onCategoryChange }) {
     setLoading(false)
   }
 
+  async function handleDismiss() {
+    setDismissed(true)
+    await dismissArticle(article.id)
+    onDismiss?.(article.id)
+  }
+
+  if (dismissed) return null
+
   return (
     <div className="article-card">
       <div className="card-meta">
@@ -47,6 +56,7 @@ export default function ArticleCard({ article, onCategoryChange }) {
           <span className="athlete-tag">👤 {article.athletes.split(',')[0]}</span>
         )}
         <span className="card-time">{timeAgo(article.pub_date || article.fetched_at)}</span>
+        <button className="dismiss-btn" onClick={handleDismiss} title="Ikke alpint — skjul saken">✕ Ikke alpint</button>
       </div>
 
       <a href={article.url} target="_blank" rel="noopener noreferrer" className="card-title">

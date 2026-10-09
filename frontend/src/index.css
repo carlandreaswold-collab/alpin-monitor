@@ -402,6 +402,125 @@ body {
 }
 .empty-icon { font-size: 32px; margin-bottom: 10px; }
 
+/* ── DISMISS BUTTON ── */
+.dismiss-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--fg3);
+  font-size: 10px;
+  cursor: pointer;
+  padding: 1px 4px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity .15s, color .15s, background .15s;
+  flex-shrink: 0;
+}
+.article-card:hover .dismiss-btn { opacity: 1; }
+.dismiss-btn:hover { color: var(--cat-viktig); background: #e0555518; }
+
+/* ── CATEGORY NAV IN HEADER ── */
+.filter-tab-divider {
+  width: 1px;
+  background: var(--border);
+  align-self: stretch;
+  margin: 4px 6px;
+  flex-shrink: 0;
+}
+.cat-nav-tab {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cat-nav-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+.cat-nav-viktig    { color: var(--cat-viktig); }
+.cat-nav-sportslig { color: var(--cat-sportslig); }
+.cat-nav-nyheter   { color: var(--cat-nyheter); }
+.cat-nav-goy       { color: var(--cat-goy); }
+.cat-nav-nerding   { color: var(--cat-nerding); }
+.cat-nav-kjendis   { color: var(--cat-kjendis); }
+.badge-viktig    { background: #e0555522; color: var(--cat-viktig); }
+.badge-sportslig { background: #4a9eff22; color: var(--cat-sportslig); }
+.badge-nyheter   { background: #8892b022; color: var(--cat-nyheter); }
+.badge-goy       { background: #52c78a22; color: var(--cat-goy); }
+.badge-nerding   { background: #a87ef022; color: var(--cat-nerding); }
+.badge-kjendis   { background: #f0a04a22; color: var(--cat-kjendis); }
+
+/* ── MODAL ── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.65);
+  z-index: 200;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px 20px;
+  overflow-y: auto;
+}
+.modal-panel {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 680px;
+  max-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.modal-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.modal-title-viktig    { color: var(--cat-viktig); }
+.modal-title-sportslig { color: var(--cat-sportslig); }
+.modal-title-nyheter   { color: var(--cat-nyheter); }
+.modal-title-goy       { color: var(--cat-goy); }
+.modal-title-nerding   { color: var(--cat-nerding); }
+.modal-title-kjendis   { color: var(--cat-kjendis); }
+.modal-count {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: var(--fg3);
+}
+.modal-close {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--fg3);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: color .15s, background .15s;
+}
+.modal-close:hover { color: var(--fg); background: var(--surface2); }
+.modal-body {
+  overflow-y: auto;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
 /* ── SPIK ── */
 .card-spik {
   display: flex;
