@@ -31,9 +31,34 @@ function tagNations(text, articleId) {
   }
 }
 
+const MAX_ATTEMPTS = 3;
+const RETRY_DELAYS_MS = [2000, 5000];
+
+// Midlertidige feil (timeout, nettverk, 5xx, 429) er verdt et nytt forsøk. 404/403 osv. er det ikke.
+function isTransient(err) {
+  const msg = err.message || '';
+  if (/timed out|ETIMEDOUT|ECONNRESET|ECONNREFUSED|EAI_AGAIN|ENOTFOUND|socket hang up/i.test(msg)) return true;
+  const m = msg.match(/Status code (\d{3})/);
+  if (m) return Number(m[1]) >= 500 || Number(m[1]) === 429;
+  return false;
+}
+
+async function parseWithRetry(source) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await parser.parseURL(source.url);
+    } catch (err) {
+      if (attempt >= MAX_ATTEMPTS || !isTransient(err)) throw err;
+      const delay = RETRY_DELAYS_MS[attempt - 1];
+      console.warn(`[${source.id}] Forsøk ${attempt}/${MAX_ATTEMPTS} feilet (${err.message}) — prøver igjen om ${delay / 1000}s`);
+      await new Promise(r => setTimeout(r, delay));
+    }
+  }
+}
+
 async function fetchSource(source) {
   try {
-    const feed = await parser.parseURL(source.url);
+    const feed = await parseWithRetry(source);
     let newCount = 0;
 
     const CUTOFF = new Date('2026-08-01T00:00:00Z');
