@@ -322,7 +322,7 @@ function cardHtml(a, compact) {
 function render() {
   const q = searchQ.toLowerCase();
   const visible = ARTICLES.filter(a => {
-    if (activeCountry && a.country !== activeCountry) return false;
+    if (activeCountry === 'NOR' ? !(a.country === 'NOR' || a.norwegian) : (activeCountry && a.country !== activeCountry)) return false;
     if (activeCat && a.category !== activeCat) return false;
     if (activeAthlete && !(a.athletes||'').split(',').map(s=>s.trim()).includes(activeAthlete)) return false;
     if (q && !(a.title_no||a.title_orig||'').toLowerCase().includes(q) && !(a.athletes||'').toLowerCase().includes(q) && !(a.source_name||'').toLowerCase().includes(q)) return false;
@@ -376,7 +376,6 @@ export async function generateSnapshot() {
   try {
     const db = new Database(DB_PATH, { readonly: true })
 
-    const dateExpr = `COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at))`
     const articles = db.prepare(`
       SELECT
         a.id, a.source_name, a.country, a.title_no, a.title_orig,
@@ -391,9 +390,7 @@ export async function generateSnapshot() {
       LEFT JOIN article_tags t ON t.article_id = a.id
       WHERE a.fact_ok = 1 AND a.is_duplicate = 0
       GROUP BY a.id
-      ORDER BY
-        (norwegian = 1 AND ${dateExpr} >= strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-24 hours')) DESC,
-        ${dateExpr} DESC
+      ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC
       LIMIT 120
     `).all(...NORWEGIAN_ATHLETES).map(a => ({
       ...a,

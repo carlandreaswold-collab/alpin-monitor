@@ -139,17 +139,16 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
   `;
   const where = ['a.is_duplicate = 0', "(a.fact_ok = 1 OR a.fact_ok IS NULL)"];
   const params = [...NORWEGIAN_ATHLETES];
-  if (country) { where.push("a.country = ?"); params.push(country); }
+  // «NOR» = norsk kilde ELLER sak om norsk utøver (filtreres med HAVING, siden norwegian er aggregert)
+  let having = '';
+  if (country === 'NOR') having = ' HAVING (a.country = \'NOR\' OR norwegian = 1)';
+  else if (country) { where.push("a.country = ?"); params.push(country); }
   if (athlete) {
     sql += ` JOIN article_tags ta ON ta.article_id=a.id AND ta.tag_type='athlete' AND ta.tag_value=? `;
     params.push(athlete);
   }
   sql += ' WHERE ' + where.join(' AND ');
-  // Norsk vinkel fra siste 24 t ligger øverst, resten kronologisk
-  const dateExpr = `COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at))`;
-  sql += ` GROUP BY a.id ORDER BY
-    (norwegian = 1 AND ${dateExpr} >= strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-24 hours')) DESC,
-    ${dateExpr} DESC LIMIT ?`;
+  sql += ` GROUP BY a.id${having} ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC LIMIT ?`;
   params.push(limit);
   return db.prepare(sql).all(...params).map(a => ({
     ...a,
