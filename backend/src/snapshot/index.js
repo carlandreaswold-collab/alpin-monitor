@@ -381,7 +381,7 @@ export async function generateSnapshot() {
       LEFT JOIN article_tags t ON t.article_id = a.id
       WHERE a.fact_ok = 1 AND a.is_duplicate = 0
       GROUP BY a.id
-      ORDER BY COALESCE(a.pub_date, a.fetched_at) DESC
+      ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC
       LIMIT 120
     `).all()
 

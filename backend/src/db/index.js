@@ -60,6 +60,26 @@ function initSchema(db) {
   try { db.exec(`ALTER TABLE articles ADD COLUMN is_duplicate INTEGER NOT NULL DEFAULT 0`); } catch {}
   try { db.exec(`ALTER TABLE articles ADD COLUMN spik_no TEXT`); } catch {}
   try { db.exec(`ALTER TABLE articles ADD COLUMN body_text TEXT`); } catch {}
+  migratePubDates(db);
+}
+
+// pub_date lagres som ISO-8601 (UTC) slik at tekstsortering = tidssortering.
+// RSS gir "Sat, 10 Oct 2026 12:47:14 +0000", Atom gir ISO — begge normaliseres her.
+export function toIsoDate(value) {
+  if (!value) return null;
+  const d = new Date(value);
+  return isNaN(d) ? null : d.toISOString();
+}
+
+// Engangs/idempotent: konverter eldre rader med RFC-822-datoer til ISO
+function migratePubDates(db) {
+  const rows = db.prepare(`SELECT id, pub_date FROM articles WHERE pub_date IS NOT NULL AND pub_date NOT LIKE '____-__-__T%'`).all();
+  if (rows.length === 0) return;
+  const upd = db.prepare('UPDATE articles SET pub_date = ? WHERE id = ?');
+  db.transaction(() => {
+    for (const r of rows) upd.run(toIsoDate(r.pub_date), r.id);
+  })();
+  console.log(`✓ Migrerte ${rows.length} pub_date-verdier til ISO`);
 }
 
 // ── QUERIES ──
@@ -71,7 +91,7 @@ export function insertArticle(a) {
       (source_id, source_name, country, lang_orig, title_orig, url, pub_date, hash)
     VALUES
       (@source_id, @source_name, @country, @lang_orig, @title_orig, @url, @pub_date, @hash)
-  `).run(a);
+  `).run({ ...a, pub_date: toIsoDate(a.pub_date) });
 }
 
 export function updateTranslation(id, title_no, summary_no) {
@@ -119,7 +139,7 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
     params.push(athlete);
   }
   sql += ' WHERE ' + where.join(' AND ');
-  sql += ` GROUP BY a.id ORDER BY COALESCE(a.pub_date, a.fetched_at) DESC LIMIT ?`;
+  sql += ` GROUP BY a.id ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC LIMIT ?`;
   params.push(limit);
   return db.prepare(sql).all(...params);
 }
@@ -187,7 +207,7 @@ export function getAllForFactcheck(limit = 300) {
       a.url, a.pub_date, a.fetched_at, a.fact_ok, a.fact_notes, a.is_duplicate
     FROM articles a
     WHERE a.is_duplicate = 0
-    ORDER BY COALESCE(a.pub_date, a.fetched_at) DESC
+    ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC
     LIMIT ?
   `).all(limit);
 }
