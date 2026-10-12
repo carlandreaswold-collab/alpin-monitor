@@ -28,7 +28,7 @@ export default function FactcheckPage() {
 
   async function handleApprove(id) {
     await approveArticle(id)
-    setArticles(prev => prev.map(a => a.id === id ? { ...a, fact_ok: 1, fact_notes: null } : a))
+    setArticles(prev => prev.map(a => a.id === id ? { ...a, fact_ok: 1, fact_notes: 'Manuelt godkjent' } : a))
   }
 
   async function handleDismiss(id) {
