@@ -4,11 +4,15 @@ import path from 'path'
 import { execSync } from 'child_process'
 import { fileURLToPath } from 'url'
 import { NATION_META } from '../config/nations.js'
+import { toRecord, buildCsv, buildJson } from './export.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, '../../../data/alpin.db')
 const REPO_ROOT = path.join(__dirname, '../../..')
 const OUT = path.join(REPO_ROOT, 'docs/index.html')
+const OUT_CSV = path.join(REPO_ROOT, 'docs/saker.csv')
+const OUT_JSON = path.join(REPO_ROOT, 'docs/saker.json')
+const HTML_LIMIT = 120 // siden holdes liten; CSV/JSON har alle godkjente saker
 
 const CATEGORIES = [
   { id: 'viktig',    label: '⚡ Viktig' },
@@ -390,7 +394,6 @@ export async function generateSnapshot() {
       WHERE a.fact_ok = 1 AND a.is_duplicate = 0
       GROUP BY a.id
       ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC
-      LIMIT 120
     `).all().map(a => ({
       ...a,
       athlete_nations: a.athlete_nations ? a.athlete_nations.split(',') : [],
@@ -399,21 +402,30 @@ export async function generateSnapshot() {
     }))
 
     db.close()
+    const htmlArticles = articles.slice(0, HTML_LIMIT)
 
     const updatedAt = new Date().toLocaleString('nb-NO', {
       day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit'
     })
 
     fs.mkdirSync(path.dirname(OUT), { recursive: true })
-    fs.writeFileSync(OUT, buildHtml(articles, updatedAt), 'utf8')
-    console.log(`✓ Snapshot generert: ${articles.length} saker → docs/index.html`)
+    fs.writeFileSync(OUT, buildHtml(htmlArticles, updatedAt), 'utf8')
+
+    const records = articles.map(toRecord)
+    fs.writeFileSync(OUT_CSV, buildCsv(records), 'utf8')
+    fs.writeFileSync(OUT_JSON, buildJson(records, new Date().toISOString()), 'utf8')
+    console.log(`✓ Snapshot generert: ${htmlArticles.length} saker → docs/index.html, ${records.length} saker → saker.csv/json`)
 
     try {
-      execSync('git diff --quiet docs/index.html', { cwd: REPO_ROOT })
+      // status (ikke diff) så nye, usporede filer også oppdages. saker.json har tidsstempel, så
+      // den ene sammenlignes uten det: pushes bare hvis csv eller siden endret seg.
+      const FILES = 'docs/index.html docs/saker.csv docs/saker.json'
+      execSync(`git add ${FILES}`, { cwd: REPO_ROOT })
+      execSync('git diff --cached --quiet -- docs/index.html docs/saker.csv', { cwd: REPO_ROOT })
+      execSync(`git restore --staged ${FILES}`, { cwd: REPO_ROOT })
       console.log('  Ingen endringer i snapshot — skipper push')
     } catch {
-      execSync('git add docs/index.html', { cwd: REPO_ROOT })
-      execSync(`git commit -m "snapshot: ${updatedAt} (${articles.length} saker)\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"`, { cwd: REPO_ROOT })
+      execSync(`git commit -m "snapshot: ${updatedAt} (${records.length} saker)\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>" -- docs/index.html docs/saker.csv docs/saker.json`, { cwd: REPO_ROOT })
       execSync('git push', { cwd: REPO_ROOT })
       console.log('  Snapshot pushet til GitHub Pages')
     }
