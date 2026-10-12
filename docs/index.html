@@ -28,8 +28,9 @@ a{color:inherit;text-decoration:none}
 .readonly-badge{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--fg3);padding:2px 7px;border:1px solid var(--border);border-radius:4px}
 
 /* FILTER TABS */
-.filter-row{display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none;margin:0 -20px;padding:0 20px}
-.filter-row::-webkit-scrollbar{display:none}
+.filter-rows{display:flex;flex-direction:column;align-items:center;gap:2px}
+.filter-row{display:flex;flex-wrap:wrap;justify-content:center;gap:0 2px;width:100%}
+.ftab .flag{width:16px;height:12px;object-fit:cover;border-radius:2px;vertical-align:-1px;margin-right:5px;box-shadow:0 0 0 1px rgba(255,255,255,.12)}
 .ftab{font-family:'Figtree',sans-serif;font-size:12px;font-weight:500;padding:7px 14px;color:var(--fg3);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;transition:color .15s,border-color .15s;flex-shrink:0}
 .ftab:hover{color:var(--fg2)}
 .ftab.active{color:var(--sportslig);border-bottom-color:var(--sportslig)}
@@ -110,9 +111,9 @@ a{color:inherit;text-decoration:none}
     <div class="logo">⛷ Alpin<span>Monitor</span></div>
     <div class="season" id="season-badge"></div>
     <span class="readonly-badge">👁 Lesevisning</span>
-    <span class="updated">Oppdatert 12.10., 17:22</span>
+    <span class="updated">Oppdatert 12.10., 17:26</span>
   </div>
-  <div class="filter-row" id="filter-row"></div>
+  <div class="filter-rows"><div class="filter-row" id="filter-row"></div><div class="filter-row" id="cat-row"></div></div>
   <div class="search-row">
     <input class="search-input" type="search" id="search" placeholder="Søk i titler, utøvere…">
     <select class="athlete-select" id="athlete-select"><option value="">Alle utøvere</option></select>
@@ -184,15 +185,15 @@ const catCounts = {};
 ARTICLES.forEach(a => { if (a.category) catCounts[a.category] = (catCounts[a.category] || 0) + 1; });
 
 // Bygg filter-rad
-const NATION_META = {"NOR":["🇳🇴","Norge"],"SWE":["🇸🇪","Sverige"],"FIN":["🇫🇮","Finland"],"DEN":["🇩🇰","Danmark"],"AUT":["🇦🇹","Østerrike"],"SUI":["🇨🇭","Sveits"],"ITA":["🇮🇹","Italia"],"FRA":["🇫🇷","Frankrike"],"GER":["🇩🇪","Tyskland"],"USA":["🇺🇸","USA"],"CAN":["🇨🇦","Canada"],"SLO":["🇸🇮","Slovenia"],"SVK":["🇸🇰","Slovakia"],"CRO":["🇭🇷","Kroatia"],"GBR":["🇬🇧","Storbritannia"],"CZE":["🇨🇿","Tsjekkia"],"BEL":["🇧🇪","Belgia"],"ESP":["🇪🇸","Spania"],"AND":["🇦🇩","Andorra"],"LIE":["🇱🇮","Liechtenstein"],"POL":["🇵🇱","Polen"],"BUL":["🇧🇬","Bulgaria"],"LAT":["🇱🇻","Latvia"],"EST":["🇪🇪","Estland"],"UKR":["🇺🇦","Ukraina"],"TUR":["🇹🇷","Tyrkia"],"GRE":["🇬🇷","Hellas"],"JPN":["🇯🇵","Japan"],"KOR":["🇰🇷","Sør-Korea"],"CHN":["🇨🇳","Kina"],"AUS":["🇦🇺","Australia"],"NZL":["🇳🇿","New Zealand"],"BRA":["🇧🇷","Brasil"],"ARG":["🇦🇷","Argentina"],"CHI":["🇨🇱","Chile"],"LTU":["🇱🇹","Litauen"],"ROU":["🇷🇴","Romania"],"HUN":["🇭🇺","Ungarn"],"SRB":["🇷🇸","Serbia"],"BIH":["🇧🇦","Bosnia"],"MKD":["🇲🇰","Nord-Makedonia"],"ISL":["🇮🇸","Island"],"IRL":["🇮🇪","Irland"],"NED":["🇳🇱","Nederland"],"LUX":["🇱🇺","Luxembourg"],"KAZ":["🇰🇿","Kasakhstan"],"GEO":["🇬🇪","Georgia"],"ARM":["🇦🇲","Armenia"]};
+const NATION_META = {"NOR":["🇳🇴","Norge","no"],"SWE":["🇸🇪","Sverige","se"],"FIN":["🇫🇮","Finland","fi"],"DEN":["🇩🇰","Danmark","dk"],"AUT":["🇦🇹","Østerrike","at"],"SUI":["🇨🇭","Sveits","ch"],"ITA":["🇮🇹","Italia","it"],"FRA":["🇫🇷","Frankrike","fr"],"GER":["🇩🇪","Tyskland","de"],"USA":["🇺🇸","USA","us"],"CAN":["🇨🇦","Canada","ca"],"SLO":["🇸🇮","Slovenia","si"],"SVK":["🇸🇰","Slovakia","sk"],"CRO":["🇭🇷","Kroatia","hr"],"GBR":["🇬🇧","Storbritannia","gb"],"CZE":["🇨🇿","Tsjekkia","cz"],"BEL":["🇧🇪","Belgia","be"],"ESP":["🇪🇸","Spania","es"],"AND":["🇦🇩","Andorra","ad"],"LIE":["🇱🇮","Liechtenstein","li"],"POL":["🇵🇱","Polen","pl"],"BUL":["🇧🇬","Bulgaria","bg"],"LAT":["🇱🇻","Latvia","lv"],"EST":["🇪🇪","Estland","ee"],"UKR":["🇺🇦","Ukraina","ua"],"TUR":["🇹🇷","Tyrkia","tr"],"GRE":["🇬🇷","Hellas","gr"],"JPN":["🇯🇵","Japan","jp"],"KOR":["🇰🇷","Sør-Korea","kr"],"CHN":["🇨🇳","Kina","cn"],"AUS":["🇦🇺","Australia","au"],"NZL":["🇳🇿","New Zealand","nz"],"BRA":["🇧🇷","Brasil","br"],"ARG":["🇦🇷","Argentina","ar"],"CHI":["🇨🇱","Chile","cl"],"LTU":["🇱🇹","Litauen","lt"],"ROU":["🇷🇴","Romania","ro"],"HUN":["🇭🇺","Ungarn","hu"],"SRB":["🇷🇸","Serbia","rs"],"BIH":["🇧🇦","Bosnia","ba"],"MKD":["🇲🇰","Nord-Makedonia","mk"],"ISL":["🇮🇸","Island","is"],"IRL":["🇮🇪","Irland","ie"],"NED":["🇳🇱","Nederland","nl"],"LUX":["🇱🇺","Luxembourg","lu"],"ALB":["🇦🇱","Albania","al"],"KAZ":["🇰🇿","Kasakhstan","kz"],"GEO":["🇬🇪","Georgia","ge"],"ARM":["🇦🇲","Armenia","am"]};
 const nationCounts = {};
 ARTICLES.forEach(a => (a.athlete_nations || []).forEach(n => { nationCounts[n] = (nationCounts[n] || 0) + 1; }));
 const COUNTRIES = [
   {code:'',label:'Alle'},
   {code:'INT',label:'🌐 Internasjonalt'},
   ...Object.entries(nationCounts).sort((x,y) => y[1]-x[1] || x[0].localeCompare(y[0])).map(([code,n]) => {
-    const m = NATION_META[code] || ['🏳️', code];
-    return {code, label: m[0] + ' ' + m[1] + ' ' + n};
+    const m = NATION_META[code] || ['🏳️', code, null];
+    return {code, iso: m[2], label: m[1] + ' ' + n};
   }),
 ];
 
@@ -202,12 +203,14 @@ let searchQ = '';
 let activeAthlete = '';
 
 const filterRow = document.getElementById('filter-row');
+const catRow = document.getElementById('cat-row');
 
 COUNTRIES.forEach(c => {
   const btn = document.createElement('button');
   btn.className = 'ftab' + (c.code === '' ? ' active' : '');
   btn.dataset.country = c.code;
-  btn.textContent = c.label;
+  if (c.iso) { const im = document.createElement('img'); im.className = 'flag'; im.alt = ''; im.src = 'flags/' + c.iso + '.svg'; btn.appendChild(im); }
+  btn.appendChild(document.createTextNode(c.label));
   btn.addEventListener('click', () => {
     activeCountry = c.code;
     activeCat = '';
@@ -218,10 +221,6 @@ COUNTRIES.forEach(c => {
 });
 
 if (Object.keys(catCounts).length) {
-  const div = document.createElement('div');
-  div.className = 'divider';
-  filterRow.appendChild(div);
-
   CATS.forEach(cat => {
     const count = catCounts[cat.id] || 0;
     if (!count) return;
@@ -235,12 +234,12 @@ if (Object.keys(catCounts).length) {
       renderFilterRow();
       render();
     });
-    filterRow.appendChild(btn);
+    catRow.appendChild(btn);
   });
 }
 
 function renderFilterRow() {
-  filterRow.querySelectorAll('.ftab').forEach(b => {
+  document.querySelectorAll('.filter-rows .ftab').forEach(b => {
     b.classList.toggle('active',
       (b.dataset.country !== undefined && b.dataset.country === activeCountry && !activeCat) ||
       (b.dataset.cat !== undefined && b.dataset.cat === activeCat)
