@@ -50,22 +50,22 @@ export const SOURCES = [
 export const TRACKED_ATHLETES = [
   { name: 'Mikaela Shiffrin',            aliases: ['Shiffrin'] },
   { name: 'Marco Odermatt',              aliases: ['Odermatt'] },
-  { name: 'Henrik Kristoffersen',        aliases: ['Kristoffersen'] },
-  { name: 'Aleksander Aamodt Kilde',     aliases: ['Kilde', 'Aamodt Kilde'] },
+  { name: 'Henrik Kristoffersen', nor: true,        aliases: ['Kristoffersen'] },
+  { name: 'Aleksander Aamodt Kilde', nor: true,     aliases: ['Kilde', 'Aamodt Kilde'] },
   { name: 'Lara Gut-Behrami',            aliases: ['Gut-Behrami', 'Gut Behrami'] },
   { name: 'Sofia Goggia',                aliases: ['Goggia'] },
   { name: 'Petra Vlhová',                aliases: ['Vlhova', 'Vlhová'] },
   { name: 'Alexis Pinturault',           aliases: ['Pinturault'] },
-  { name: 'Lucas Braathen',              aliases: ['Braathen'] },
+  { name: 'Lucas Braathen', nor: true,              aliases: ['Braathen'] },
   { name: 'Federica Brignone',           aliases: ['Brignone'] },
   { name: 'Wendy Holdener',              aliases: ['Holdener'] },
   { name: 'Marta Bassino',              aliases: ['Bassino'] },
   { name: 'Clement Noel',               aliases: ['Noël', 'Noel'] },
   { name: 'Manuel Feller',              aliases: ['Feller'] },
   { name: 'Vincent Kriechmayr',         aliases: ['Kriechmayr'] },
-  { name: 'Ragnhild Mowinckel',         aliases: ['Mowinckel'] },
-  { name: 'Kajsa Vickhoff Lie',         aliases: ['Vickhoff Lie'] },
-  { name: 'Thea Louise Stjernesund',    aliases: ['Stjernesund'] },
+  { name: 'Ragnhild Mowinckel', nor: true,         aliases: ['Mowinckel'] },
+  { name: 'Kajsa Vickhoff Lie', nor: true,         aliases: ['Vickhoff Lie'] },
+  { name: 'Thea Louise Stjernesund', nor: true,    aliases: ['Stjernesund'] },
   { name: 'Marco Schwarz',              aliases: ['Schwarz'] },
   { name: 'Stefan Rogentin',            aliases: ['Rogentin'] },
   { name: 'Tessa Worley',             aliases: ['Worley'] },
@@ -74,8 +74,16 @@ export const TRACKED_ATHLETES = [
   { name: 'Lena Dürr',                 aliases: ['Dürr', 'Duerr'] },
   { name: 'Emma Aicher',               aliases: ['Aicher'] },
   { name: 'Josef Ferstl',              aliases: ['Ferstl'] },
-  { name: 'Atle Lie McGrath',           aliases: ['McGrath', 'Atle McGrath'] },
+  { name: 'Timon Haugan',              aliases: ['Haugan'], nor: true },
+  { name: 'Rasmus Windingstad',        aliases: ['Windingstad'], nor: true },
+  { name: 'Sebastian Foss-Solevåg',    aliases: ['Foss-Solevåg'], nor: true },
+  { name: 'Alexander Steen Olsen',     aliases: ['Steen Olsen'], nor: true },
+  { name: 'Maria Therese Tviberg',     aliases: ['Tviberg'], nor: true },
+  { name: 'Mina Fürst Holtmann',       aliases: ['Fürst Holtmann', 'Holtmann'], nor: true },
+  { name: 'Atle Lie McGrath', nor: true,           aliases: ['McGrath', 'Atle McGrath'] },
 ];
+
+export const NORWEGIAN_ATHLETES = TRACKED_ATHLETES.filter(a => a.nor).map(a => a.name);
 
 // Nasjoner for auto-tagging
 export const NATIONS = {

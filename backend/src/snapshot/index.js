@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import { execSync } from 'child_process'
 import { fileURLToPath } from 'url'
+import { NORWEGIAN_ATHLETES } from '../config/sources.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, '../../../data/alpin.db')
@@ -115,6 +116,9 @@ a{color:inherit;text-decoration:none}
 .cat-goy{background:#52c78a20;color:var(--goy)}
 .cat-nerding{background:#a87ef020;color:var(--nerding)}
 .cat-kjendis{background:#f0a04a20;color:var(--kjendis)}
+.nor-chip{font-size:10px;font-weight:600;padding:1px 6px;border-radius:3px;background:rgba(186,12,47,.15);color:#e8566f;border:1px solid rgba(186,12,47,.35)}
+.multi-chip{font-size:10px;font-weight:600;padding:1px 6px;border-radius:3px;cursor:help;background:rgba(80,160,255,.12);color:#6fb0ff;border:1px solid rgba(80,160,255,.3)}
+.card-nor{border-left:3px solid #ba0c2f}
 .race-chip{font-family:'IBM Plex Mono',monospace;font-size:9px;color:#f0a04a;background:#f0a04a15;border:1px solid #f0a04a40;padding:1px 6px;border-radius:3px}
 .time{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--fg3);margin-left:auto}
 .card-title{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:600;line-height:1.2;color:var(--fg);display:block;margin-bottom:3px}
@@ -298,9 +302,11 @@ function cardHtml(a, compact) {
       \${a.spik_no ? \`<div class="spik-card-body">\${a.spik_no}</div>\` : ''}
     </div>\`;
   }
-  return \`<div class="card">
+  return \`<div class="card\${a.norwegian ? ' card-nor' : ''}">
     <div class="card-meta">
       <span class="src src-\${a.country}">\${a.source_name}</span>
+      \${a.norwegian ? '<span class="nor-chip">🇳🇴 Norsk</span>' : ''}
+      \${a.also_sources && a.also_sources.length ? \`<span class="multi-chip" title="Også dekket av: \${a.also_sources.join(', ')}">📰 \${a.also_sources.length + 1} kilder</span>\` : ''}
       \${a.lang_orig && a.lang_orig !== 'no' ? \`<span class="lang">\${a.lang_orig.toUpperCase()} → NO</span>\` : ''}
       \${a.athletes ? \`<span style="font-size:10px;color:var(--sportslig)">👤 \${a.athletes.split(',')[0]}</span>\` : ''}
       \${a.category ? \`<span class="cat-chip cat-\${a.category}">\${CATS.find(c=>c.id===a.category)?.label||a.category}</span>\` : ''}
@@ -370,20 +376,30 @@ export async function generateSnapshot() {
   try {
     const db = new Database(DB_PATH, { readonly: true })
 
+    const dateExpr = `COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at))`
     const articles = db.prepare(`
       SELECT
         a.id, a.source_name, a.country, a.title_no, a.title_orig,
         a.summary_no, a.spik_no, a.url, a.pub_date, a.fetched_at,
         a.lang_orig, c.category,
-        GROUP_CONCAT(CASE WHEN t.tag_type='athlete' THEN t.tag_value END) as athletes
+        GROUP_CONCAT(CASE WHEN t.tag_type='athlete' THEN t.tag_value END) as athletes,
+        MAX(CASE WHEN t.tag_type='athlete' AND t.tag_value IN (${NORWEGIAN_ATHLETES.map(() => '?').join(',')}) THEN 1 ELSE 0 END) as norwegian,
+        (SELECT GROUP_CONCAT(DISTINCT x.source_name) FROM articles x
+          WHERE x.duplicate_of = a.id AND x.source_id != a.source_id) as also_sources
       FROM articles a
       LEFT JOIN categorizations c ON c.article_id = a.id
       LEFT JOIN article_tags t ON t.article_id = a.id
       WHERE a.fact_ok = 1 AND a.is_duplicate = 0
       GROUP BY a.id
-      ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC
+      ORDER BY
+        (norwegian = 1 AND ${dateExpr} >= strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-24 hours')) DESC,
+        ${dateExpr} DESC
       LIMIT 120
-    `).all()
+    `).all(...NORWEGIAN_ATHLETES).map(a => ({
+      ...a,
+      norwegian: !!a.norwegian,
+      also_sources: a.also_sources ? a.also_sources.split(',') : [],
+    }))
 
     db.close()
 

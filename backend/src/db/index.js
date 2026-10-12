@@ -1,5 +1,6 @@
 import Database from 'better-sqlite3';
 import path from 'path';
+import { NORWEGIAN_ATHLETES } from '../config/sources.js';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -58,6 +59,8 @@ function initSchema(db) {
 
   // Migrasjoner for nye kolonner
   try { db.exec(`ALTER TABLE articles ADD COLUMN is_duplicate INTEGER NOT NULL DEFAULT 0`); } catch {}
+  try { db.exec(`ALTER TABLE articles ADD COLUMN duplicate_of INTEGER`); } catch {}
+  try { db.exec(`CREATE INDEX IF NOT EXISTS idx_articles_dupof ON articles(duplicate_of)`); } catch {}
   try { db.exec(`ALTER TABLE articles ADD COLUMN spik_no TEXT`); } catch {}
   try { db.exec(`ALTER TABLE articles ADD COLUMN body_text TEXT`); } catch {}
   migratePubDates(db);
@@ -126,22 +129,33 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
       c.category,
       c.created_at as cat_created_at,
       GROUP_CONCAT(CASE WHEN t.tag_type='athlete' THEN t.tag_value END) as athletes,
-      GROUP_CONCAT(CASE WHEN t.tag_type='nation'  THEN t.tag_value END) as nations
+      GROUP_CONCAT(CASE WHEN t.tag_type='nation'  THEN t.tag_value END) as nations,
+      MAX(CASE WHEN t.tag_type='athlete' AND t.tag_value IN (${NORWEGIAN_ATHLETES.map(() => '?').join(',')}) THEN 1 ELSE 0 END) as norwegian,
+      (SELECT GROUP_CONCAT(DISTINCT x.source_name) FROM articles x
+        WHERE x.duplicate_of = a.id AND x.source_id != a.source_id) as also_sources
     FROM articles a
     LEFT JOIN categorizations c ON c.article_id = a.id
     LEFT JOIN article_tags t    ON t.article_id  = a.id
   `;
   const where = ['a.is_duplicate = 0', "(a.fact_ok = 1 OR a.fact_ok IS NULL)"];
-  const params = [];
+  const params = [...NORWEGIAN_ATHLETES];
   if (country) { where.push("a.country = ?"); params.push(country); }
   if (athlete) {
     sql += ` JOIN article_tags ta ON ta.article_id=a.id AND ta.tag_type='athlete' AND ta.tag_value=? `;
     params.push(athlete);
   }
   sql += ' WHERE ' + where.join(' AND ');
-  sql += ` GROUP BY a.id ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC LIMIT ?`;
+  // Norsk vinkel fra siste 24 t ligger øverst, resten kronologisk
+  const dateExpr = `COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at))`;
+  sql += ` GROUP BY a.id ORDER BY
+    (norwegian = 1 AND ${dateExpr} >= strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-24 hours')) DESC,
+    ${dateExpr} DESC LIMIT ?`;
   params.push(limit);
-  return db.prepare(sql).all(...params);
+  return db.prepare(sql).all(...params).map(a => ({
+    ...a,
+    norwegian: !!a.norwegian,
+    also_sources: a.also_sources ? a.also_sources.split(',') : [],
+  }));
 }
 
 export function getUntranslated(limit = 100) {
@@ -170,8 +184,22 @@ export function updateFactCheck(id, fact_ok, fact_notes) {
   `).run(fact_ok, fact_notes, id);
 }
 
-export function markDuplicate(id) {
-  getDb().prepare(`UPDATE articles SET is_duplicate=1 WHERE id=?`).run(id);
+export function markDuplicate(id, duplicateOf = null) {
+  getDb().prepare(`UPDATE articles SET is_duplicate=1, duplicate_of=? WHERE id=?`).run(duplicateOf, id);
+}
+
+export function getUnlinkedDuplicates() {
+  return getDb().prepare(`
+    SELECT id, title_orig, title_no, source_id, fetched_at FROM articles
+    WHERE is_duplicate = 1 AND duplicate_of IS NULL
+  `).all();
+}
+
+export function getDedupCandidates(sinceIso, untilIso) {
+  return getDb().prepare(`
+    SELECT id, title_orig, title_no, source_id, fetched_at FROM articles
+    WHERE is_duplicate = 0 AND fetched_at >= ? AND fetched_at <= ?
+  `).all(sinceIso, untilIso);
 }
 
 export function getWithoutSpik(limit = 50) {

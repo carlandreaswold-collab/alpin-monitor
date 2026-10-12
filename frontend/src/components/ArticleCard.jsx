@@ -73,13 +73,19 @@ export default function ArticleCard({ article, onCategoryChange, onDismiss, isNe
   if (dismissed) return null
 
   return (
-    <div className="article-card">
+    <div className={`article-card${article.norwegian ? ' article-nor' : ''}`}>
       <div className="card-meta">
         {isNew && <span className="new-dot" title="Ny sak" />}
         <span className={`fact-badge ${fact.cls}`}>{fact.label}</span>
         <span className={`source-badge src-${article.country}`}>{article.source_name}</span>
         {article.lang_orig && article.lang_orig !== 'no' && (
           <span className="lang-tag">{article.lang_orig.toUpperCase()} → NO</span>
+        )}
+        {article.norwegian && <span className="nor-badge" title="Norsk utøver">🇳🇴 Norsk</span>}
+        {article.also_sources?.length > 0 && (
+          <span className="multi-badge" title={`Også dekket av: ${article.also_sources.join(', ')}`}>
+            📰 {article.also_sources.length + 1} kilder
+          </span>
         )}
         {article.athletes && (
           <span className="athlete-tag">👤 {article.athletes.split(',')[0]}</span>
