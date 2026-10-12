@@ -10,11 +10,11 @@ const BASE_TABS = [
 export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, nations = [], onFetch, fetching, fetchLabel, fetchResult, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
   const totalCategorized = Object.values(categoryCounts).reduce((s, n) => s + n, 0)
   const readonly = useReadonly()
-  const COUNTRIES = [...BASE_TABS, ...nations.map(n => ({ code: n.code, label: `${n.flag} ${n.name}`, count: n.count }))]
+  const COUNTRIES = [...BASE_TABS, ...nations.map(n => ({ code: n.code, label: n.name, iso: n.iso, flag: n.flag, count: n.count }))]
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, paddingBottom: 8 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 0, width: '100%', minWidth: 0 }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 10, paddingBottom: 8, flexWrap: 'wrap' }}>
         <input
           className="search-input header-search"
           type="search"
@@ -55,18 +55,22 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
         )}
       </div>
       <div className="filter-tabs">
-        {COUNTRIES.map(c => (
-          <button
-            key={c.code}
-            className={`filter-tab ${country === c.code ? 'active' : ''}`}
-            onClick={() => onCountry(c.code)}
-          >
-            {c.label}{c.count ? <span className="filter-count"> {c.count}</span> : null}
-          </button>
-        ))}
+        <div className="filter-row filter-row-countries">
+          {COUNTRIES.map(c => (
+            <button
+              key={c.code}
+              className={`filter-tab ${country === c.code ? 'active' : ''}`}
+              onClick={() => onCountry(c.code)}
+            >
+              {c.iso
+                ? <img className="flag" src={`/flags/${c.iso}.svg`} alt="" loading="lazy" />
+                : c.code === 'INT' ? <span aria-hidden="true">🌐 </span> : null}
+              {c.label}{c.count ? <span className="filter-count">{c.count}</span> : null}
+            </button>
+          ))}
+        </div>
         {totalCategorized > 0 && (
-          <>
-            <span className="filter-tab-divider" />
+          <div className="filter-row filter-row-cats">
             {CATEGORIES.map(cat => {
               const count = categoryCounts[cat.id] || 0
               if (!count) return null
@@ -81,7 +85,7 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
                 </button>
               )
             })}
-          </>
+          </div>
         )}
       </div>
     </div>

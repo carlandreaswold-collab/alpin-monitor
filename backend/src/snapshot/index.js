@@ -65,8 +65,9 @@ a{color:inherit;text-decoration:none}
 .readonly-badge{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--fg3);padding:2px 7px;border:1px solid var(--border);border-radius:4px}
 
 /* FILTER TABS */
-.filter-row{display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none;margin:0 -20px;padding:0 20px}
-.filter-row::-webkit-scrollbar{display:none}
+.filter-rows{display:flex;flex-direction:column;align-items:center;gap:2px}
+.filter-row{display:flex;flex-wrap:wrap;justify-content:center;gap:0 2px;width:100%}
+.ftab .flag{width:16px;height:12px;object-fit:cover;border-radius:2px;vertical-align:-1px;margin-right:5px;box-shadow:0 0 0 1px rgba(255,255,255,.12)}
 .ftab{font-family:'Figtree',sans-serif;font-size:12px;font-weight:500;padding:7px 14px;color:var(--fg3);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;transition:color .15s,border-color .15s;flex-shrink:0}
 .ftab:hover{color:var(--fg2)}
 .ftab.active{color:var(--sportslig);border-bottom-color:var(--sportslig)}
@@ -86,8 +87,8 @@ a{color:inherit;text-decoration:none}
 .cbadge-kjendis{background:#f0a04a30;color:var(--kjendis)}
 
 /* SEARCH ROW */
-.search-row{display:flex;gap:8px;align-items:center;padding:6px 0 6px}
-.search-input{flex:1;max-width:300px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 11px;color:var(--fg);font-family:'Figtree',sans-serif;font-size:13px;outline:none}
+.search-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;align-items:center;padding:6px 0 6px}
+.search-input{flex:1;min-width:140px;max-width:300px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 11px;color:var(--fg);font-family:'Figtree',sans-serif;font-size:13px;outline:none}
 .search-input:focus{border-color:var(--sportslig)}
 .search-input::placeholder{color:var(--fg3)}
 .athlete-select{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 10px;color:var(--fg);font-family:'Figtree',sans-serif;font-size:12px;outline:none;cursor:pointer}
@@ -149,7 +150,7 @@ a{color:inherit;text-decoration:none}
     <span class="readonly-badge">👁 Lesevisning</span>
     <span class="updated">Oppdatert ${updatedAt}</span>
   </div>
-  <div class="filter-row" id="filter-row"></div>
+  <div class="filter-rows"><div class="filter-row" id="filter-row"></div><div class="filter-row" id="cat-row"></div></div>
   <div class="search-row">
     <input class="search-input" type="search" id="search" placeholder="Søk i titler, utøvere…">
     <select class="athlete-select" id="athlete-select"><option value="">Alle utøvere</option></select>
@@ -228,8 +229,8 @@ const COUNTRIES = [
   {code:'',label:'Alle'},
   {code:'INT',label:'🌐 Internasjonalt'},
   ...Object.entries(nationCounts).sort((x,y) => y[1]-x[1] || x[0].localeCompare(y[0])).map(([code,n]) => {
-    const m = NATION_META[code] || ['🏳️', code];
-    return {code, label: m[0] + ' ' + m[1] + ' ' + n};
+    const m = NATION_META[code] || ['🏳️', code, null];
+    return {code, iso: m[2], label: m[1] + ' ' + n};
   }),
 ];
 
@@ -239,12 +240,14 @@ let searchQ = '';
 let activeAthlete = '';
 
 const filterRow = document.getElementById('filter-row');
+const catRow = document.getElementById('cat-row');
 
 COUNTRIES.forEach(c => {
   const btn = document.createElement('button');
   btn.className = 'ftab' + (c.code === '' ? ' active' : '');
   btn.dataset.country = c.code;
-  btn.textContent = c.label;
+  if (c.iso) { const im = document.createElement('img'); im.className = 'flag'; im.alt = ''; im.src = 'flags/' + c.iso + '.svg'; btn.appendChild(im); }
+  btn.appendChild(document.createTextNode(c.label));
   btn.addEventListener('click', () => {
     activeCountry = c.code;
     activeCat = '';
@@ -255,10 +258,6 @@ COUNTRIES.forEach(c => {
 });
 
 if (Object.keys(catCounts).length) {
-  const div = document.createElement('div');
-  div.className = 'divider';
-  filterRow.appendChild(div);
-
   CATS.forEach(cat => {
     const count = catCounts[cat.id] || 0;
     if (!count) return;
@@ -272,12 +271,12 @@ if (Object.keys(catCounts).length) {
       renderFilterRow();
       render();
     });
-    filterRow.appendChild(btn);
+    catRow.appendChild(btn);
   });
 }
 
 function renderFilterRow() {
-  filterRow.querySelectorAll('.ftab').forEach(b => {
+  document.querySelectorAll('.filter-rows .ftab').forEach(b => {
     b.classList.toggle('active',
       (b.dataset.country !== undefined && b.dataset.country === activeCountry && !activeCat) ||
       (b.dataset.cat !== undefined && b.dataset.cat === activeCat)

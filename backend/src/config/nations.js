@@ -1,21 +1,22 @@
 // Land for utøver-filter. Koder er IOC (3 bokstaver). Ukjente koder får nøytralt flagg.
 export const NATION_META = {
-  NOR: ['🇳🇴', 'Norge'],      SWE: ['🇸🇪', 'Sverige'],     FIN: ['🇫🇮', 'Finland'],
-  DEN: ['🇩🇰', 'Danmark'],    AUT: ['🇦🇹', 'Østerrike'],   SUI: ['🇨🇭', 'Sveits'],
-  ITA: ['🇮🇹', 'Italia'],     FRA: ['🇫🇷', 'Frankrike'],   GER: ['🇩🇪', 'Tyskland'],
-  USA: ['🇺🇸', 'USA'],        CAN: ['🇨🇦', 'Canada'],      SLO: ['🇸🇮', 'Slovenia'],
-  SVK: ['🇸🇰', 'Slovakia'],   CRO: ['🇭🇷', 'Kroatia'],     GBR: ['🇬🇧', 'Storbritannia'],
-  CZE: ['🇨🇿', 'Tsjekkia'],   BEL: ['🇧🇪', 'Belgia'],      ESP: ['🇪🇸', 'Spania'],
-  AND: ['🇦🇩', 'Andorra'],    LIE: ['🇱🇮', 'Liechtenstein'], POL: ['🇵🇱', 'Polen'],
-  BUL: ['🇧🇬', 'Bulgaria'],   LAT: ['🇱🇻', 'Latvia'],      EST: ['🇪🇪', 'Estland'],
-  UKR: ['🇺🇦', 'Ukraina'],    TUR: ['🇹🇷', 'Tyrkia'],      GRE: ['🇬🇷', 'Hellas'],
-  JPN: ['🇯🇵', 'Japan'],      KOR: ['🇰🇷', 'Sør-Korea'],   CHN: ['🇨🇳', 'Kina'],
-  AUS: ['🇦🇺', 'Australia'],  NZL: ['🇳🇿', 'New Zealand'], BRA: ['🇧🇷', 'Brasil'],
-  ARG: ['🇦🇷', 'Argentina'],  CHI: ['🇨🇱', 'Chile'],       LTU: ['🇱🇹', 'Litauen'],
-  ROU: ['🇷🇴', 'Romania'],    HUN: ['🇭🇺', 'Ungarn'],      SRB: ['🇷🇸', 'Serbia'],
-  BIH: ['🇧🇦', 'Bosnia'],     MKD: ['🇲🇰', 'Nord-Makedonia'], ISL: ['🇮🇸', 'Island'],
-  IRL: ['🇮🇪', 'Irland'],     NED: ['🇳🇱', 'Nederland'],   LUX: ['🇱🇺', 'Luxembourg'],
-  KAZ: ['🇰🇿', 'Kasakhstan'], GEO: ['🇬🇪', 'Georgia'],     ARM: ['🇦🇲', 'Armenia'],
+  NOR: ['🇳🇴', 'Norge', 'no'],      SWE: ['🇸🇪', 'Sverige', 'se'],     FIN: ['🇫🇮', 'Finland', 'fi'],
+  DEN: ['🇩🇰', 'Danmark', 'dk'],    AUT: ['🇦🇹', 'Østerrike', 'at'],   SUI: ['🇨🇭', 'Sveits', 'ch'],
+  ITA: ['🇮🇹', 'Italia', 'it'],     FRA: ['🇫🇷', 'Frankrike', 'fr'],   GER: ['🇩🇪', 'Tyskland', 'de'],
+  USA: ['🇺🇸', 'USA', 'us'],        CAN: ['🇨🇦', 'Canada', 'ca'],      SLO: ['🇸🇮', 'Slovenia', 'si'],
+  SVK: ['🇸🇰', 'Slovakia', 'sk'],   CRO: ['🇭🇷', 'Kroatia', 'hr'],     GBR: ['🇬🇧', 'Storbritannia', 'gb'],
+  CZE: ['🇨🇿', 'Tsjekkia', 'cz'],   BEL: ['🇧🇪', 'Belgia', 'be'],      ESP: ['🇪🇸', 'Spania', 'es'],
+  AND: ['🇦🇩', 'Andorra', 'ad'],    LIE: ['🇱🇮', 'Liechtenstein', 'li'], POL: ['🇵🇱', 'Polen', 'pl'],
+  BUL: ['🇧🇬', 'Bulgaria', 'bg'],   LAT: ['🇱🇻', 'Latvia', 'lv'],      EST: ['🇪🇪', 'Estland', 'ee'],
+  UKR: ['🇺🇦', 'Ukraina', 'ua'],    TUR: ['🇹🇷', 'Tyrkia', 'tr'],      GRE: ['🇬🇷', 'Hellas', 'gr'],
+  JPN: ['🇯🇵', 'Japan', 'jp'],      KOR: ['🇰🇷', 'Sør-Korea', 'kr'],   CHN: ['🇨🇳', 'Kina', 'cn'],
+  AUS: ['🇦🇺', 'Australia', 'au'],  NZL: ['🇳🇿', 'New Zealand', 'nz'], BRA: ['🇧🇷', 'Brasil', 'br'],
+  ARG: ['🇦🇷', 'Argentina', 'ar'],  CHI: ['🇨🇱', 'Chile', 'cl'],       LTU: ['🇱🇹', 'Litauen', 'lt'],
+  ROU: ['🇷🇴', 'Romania', 'ro'],    HUN: ['🇭🇺', 'Ungarn', 'hu'],      SRB: ['🇷🇸', 'Serbia', 'rs'],
+  BIH: ['🇧🇦', 'Bosnia', 'ba'],     MKD: ['🇲🇰', 'Nord-Makedonia', 'mk'], ISL: ['🇮🇸', 'Island', 'is'],
+  IRL: ['🇮🇪', 'Irland', 'ie'],     NED: ['🇳🇱', 'Nederland', 'nl'],   LUX: ['🇱🇺', 'Luxembourg', 'lu'],
+  ALB: ['🇦🇱', 'Albania', 'al'],
+  KAZ: ['🇰🇿', 'Kasakhstan', 'kz'], GEO: ['🇬🇪', 'Georgia', 'ge'],     ARM: ['🇦🇲', 'Armenia', 'am'],
 };
 
 // ISO/ULIK skrivemåte → IOC
@@ -36,5 +37,5 @@ export function normalizeNation(code) {
 
 export function nationInfo(code) {
   const m = NATION_META[code];
-  return { code, flag: m ? m[0] : '🏳️', name: m ? m[1] : code };
+  return { code, flag: m ? m[0] : '🏳️', name: m ? m[1] : code, iso: m ? m[2] : null };
 }
