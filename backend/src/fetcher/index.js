@@ -75,22 +75,37 @@ async function fetchSource(source) {
 }
 
 export async function fetchAll(emitter) {
+  const progress = (stage, label, extra = {}) => {
+    if (emitter) emitter.emit('fetch_progress', { stage, label, ...extra });
+  };
+  const maxIdBefore = getDb().prepare('SELECT COALESCE(MAX(id), 0) AS m FROM articles').get().m;
+
   console.log(`\n⛷  Henter fra ${SOURCES.length} kilder — ${new Date().toLocaleTimeString('no')}`);
   let total = 0;
-  for (const source of SOURCES) {
+  for (let i = 0; i < SOURCES.length; i++) {
+    const source = SOURCES[i];
+    progress('sources', `Henter kilder (${i + 1}/${SOURCES.length}): ${source.name}`);
     const n = await fetchSource(source);
     total += n;
     if (n > 0 && emitter) emitter.emit('new_articles', { source: source.name, count: n });
   }
   console.log(`✓ Ferdig — ${total} nye saker totalt\n`);
   if (total > 0) {
+    progress('scrape', `Leser artikkeltekst (${total} nye saker)`);
     await scrapeBodyTexts();
+    progress('translate', `Oversetter (${total} nye saker)`);
     await translatePending();
+    progress('factcheck', `Faktasjekker (${total} nye saker)`);
     await factCheckPending();
+    progress('dedup', 'Fjerner duplikater og lager spik');
     dedupPending();
     await generateSpiks();
   }
-  return total;
+
+  const alpine = getDb().prepare(
+    'SELECT COUNT(*) AS c FROM articles WHERE id > ? AND fact_ok = 1 AND is_duplicate = 0'
+  ).get(maxIdBefore).c;
+  return { total, alpine };
 }
 
 // Kan kjøres direkte: node src/fetcher/index.js

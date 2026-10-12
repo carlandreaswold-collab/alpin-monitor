@@ -79,12 +79,41 @@ app.post('/api/dismiss/:id', (req, res) => {
   res.json({ ok: true });
 });
 
-// Manuell henting (for testing / knapp i UI)
-app.post('/api/fetch', async (req, res) => {
-  res.json({ ok: true, message: 'Henting startet' });
-  const total = await fetchAll(io);
-  io.emit('fetch_done', { total, timestamp: new Date().toISOString() });
-  generateSnapshot();
+// Felles henting (cron + knapp). Kun én om gangen; fetch_done sendes alltid.
+let fetchState = null; // { startedAt, stage, label } mens en henting pågår
+
+async function runFetch() {
+  if (fetchState) return false;
+  fetchState = { startedAt: Date.now(), stage: 'sources', label: 'Starter henting…' };
+  io.emit('fetch_progress', { stage: fetchState.stage, label: fetchState.label });
+  try {
+    const emitter = {
+      emit: (ev, payload) => {
+        if (ev === 'fetch_progress') Object.assign(fetchState, payload);
+        io.emit(ev, payload);
+      },
+    };
+    const { total, alpine } = await fetchAll(emitter);
+    io.emit('fetch_done', { total, alpine, timestamp: new Date().toISOString() });
+    generateSnapshot();
+  } catch (err) {
+    console.error('Henting feilet:', err);
+    io.emit('fetch_done', { total: 0, alpine: 0, error: err.message, timestamp: new Date().toISOString() });
+  } finally {
+    fetchState = null;
+  }
+  return true;
+}
+
+// Manuell henting (knapp i UI)
+app.post('/api/fetch', (req, res) => {
+  if (fetchState) return res.json({ ok: true, running: true, message: 'Henting pågår allerede' });
+  runFetch();
+  res.json({ ok: true, running: true, message: 'Henting startet' });
+});
+
+app.get('/api/fetch/status', (req, res) => {
+  res.json({ running: !!fetchState, ...(fetchState || {}) });
 });
 
 // Utøvere med saksantall
@@ -105,16 +134,13 @@ app.get('/api/health', (req, res) => {
 // ── WEBSOCKET ──
 io.on('connection', (socket) => {
   console.log(`WS tilkoblet: ${socket.id}`);
+  if (fetchState) socket.emit('fetch_progress', { stage: fetchState.stage, label: fetchState.label });
   socket.on('disconnect', () => console.log(`WS frakoblet: ${socket.id}`));
 });
 
 // ── CRON: hent hvert N minutt ──
 const INTERVAL = parseInt(process.env.FETCH_INTERVAL_MINUTES || '15');
-cron.schedule(`*/${INTERVAL} * * * *`, async () => {
-  const total = await fetchAll(io);
-  io.emit('fetch_done', { total, timestamp: new Date().toISOString() });
-  generateSnapshot();
-});
+cron.schedule(`*/${INTERVAL} * * * *`, () => { runFetch(); });
 
 // ── FRONTEND (statiske filer) ──
 const frontendDist = path.join(__dirname, '../../../frontend/dist');

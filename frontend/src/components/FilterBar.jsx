@@ -13,7 +13,7 @@ const COUNTRIES = [
   { code: 'GER', label: '🇩🇪 Tyskland' },
 ]
 
-export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, onFetch, fetching, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
+export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, onFetch, fetching, fetchLabel, fetchResult, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
   const totalCategorized = Object.values(categoryCounts).reduce((s, n) => s + n, 0)
   const readonly = useReadonly()
 
@@ -43,9 +43,20 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
         )}
         <span className="header-meta">{total} saker</span>
         {!readonly && (
-          <button className="fetch-btn" onClick={onFetch} disabled={fetching}>
-            {fetching ? '⏳ Henter…' : '🔄 Hent nå'}
-          </button>
+          <>
+            <button className="fetch-btn" onClick={onFetch} disabled={fetching}>
+              {fetching ? '⏳ Henter…' : '🔄 Hent nå'}
+            </button>
+            {(fetching || fetchResult) && (
+              <span
+                className={`fetch-status${fetchResult?.error && !fetching ? ' error' : ''}`}
+                role="status"
+                aria-live="polite"
+              >
+                {fetching ? fetchLabel : fetchResult.text}
+              </span>
+            )}
+          </>
         )}
       </div>
       <div className="filter-tabs">

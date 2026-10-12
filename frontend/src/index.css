@@ -394,6 +394,8 @@ body {
 }
 .fetch-btn:hover { border-color: var(--border2); color: var(--fg); }
 .fetch-btn:disabled { opacity: .5; cursor: default; }
+.fetch-status { font-size: 12px; color: var(--fg2); white-space: nowrap; }
+.fetch-status.error { color: var(--cat-viktig); }
 
 .empty-state {
   text-align: center;

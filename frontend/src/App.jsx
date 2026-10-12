@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback, useMemo, useRef } from 'react'
 import { ReadonlyContext, isReadonlyUrl } from './lib/readonly'
-import { fetchArticles, fetchAthletes, triggerFetch } from './lib/api'
+import { fetchArticles, fetchAthletes, triggerFetch, fetchStatus } from './lib/api'
 import { socket } from './lib/socket'
 import ArticleCard from './components/ArticleCard'
 import FilterBar from './components/FilterBar'
@@ -17,6 +17,8 @@ export default function App() {
   const [athletes, setAthletes] = useState([])
   const [search, setSearch] = useState('')
   const [fetching, setFetching] = useState(false)
+  const [fetchLabel, setFetchLabel] = useState('')
+  const [fetchResult, setFetchResult] = useState(null) // { text, error }
   const [newCount, setNewCount] = useState(0)
   const [categoryModal, setCategoryModal] = useState(null)
   const [view, setView] = useState('feed')
@@ -37,8 +39,41 @@ export default function App() {
     fetchAthletes().then(setAthletes)
   }, [])
 
+  // Sikkerhetsnett: hvis fetch_done aldri når oss (WebSocket falt ut), spør backend om status
   useEffect(() => {
-    socket.on('fetch_done', async ({ total }) => {
+    if (!fetching) return
+    const t = setInterval(async () => {
+      try {
+        const { running } = await fetchStatus()
+        if (!running) {
+          setFetching(false)
+          load(country, athlete)
+          fetchAthletes().then(setAthletes)
+        }
+      } catch {}
+    }, 5000)
+    return () => clearInterval(t)
+  }, [fetching, country, athlete, load])
+
+  useEffect(() => {
+    if (!fetchResult) return
+    const t = setTimeout(() => setFetchResult(null), 10000)
+    return () => clearTimeout(t)
+  }, [fetchResult])
+
+  useEffect(() => {
+    socket.on('fetch_progress', ({ label }) => {
+      setFetching(true)
+      setFetchLabel(label)
+    })
+    socket.on('fetch_done', async ({ total, alpine = 0, error }) => {
+      setFetching(false)
+      setFetchLabel('')
+      if (error) setFetchResult({ text: `Henting feilet: ${error}`, error: true })
+      else if (total === 0) setFetchResult({ text: 'Ingen nye saker' })
+      else if (alpine === 0) setFetchResult({ text: `${total} nye saker hentet, ingen alpint` })
+      else setFetchResult({ text: `${total} nye saker hentet, ${alpine} alpint` })
+      fetchAthletes().then(setAthletes)
       if (total > 0) setNewCount(n => n + total)
       const prevIds = new Set(articlesRef.current.map(a => a.id))
       const data = await fetchArticles({ country: country || undefined, athlete: athlete || undefined })
@@ -62,9 +97,16 @@ export default function App() {
 
   async function handleFetch() {
     setFetching(true)
+    setFetchLabel('Starter henting…')
+    setFetchResult(null)
     setNewCount(0)
-    await triggerFetch()
-    setTimeout(() => { setFetching(false); fetchAthletes().then(setAthletes) }, 5000)
+    try {
+      await triggerFetch()
+    } catch (err) {
+      setFetching(false)
+      setFetchLabel('')
+      setFetchResult({ text: err.message || 'Backend svarer ikke', error: true })
+    }
   }
 
   function handleCategoryChange(id, category) {
@@ -112,6 +154,8 @@ export default function App() {
             athletes={athletes}
             onFetch={handleFetch}
             fetching={fetching}
+            fetchLabel={fetchLabel}
+            fetchResult={fetchResult}
             total={articles.length}
             search={search}
             onSearch={setSearch}

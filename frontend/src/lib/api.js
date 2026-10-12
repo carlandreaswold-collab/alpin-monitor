@@ -17,7 +17,15 @@ export async function fetchAthletes() {
 }
 
 export async function triggerFetch() {
-  await fetch(`${BASE}/fetch`, { method: 'POST' })
+  const res = await fetch(`${BASE}/fetch`, { method: 'POST' })
+  if (!res.ok) throw new Error('Henting kunne ikke startes')
+  return res.json()
+}
+
+export async function fetchStatus() {
+  const res = await fetch(`${BASE}/fetch/status`)
+  if (!res.ok) throw new Error()
+  return res.json()
 }
 
 export async function categorizeArticle(article_id, category) {
