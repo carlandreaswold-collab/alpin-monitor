@@ -6,7 +6,8 @@ import cors from 'cors';
 import cron from 'node-cron';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb, dismissArticle, approveArticle, getAllForFactcheck, getStats } from '../db/index.js';
+import { getRecentArticles, getCategorized, categorize, uncategorize, getAthletes, getDb, dismissArticle, approveArticle, getAllForFactcheck, getStats, getNations } from '../db/index.js';
+import { nationInfo } from '../config/nations.js';
 import { fetchAll } from '../fetcher/index.js';
 import { generateSnapshot } from '../snapshot/index.js';
 
@@ -119,6 +120,11 @@ app.get('/api/fetch/status', (req, res) => {
 // Utøvere med saksantall
 app.get('/api/athletes', (req, res) => {
   res.json(getAthletes());
+});
+
+// Land med minst én sak om en utøver derfra (flaggknappene)
+app.get('/api/nations', (req, res) => {
+  res.json(getNations().map(n => ({ ...n, ...nationInfo(n.code) })));
 });
 
 // Statistikk

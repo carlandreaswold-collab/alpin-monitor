@@ -16,6 +16,12 @@ export async function fetchAthletes() {
   return res.json()
 }
 
+export async function fetchNations() {
+  const res = await fetch(`${BASE}/nations`)
+  if (!res.ok) throw new Error()
+  return res.json()
+}
+
 export async function triggerFetch() {
   const res = await fetch(`${BASE}/fetch`, { method: 'POST' })
   if (!res.ok) throw new Error('Henting kunne ikke startes')

@@ -1028,3 +1028,5 @@ body {
   background: rgba(80, 160, 255, 0.12); color: #6fb0ff; border: 1px solid rgba(80, 160, 255, 0.3);
 }
 .article-nor { border-left: 3px solid #ba0c2f; }
+
+.filter-count { opacity: 0.6; font-size: 0.85em; }

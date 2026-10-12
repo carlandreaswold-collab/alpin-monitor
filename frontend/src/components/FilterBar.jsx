@@ -1,21 +1,16 @@
 import { CATEGORIES } from './ArticleCard'
 import { useReadonly } from '../lib/readonly'
 
-const COUNTRIES = [
+// Flaggene = land med utøvere i sakene (fra /api/nations), pluss internasjonale kilder
+const BASE_TABS = [
   { code: '',    label: 'Alle' },
-  { code: 'NOR', label: '🇳🇴 Norge' },
   { code: 'INT', label: '🌐 Internasjonalt' },
-  { code: 'AUT', label: '🇦🇹 Østerrike' },
-  { code: 'SUI', label: '🇨🇭 Sveits' },
-  { code: 'FRA', label: '🇫🇷 Frankrike' },
-  { code: 'ITA', label: '🇮🇹 Italia' },
-  { code: 'SWE', label: '🇸🇪 Sverige' },
-  { code: 'GER', label: '🇩🇪 Tyskland' },
 ]
 
-export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, onFetch, fetching, fetchLabel, fetchResult, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
+export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, nations = [], onFetch, fetching, fetchLabel, fetchResult, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
   const totalCategorized = Object.values(categoryCounts).reduce((s, n) => s + n, 0)
   const readonly = useReadonly()
+  const COUNTRIES = [...BASE_TABS, ...nations.map(n => ({ code: n.code, label: `${n.flag} ${n.name}`, count: n.count }))]
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
@@ -36,7 +31,7 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
             <option value="">Alle utøvere</option>
             {athletes.map(a => (
               <option key={a.name} value={a.name}>
-                {a.name} ({a.count})
+                {a.nation ? `${a.nation} · ` : ''}{a.name} ({a.count})
               </option>
             ))}
           </select>
@@ -66,7 +61,7 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
             className={`filter-tab ${country === c.code ? 'active' : ''}`}
             onClick={() => onCountry(c.code)}
           >
-            {c.label}
+            {c.label}{c.count ? <span className="filter-count"> {c.count}</span> : null}
           </button>
         ))}
         {totalCategorized > 0 && (

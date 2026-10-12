@@ -1,6 +1,6 @@
 import Database from 'better-sqlite3';
 import path from 'path';
-import { NORWEGIAN_ATHLETES } from '../config/sources.js';
+import { TRACKED_ATHLETES } from '../config/sources.js';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -60,6 +60,14 @@ function initSchema(db) {
   // Migrasjoner for nye kolonner
   try { db.exec(`ALTER TABLE articles ADD COLUMN is_duplicate INTEGER NOT NULL DEFAULT 0`); } catch {}
   try { db.exec(`ALTER TABLE articles ADD COLUMN duplicate_of INTEGER`); } catch {}
+  // Utøverens nasjonalitet som tag, utledd fra eksisterende utøver-tags (idempotent)
+  for (const a of TRACKED_ATHLETES) {
+    if (!a.nation) continue;
+    db.prepare(`INSERT OR IGNORE INTO article_tags (article_id, tag_type, tag_value)
+                SELECT article_id, 'athlete_nation', ? FROM article_tags WHERE tag_type='athlete' AND tag_value=?`)
+      .run(a.nation, a.name);
+  }
+  try { db.exec(`ALTER TABLE articles ADD COLUMN ai_tagged INTEGER NOT NULL DEFAULT 0`); } catch {}
   try { db.exec(`CREATE INDEX IF NOT EXISTS idx_articles_dupof ON articles(duplicate_of)`); } catch {}
   try { db.exec(`ALTER TABLE articles ADD COLUMN spik_no TEXT`); } catch {}
   try { db.exec(`ALTER TABLE articles ADD COLUMN body_text TEXT`); } catch {}
@@ -130,7 +138,7 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
       c.created_at as cat_created_at,
       GROUP_CONCAT(CASE WHEN t.tag_type='athlete' THEN t.tag_value END) as athletes,
       GROUP_CONCAT(CASE WHEN t.tag_type='nation'  THEN t.tag_value END) as nations,
-      MAX(CASE WHEN t.tag_type='athlete' AND t.tag_value IN (${NORWEGIAN_ATHLETES.map(() => '?').join(',')}) THEN 1 ELSE 0 END) as norwegian,
+      GROUP_CONCAT(DISTINCT CASE WHEN t.tag_type='athlete_nation' THEN t.tag_value END) as athlete_nations,
       (SELECT GROUP_CONCAT(DISTINCT x.source_name) FROM articles x
         WHERE x.duplicate_of = a.id AND x.source_id != a.source_id) as also_sources
     FROM articles a
@@ -138,21 +146,24 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
     LEFT JOIN article_tags t    ON t.article_id  = a.id
   `;
   const where = ['a.is_duplicate = 0', "(a.fact_ok = 1 OR a.fact_ok IS NULL)"];
-  const params = [...NORWEGIAN_ATHLETES];
-  // «NOR» = norsk kilde ELLER sak om norsk utøver (filtreres med HAVING, siden norwegian er aggregert)
-  let having = '';
-  if (country === 'NOR') having = ' HAVING (a.country = \'NOR\' OR norwegian = 1)';
-  else if (country) { where.push("a.country = ?"); params.push(country); }
+  const params = [];
+  // Landsflagg = saker med utøvere fra landet. INT er en kildekategori, ikke et land.
+  if (country === 'INT') { where.push("a.country = 'INT'"); }
+  else if (country) {
+    where.push("EXISTS (SELECT 1 FROM article_tags tn WHERE tn.article_id = a.id AND tn.tag_type = 'athlete_nation' AND tn.tag_value = ?)");
+    params.push(country);
+  }
   if (athlete) {
     sql += ` JOIN article_tags ta ON ta.article_id=a.id AND ta.tag_type='athlete' AND ta.tag_value=? `;
     params.push(athlete);
   }
   sql += ' WHERE ' + where.join(' AND ');
-  sql += ` GROUP BY a.id${having} ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC LIMIT ?`;
+  sql += ` GROUP BY a.id ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC LIMIT ?`;
   params.push(limit);
   return db.prepare(sql).all(...params).map(a => ({
     ...a,
-    norwegian: !!a.norwegian,
+    athlete_nations: a.athlete_nations ? a.athlete_nations.split(',') : [],
+    norwegian: !!a.athlete_nations?.split(',').includes('NOR'),
     also_sources: a.also_sources ? a.also_sources.split(',') : [],
   }));
 }
@@ -332,7 +343,10 @@ export function getStats() {
 
 export function getAthletes() {
   return getDb().prepare(`
-    SELECT t.tag_value as name, COUNT(DISTINCT t.article_id) as count
+    SELECT t.tag_value as name, COUNT(DISTINCT t.article_id) as count,
+      (SELECT n.tag_value FROM article_tags n
+        WHERE n.tag_type = 'athlete_nation' AND n.article_id IN (SELECT article_id FROM article_tags WHERE tag_type='athlete' AND tag_value = t.tag_value)
+        GROUP BY n.tag_value ORDER BY COUNT(*) DESC LIMIT 1) as nation
     FROM article_tags t
     JOIN articles a ON a.id = t.article_id
     WHERE t.tag_type = 'athlete'
@@ -341,6 +355,67 @@ export function getAthletes() {
     GROUP BY t.tag_value
     ORDER BY count DESC, t.tag_value ASC
   `).all();
+}
+
+// Land som har minst én godkjent sak med utøver derfra
+export function getNations() {
+  return getDb().prepare(`
+    SELECT t.tag_value AS code, COUNT(DISTINCT t.article_id) AS count
+    FROM article_tags t JOIN articles a ON a.id = t.article_id
+    WHERE t.tag_type = 'athlete_nation' AND a.fact_ok = 1 AND a.is_duplicate = 0
+    GROUP BY t.tag_value ORDER BY count DESC, code ASC
+  `).all();
+}
+
+export function getUntagged(limit = 300) {
+  return getDb().prepare(`
+    SELECT id, title_orig, title_no, summary_no, body_text FROM articles
+    WHERE fact_ok = 1 AND is_duplicate = 0 AND ai_tagged = 0
+    ORDER BY COALESCE(pub_date, fetched_at) DESC LIMIT ?
+  `).all(limit);
+}
+
+// Utøvere vi kjenner fra før (for konsekvent stavemåte): sporede utøvere + de som er tagget, mest brukte først
+export function getKnownAthletes(limit = 250) {
+  const known = new Map(TRACKED_ATHLETES.filter(a => a.nation).map(a => [a.name, a.nation]));
+  const rows = getDb().prepare(`
+    SELECT tag_value AS name FROM article_tags WHERE tag_type='athlete'
+    GROUP BY tag_value ORDER BY COUNT(*) DESC LIMIT ?
+  `).all(limit);
+  for (const r of rows) {
+    if (known.size >= limit) break;
+    const nation = athleteNation(r.name);
+    if (nation && !known.has(r.name)) known.set(r.name, nation);
+  }
+  return [...known].map(([name, nation]) => ({ name, nation }));
+}
+
+const ATHLETE_NATION = new Map(); // cache: utøver → land
+export function athleteNation(name) {
+  if (ATHLETE_NATION.has(name)) return ATHLETE_NATION.get(name);
+  const row = getDb().prepare(`
+    SELECT n.tag_value AS nation FROM article_tags n
+    WHERE n.tag_type='athlete_nation'
+      AND n.article_id IN (SELECT article_id FROM article_tags WHERE tag_type='athlete' AND tag_value=?)
+    GROUP BY n.tag_value ORDER BY COUNT(*) DESC LIMIT 1`).get(name);
+  const nation = row?.nation || null;
+  if (nation) ATHLETE_NATION.set(name, nation);
+  return nation;
+}
+
+// Erstatter utøver- og nasjonstags for én sak med resultatet fra Claude og markerer saken som tagget
+export function replaceAthleteTags(articleId, athletes) {
+  const db = getDb();
+  db.transaction(() => {
+    db.prepare(`DELETE FROM article_tags WHERE article_id=? AND tag_type IN ('athlete','athlete_nation')`).run(articleId);
+    const ins = db.prepare(`INSERT OR IGNORE INTO article_tags (article_id, tag_type, tag_value) VALUES (?,?,?)`);
+    for (const a of athletes) {
+      ins.run(articleId, 'athlete', a.name);
+      ins.run(articleId, 'athlete_nation', a.nation);
+      ATHLETE_NATION.set(a.name, a.nation);
+    }
+    db.prepare(`UPDATE articles SET ai_tagged=1 WHERE id=?`).run(articleId);
+  })();
 }
 
 export function getRecentForDedup(hours = 48) {

@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import { execSync } from 'child_process'
 import { fileURLToPath } from 'url'
-import { NORWEGIAN_ATHLETES } from '../config/sources.js'
+import { NATION_META } from '../config/nations.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, '../../../data/alpin.db')
@@ -221,16 +221,16 @@ const catCounts = {};
 ARTICLES.forEach(a => { if (a.category) catCounts[a.category] = (catCounts[a.category] || 0) + 1; });
 
 // Bygg filter-rad
+const NATION_META = ${JSON.stringify(NATION_META)};
+const nationCounts = {};
+ARTICLES.forEach(a => (a.athlete_nations || []).forEach(n => { nationCounts[n] = (nationCounts[n] || 0) + 1; }));
 const COUNTRIES = [
   {code:'',label:'Alle'},
-  {code:'NOR',label:'🇳🇴 Norge'},
   {code:'INT',label:'🌐 Internasjonalt'},
-  {code:'AUT',label:'🇦🇹 Østerrike'},
-  {code:'SUI',label:'🇨🇭 Sveits'},
-  {code:'ITA',label:'🇮🇹 Italia'},
-  {code:'SWE',label:'🇸🇪 Sverige'},
-  {code:'FRA',label:'🇫🇷 Frankrike'},
-  {code:'GER',label:'🇩🇪 Tyskland'},
+  ...Object.entries(nationCounts).sort((x,y) => y[1]-x[1] || x[0].localeCompare(y[0])).map(([code,n]) => {
+    const m = NATION_META[code] || ['🏳️', code];
+    return {code, label: m[0] + ' ' + m[1] + ' ' + n};
+  }),
 ];
 
 let activeCountry = '';
@@ -322,7 +322,7 @@ function cardHtml(a, compact) {
 function render() {
   const q = searchQ.toLowerCase();
   const visible = ARTICLES.filter(a => {
-    if (activeCountry === 'NOR' ? !(a.country === 'NOR' || a.norwegian) : (activeCountry && a.country !== activeCountry)) return false;
+    if (activeCountry === 'INT' ? a.country !== 'INT' : (activeCountry && !(a.athlete_nations || []).includes(activeCountry))) return false;
     if (activeCat && a.category !== activeCat) return false;
     if (activeAthlete && !(a.athletes||'').split(',').map(s=>s.trim()).includes(activeAthlete)) return false;
     if (q && !(a.title_no||a.title_orig||'').toLowerCase().includes(q) && !(a.athletes||'').toLowerCase().includes(q) && !(a.source_name||'').toLowerCase().includes(q)) return false;
@@ -382,7 +382,7 @@ export async function generateSnapshot() {
         a.summary_no, a.spik_no, a.url, a.pub_date, a.fetched_at,
         a.lang_orig, c.category,
         GROUP_CONCAT(CASE WHEN t.tag_type='athlete' THEN t.tag_value END) as athletes,
-        MAX(CASE WHEN t.tag_type='athlete' AND t.tag_value IN (${NORWEGIAN_ATHLETES.map(() => '?').join(',')}) THEN 1 ELSE 0 END) as norwegian,
+        GROUP_CONCAT(DISTINCT CASE WHEN t.tag_type='athlete_nation' THEN t.tag_value END) as athlete_nations,
         (SELECT GROUP_CONCAT(DISTINCT x.source_name) FROM articles x
           WHERE x.duplicate_of = a.id AND x.source_id != a.source_id) as also_sources
       FROM articles a
@@ -392,9 +392,10 @@ export async function generateSnapshot() {
       GROUP BY a.id
       ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC
       LIMIT 120
-    `).all(...NORWEGIAN_ATHLETES).map(a => ({
+    `).all().map(a => ({
       ...a,
-      norwegian: !!a.norwegian,
+      athlete_nations: a.athlete_nations ? a.athlete_nations.split(',') : [],
+      norwegian: !!a.athlete_nations?.split(',').includes('NOR'),
       also_sources: a.also_sources ? a.also_sources.split(',') : [],
     }))
 

@@ -6,6 +6,7 @@ import { scrapeBodyTexts } from '../scraper/index.js';
 import { translatePending } from '../translate/index.js';
 import { factCheckPending } from '../factcheck/index.js';
 import { dedupPending } from '../dedup/index.js';
+import { tagPending } from '../tagging/index.js';
 import { generateSpiks } from '../spik/index.js';
 
 const parser = new Parser({ timeout: 10000, headers: { 'User-Agent': 'NRK-AlpinMonitor/1.0' } });
@@ -21,6 +22,7 @@ function tagAthletes(text, articleId) {
     const allVariants = [name, lastName, ...aliases];
     if (allVariants.some(v => v.length > 3 && text.includes(v))) {
       insertTag(articleId, 'athlete', name);
+      if (athlete.nation) insertTag(articleId, 'athlete_nation', athlete.nation);
     }
   }
 }
@@ -124,6 +126,8 @@ export async function fetchAll(emitter) {
     await factCheckPending();
     progress('dedup', 'Fjerner duplikater og lager spik');
     dedupPending();
+    progress('tagging', 'Finner utøvere og land');
+    await tagPending();
     await generateSpiks();
   }
 

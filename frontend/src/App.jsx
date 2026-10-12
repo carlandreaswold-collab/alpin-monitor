@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback, useMemo, useRef } from 'react'
 import { ReadonlyContext, isReadonlyUrl } from './lib/readonly'
-import { fetchArticles, fetchAthletes, triggerFetch, fetchStatus } from './lib/api'
+import { fetchArticles, fetchAthletes, fetchNations, triggerFetch, fetchStatus } from './lib/api'
 import { socket } from './lib/socket'
 import ArticleCard from './components/ArticleCard'
 import FilterBar from './components/FilterBar'
@@ -15,6 +15,7 @@ export default function App() {
   const [country, setCountry] = useState('')
   const [athlete, setAthlete] = useState('')
   const [athletes, setAthletes] = useState([])
+  const [nations, setNations] = useState([])
   const [search, setSearch] = useState('')
   const [fetching, setFetching] = useState(false)
   const [fetchLabel, setFetchLabel] = useState('')
@@ -37,6 +38,7 @@ export default function App() {
 
   useEffect(() => {
     fetchAthletes().then(setAthletes)
+    fetchNations().then(setNations).catch(() => {})
   }, [])
 
   // Sikkerhetsnett: hvis fetch_done aldri når oss (WebSocket falt ut), spør backend om status
@@ -49,6 +51,7 @@ export default function App() {
           setFetching(false)
           load(country, athlete)
           fetchAthletes().then(setAthletes)
+          fetchNations().then(setNations).catch(() => {})
         }
       } catch {}
     }, 5000)
@@ -74,6 +77,7 @@ export default function App() {
       else if (alpine === 0) setFetchResult({ text: `${total} nye saker hentet, ingen alpint` })
       else setFetchResult({ text: `${total} nye saker hentet, ${alpine} alpint` })
       fetchAthletes().then(setAthletes)
+      fetchNations().then(setNations).catch(() => {})
       if (total > 0) setNewCount(n => n + total)
       const prevIds = new Set(articlesRef.current.map(a => a.id))
       const data = await fetchArticles({ country: country || undefined, athlete: athlete || undefined })
@@ -152,6 +156,7 @@ export default function App() {
             athlete={athlete}
             onAthlete={a => { setAthlete(a); setCountry(''); setNewCount(0) }}
             athletes={athletes}
+            nations={nations}
             onFetch={handleFetch}
             fetching={fetching}
             fetchLabel={fetchLabel}
