@@ -1,11 +1,34 @@
 import OpenAI from 'openai';
-import { getUnchecked, updateFactCheck } from '../db/index.js';
+import { getUnchecked, updateFactCheck, getFeedbackExamples, getSourceAlpineRates } from '../db/index.js';
 
 const client = new OpenAI({
   apiKey: process.env.ANTHROPIC_API_KEY,
   baseURL: process.env.ANTHROPIC_BASE_URL,
 });
 const BATCH_SIZE = 20;
+
+const LOW_RATE_THRESHOLD = 30;
+
+// Bygger tilleggsregler fra redaktørens avvisninger/godkjenninger og kildenes historikk
+function buildLearnedContext() {
+  const parts = [];
+
+  const lowSources = getSourceAlpineRates().filter(r => r.rate < LOW_RATE_THRESHOLD);
+  if (lowSources.length) {
+    parts.push(`SOURCE STRICTNESS: These sources are general-sport feeds where historically very few articles are alpine. For them, accept ONLY if the headline or summary clearly names an alpine discipline, race, or alpine racer as the main subject:\n` +
+      lowSources.map(r => `- ${r.source} (${r.rate}% alpine of ${r.checked} checked)`).join('\n'));
+  }
+
+  const { rejected, approved } = getFeedbackExamples();
+  const fmt = list => list.map(e => `- [${e.source}] ${e.title}`).join('\n');
+  if (rejected.length) {
+    parts.push(`EDITOR FEEDBACK — the editor manually REJECTED these articles as not relevant (treat similar articles as alpine: false):\n${fmt(rejected)}`);
+  }
+  if (approved.length) {
+    parts.push(`EDITOR FEEDBACK — the editor manually APPROVED these articles (treat similar articles as alpine: true):\n${fmt(approved)}`);
+  }
+  return parts.length ? '\n\n' + parts.join('\n\n') : '';
+}
 
 async function checkBatch(articles) {
   const items = articles.map(a => ({
@@ -15,6 +38,7 @@ async function checkBatch(articles) {
     source: a.source_name,
   }));
 
+  const learned = buildLearnedContext();
   const prompt = `You are a STRICT relevance filter for an alpine skiing (alpint) newsroom tool used by Norwegian radio commentators.
 
 ACCEPT (alpine: true) ONLY articles where alpine ski racing is the PRIMARY subject:
@@ -31,7 +55,7 @@ REJECT (alpine: false) everything else, including:
 - Celebrity, lifestyle, travel, or winter tourism articles
 - Weather reports or resort conditions unless directly tied to a specific alpine race
 
-When in doubt, REJECT. It is better to miss a borderline article than to include non-alpine content.
+When in doubt, REJECT. It is better to miss a borderline article than to include non-alpine content.${learned}
 
 Return ONLY a JSON array, no markdown, no text outside the array.
 

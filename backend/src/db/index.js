@@ -197,7 +197,27 @@ export function dismissArticle(id) {
 }
 
 export function approveArticle(id) {
-  getDb().prepare(`UPDATE articles SET fact_ok=1, fact_notes=NULL WHERE id=?`).run(id);
+  getDb().prepare(`UPDATE articles SET fact_ok=1, fact_notes='Manuelt godkjent' WHERE id=?`).run(id);
+}
+
+// Redaktørens egne valg, brukt som eksempler i faktasjekk-prompten
+export function getFeedbackExamples(rejectLimit = 25, approveLimit = 15) {
+  const q = (note, limit) => getDb().prepare(`
+    SELECT source_name AS source, COALESCE(title_no, title_orig) AS title
+    FROM articles WHERE fact_notes = ?
+    ORDER BY id DESC LIMIT ?
+  `).all(note, limit);
+  return { rejected: q('Manuelt avvist', rejectLimit), approved: q('Manuelt godkjent', approveLimit) };
+}
+
+// Alpint-andel per kilde (kun kilder med nok sjekkede saker)
+export function getSourceAlpineRates(minChecked = 20) {
+  return getDb().prepare(`
+    SELECT source_name AS source, COUNT(*) AS checked,
+           ROUND(100.0 * SUM(fact_ok = 1) / COUNT(*)) AS rate
+    FROM articles WHERE fact_ok IS NOT NULL
+    GROUP BY source_name HAVING COUNT(*) >= ?
+  `).all(minChecked);
 }
 
 export function getAllForFactcheck(limit = 300) {
