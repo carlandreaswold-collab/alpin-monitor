@@ -1,9 +1,10 @@
 const BASE = '/api'
 
-export async function fetchArticles({ country, athlete, limit = 80 } = {}) {
+export async function fetchArticles({ country, athlete, q, limit = 80 } = {}) {
   const params = new URLSearchParams()
   if (country) params.set('country', country)
   if (athlete) params.set('athlete', athlete)
+  if (q) params.set('q', q)
   params.set('limit', limit)
   const res = await fetch(`${BASE}/articles?${params}`)
   if (!res.ok) throw new Error('API ikke tilgjengelig')

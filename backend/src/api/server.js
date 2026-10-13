@@ -24,14 +24,29 @@ app.use(express.json());
 
 // Hent siste saker (ufiltret eller filtrert)
 app.get('/api/articles', (req, res) => {
-  const { country, athlete, limit } = req.query;
+  const { country, athlete, limit, q } = req.query;
+  const words = normalizeText(q).split(/\s+/).filter(Boolean);
+  // Fritekstsøk leter i alle godkjente saker, ikke bare de nyeste
   const articles = getRecentArticles({
     country:  country  || undefined,
     athlete:  athlete  || undefined,
-    limit:    limit ? parseInt(limit) : 80,
+    limit:    words.length ? 1000 : (limit ? parseInt(limit) : 80),
   });
-  res.json(articles);
+  if (!words.length) return res.json(articles);
+  res.json(articles.filter(a => {
+    const hay = normalizeText([
+      a.title_no, a.title_orig, a.summary_no, a.spik_no, a.athletes, a.source_name,
+      a.also_sources.join(' '), a.category,
+      ...a.athlete_nations.map(c => { const n = nationInfo(c); return `${c} ${n.name}`; }),
+    ].filter(Boolean).join(' '));
+    return words.every(w => hay.includes(w));
+  }));
 });
+
+// Små bokstaver og uten aksenter, så «solden» treffer «Sölden»
+function normalizeText(s) {
+  return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
 
 // Hent kategoriserte saker
 app.get('/api/categorized', (req, res) => {

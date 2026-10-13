@@ -29,12 +29,21 @@ export default function App() {
 
   useEffect(() => { articlesRef.current = articles }, [articles])
 
-  const load = useCallback(async (c, a) => {
-    const data = await fetchArticles({ country: c || undefined, athlete: a || undefined })
+  // Søket går mot serveren (alle saker), med litt ventetid mens man skriver
+  const [query, setQuery] = useState('')
+  useEffect(() => {
+    const t = setTimeout(() => setQuery(search.trim()), 250)
+    return () => clearTimeout(t)
+  }, [search])
+  const queryRef = useRef('')
+  useEffect(() => { queryRef.current = query }, [query])
+
+  const load = useCallback(async (c, a, q) => {
+    const data = await fetchArticles({ country: c || undefined, athlete: a || undefined, q: q || undefined })
     setArticles(data)
   }, [])
 
-  useEffect(() => { load(country, athlete) }, [country, athlete, load])
+  useEffect(() => { load(country, athlete, query) }, [country, athlete, query, load])
 
   useEffect(() => {
     fetchAthletes().then(setAthletes)
@@ -80,7 +89,7 @@ export default function App() {
       fetchNations().then(setNations).catch(() => {})
       if (total > 0) setNewCount(n => n + total)
       const prevIds = new Set(articlesRef.current.map(a => a.id))
-      const data = await fetchArticles({ country: country || undefined, athlete: athlete || undefined })
+      const data = await fetchArticles({ country: country || undefined, athlete: athlete || undefined, q: queryRef.current || undefined })
       setNewIds(new Set(data.filter(a => !prevIds.has(a.id)).map(a => a.id)))
       setArticles(data)
     })
@@ -121,15 +130,7 @@ export default function App() {
     setArticles(prev => prev.filter(a => a.id !== id))
   }
 
-  const filtered = articles.filter(a => {
-    if (!search) return true
-    const q = search.toLowerCase()
-    return (
-      (a.title_no || a.title_orig || '').toLowerCase().includes(q) ||
-      (a.athletes || '').toLowerCase().includes(q) ||
-      (a.source_name || '').toLowerCase().includes(q)
-    )
-  })
+  const filtered = articles
 
   const categoryCounts = {}
   for (const a of filtered) {

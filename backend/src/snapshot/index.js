@@ -337,14 +337,20 @@ function cardHtml(a, compact) {
   </div>\`;
 }
 
+function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, ''); }
+
 function render() {
   renderFilterRow();
-  const q = searchQ.toLowerCase();
+  const words = norm(searchQ).split(/\\s+/).filter(Boolean);
   const visible = ARTICLES.filter(a => {
     if (activeCountry === 'INT' ? a.country !== 'INT' : (activeCountry && !(a.athlete_nations || []).includes(activeCountry))) return false;
     if (activeCat && a.category !== activeCat) return false;
     if (activeAthlete && !(a.athletes||'').split(',').map(s=>s.trim()).includes(activeAthlete)) return false;
-    if (q && !(a.title_no||a.title_orig||'').toLowerCase().includes(q) && !(a.athletes||'').toLowerCase().includes(q) && !(a.source_name||'').toLowerCase().includes(q)) return false;
+    if (words.length) {
+      const hay = norm([a.title_no, a.title_orig, a.summary_no, a.spik_no, a.athletes, a.source_name, (a.also_sources||[]).join(' '), a.category,
+        ...(a.athlete_nations||[]).map(c => c + ' ' + ((NATION_META[c]||[])[1]||''))].filter(Boolean).join(' '));
+      if (!words.every(w => hay.includes(w))) return false;
+    }
     return true;
   });
 
@@ -353,7 +359,7 @@ function render() {
   const feed = document.getElementById('feed');
   feed.innerHTML = visible.length
     ? visible.map(a => cardHtml(a, false)).join('')
-    : \`<div class="empty">\${q || activeCountry || activeCat || activeAthlete ? 'Ingen treff' : 'Ingen saker'}</div>\`;
+    : \`<div class="empty">\${words.length || activeCountry || activeCat || activeAthlete ? 'Ingen treff' : 'Ingen saker'}</div>\`;
 
   // Spik-liste: vis alle kategoriserte (ufiltrert på land/utøver/søk for sidepanelet, men respekter kategori-filter)
   const spikFilter = activeCat
