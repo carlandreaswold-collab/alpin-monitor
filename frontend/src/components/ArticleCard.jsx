@@ -22,6 +22,7 @@ export const CATEGORIES = [
   { id: 'goy',       label: '😄 Gøy' },
   { id: 'nerding',   label: '🔬 Nerding' },
   { id: 'kjendis',   label: '🌟 Kjendis' },
+  { id: 'naert',     label: '🤝 Nært og nyttig' },
 ]
 
 function formatDate(dateStr) {

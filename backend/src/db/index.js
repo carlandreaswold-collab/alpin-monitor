@@ -47,7 +47,7 @@ function initSchema(db) {
 
     CREATE TABLE IF NOT EXISTS categorizations (
       article_id  INTEGER NOT NULL REFERENCES articles(id) ON DELETE CASCADE,
-      category    TEXT NOT NULL,  -- sportslig | nyheter | viktig | goy | nerding | kjendis
+      category    TEXT NOT NULL,  -- sportslig | nyheter | viktig | goy | nerding | kjendis | naert
       created_at  TEXT NOT NULL DEFAULT (datetime('now')),
       PRIMARY KEY (article_id)
     );

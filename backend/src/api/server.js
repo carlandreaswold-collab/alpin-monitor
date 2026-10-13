@@ -41,7 +41,7 @@ app.get('/api/categorized', (req, res) => {
 // Kategoriser en sak
 app.post('/api/categorize', (req, res) => {
   const { article_id, category } = req.body;
-  const VALID = ['sportslig','nyheter','viktig','goy','nerding','kjendis'];
+  const VALID = ['sportslig','nyheter','viktig','goy','nerding','kjendis','naert'];
   if (!article_id || !VALID.includes(category)) {
     return res.status(400).json({ error: 'Ugyldig article_id eller category' });
   }

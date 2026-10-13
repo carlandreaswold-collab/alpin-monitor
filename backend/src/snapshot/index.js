@@ -21,6 +21,7 @@ const CATEGORIES = [
   { id: 'goy',       label: '😄 Gøy' },
   { id: 'nerding',   label: '🔬 Nerding' },
   { id: 'kjendis',   label: '🌟 Kjendis' },
+  { id: 'naert',     label: '🤝 Nært og nyttig' },
 ]
 
 const RACES = [
@@ -54,7 +55,7 @@ function buildHtml(articles, updatedAt) {
   --border:#2c3347;--border2:#3a4160;
   --fg:#dde2f0;--fg2:#8892b0;--fg3:#4a5470;
   --viktig:#e05555;--sportslig:#4a9eff;--nyheter:#8892b0;
-  --goy:#52c78a;--nerding:#a87ef0;--kjendis:#f0a04a;
+  --goy:#52c78a;--nerding:#a87ef0;--kjendis:#f0a04a;--naert:#3cc8c8;
 }
 body{background:var(--bg);color:var(--fg);font-family:'Figtree',sans-serif;font-size:14px;line-height:1.5;min-height:100vh}
 a{color:inherit;text-decoration:none}
@@ -81,6 +82,7 @@ a{color:inherit;text-decoration:none}
 .ftab.cat-goy.active{color:var(--goy);border-bottom-color:var(--goy)}
 .ftab.cat-nerding.active{color:var(--nerding);border-bottom-color:var(--nerding)}
 .ftab.cat-kjendis.active{color:var(--kjendis);border-bottom-color:var(--kjendis)}
+.ftab.cat-naert.active{color:var(--naert);border-bottom-color:var(--naert)}
 .divider{width:1px;height:18px;background:var(--border2);margin:0 4px;flex-shrink:0}
 .cbadge{font-size:9px;font-weight:700;padding:1px 5px;border-radius:8px;margin-left:4px;vertical-align:middle}
 .cbadge-viktig{background:#e0555530;color:var(--viktig)}
@@ -89,6 +91,7 @@ a{color:inherit;text-decoration:none}
 .cbadge-goy{background:#52c78a30;color:var(--goy)}
 .cbadge-nerding{background:#a87ef030;color:var(--nerding)}
 .cbadge-kjendis{background:#f0a04a30;color:var(--kjendis)}
+.cbadge-naert{background:#3cc8c830;color:var(--naert)}
 
 /* SEARCH ROW */
 .search-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;align-items:center;padding:6px 0 6px}
@@ -121,6 +124,7 @@ a{color:inherit;text-decoration:none}
 .cat-goy{background:#52c78a20;color:var(--goy)}
 .cat-nerding{background:#a87ef020;color:var(--nerding)}
 .cat-kjendis{background:#f0a04a20;color:var(--kjendis)}
+.cat-naert{background:#3cc8c820;color:var(--naert)}
 .nor-chip{font-size:10px;font-weight:600;padding:1px 6px;border-radius:3px;background:rgba(186,12,47,.15);color:#e8566f;border:1px solid rgba(186,12,47,.35)}
 .multi-chip{font-size:10px;font-weight:600;padding:1px 6px;border-radius:3px;cursor:help;background:rgba(80,160,255,.12);color:#6fb0ff;border:1px solid rgba(80,160,255,.3)}
 .card-nor{border-left:3px solid #ba0c2f}

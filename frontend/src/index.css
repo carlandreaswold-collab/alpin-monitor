@@ -17,6 +17,7 @@
   --cat-goy:       #52c78a;
   --cat-nerding:   #a87ef0;
   --cat-kjendis:   #f0a04a;
+  --cat-naert:     #3cc8c8;
 
   --src-NOR: #52c78a22;
   --src-INT: #4a9eff22;
@@ -290,12 +291,14 @@ body {
 .cat-btn-goy       { color: var(--cat-goy);        border-color: var(--cat-goy); }
 .cat-btn-nerding   { color: var(--cat-nerding);    border-color: var(--cat-nerding); }
 .cat-btn-kjendis   { color: var(--cat-kjendis);    border-color: var(--cat-kjendis); }
+.cat-btn-naert     { color: var(--cat-naert);      border-color: var(--cat-naert); }
 .cat-btn.active-viktig    { background: var(--cat-viktig);    color: #fff; border-color: var(--cat-viktig); }
 .cat-btn.active-sportslig { background: var(--cat-sportslig); color: #fff; border-color: var(--cat-sportslig); }
 .cat-btn.active-nyheter   { background: var(--cat-nyheter);   color: #fff; border-color: var(--cat-nyheter); }
 .cat-btn.active-goy       { background: var(--cat-goy);       color: #fff; border-color: var(--cat-goy); }
 .cat-btn.active-nerding   { background: var(--cat-nerding);   color: #fff; border-color: var(--cat-nerding); }
 .cat-btn.active-kjendis   { background: var(--cat-kjendis);   color: #fff; border-color: var(--cat-kjendis); }
+.cat-btn.active-naert     { background: var(--cat-naert);     color: #fff; border-color: var(--cat-naert); }
 
 .cat-strip {
   font-size: 10px;
@@ -312,6 +315,7 @@ body {
 .strip-goy       { background: #52c78a20; color: var(--cat-goy); }
 .strip-nerding   { background: #a87ef020; color: var(--cat-nerding); }
 .strip-kjendis   { background: #f0a04a20; color: var(--cat-kjendis); }
+.strip-naert     { background: #3cc8c820; color: var(--cat-naert); }
 
 /* ── SIDEBAR ── */
 .sidebar-col {
@@ -367,6 +371,7 @@ body {
 .dot-goy       { background: var(--cat-goy); }
 .dot-nerding   { background: var(--cat-nerding); }
 .dot-kjendis   { background: var(--cat-kjendis); }
+.dot-naert     { background: var(--cat-naert); }
 
 .spik-title {
   font-family: 'Barlow Condensed', sans-serif;
@@ -574,12 +579,14 @@ body {
 .cat-nav-goy       { color: var(--cat-goy); }
 .cat-nav-nerding   { color: var(--cat-nerding); }
 .cat-nav-kjendis   { color: var(--cat-kjendis); }
+.cat-nav-naert     { color: var(--cat-naert); }
 .badge-viktig    { background: #e0555522; color: var(--cat-viktig); }
 .badge-sportslig { background: #4a9eff22; color: var(--cat-sportslig); }
 .badge-nyheter   { background: #8892b022; color: var(--cat-nyheter); }
 .badge-goy       { background: #52c78a22; color: var(--cat-goy); }
 .badge-nerding   { background: #a87ef022; color: var(--cat-nerding); }
 .badge-kjendis   { background: #f0a04a22; color: var(--cat-kjendis); }
+.badge-naert     { background: #3cc8c822; color: var(--cat-naert); }
 
 /* ── VIEW TOGGLE ── */
 .view-toggle-btn {
@@ -974,6 +981,7 @@ body {
 .modal-title-goy       { color: var(--cat-goy); }
 .modal-title-nerding   { color: var(--cat-nerding); }
 .modal-title-kjendis   { color: var(--cat-kjendis); }
+.modal-title-naert     { color: var(--cat-naert); }
 .modal-count {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 10px;
