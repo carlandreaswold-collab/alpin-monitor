@@ -117,7 +117,8 @@ export async function fetchAll(emitter) {
     if (n > 0 && emitter) emitter.emit('new_articles', { source: source.name, count: n });
   }
   console.log(`✓ Ferdig — ${total} nye saker totalt\n`);
-  if (total > 0) {
+  // Kjøres alltid: hvert steg plukker opp ubehandlede saker selv, så avbrutte runder fullføres
+  {
     progress('scrape', `Leser artikkeltekst (${total} nye saker)`);
     await scrapeBodyTexts();
     progress('translate', `Oversetter (${total} nye saker)`);

@@ -1,16 +1,9 @@
 import { CATEGORIES } from './ArticleCard'
 import { useReadonly } from '../lib/readonly'
 
-// Flaggene = land med utøvere i sakene (fra /api/nations), pluss internasjonale kilder
-const BASE_TABS = [
-  { code: '',    label: 'Alle' },
-  { code: 'INT', label: '🌐 Internasjonalt' },
-]
-
 export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, nations = [], onFetch, fetching, fetchLabel, fetchResult, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
   const totalCategorized = Object.values(categoryCounts).reduce((s, n) => s + n, 0)
   const readonly = useReadonly()
-  const COUNTRIES = [...BASE_TABS, ...nations.map(n => ({ code: n.code, label: n.name, iso: n.iso, flag: n.flag, count: n.count }))]
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 0, width: '100%', minWidth: 0 }}>
@@ -22,6 +15,19 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
           onChange={e => onSearch(e.target.value)}
           placeholder="Søk i titler, utøvere…"
         />
+        <select
+          className="athlete-select"
+          value={country}
+          onChange={e => onCountry(e.target.value)}
+        >
+          <option value="">Alle land</option>
+          <option value="INT">Internasjonalt</option>
+          {nations.map(n => (
+            <option key={n.code} value={n.code}>
+              {n.flag ? `${n.flag} ` : ''}{n.name}{n.count ? ` (${n.count})` : ''}
+            </option>
+          ))}
+        </select>
         {athletes.length > 0 && (
           <select
             className="athlete-select"
@@ -55,20 +61,6 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
         )}
       </div>
       <div className="filter-tabs">
-        <div className="filter-row filter-row-countries">
-          {COUNTRIES.map(c => (
-            <button
-              key={c.code}
-              className={`filter-tab ${country === c.code ? 'active' : ''}`}
-              onClick={() => onCountry(c.code)}
-            >
-              {c.iso
-                ? <img className="flag" src={`/flags/${c.iso}.svg`} alt="" loading="lazy" />
-                : c.code === 'INT' ? <span aria-hidden="true">🌐 </span> : null}
-              {c.label}{c.count ? <span className="filter-count">{c.count}</span> : null}
-            </button>
-          ))}
-        </div>
         {totalCategorized > 0 && (
           <div className="filter-row filter-row-cats">
             {CATEGORIES.map(cat => {

@@ -154,9 +154,10 @@ a{color:inherit;text-decoration:none}
     <span class="readonly-badge">👁 Lesevisning</span>
     <span class="updated">Oppdatert ${updatedAt}</span>
   </div>
-  <div class="filter-rows"><div class="filter-row" id="filter-row"></div><div class="filter-row" id="cat-row"></div></div>
+  <div class="filter-rows"><div class="filter-row" id="cat-row"></div></div>
   <div class="search-row">
     <input class="search-input" type="search" id="search" placeholder="Søk i titler, utøvere…">
+    <select class="athlete-select" id="country-select"><option value="">Alle land</option></select>
     <select class="athlete-select" id="athlete-select"><option value="">Alle utøvere</option></select>
     <span class="count" id="count"></span>
   </div>
@@ -234,7 +235,7 @@ const COUNTRIES = [
   {code:'INT',label:'🌐 Internasjonalt'},
   ...Object.entries(nationCounts).sort((x,y) => y[1]-x[1] || x[0].localeCompare(y[0])).map(([code,n]) => {
     const m = NATION_META[code] || ['🏳️', code, null];
-    return {code, iso: m[2], label: m[1] + ' ' + n};
+    return {code, iso: m[2], label: m[0] + ' ' + m[1] + ' (' + n + ')'};
   }),
 ];
 
@@ -243,22 +244,20 @@ let activeCat = '';
 let searchQ = '';
 let activeAthlete = '';
 
-const filterRow = document.getElementById('filter-row');
 const catRow = document.getElementById('cat-row');
+const countryEl = document.getElementById('country-select');
 
 COUNTRIES.forEach(c => {
-  const btn = document.createElement('button');
-  btn.className = 'ftab' + (c.code === '' ? ' active' : '');
-  btn.dataset.country = c.code;
-  if (c.iso) { const im = document.createElement('img'); im.className = 'flag'; im.alt = ''; im.src = 'flags/' + c.iso + '.svg'; btn.appendChild(im); }
-  btn.appendChild(document.createTextNode(c.label));
-  btn.addEventListener('click', () => {
-    activeCountry = c.code;
-    activeCat = '';
-    renderFilterRow();
-    render();
-  });
-  filterRow.appendChild(btn);
+  if (c.code === '') return;
+  const o = document.createElement('option');
+  o.value = c.code; o.textContent = c.label;
+  countryEl.appendChild(o);
+});
+countryEl.addEventListener('change', e => {
+  activeCountry = e.target.value;
+  activeCat = '';
+  renderFilterRow();
+  render();
 });
 
 if (Object.keys(catCounts).length) {
@@ -280,11 +279,9 @@ if (Object.keys(catCounts).length) {
 }
 
 function renderFilterRow() {
+  countryEl.value = activeCountry;
   document.querySelectorAll('.filter-rows .ftab').forEach(b => {
-    b.classList.toggle('active',
-      (b.dataset.country !== undefined && b.dataset.country === activeCountry && !activeCat) ||
-      (b.dataset.cat !== undefined && b.dataset.cat === activeCat)
-    );
+    b.classList.toggle('active', b.dataset.cat !== undefined && b.dataset.cat === activeCat);
   });
 }
 
