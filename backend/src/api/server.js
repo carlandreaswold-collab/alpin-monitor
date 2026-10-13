@@ -30,7 +30,7 @@ app.get('/api/articles', (req, res) => {
   const articles = getRecentArticles({
     country:  country  || undefined,
     athlete:  athlete  || undefined,
-    limit:    words.length ? 1000 : (limit ? parseInt(limit) : 80),
+    limit:    words.length ? 1e9 : (limit ? parseInt(limit) : 80),
   });
   if (!words.length) return res.json(articles);
   res.json(articles.filter(a => {

@@ -179,6 +179,7 @@ a{color:inherit;text-decoration:none}
 const CATS = ${JSON.stringify(CATEGORIES)};
 const ARTICLES = ${JSON.stringify(articles)};
 const RACES = ${JSON.stringify(RACES)};
+const ARTICLES_ALL = ARTICLES.slice();
 
 // Sesongstatus
 function seasonStatus() {
@@ -303,7 +304,25 @@ function renderFilterRow() {
   });
 }
 
-document.getElementById('search').addEventListener('input', e => { searchQ = e.target.value; render(); });
+// Siden viser bare de nyeste sakene. Når noen søker, hentes saker.json (alle godkjente saker)
+// én gang, og eldre saker tas med i søket.
+let extraLoaded = false, extraLoading = false;
+function loadExtra() {
+  if (extraLoaded || extraLoading) return;
+  extraLoading = true;
+  fetch('saker.json').then(r => r.json()).then(j => {
+    const have = new Set(ARTICLES.map(a => a.id));
+    (j.saker || []).filter(r => !have.has(r.id)).forEach(r => ARTICLES_ALL.push({
+      id: r.id, source_name: r.kilde, country: r.kilde_land, title_no: r.tittel, title_orig: '',
+      summary_no: r.ingress, spik_no: r.spik, url: r.url, pub_date: r.publisert_iso, fetched_at: r.publisert_iso,
+      athletes: (r.utovere || []).join(','), athlete_nations: r.land || [], category: r.kategori || null,
+      also_sources: r.flere_kilder || []
+    }));
+    extraLoaded = true; extraLoading = false; render();
+  }).catch(() => { extraLoading = false; });
+}
+
+document.getElementById('search').addEventListener('input', e => { searchQ = e.target.value; if (searchQ.trim()) loadExtra(); render(); });
 document.getElementById('athlete-select').addEventListener('change', e => { activeAthlete = e.target.value; render(); });
 
 function cardHtml(a, compact) {
@@ -342,7 +361,8 @@ function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace
 function render() {
   renderFilterRow();
   const words = norm(searchQ).split(/\\s+/).filter(Boolean);
-  const visible = ARTICLES.filter(a => {
+  const pool = words.length && extraLoaded ? ARTICLES_ALL : ARTICLES;
+  const visible = pool.filter(a => {
     if (activeCountry === 'INT' ? a.country !== 'INT' : (activeCountry && !(a.athlete_nations || []).includes(activeCountry))) return false;
     if (activeCat && a.category !== activeCat) return false;
     if (activeAthlete && !(a.athletes||'').split(',').map(s=>s.trim()).includes(activeAthlete)) return false;
