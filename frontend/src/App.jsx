@@ -164,6 +164,7 @@ export default function App() {
             onSearch={setSearch}
             categoryCounts={categoryCounts}
             onCategoryOpen={setCategoryModal}
+            onReset={() => { setCountry(''); setAthlete(''); setSearch(''); setNewCount(0) }}
           />
           {!readonly && (
             <button

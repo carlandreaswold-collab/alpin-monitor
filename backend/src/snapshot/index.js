@@ -260,6 +260,18 @@ countryEl.addEventListener('change', e => {
   render();
 });
 
+const allBtn = document.createElement('button');
+allBtn.className = 'ftab active';
+allBtn.dataset.all = '1';
+allBtn.textContent = 'Alle saker';
+allBtn.addEventListener('click', () => {
+  activeCountry = ''; activeCat = ''; activeAthlete = ''; searchQ = '';
+  document.getElementById('search').value = '';
+  athleteEl.value = '';
+  render();
+});
+catRow.appendChild(allBtn);
+
 if (Object.keys(catCounts).length) {
   CATS.forEach(cat => {
     const count = catCounts[cat.id] || 0;
@@ -281,7 +293,9 @@ if (Object.keys(catCounts).length) {
 function renderFilterRow() {
   countryEl.value = activeCountry;
   document.querySelectorAll('.filter-rows .ftab').forEach(b => {
-    b.classList.toggle('active', b.dataset.cat !== undefined && b.dataset.cat === activeCat);
+    b.classList.toggle('active', b.dataset.all
+      ? !activeCountry && !activeCat && !activeAthlete && !searchQ
+      : b.dataset.cat !== undefined && b.dataset.cat === activeCat);
   });
 }
 
@@ -320,6 +334,7 @@ function cardHtml(a, compact) {
 }
 
 function render() {
+  renderFilterRow();
   const q = searchQ.toLowerCase();
   const visible = ARTICLES.filter(a => {
     if (activeCountry === 'INT' ? a.country !== 'INT' : (activeCountry && !(a.athlete_nations || []).includes(activeCountry))) return false;

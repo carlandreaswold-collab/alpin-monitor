@@ -1,9 +1,10 @@
 import { CATEGORIES } from './ArticleCard'
 import { useReadonly } from '../lib/readonly'
 
-export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, nations = [], onFetch, fetching, fetchLabel, fetchResult, total, search, onSearch, categoryCounts = {}, onCategoryOpen }) {
+export default function FilterBar({ country, onCountry, athlete, onAthlete, athletes, nations = [], onFetch, fetching, fetchLabel, fetchResult, total, search, onSearch, categoryCounts = {}, onCategoryOpen, onReset }) {
   const totalCategorized = Object.values(categoryCounts).reduce((s, n) => s + n, 0)
   const readonly = useReadonly()
+  const noFilter = !country && !athlete && !search
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 0, width: '100%', minWidth: 0 }}>
@@ -61,8 +62,11 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
         )}
       </div>
       <div className="filter-tabs">
-        {totalCategorized > 0 && (
-          <div className="filter-row filter-row-cats">
+        <div className="filter-row filter-row-cats">
+          <button className={`filter-tab ${noFilter ? 'active' : ''}`} onClick={onReset}>
+            Alle saker
+          </button>
+          {totalCategorized > 0 && <>
             {CATEGORIES.map(cat => {
               const count = categoryCounts[cat.id] || 0
               if (!count) return null
@@ -77,8 +81,8 @@ export default function FilterBar({ country, onCountry, athlete, onAthlete, athl
                 </button>
               )
             })}
-          </div>
-        )}
+          </>}
+        </div>
       </div>
     </div>
   )
