@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-13T19:30:11.296Z",
- "antall": 129,
+ "oppdatert": "2026-10-13T19:45:20.227Z",
+ "antall": 130,
  "saker": [
+  {
+   "id": 24955,
+   "publisert": "2026-10-13 21:34",
+   "publisert_iso": "2026-10-13T19:34:08.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Petra Vlhovás nye start: Tilbake i Sölden og avduking av statue i hjembyen",
+   "ingress": "Petra Vlhová er klar for comeback i Sölden, samtidig som en statue av den slovakiske stjernen ble avduket i hjembyen hennes.",
+   "spik": "Petra Vlhová er klar for comeback i verdenscupen når sesongen åpner i Sölden 24. oktober – nesten tre år etter hennes siste verdenscupstart. Den slovakiske stjernen gjennomgikk to operasjoner og langvarig rehabilitering etter en alvorlig kneskade i 2023, men returnerte til konkurranse under vinter-OL i 2026. Hun har hentet inn østerrikske Mario Rafetzeder som ny sjefstrener, som tidligere har jobbet med de britiske og finske landslag. Hjembyen Liptovský Mikuláš markerte comebacket med avduking av en statue til hennes ære.",
+   "utovere": [
+    "Petra Vlhová"
+   ],
+   "land": [
+    "SVK"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/petra-vlhovas-new-beginning-solden-return-hometown-statue-unveiled/"
+  },
   {
    "id": 23905,
    "publisert": "2026-10-13 17:25",
@@ -106,7 +125,7 @@
    "spik": "Den italienske alpinisten Giada D'Antonio, født 2009, sier hun nå er smertefri etter korsbåndsskaden hun pådro seg 14. februar i trening i Dobbiaco – midt under OL-perioden. Etter nesten sju måneder med rehabilitering ved J Medical i Torino er hun tilbake på snø og trener nå i Val Senales. Planen er et mulig debut i Europa-cupen allerede fra åpningsrennene i Levi 21.–22. november, før hun vender tilbake til verdenscupsirkuset.",
    "utovere": [],
    "land": [],
-   "kategori": "kjendis",
+   "kategori": "naert",
    "flere_kilder": [],
    "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/scio-senza-dolore-l-infortunio-mi-ha-insegnato-tanto-giada-d-antonio-ora-in-senales-probabile-il-debutto-in-coppa-europa"
   },
@@ -1506,7 +1525,7 @@
    "land": [
     "ALB"
    ],
-   "kategori": "",
+   "kategori": "naert",
    "flere_kilder": [],
    "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/lara-colturi-torna-al-lavoro-in-lituania-slalom-nello-skidome-di-druskininkai-poi-focus-su-soelden"
   },
