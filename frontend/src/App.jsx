@@ -131,8 +131,6 @@ export default function App() {
     )
   })
 
-  const uncategorized = filtered.filter(a => !a.category)
-
   const categoryCounts = {}
   for (const a of filtered) {
     if (a.category) categoryCounts[a.category] = (categoryCounts[a.category] || 0) + 1
@@ -190,15 +188,15 @@ export default function App() {
       <div className="main-layout" style={view !== 'feed' ? { display: 'none' } : {}}>
         <div className="feed-col">
           <div className="section-label">
-            Innkommende — {uncategorized.length} saker
+            Alle saker — {filtered.length}
           </div>
-          {uncategorized.length === 0 ? (
+          {filtered.length === 0 ? (
             <div className="empty-state">
               <div className="empty-icon">⛷</div>
               {search ? 'Ingen treff på søket' : 'Ingen saker — trykk «Hent nå»'}
             </div>
           ) : (
-            uncategorized.map(a => (
+            filtered.map(a => (
               <ArticleCard key={a.id} article={a} onCategoryChange={handleCategoryChange} onDismiss={handleDismiss} isNew={newIds.has(a.id)} />
             ))
           )}

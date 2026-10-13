@@ -332,10 +332,9 @@ function render() {
   document.getElementById('count').textContent = visible.length + ' saker';
 
   const feed = document.getElementById('feed');
-  const uncategorized = visible.filter(a => !a.category);
-  feed.innerHTML = uncategorized.length
-    ? uncategorized.map(a => cardHtml(a, false)).join('')
-    : \`<div class="empty">\${q || activeCountry || activeCat || activeAthlete ? 'Ingen treff' : 'Ingen saker i innboksen'}</div>\`;
+  feed.innerHTML = visible.length
+    ? visible.map(a => cardHtml(a, false)).join('')
+    : \`<div class="empty">\${q || activeCountry || activeCat || activeAthlete ? 'Ingen treff' : 'Ingen saker'}</div>\`;
 
   // Spik-liste: vis alle kategoriserte (ufiltrert på land/utøver/søk for sidepanelet, men respekter kategori-filter)
   const spikFilter = activeCat
