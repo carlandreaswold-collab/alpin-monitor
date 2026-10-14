@@ -1,7 +1,47 @@
 {
- "oppdatert": "2026-10-14T14:00:07.837Z",
- "antall": 135,
+ "oppdatert": "2026-10-14T14:15:24.764Z",
+ "antall": 137,
  "saker": [
+  {
+   "id": 30501,
+   "publisert": "2026-10-14 16:08",
+   "publisert_iso": "2026-10-14T14:08:51.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Kristoffer Jakobsen vil rette opp feilene – ved å gå tilbake til røttene",
+   "ingress": "Kristoffer Jakobsen jobber med å eliminere sine tekniske feil ved å gå tilbake til grunnleggende prinsipper.",
+   "spik": "Kristoffer Jakobsen har hatt en svært skuffende sesong og gikk ut i første omgang i sju av elleve slalomrenn i fjor. For å komme tilbake til toppform går 32-åringen tilbake til det eksakt samme utstyret han brukte da han ledet slalomcupen sammenlagt og var på sitt beste. Et nytt støvelkonsept fra skimerkevaret hans fungerte dårlig, og de svake resultatene har kostet ham mye i rankingen, slik at han neste sesong starter med høyere startnummer. Jakobsen har fire pallplasser i karrieren, den siste fra november 2024.",
+   "utovere": [
+    "Kristoffer Jakobsen"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/kristoffer-jakobsens-urakningar-ska-bort-genom-att-backa-i-tiden"
+  },
+  {
+   "id": 30438,
+   "publisert": "2026-10-14 16:00",
+   "publisert_iso": "2026-10-14T14:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Sofia Goggia tilbake på ski på Stelvio – nå sikter hun mot Amerika",
+   "ingress": "Etter over en måneds pause tok Sofia Goggia sine første skikkelige svinger på Stelvio. Nå er målet å reise til Amerika.",
+   "spik": "Sofia Goggia er tilbake på ski på Stelvio-breen etter over en måneds pause, og sikter nå mot sesongåpningen i Amerika. Den italienske utøveren, som er regjerende verdenscupvinner i super-G, ble rammet av to alvorlige virusinfeksjoner i løpet av sommeren som tvang henne til å forlate et viktig treningssamling i Ushuaia i Argentina allerede i starten av september. Goggia er kjent for sin evne til å kjempe seg tilbake etter motgang – hun har tidligere vunnet renn bare uker etter alvorlige skader. Planen er å debutere i sesongen på Killington i slutten av november.",
+   "utovere": [
+    "Laura Pirovano",
+    "Marta Bassino",
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/prime-vere-curve-allo-stelvio-dopo-oltre-un-mese-sofia-goggia-e-tornata-in-pista-ora-l-obiettivo-e-l-america"
+  },
   {
    "id": 29507,
    "publisert": "2026-10-14 14:06",
