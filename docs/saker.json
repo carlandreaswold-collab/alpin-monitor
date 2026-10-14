@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-10-14T01:45:05.014Z",
- "antall": 131,
+ "oppdatert": "2026-10-14T08:45:50.624Z",
+ "antall": 132,
  "saker": [
+  {
+   "id": 27875,
+   "publisert": "2026-10-14 08:40",
+   "publisert_iso": "2026-10-14T06:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Brignone åpner seg før comeback: «I Cervinia hadde jeg smerter i hver sving»",
+   "ingress": "Federica Brignone forteller om smertene hun slet med i Cervinia, og sier hun nå er i bedring. Hun kommenterer også Shiffrins valg.",
+   "spik": "Federica Brignone åpner seg om smertene hun slet med under Cervinia-rennene, der hun forteller at hun hadde vondt i hver eneste sving. Den italienske dobbeltvinneren fra OL i Milano-Cortina 2026 er fortsatt i rekonvalesens, men melder at bedringen er på vei, og comeback er ventet om et par uker. I intervjuet kommenterer hun også at hun ikke alltid har forstått Mikaela Shiffrins valg — noe hun sier heller ikke er nytt, siden hun reagerte på det samme da Shiffrin trakk seg fra Coppa del Mondo-kampen i 2024, som Brignone til slutt vant.",
+   "utovere": [
+    "Federica Brignone",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "ITA",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/brignone-si-apre-prima-del-ritorno-a-cervinia-dolore-ad-ogni-curva-ora-miglioro-shiffrin-mi-e-gia-capitato-di-non-capire-le-sue"
+  },
   {
    "id": 25650,
    "publisert": "2026-10-13 23:02",
