@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-10-14T11:15:05.546Z",
- "antall": 133,
+ "oppdatert": "2026-10-14T11:30:21.530Z",
+ "antall": 134,
  "saker": [
+  {
+   "id": 29156,
+   "publisert": "2026-10-14 13:15",
+   "publisert_iso": "2026-10-14T11:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Disse 11 italienske skiløperne er klar for Rettenbach – uten Brignone og Goggia",
+   "ingress": "Italia stiller med 11 utøvere til Rettenbach, anført av Della Mea, mens Bassino er tilbake. Brignone og Goggia er ikke med.",
+   "spik": "Italia stiller med 11 utøvere til sesongåpningen i storslalåm på Rettenbach i Sölden 24. oktober, men de to største profilene mangler: Federica Brignone og Sofia Goggia er ikke med. Brignone er regjerende verdensmester i storslalåm og vant den sammenlagte verdenscupen sist sesong, mens Goggia er en av verdens beste utforkjørere. Luca Della Mea anføres som lagets fremste navn, og Marta Bassino er tilbake etter fravær — hun har tidligere vunnet verdenscupkula i storslalåm.",
+   "utovere": [
+    "Federica Brignone",
+    "Marta Bassino",
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/eccole-qua-le-11-azzurre-per-il-rettenbach-senza-brignone-e-goggia-guida-della-mea-e-torna-finalmente-bassino"
+  },
   {
    "id": 28576,
    "publisert": "2026-10-14 12:00",
