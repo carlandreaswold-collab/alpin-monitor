@@ -39,23 +39,29 @@ async function checkBatch(articles) {
   }));
 
   const learned = buildLearnedContext();
-  const prompt = `You are a STRICT relevance filter for an alpine skiing (alpint) newsroom tool used by Norwegian radio commentators.
+  const prompt = `You are a relevance filter for an alpine skiing (alpint) newsroom tool used by Norwegian radio commentators.
 
-ACCEPT (alpine: true) ONLY articles where alpine ski racing is the PRIMARY subject:
+ACCEPT (alpine: true) articles where alpine ski racing is a MAIN subject. Accept:
 - Race results, startlists, previews, or analysis for: downhill (utfor), slalom, giant slalom (storslalåm), super-G, super combined, parallel events
-- Training, injury, or team news about named alpine ski RACERS (e.g. Marco Odermatt, Mikaela Shiffrin, Henrik Kristoffersen)
-- Alpine skiing equipment, ski preparation, or race technique
-- FIS Alpine World Cup, Alpine World Championships, Alpine Olympic events
+- Training camps, form, comebacks, injuries, equipment, retirements, interviews or personal stories about named alpine ski RACERS (e.g. Marco Odermatt, Mikaela Shiffrin, Sofia Goggia, Henrik Kristoffersen) — also when a first name alone clearly refers to a known alpine racer
+- National team selections, squads, kits and team/coach news for alpine teams
+- FIS Alpine World Cup, Alpine World Championships and Olympic alpine events, including the calendar, venues, course preparation, race organisation and FIS decisions that affect them (e.g. Narvik 2029, Cortina, Crans-Montana, race director changes)
+- Continental and development circuits for alpine racing (Europa Cup, Nor-Am, South America Cup, Junior)
+- Alpine skiing equipment, ski preparation, race technique and training technology
+- Alpine federation news (FIS, FISI, Swiss-Ski, ÖSV, DSV, US Ski & Snowboard) when it concerns alpine racing, its leadership or its athletes
 
-REJECT (alpine: false) everything else, including:
+REJECT (alpine: false):
 - Other ski disciplines: cross-country (langrenn), biathlon, ski jumping (hopp), freestyle, Nordic combined, ski touring
 - Football (fotball), handball (håndball), ice hockey (ishockey), swimming (svømming), athletics, tennis, cycling, or ANY other sport
 - General multi-sport Olympics coverage not specifically about alpine skiing
 - General sports news that merely mentions an alpine athlete in passing
-- Celebrity, lifestyle, travel, or winter tourism articles
-- Weather reports or resort conditions unless directly tied to a specific alpine race
+- Politics, crime, film, celebrity gossip, travel or winter tourism
+- Weather reports or resort conditions unless tied to a specific alpine race
+- Pure sponsor promotions, contests and marketing with no alpine racing content
 
-When in doubt, REJECT. It is better to miss a borderline article than to include non-alpine content.${learned}
+If an article is plausibly of interest to an alpine commentator, ACCEPT it. Reject only when it is clearly about another subject. For dedicated alpine sources (Ski Racing, SkinEWS, Neveitalia, Sportschau, franceinfo) lean towards ACCEPT when in doubt; stay stricter for general-sport sources.
+
+${learned}
 
 Return ONLY a JSON array, no markdown, no text outside the array.
 
