@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-15T13:15:22.524Z",
- "antall": 150,
+ "oppdatert": "2026-10-15T13:30:27.091Z",
+ "antall": 151,
  "saker": [
+  {
+   "id": 33860,
+   "publisert": "2026-10-15 15:22",
+   "publisert_iso": "2026-10-15T13:22:31.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Aleksander Aamodt Kilde uheldig med skader igjen",
+   "ingress": "Aleksander Aamodt Kilde er nok en gang rammet av skadeproblemer.",
+   "spik": "Aleksander Aamodt Kilde har pådratt seg en alvorlig fotskade under utforkjøringstrening i Chile, ifølge FIS. Den 34 år gamle nordmannen skal reise til Innsbruck for videre undersøkelser. Kilde mistet hele 2023/24-sesongen etter en dramatisk skade i Kitzbühel i januar 2024, der han rev over flere leddbånd i kneet. At han nok en gang er ute av trening i sesongoppkjøringen er et tungt tilbakeslag for en av de fremste fartsutøverne i sin generasjon, med to verdenscupseirer i utfor og super-G blant merittene.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/aleksander-aamodt-verletzungspech/"
+  },
   {
    "id": 33792,
    "publisert": "2026-10-15 15:10",
