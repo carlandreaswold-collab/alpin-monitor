@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-15T09:00:12.236Z",
- "antall": 143,
+ "oppdatert": "2026-10-15T09:15:25.400Z",
+ "antall": 144,
  "saker": [
+  {
+   "id": 32019,
+   "publisert": "2026-10-15 11:05",
+   "publisert_iso": "2026-10-15T09:05:29.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Nye fartsstjerner på vei frem i DSV: Et duo skaper furore",
+   "ingress": "To lovende utøvere gjør seg bemerket i det tyske alpinlandslaget og skaper stor oppmerksomhet med sine prestasjoner i fartsøvelsene.",
+   "spik": "To unge alpinister fra Allgäu, Felix Rösle (21) og Benno Brandis (20), peker seg ut som de store fremtidstalentene i det tyske fartslaget. Det tyske fartsteamet har vært i en overgangsfase siden veteraner som Thomas Dreßen, Josef Ferstl, Romed Baumann og Andreas Sander la opp. De to har vært bestevenner siden de var tolv år, og delte juniortitlene i 2024 da Rösle ble verdensmester i utfor og Brandis tok gull i super-G – et resultat som illustrerer hvor jevne de er.",
+   "utovere": [
+    "Josef Ferstl"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/regional/br/br-neue-speed-sterne-am-dsv-himmel-ein-duo-sorgt-fuer-furore-102.html"
+  },
   {
    "id": 31714,
    "publisert": "2026-10-15 09:30",
@@ -71,7 +90,7 @@
    "land": [
     "USA"
    ],
-   "kategori": "",
+   "kategori": "naert",
    "flere_kilder": [],
    "url": "https://skiracing.com/breezy-johnson-fis-ski-weight-rule/"
   },
@@ -128,7 +147,7 @@
    "land": [
     "SWE"
    ],
-   "kategori": "",
+   "kategori": "nerding",
    "flere_kilder": [],
    "url": "https://www.svt.se/sport/alpint/kristoffer-jakobsens-urakningar-ska-bort-genom-att-backa-i-tiden"
   },
