@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-15T14:45:19.342Z",
- "antall": 155,
+ "oppdatert": "2026-10-15T15:00:23.895Z",
+ "antall": 156,
  "saker": [
+  {
+   "id": 34611,
+   "publisert": "2026-10-15 16:45",
+   "publisert_iso": "2026-10-15T14:45:00.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Skistjernen Aleksander Aamodt Kilde alvorlig skadet igjen",
+   "ingress": "Norske alpinstjernen Aleksander Aamodt Kilde har på nytt pådratt seg en alvorlig skade.",
+   "spik": "Aleksander Aamodt Kilde har pådratt seg et achillessenebrudd under utfortrening i Chile, melder laget hans. 34-åringen reiser nå til Innsbruck for videre undersøkelser – og må igjen håndtere et alvorlig skadesjokk. Det er bare ett år siden han kom tilbake i Verdenscupen etter den dramatiske Wengen-ulykken i januar 2024, der han skadet både legg og skulder så alvorlig at han periodevis satt i rullestol. Kilde har 21 Verdenscupseire i utfor og super-G, og regnes som en av verdens beste fartsutøvere.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/ski-star-aleksander-aamodt-kilde-erneut-schwer-verletzt,ski-alpin-kilde-100.html"
+  },
   {
    "id": 34414,
    "publisert": "2026-10-15 16:30",
