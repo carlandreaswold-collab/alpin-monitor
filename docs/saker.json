@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-15T13:45:23.354Z",
- "antall": 152,
+ "oppdatert": "2026-10-15T14:00:19.631Z",
+ "antall": 153,
  "saker": [
+  {
+   "id": 34071,
+   "publisert": "2026-10-15 15:45",
+   "publisert_iso": "2026-10-15T13:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Mareritt for Kilde: Den norske mesteren rev over akillessenen i treningsfall",
+   "ingress": "Aleksander Aamodt Kilde pådro seg brudd på akillessenen etter et fall under utfortrening, i et alvorlig tilbakeslag for den norske alpinstjernen.",
+   "spik": "Aleksander Aamodt Kilde pådro seg brudd på akillessenen etter et fall under utfortrening i Chile, noe som setter hele sesongen hans i fare. Kilde er en av Norges fremste fartsspesialister og vant den samlede verdenscupen i sesongen 2019/20. Han reiste til Innsbruck for å vurdere operasjon og rehabiliteringsplan, men utsiktene for en retur i inneværende sesong er svært dystre. Det er ikke første gang Kilde rammes av alvorlig skade — han er kjent for å ta på seg stor risiko i fart.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/incubo-kilde-il-campione-norge-si-e-rotto-il-tendine-d-achille-cadendo-in-un-allenamento-di-discesa"
+  },
   {
    "id": 34002,
    "publisert": "2026-10-15 15:36",
