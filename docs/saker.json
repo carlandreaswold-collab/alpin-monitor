@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-15T13:30:27.091Z",
- "antall": 151,
+ "oppdatert": "2026-10-15T13:45:23.354Z",
+ "antall": 152,
  "saker": [
+  {
+   "id": 34002,
+   "publisert": "2026-10-15 15:36",
+   "publisert_iso": "2026-10-15T13:36:55.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Skistjernen Kilde pådro seg akillessenebrudd",
+   "ingress": "Den norske alpinstjernen Aleksander Aamodt Kilde har pådratt seg et akillessenebrudd, noe som setter hans videre sesong i fare.",
+   "spik": "Aleksander Aamodt Kilde har pådratt seg et akillessenebrudd etter et treningsfall i Chile, og stoppet nok en gang comebackforsøket sitt. Den norske alpinstjernen var på vei tilbake etter to sesonger ute med skader – i Wengen-utforkjøringen i januar 2024 pådro han seg et dypt kutt i beinet og en alvorlig skulder­skade, og etterpå rammet en leddbetennelse som utviklet seg til blodforgiftning. Kilde vant sammenlagtcupen i 2020/21 og regnes som en av verdens beste fartsutøvere, men har nå slitt med alvorlige skader i over to år.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163646/"
+  },
   {
    "id": 33860,
    "publisert": "2026-10-15 15:22",
