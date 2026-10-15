@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-10-15T09:30:12.502Z",
- "antall": 144,
+ "oppdatert": "2026-10-15T09:45:15.539Z",
+ "antall": 145,
  "saker": [
+  {
+   "id": 32207,
+   "publisert": "2026-10-15 11:34",
+   "publisert_iso": "2026-10-15T09:34:48.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Grønt lys for Sölden etter snøkontroll",
+   "ingress": "Sölden har fått klarsignal etter snøkontroll og er klar for gjennomføring av alpint.",
+   "spik": "FIS har gitt grønt lys for verdenscupåpningen i Sölden etter snøkontroll torsdag. Riesenslaломene for damer og herrer er satt til 24. og 25. oktober, og markerer som vanlig starten på den alpine verdenscupsesongen. Sölden har vært den tradisjonelle åpningsarenaen siden 2000, og er kjent for sin høytliggende Rettenbach-gletsjer som sikrer snøsikre forhold tidlig i sesongen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163636/"
+  },
   {
    "id": 32019,
    "publisert": "2026-10-15 11:05",
