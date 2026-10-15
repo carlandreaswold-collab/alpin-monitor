@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-15T14:00:19.631Z",
- "antall": 153,
+ "oppdatert": "2026-10-15T14:15:19.089Z",
+ "antall": 154,
  "saker": [
+  {
+   "id": 34230,
+   "publisert": "2026-10-15 16:05",
+   "publisert_iso": "2026-10-15T14:05:58.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Kilde ute med achillesseneruptur",
+   "ingress": "Norske Aleksander Aamodt Kilde er ute etter å ha pådratt seg et brudd på achillessenen.",
+   "spik": "Aleksander Aamodt Kilde har pådratt seg achillesseneruptur under trening i La Parva i Chile og er ute av idretten på ubestemt tid. Den 34 år gamle fartsspesialisten har allerede vært gjennom en svært tøff periode etter et dramatisk fall i utforkjøringen i Wengen i januar 2024, der han pådro seg et dypt kutt i beinet og en alvorlig skuldersskade – komplikasjoner med leddinfeksjon og blodforgiftning forsinket comebacket ytterligere. Kilde vant sammenlagtcupen i 2020/21 og er en av verdens mest meritterte fartskjørere, men det nye tilbakeslaget setter karrierefortsettelsen i alvorlig tvil.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163647/"
+  },
   {
    "id": 34071,
    "publisert": "2026-10-15 15:45",
