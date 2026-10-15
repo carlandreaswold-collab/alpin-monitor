@@ -1,7 +1,45 @@
 {
- "oppdatert": "2026-10-15T13:00:21.759Z",
- "antall": 148,
+ "oppdatert": "2026-10-15T13:15:22.524Z",
+ "antall": 150,
  "saker": [
+  {
+   "id": 33792,
+   "publisert": "2026-10-15 15:10",
+   "publisert_iso": "2026-10-15T13:10:24.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Aleksander Aamodt Kilde slet av hælsenen",
+   "ingress": "Aleksander Aamodt Kilde pådro seg en alvorlig skade da han slet av hælsenen.",
+   "spik": "Aleksander Aamodt Kilde rev av hælsenen under utfortrening i Chile onsdag, og reiser til Innsbruck for videre medisinsk behandling. Skaden er det siste i en lang rekke alvorlige tilbakeslag for nordmannen, som i januar 2024 slo seg bevisstløs i Wengens utforrenn og deretter ble rammet av sepsis — en akutt, livstruende blodforgiftning. Han rakk å gjøre comeback i verdenscupen før jul i fjor, men kom ikke i god nok form til å delta i OL. Norges Skiforbund lover oppdatering når veien videre er avklart.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/aleksander-aamodt-kilde-slet-av-halsenan"
+  },
+  {
+   "id": 33769,
+   "publisert": "2026-10-15 15:01",
+   "publisert_iso": "2026-10-15T13:01:06.000Z",
+   "kilde": "VG",
+   "kilde_land": "NOR",
+   "tittel": "Kilde røk akillessenen under trening",
+   "ingress": "",
+   "spik": "Aleksander Aamodt Kilde pådro seg en ny alvorlig skade da han rev av akillessenen under utfortrening i Chile. Skaden kommer etter et skademaraton som startet med et voldsomt fall i Wengen i januar 2024, der han ble bevisstløs og deretter gjennomgikk flere operasjoner — inkludert behandling for livstruende blodforgiftning. Han hadde nylig gjort comeback i verdenscupen og var klar for en ny sesong. Kilde reiser nå til Innsbruck for videre undersøkelser hos sitt faste medisinske team.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.vg.no/sport/i/9kM6QW/kilde-roek-akillesscenen-under-trening"
+  },
   {
    "id": 33636,
    "publisert": "2026-10-15 14:58",
