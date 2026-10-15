@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-10-15T10:00:20.975Z",
- "antall": 146,
+ "oppdatert": "2026-10-15T10:15:16.087Z",
+ "antall": 147,
  "saker": [
+  {
+   "id": 32431,
+   "publisert": "2026-10-15 12:14",
+   "publisert_iso": "2026-10-15T10:14:57.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "FIS gir grønt lys for sesongåpning",
+   "ingress": "Det internasjonale skiforbundet FIS har godkjent sesongåpningen i alpint.",
+   "spik": "FIS har godkjent snøforholdene på Rettenbachbreen i Sölden og gitt grønt lys for sesongåpningen i alpint 24. og 25. oktober. Damene kjører riesentorlauf fredag, herrene lørdag — begge dager med start klokken 10.00 og 13.00. Sölden har vært fast åpningsarena for alpinverdenscupen siden tidlig 2000-tall og setter tonen for hele sesongen. Tidligere østerriksk verdenscuputøver Florian Scheiber gjør sin debut som rennleder under åpningen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163637/"
+  },
   {
    "id": 32289,
    "publisert": "2026-10-15 11:45",
