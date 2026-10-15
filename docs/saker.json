@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-15T12:45:10.356Z",
- "antall": 147,
+ "oppdatert": "2026-10-15T13:00:21.759Z",
+ "antall": 148,
  "saker": [
+  {
+   "id": 33636,
+   "publisert": "2026-10-15 14:58",
+   "publisert_iso": "2026-10-15T12:58:29.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Erfaren trener ny støttespiller for Ester Ledecká",
+   "ingress": "En rutinert trener har sluttet seg til Ester Ledeckás støtteapparat.",
+   "spik": "Ester Ledecká har hentet inn en ny, erfaren trener som en del av støtteapparatet sitt foran sesongen 2026/27. Den tsjekkiske stjernen, som konkurrerer på høyeste nivå i både alpint og snowboard, har nylig byttet til skimerket HEAD og får nå også nye østerrikske trenere etter at sjefstrener Franz Gamper gikk av og Tomas Bank skiftet rolle. Ledecká er kjent for sin unike dobbeltkarriere og vant OL-gull i begge disipliner under lekene i Pyeongchang 2018.",
+   "utovere": [
+    "Ester Ledecka"
+   ],
+   "land": [
+    "CZE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/trainer-routinier-ledecka/"
+  },
   {
    "id": 32431,
    "publisert": "2026-10-15 12:14",
