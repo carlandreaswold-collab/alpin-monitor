@@ -1,7 +1,41 @@
 {
- "oppdatert": "2026-10-16T14:45:05.162Z",
- "antall": 162,
+ "oppdatert": "2026-10-16T15:00:24.137Z",
+ "antall": 164,
  "saker": [
+  {
+   "id": 40775,
+   "publisert": "2026-10-16 16:53",
+   "publisert_iso": "2026-10-16T14:53:58.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Saudi-Arabia planlegger fortsatt Asia-cup",
+   "ingress": "Saudi-Arabia holder fast ved planene om å arrangere et Asia-cup i alpint.",
+   "spik": "Dette notatet omhandler fotball-Asia-cup i Saudi-Arabia, ikke alpint, og er trolig feilsortert. Artikkelteksten handler om sikkerhetsbekymringer knyttet til fotballturneringen planlagt 7. januar til 5. februar 2027, med pågående Houthi-angrep som bakteppe. Ingen relevant alpininnhold er identifisert i denne saken.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163676/"
+  },
+  {
+   "id": 40745,
+   "publisert": "2026-10-16 16:52",
+   "publisert_iso": "2026-10-16T14:52:34.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Østerrike stiller med verdenscupdebutant i sesongåpningen",
+   "ingress": "Østerrike tar med en debutant til verdenscupåpningen i alpint denne sesongen.",
+   "spik": "Den 23 år gamle kärntnerske alpinisten Jakob Eisner får sin verdenscupdebut når Østerrike åpner sesongen på Rettenbachferner i Sölden 24.–25. oktober. Eisner sikret seg startplassen etter interne kvalifiseringer på verdenscupbakken fredag 16. oktober, sammen med Natalie Falch, Elena Riederer og Valentina Rings-Wanner. Østerrike stiller totalt med 17 utøvere i sesongåpningen, som tradisjonelt innleder verdenscupkalenderen i alpint hvert år.",
+   "utovere": [
+    "Jakob Eisner"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/oesterreich-weltcup-debuetanten/"
+  },
   {
    "id": 39035,
    "publisert": "2026-10-16 12:50",
