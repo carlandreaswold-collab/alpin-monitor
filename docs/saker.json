@@ -1,7 +1,148 @@
 {
- "oppdatert": "2026-10-17T09:15:09.888Z",
- "antall": 171,
+ "oppdatert": "2026-10-18T15:02:29.688Z",
+ "antall": 178,
  "saker": [
+  {
+   "id": 42233,
+   "publisert": "2026-10-18 11:10",
+   "publisert_iso": "2026-10-18T09:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Store navn på Rettenbach seks dager før åpningen – Aicher, Colturi og Robinson på pisten",
+   "ingress": "Toppalpinister testet forholdene på Rettenbach-breen kun seks dager før sesongåpningen i Sölden.",
+   "spik": "Seks dager før sesongåpningen i Sölden trente en rekke toppnavn på Rettenbach-breen, blant dem Lara Aicher, Lara Colturi og Paula Moltzan Robinson, i gode forhold. Rettenbach-breen i Ötztal-dalen er fast åpningsarena for verdenscupen i alpint, og gir utøverne en siste mulighet til å teste pisten og finne flyten før konkurransen starter. Værmeldingene for selve racehelgen er imidlertid ikke de beste, noe som kan påvirke forholdene på renndagen.",
+   "utovere": [
+    "Alice Robinson",
+    "Emma Aicher",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "NZL"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/big-sul-rettenbach-per-una-domenica-tra-tempi-e-feeling-da-trovare-sei-giorni-all-opening-in-pista-aicher-colturi-robinson"
+  },
+  {
+   "id": 42235,
+   "publisert": "2026-10-18 10:05",
+   "publisert_iso": "2026-10-18T08:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "De Aliprandini før Sölden: «Har funnet gleden tilbake»",
+   "ingress": "Luca De Aliprandini ser tilbake på VM-sølvet og podieplassen i Adelboden, og gleder seg til sesongåpningen i Sölden.",
+   "spik": "Luca De Aliprandini sier han har «funnet gleden tilbake» foran sesongåpningen i Sölden, etter et svært krevende år der kona Michelle Gisin ble alvorlig skadet. Den italienske storslalåmspesialisten vant VM-sølv i storslalåm og tok en podieplass i Adelboden, og har fem topp-ti-plasseringer i Sölden fra tidligere. Til tross for at han falt ut av topp 30 på verdensrankingen forrige sesong, stiller han med fornyet motivasjon og mener at Odermatt nå prioriterer fart fremfor storslalåm.",
+   "utovere": [
+    "Luca De Aliprandini"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/l-argento-mondiale-importante-ma-il-podio-di-adelboden-che-emozione-ora-ho-ritrovato-la-gioia-luca-de-aliprandini-si-racconta-p"
+  },
+  {
+   "id": 42237,
+   "publisert": "2026-10-17 18:40",
+   "publisert_iso": "2026-10-17T16:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Endelig tilbake: Liensberger på ski igjen etter ni og en halv måned",
+   "ingress": "Katharina Liensberger er tilbake på ski etter skaden, og smiler igjen. Et mulig comebackrenn i Gurgl vurderes.",
+   "spik": "Katharina Liensberger var tilbake på ski i Sölden ni og en halv måned etter at hun rev over høyre kne under storslalåm-trening 2. januar 2026. Den østerrikske VM-dobbeltmesteren fra Cortina 2021 – med gull i slalåm og parallell – bekreftet at hun ikke rekker Levi, men holder muligheten åpen for hjemmerenn i Gurgl én uke senere. Tilbakekomsten markerer et viktig steg for en av de mest meritterte slalåmkjørerne i kvinneklassen det siste tiåret.",
+   "utovere": [
+    "Katharina Liensberger"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/finalmente-liensberger-a-9-mesi-e-mezzo-dall-incidente-eccola-in-pista-torno-a-sorridere-sugli-sci-rientro-a-gurgl"
+  },
+  {
+   "id": 42247,
+   "publisert": "2026-10-17 17:24",
+   "publisert_iso": "2026-10-17T15:24:58.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Marcel Hirscher dropper start i Sölden",
+   "ingress": "Marcel Hirscher har valgt å stå over åpningsrennet i Sölden denne sesongen.",
+   "spik": "Marcel Hirscher hopper over åpningsrennet i Sölden denne sesongen etter en skadeperiode, og føler seg ikke klar til å konkurrere på høyeste nivå. Den 37 år gamle østerrikeren, som nå representerer Nederland – moren er nederlandsk – gjorde comebacket sitt i Sölden i 2024 etter seks år borte fra cupen, og endte den gang på 23.-plass. Treningstidene i forkant av åpningshelgen lå for langt bak konkurrentenes, og han valgte å skåne de begrensede wildcard-plassene han rår over.",
+   "utovere": [
+    "Marcel Hirscher"
+   ],
+   "land": [
+    "NED"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/hirscher-verzichtet-soelden/"
+  },
+  {
+   "id": 42239,
+   "publisert": "2026-10-17 15:25",
+   "publisert_iso": "2026-10-17T13:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Hirscher trekker seg fra storslalåmen i Sölden",
+   "ingress": "Marcel Hirscher har besluttet å ikke stille til start i storslalåmen i Sölden etter at tidene hans lå for langt bak de østerrikske konkurrentene.",
+   "spik": "Marcel Hirscher trekker seg fra storslalåmen i Sölden etter at treningstidene hans lå for langt bak de østerrikske konkurrentenes på Rettenbach-breen. Etter å ha testet forholdene lørdag morgen kom beskjeden fra leiret hans: 37-åringen, som konkurrerer for Nederland, er ikke klar. Hirscher har kun et begrenset antall wildcard-starter til rådighet, og ønsker ikke å bruke dem før formen er god nok. Han vendte tilbake til cupen i Sölden i 2024 etter seks år ute, og fulgte opp med slalåmstarter i Levi og Gurgl.",
+   "utovere": [
+    "Marcel Hirscher"
+   ],
+   "land": [
+    "NED"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/tempi-troppo-alti-nel-confronto-con-gli-austriaci-hirscher-ha-deciso-di-non-prendere-parte-al-gigante-di-soelden"
+  },
+  {
+   "id": 42212,
+   "publisert": "2026-10-17 13:45",
+   "publisert_iso": "2026-10-17T11:45:58.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Sam Maes snakker om nytt lag og Sölden i podkasten Skiing Is Believing",
+   "ingress": "Sam Maes forteller om sitt nye lag og forventningene til sesongåpningen i Sölden i podkasten Skiing Is Believing.",
+   "spik": "Belgiske Sam Maes forteller i podkasten Skiing Is Believing om overgangen til ny treningsgruppe etter at Team Global Racing ble oppløst etter forrige sesong. Han vil likevel fortsette samarbeidet med trener Paul Epstein, som nå har tatt en rolle i det amerikanske landslaget. Maes er en av de mer etablerte storslaläm-kjørerne fra Belgia og har jevnlig scoret verdenspoeng de siste sesongene. Episoden tar også opp Aleksander Aamodt Kildes achillesskade under utfor-trening i Chile.",
+   "utovere": [
+    "Sam Maes"
+   ],
+   "land": [
+    "BEL"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/sam-maes-talks-new-team-and-solden-on-the-skiing-is-believing-podcast/"
+  },
+  {
+   "id": 42242,
+   "publisert": "2026-10-17 11:40",
+   "publisert_iso": "2026-10-17T09:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Sölden-show: Store navn på breen – fra Shiffrin til Odermatt og Hirscher",
+   "ingress": "En rekke toppnavn, blant dem Mikaela Shiffrin, Marco Odermatt og Marcel Hirscher, trente på Sölden-breen under åpningsshowet.",
+   "spik": "Drøyt én uke før sesongåpningen samlet Rettenbach-breen i Sölden en rekke av alpinsportens største navn til trening, blant dem Mikaela Shiffrin, Marco Odermatt og Marcel Hirscher, i ideelle forhold. Sölden er fast åpningsarena for verdenscupen og har vært det siden 2000-tallet, og tilrekkser hvert år store folkemengder til Ötztal. Alexander Steen Olsen, som vant åpningsrennet i Sölden for to sesonger siden, forbereder også comebacket sitt, mens Petra Vlhová trente i Val Senales.",
+   "utovere": [
+    "Marcel Hirscher",
+    "Marco Odermatt",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "NED",
+    "SUI",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/soelden-show-mattinata-di-training-sul-ghiacciaio-con-tanti-big-da-hector-a-odermatt-sino-a-hirscher"
+  },
   {
    "id": 42051,
    "publisert": "2026-10-17 10:59",
