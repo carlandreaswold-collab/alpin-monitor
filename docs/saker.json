@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-18T15:15:15.496Z",
- "antall": 178,
+ "oppdatert": "2026-10-18T15:30:21.207Z",
+ "antall": 179,
  "saker": [
+  {
+   "id": 42506,
+   "publisert": "2026-10-18 17:25",
+   "publisert_iso": "2026-10-18T15:25:14.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Liensberger på vei tilbake",
+   "ingress": "Katharina Liensberger er på vei tilbake til konkurranseskiingen.",
+   "spik": "Katharina Liensberger er på vei tilbake til skiløpingen etter en alvorlig treningsskade i januar, der hun pådro seg brudd i skinnebenshodet samt menisk- og innenbåndsbrudd i høyre kne. Den 29 år gamle østerrikeren stod på ski for første gang siden skaden denne uken i Sölden, og beskriver øyeblikket som «ubeskrivelig». Liensberger, som tok to VM-gull i Cortina 2021, utelukker deltakelse i sesongåpningen i Sölden og Levi, men understreker at hun vil ta det steg for steg.",
+   "utovere": [
+    "Katharina Liensberger"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163751/"
+  },
   {
    "id": 42233,
    "publisert": "2026-10-18 11:10",
