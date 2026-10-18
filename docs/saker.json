@@ -1,7 +1,45 @@
 {
- "oppdatert": "2026-10-18T17:15:23.094Z",
- "antall": 180,
+ "oppdatert": "2026-10-18T17:30:24.005Z",
+ "antall": 182,
  "saker": [
+  {
+   "id": 43398,
+   "publisert": "2026-10-18 19:23",
+   "publisert_iso": "2026-10-18T17:23:57.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Max Franz avslutter karrieren",
+   "ingress": "Den østerrikske alpinisten Max Franz legger opp som aktiv utøver.",
+   "spik": "Den østerrikske fartsspesialisten Max Franz legger opp som aktiv utøver, 37 år gammel og én uke før åpningen av verdenscupsesongen 2026/27. Kärntner-utøveren rakk 172 verdenscupstarter og tok tre seire i løpet av karrieren. Franz ble i 2022 rammet av et alvorlig fall i Copper Mountain, der han pådro seg brudd i begge leggene, og kom aldri tilbake til toppen etterpå. «Det er tid for å si takk», skriver han på Instagram.",
+   "utovere": [
+    "Max Franz"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/beendet-karriere-rennfahrer/"
+  },
+  {
+   "id": 43428,
+   "publisert": "2026-10-18 19:21",
+   "publisert_iso": "2026-10-18T17:21:20.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Fartsveteran Max Franz setter strek",
+   "ingress": "Rutinerte Max Franz avslutter sin karriere som alpinist på høyt nivå.",
+   "spik": "Max Franz avslutter karrieren som aktiv alpinist, 37 år gammel og fra den østerrikske delstaten Kärnten. Han tok tre verdenscupseire og totalt ti pallplasseringer, samt VM-bronse i utfor i St. Moritz 2017. Et dramatisk fall i Copper Mountain i 2022 ga ham åpent leggsbrudd på venstre og komplisert brudd på høyre legg — skader han aldri kom seg skikkelig tilbake fra. «Skiidrett var livet mitt», skriver Franz i avskjedsmeldingen sin.",
+   "utovere": [
+    "Max Franz"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163763/"
+  },
   {
    "id": 43267,
    "publisert": "2026-10-18 19:05",
