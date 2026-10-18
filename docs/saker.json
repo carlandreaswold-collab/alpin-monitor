@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-18T17:00:15.666Z",
- "antall": 179,
+ "oppdatert": "2026-10-18T17:15:23.094Z",
+ "antall": 180,
  "saker": [
+  {
+   "id": 43267,
+   "publisert": "2026-10-18 19:05",
+   "publisert_iso": "2026-10-18T17:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Max Franz legger opp etter lang skadekamp",
+   "ingress": "Den østerrikske utforskjøreren Max Franz avslutter karrieren etter en langvarig og tøff skadekamp. «Skisporten har gitt meg enormt mye,» sier han.",
+   "spik": "Den østerrikske utforspesialisten Max Franz avslutter karrieren etter en lang skadekamp som startet med en alvorlig skade under trening på Copper Mountain i november 2022. 37-åringen fra Kärnten rakk aldri å komme skikkelig tilbake etter det. Franz vant tre verdenscupløp i karrieren, med den første seieren i utfor på Saslong for ti år siden, og var en stabil kraft i det østerrikske «Wunderteam». Han avslutter karrieren med ordene «Skisporten har gitt meg enormt mye».",
+   "utovere": [
+    "Max Franz"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/max-franz-la-favola-e-finita-il-velocista-carinziano-si-ritira-dopo-un-lungo-calvario-lo-sci-mi-ha-dato-tantissimo"
+  },
   {
    "id": 42506,
    "publisert": "2026-10-18 17:25",
