@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-10-20T10:00:09.738Z",
- "antall": 205,
+ "oppdatert": "2026-10-20T10:15:21.017Z",
+ "antall": 206,
  "saker": [
+  {
+   "id": 47633,
+   "publisert": "2026-10-20 12:10",
+   "publisert_iso": "2026-10-20T10:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Polen gjenforenet med Gasienica-Daniel til åpningen, Verdu leder Andorra med debutant Medina Girones",
+   "ingress": "Polen kan regne med Gasienica-Daniel allerede fra sesongåpningen. Verdu leder det andorranske laget, som også får se Medina Girones gjøre sin debut.",
+   "spik": "Den polske storslalømsutøveren Maryna Gasienica-Daniel er klar for sesongåpningen i Sölden etter å ha revet korsbåndet mot slutten av forrige sesong. Skaden kom etter en sterk vinter der hun satte personlige rekorder i verdenscupen, med to femteplasser i Semmering og San Vigilio di Marebbe, og en sjuendeplass i OL-giganten. Fra Andorra stiller Joan Verdu etter en dramatisk treningsfall på Rettenbach i forkant av sesongåpningen, mens landsmannninnen Medina Girones gjør sin verdenscupdebut – 23-åringen er nummer to i spesialklassen i South American Cup.",
+   "utovere": [
+    "Joan Verdu",
+    "Maryna Gasienica-Daniel"
+   ],
+   "land": [
+    "AND",
+    "POL"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/la-polonia-ritrova-gasienica-daniel-gia-per-l-opening-verdu-guida-andorra-che-vede-debuttare-medina-girones"
+  },
   {
    "id": 47291,
    "publisert": "2026-10-20 11:25",
@@ -38,7 +59,7 @@
    "land": [
     "SWE"
    ],
-   "kategori": "",
+   "kategori": "naert",
    "flere_kilder": [],
    "url": "https://www.svt.se/sport/alpint/traningsbilderna-pa-anna-swenn-larsson-sprids-viralt"
   },
