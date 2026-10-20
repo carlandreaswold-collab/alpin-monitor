@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-10-20T09:15:11.978Z",
- "antall": 204,
+ "oppdatert": "2026-10-20T09:30:19.535Z",
+ "antall": 205,
  "saker": [
+  {
+   "id": 47291,
+   "publisert": "2026-10-20 11:25",
+   "publisert_iso": "2026-10-20T09:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Pinheiro Braathen forbereder seg i Val Senales – kan bli Odermatt-rival søndag",
+   "ingress": "Den olympiske mesteren Lucas Pinheiro Braathen trener i Val Senales sammen med de italienske alpinistene. Han regnes som en av hovedkonkurrentene til «Odi» i helgens renn.",
+   "spik": "Lucas Pinheiro Braathen forbereder seg til sesongåpningen i Sölden med trening i Val Senales, og regnes som en av de fremste utfordrerne til Marcel Odermatt i storslalåmen søndag. Braathen, som i 2022 byttet nasjonalitet fra Norge til Brasil og siden har representert Brasil på verdenscupen, tok OL-gull i storslalåm i Milano-Cortina 2026. Hans forhold til Sölden er komplisert: han vant åpningsrennet der i 2020, trakk seg 48 timer før start i 2023, kom tilbake med en sterk fjerdeplass i 2024 – og kjørte ut i fjorårets utgave.",
+   "utovere": [
+    "Lucas Braathen",
+    "Marco Odermatt"
+   ],
+   "land": [
+    "BRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/pinheiro-braathen-e-in-val-senales-per-la-rifinitura-cosi-come-le-azzurre-il-campione-olimpico-primo-rivale-di-odi-domenica"
+  },
   {
    "id": 46668,
    "publisert": "2026-10-20 09:51",
