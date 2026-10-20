@@ -1,7 +1,45 @@
 {
- "oppdatert": "2026-10-20T10:15:21.017Z",
- "antall": 206,
+ "oppdatert": "2026-10-20T10:30:33.585Z",
+ "antall": 208,
  "saker": [
+  {
+   "id": 47762,
+   "publisert": "2026-10-20 12:28",
+   "publisert_iso": "2026-10-20T10:28:28.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Norge stiller med to Sölden-debutanter, en returnerende utøver og en profilert trener",
+   "ingress": "Norge møter opp i Sölden med to nykommer, en utøver som er tilbake etter fravær og en kjent trener i staben.",
+   "spik": "Norge stiller i Sölden med ni menn og tre kvinner, inkludert to debutanter og en utøver som er tilbake etter fravær. Den største nyheten er likevel at Aksel Lund Svindal, 43 år, er med som trener for de norske teknikerne. Svindal er dobbelt olympisk mester og har vunnet sammenlagtcupen to ganger, og jobbet senest som trener for Lindsey Vonn fram til april 2026 – inntil amerikanerens alvorlige skade satte en stopper for det samarbeidet.",
+   "utovere": [
+    "Alexander Steen Olsen"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/neulingen-rueckkehrer-prominenten/"
+  },
+  {
+   "id": 47793,
+   "publisert": "2026-10-20 12:25",
+   "publisert_iso": "2026-10-20T10:25:41.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Eisner hopper ut i det ukjente i Sölden",
+   "ingress": "Eisner gjør sin debut i Sölden og kaster seg rett ut i det uten særlig erfaring fra løypen.",
+   "spik": "23 år gamle Jakob Eisner fra Kärnten gjør sin Verdenscup-debut i Sölden etter å ha slått ut mer erfarne løpere i den østerrikske kvalifiseringen, deriblant Fabio Gstrein, som tok OL-sølv i slalåm i Bormio tidligere i år. Eisner har tidligere kun konkurrert i Europacup og FIS-renn, og ble selv overrasket over plassen. Opptakten har vært krevende – han pådro seg en muskelfiberrift i venstre lår under sommertreningen, men kjempet seg tilbake og sikret startplass til det østerrikske hjemmerenn et.",
+   "utovere": [
+    "Jakob Eisner"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163794/"
+  },
   {
    "id": 47633,
    "publisert": "2026-10-20 12:10",
@@ -321,7 +359,7 @@
    "spik": "De planlagte verdenscupfartsrennene for kvinner i Narvik – en utfor og en super-G 12.–13. mars 2027 – er avlyst etter at det lokale organisasjonskomitéet trakk seg. Årsaken er at infrastrukturen ikke vil bli ferdigstilt i tide uten å ta uakseptabel risiko, ifølge FIS-rennsjef Peter Gerdol. Narvik er VMby i 2029, og arrangør-CEO Knut-Eirik Dybdal understreker at avlysningen ikke påvirker ambisjonene for mesterskapet. FIS vil snart kunngjøre et alternativt arrangørsted for de aktuelle rennene.",
    "utovere": [],
    "land": [],
-   "kategori": "nyheter",
+   "kategori": "",
    "flere_kilder": [],
    "url": "https://sport.orf.at/stories/3163797/"
   },
