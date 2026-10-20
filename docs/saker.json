@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-20T07:30:12.865Z",
- "antall": 202,
+ "oppdatert": "2026-10-20T07:45:19.568Z",
+ "antall": 203,
  "saker": [
+  {
+   "id": 46492,
+   "publisert": "2026-10-20 09:30",
+   "publisert_iso": "2026-10-20T07:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Shiffrin og Scheib et populært par på TV",
+   "ingress": "Mikaela Shiffrin sier de følte behov for endring, mens Julia Scheib kaller henne fortsatt verdens beste.",
+   "spik": "Mikaela Shiffrin og Julia Scheib var gjester i den populære østerrikske TV-sendingen «Sport und Talk aus dem Hangar-7» på ServusTV, der de snakket om sine respektive valg foran den kommende verdenscupsesongen. Shiffrin innrømmet at hun og laget følte behov for endring, særlig knyttet til fartsdisiplinene, mens Scheib — som vant fem storslalomrenn forrige sesong, inkludert åpningsrennet i Sölden — understreket at amerikaneren fortsatt er verdens beste. Oppkjøringen skjer dagene før storslalomåpningen på Rettenbachbreen i Sölden, der de to regnes som store favoritter.",
+   "utovere": [
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/opening-4-shiffrin-scheib-che-coppia-in-tv-mikaela-sentivamo-di-dover-cambiare-julia-resta-la-migliore-al-mondo"
+  },
   {
    "id": 46263,
    "publisert": "2026-10-20 08:40",
@@ -241,7 +260,7 @@
    "spik": "De planlagte verdenscupfartsrennene for kvinner i Narvik – en utfor og en super-G 12.–13. mars 2027 – er avlyst etter at det lokale organisasjonskomitéet trakk seg. Årsaken er at infrastrukturen ikke vil bli ferdigstilt i tide uten å ta uakseptabel risiko, ifølge FIS-rennsjef Peter Gerdol. Narvik er VMby i 2029, og arrangør-CEO Knut-Eirik Dybdal understreker at avlysningen ikke påvirker ambisjonene for mesterskapet. FIS vil snart kunngjøre et alternativt arrangørsted for de aktuelle rennene.",
    "utovere": [],
    "land": [],
-   "kategori": "",
+   "kategori": "nyheter",
    "flere_kilder": [],
    "url": "https://sport.orf.at/stories/3163797/"
   },
