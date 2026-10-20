@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-20T10:45:16.474Z",
- "antall": 208,
+ "oppdatert": "2026-10-20T11:00:17.199Z",
+ "antall": 209,
  "saker": [
+  {
+   "id": 47975,
+   "publisert": "2026-10-20 12:50",
+   "publisert_iso": "2026-10-20T10:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Debutantbal for Franzoni i Red Bull-leiren",
+   "ingress": "Giovanni Franzoni gjør sin debut for Red Bull, og det er stor spenning rundt brescianeren allerede før sesongens åpningsrenn.",
+   "spik": "Giovanni Franzoni gjør sin debut som Red Bull-utøver og ble allerede mandag kveld invitert til selskapets TV-program «Sport und Talk aus dem Hangar-7» i Salzburg, i selskap med blant andre Mikaela Shiffrin. Den italienske nedfartsspesialisten fra Brescia tok sølv i junior-VM i storslalåm, men fysiske problemer har hindret ham i å satse stabilt på den disiplinen. Denne sesongen skal storslalåm for alvor inn i programmet hans, og han er blant syv italienske utøvere i åpningsrennet i Sölden.",
+   "utovere": [
+    "Giovanni Franzoni"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/il-ballo-dei-debuttanti-in-casa-red-bull-per-giovanni-franzoni-tanta-curiosita-attorno-al-bresciano-gia-per-l-opening"
+  },
   {
    "id": 47762,
    "publisert": "2026-10-20 12:28",
