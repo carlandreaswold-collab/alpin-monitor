@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-20T07:45:19.568Z",
- "antall": 203,
+ "oppdatert": "2026-10-20T08:00:17.861Z",
+ "antall": 204,
  "saker": [
+  {
+   "id": 46668,
+   "publisert": "2026-10-20 09:51",
+   "publisert_iso": "2026-10-20T07:51:11.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Treningsbildene av Anna Swenn-Larsson spres: «Viralt»",
+   "ingress": "Bilder av Anna Swenn-Larsson under trening sprer seg raskt på nett og har blitt et viralt fenomen.",
+   "spik": "Anna Swenn-Larsson har skapt oppmerksomhet på sosiale medier etter at treningsvideoer av henne har spredt seg viralt, blant annet med kommentarer fra alpinlegender som Anja Pärson og Lindsey Vonn. Den svenske slalåmstjernen, som er 35 år, vant bronsemedalje i slalåm under OL i Milano Cortina og regnes som en av de mest erfarne utøverne i verdenscupen. Swenn-Larsson er ydmyk overfor oppmerksomheten og påpeker at hardt treningsarbeid er normalt i alpinmiljøet. Til helgen er hun klar for verdenscuppremieren i Sölden 24. oktober.",
+   "utovere": [
+    "Anna Swenn-Larsson"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/traningsbilderna-pa-anna-swenn-larsson-sprids-viralt"
+  },
   {
    "id": 46492,
    "publisert": "2026-10-20 09:30",
