@@ -1,7 +1,414 @@
 {
- "oppdatert": "2026-10-18T23:30:05.451Z",
- "antall": 180,
+ "oppdatert": "2026-10-20T07:19:05.066Z",
+ "antall": 202,
  "saker": [
+  {
+   "id": 46263,
+   "publisert": "2026-10-20 08:40",
+   "publisert_iso": "2026-10-20T06:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Svindal blir teknisk samarbeidspartner for det norske alpinlandslaget",
+   "ingress": "Det norske skiforbundet bekrefter at Aksel Lund Svindal returnerer til landslaget som teknisk samarbeidspartner.",
+   "spik": "Aksel Lund Svindal returnerer til det norske alpinlandslaget som teknisk samarbeidspartner fra og med sesongen 2026–27, bekrefter Skiforbundet. Svindal, som vant OL-gull og to store krystallkuler i karrieren, har det siste året fungert som trenerfigur for Lindsey Vonn, men samarbeidet der tok slutt etter Vonns dramatiske skade under OL. Det blir ikke et heltidsengasjement, men Svindal sier selv at han tror han kan bidra på flere områder og starter allerede i Sölden.",
+   "utovere": [
+    "Aleksander Aamodt Kilde",
+    "Lindsey Vonn"
+   ],
+   "land": [
+    "NOR",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/svindal-torna-a-casa-la-federsci-norge-annuncia-l-accordo-con-aksel-quale-collaboratore-tecnico-della-nazionale"
+  },
+  {
+   "id": 46243,
+   "publisert": "2026-10-19 23:36",
+   "publisert_iso": "2026-10-19T21:36:05.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Henrik Kristoffersen tester nytt HEAD-utstyr for 2026–27",
+   "ingress": "Henrik Kristoffersen er i gang med å teste nytt utstyr fra HEAD i forkant av sesongen 2026–27.",
+   "spik": "Henrik Kristoffersen tester nytt utstyr fra HEAD foran sesongen 2026–27 – og det er første gang i karrieren han bytter ski, bindinger og støvler samtidig. 36-åringen fra Rælingen skiftet fra Rossignol til Van Deer etter 2021–22-sesongen, men den gangen kom støvlebytten ett år forsinket. Med 102 pallplasser og 34 seire i verdenscupen er Kristoffersen blant de mest meritterte utøverne i historien, og både han og trener og far Lars understreker at dette er et felt de ikke har erfaring med.",
+   "utovere": [
+    "Henrik Kristoffersen"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/henrik-kristoffersen-head-equipment/"
+  },
+  {
+   "id": 46244,
+   "publisert": "2026-10-19 23:16",
+   "publisert_iso": "2026-10-19T21:16:44.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Katie Hensien tilbake i Sölden med uoppgjort regnskap",
+   "ingress": "Katie Hensien returnerer til Sölden med ambisjoner om å innfri etter tidligere skuffelser der.",
+   "spik": "Katie Hensien er tilbake på Rettenbach-breen i Sölden med uoppgjort regnskap etter en sesong preget av skade. I oktober 2024 endte 26-åringen på fjerdeplass i sesongåpneren – bare 0,03 sekunder fra sin første verdenscuppall – etter å ha startet med startnummer 47, noe som er blant de mest bemerkelsesverdige resultatene i amerikansk alpinhistorie de siste årene. Også 2025–26-sesongen ble avbrutt av skade, noe som presset henne nedover i startrekkefølgen. Nå forsikrer hun at hun er frisk og klar.",
+   "utovere": [
+    "Katie Hensien"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/katie-hensien-returns-to-solden-with-unfinished-business/"
+  },
+  {
+   "id": 46264,
+   "publisert": "2026-10-19 20:35",
+   "publisert_iso": "2026-10-19T18:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Steen Olsen-comeback bekreftet: Norge stiller med et drømmelag til Sölden",
+   "ingress": "Det er nå offisielt at Henrik Kristoffersen Steen Olsen er tilbake, og Norge møter opp til sesongåpningen i Sölden med et meget sterkt lag.",
+   "spik": "Norge stiller med tolv utøvere til sesongåpningen i Sölden, og det mest etterlengtede comebacket er Alexander Steen Olsen, som er tilbake etter en sesong ute med skade. Klasse 2001-utøveren vant storslalåmen på Rettenbach i 2024 foran Henrik Kristoffersen og Atle McGrath og er regnet som et av verdens største alpintalenter. På kvinnesiden er Thea Louise Stjernesund, OL-sølvvinner i Cortina, og Mina Fuerst Holtmann – som ble toer under finalen i Hafjell – Norges sterkeste kort i storslalåmen lørdag.",
+   "utovere": [
+    "Alexander Steen Olsen",
+    "Atle Lie McGrath",
+    "Henrik Kristoffersen"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/sul-rientro-di-steen-olsen-arriva-il-timbro-dell-ufficialita-i-norvegesi-per-soelden-un-vero-e-proprio-squadrone"
+  },
+  {
+   "id": 46278,
+   "publisert": "2026-10-19 20:03",
+   "publisert_iso": "2026-10-19T18:03:10.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Langeårig Atomic-sjef går av med pensjon",
+   "ingress": "Sjefen for skiutstyrsgiganten Atomic gjennom mange år har besluttet å pensjonere seg.",
+   "spik": "Wolfgang Mayrhofer går av som toppsjef i skiutstyrsprodusenten Atomic ved utgangen av 2026, etter å ha ledet selskapet siden 2007 og hatt en karriere i bedriften som strekker seg over mer enn fire tiår. Hans etterfølger blir Michael Absmaier, som har vært selskapets finansdirektør og visepresident for forretningsutvikling. Atomic er en av de ledende produsentene av alpinski og støvler i verden, og utstyrer en rekke toppnavn på verdenscuptouren.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/langjaehrige-atomic-pension/"
+  },
+  {
+   "id": 46245,
+   "publisert": "2026-10-19 19:19",
+   "publisert_iso": "2026-10-19T17:19:28.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Valérie Grenier skadet kneet under Sölden-trening – opereres fredag",
+   "ingress": "Valérie Grenier pådro seg en kneskade under trening i Sölden og skal opereres allerede fredag.",
+   "spik": "Canadiske Valérie Grenier pådro seg en kneskade under trening på konkurransebakken i Sölden og skal opereres fredag – omfanget er foreløpig ukjent. 29-åringen fra Ontario avsluttet fjorårssesongen på topp da hun vant storslalåmen under verdenscupfinalen i Hafjell i mars, sin tredje verdenscupseier og den første på over to år. Grenier har en karriere preget av fysiske tilbakeslag, og alle tre seirene hennes har kommet i storslalåm. En ny alvorlig skade kan sette hele 2026–27-sesongen i fare.",
+   "utovere": [
+    "Valérie Grenier"
+   ],
+   "land": [
+    "CAN"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/valerie-grenier-injures-knee-in-solden-training-surgery-scheduled-for-friday/"
+  },
+  {
+   "id": 46315,
+   "publisert": "2026-10-19 19:08",
+   "publisert_iso": "2026-10-19T17:08:35.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "«Brutalt»: Kilde sliter med skadeulykken",
+   "ingress": "Aleksander Aamodt Kilde beskriver det som brutalt å ha vært plaget av skader.",
+   "spik": "Aleksander Aamodt Kilde beskriver det som \"brutalt\" å ha pådratt seg nok en alvorlig skade – denne gang et achillessenebrudd under utfortrening i Chile. 34-åringen fra Bærum skriver på Instagram at han er \"knust, sint og frustrert\", men at han har en klar rehabiliteringsplan. I januar 2024 pådro han seg alvorlige skader i legg og skulder under utforen i Wengen, og har brukt store deler av de siste sesongene på å komme tilbake. Kilde er forlovet med amerikanske Mikaela Shiffrin og regnes som en av verdens beste fartskjørere.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163801/"
+  },
+  {
+   "id": 46316,
+   "publisert": "2026-10-19 18:45",
+   "publisert_iso": "2026-10-19T16:45:09.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "«Brutalt»: Kilde frustrert over skadeplagene",
+   "ingress": "Aleksander Aamodt Kilde åpner opp om sitt vedvarende skadeproblem og kaller situasjonen brutal.",
+   "spik": "Aleksander Aamodt Kilde åpner opp på Instagram etter at han pådro seg et achillessenebrudd under utfortrening i Chile – hans foreløpig tyngste tilbakeslag etter en rekke skader de siste årene. 34-åringen forteller at han endelig hadde begynt å kjenne seg raskere og bedre enn på lenge, og at han hadde mer moro på ski enn på veldig lenge – så kom fallet. Kilde vant den store kulen i utfor og super-G sammenlagt i sesongen 2021/22, men har knapt fått vist frem sitt fulle potensial i etterkant på grunn av skader.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163800/"
+  },
+  {
+   "id": 46267,
+   "publisert": "2026-10-19 18:15",
+   "publisert_iso": "2026-10-19T16:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kilde etter ulykken: – Sint og frustrert, men jeg har en klar vei fremover",
+   "ingress": "Aleksander Aamodt Kilde bryter tausheten etter skadesmellen og forsikrer om at kampviljen er intakt, selv om situasjonen er frustrerende.",
+   "spik": "Aleksander Aamodt Kilde har brutt tausheten fire dager etter at det ble kjent at han rupturerte achillessenen på høyre ben under en treningsleir i Chile. Den to ganger verdensmester og storhaugen-vinner skriver at han er sint og frustrert, men at han har en klar plan fremover – og at en retur mot slutten av sesongen ikke er utelukket siden restitusjonstiden anslås til fire til fem måneder. Kilde, som har kjempet seg tilbake fra flere alvorlige skader tidligere, var ifølge eget utsagn i ferd med å finne tilbake til sitt beste nivå da ulykken inntraff.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/kilde-le-prime-parole-dopo-l-incidente-la-voglia-di-combattere-c-e-ancora-arrabbiato-e-frustrato-ma-ho-un-percorso-chiaro-davan"
+  },
+  {
+   "id": 46268,
+   "publisert": "2026-10-19 17:40",
+   "publisert_iso": "2026-10-19T15:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Ny knesmell for Valérie Grenier: kanadieren forlater Sölden med skade",
+   "ingress": "Canadiske Valérie Grenier pådro seg en skade på høyre kne under Sölden-åpningen og måtte reise hjem til Canada.",
+   "spik": "Valérie Grenier skadet seg på høyre kne under trening på Rettenbach i Sölden og reiser hjem til Canada for operasjon fredag – det er ennå ikke klart hvor alvorlig skaden er. Den 29-årige storslalåmspesialisten fra Ontario avsluttet fjorårssesongen med seier i verdenscupfinalen i Hafjell, sin tredje verdenscupseier totalt og alle tre i storslalåm. Karrieren hennes har vært hardt rammet av kneskader tidligere, og det er nå bekreftet at hun ikke stiller til start i Sölden-åpningen lørdag.",
+   "utovere": [
+    "Valérie Grenier"
+   ],
+   "land": [
+    "CAN"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/l-ennesima-mazzata-per-valerie-grenier-danno-al-ginocchio-destro-a-soelden-la-canadese-rientra-in-patria"
+  },
+  {
+   "id": 46279,
+   "publisert": "2026-10-19 17:34",
+   "publisert_iso": "2026-10-19T15:34:52.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Kneskade: Valerie Grenier ute på ubestemt tid",
+   "ingress": "Valerie Grenier har pådratt seg en kneskade og er ute av konkurransene på ubestemt tid.",
+   "spik": "Kanadiske Valerie Grenier er ute på ubestemt tid etter en kneskade hun pådro seg under trening i Sölden lørdag. 29-åringen er Canadas fremste profil i storslalåm og vant det siste storslalåmrennet i sesongen 2025/26. Hun rekker dermed ikke sesongåpningen i Sölden 25. oktober og trolig mye mer av høsten. Skaden rammer det kanadiske damelandslaget hardt allerede før den første rennhelgen.",
+   "utovere": [
+    "Valérie Grenier"
+   ],
+   "land": [
+    "CAN"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/knieverletzung-valerie-unbestimmte/"
+  },
+  {
+   "id": 46269,
+   "publisert": "2026-10-19 17:10",
+   "publisert_iso": "2026-10-19T15:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Frankrike uten Pinturault i Sölden: Elezi Cannaferina, Anguenot og Favrot leder an",
+   "ingress": "Det franske alpinlaget møter til sesongåpningen på Rettenbach uten Alexis Pinturault, og trioen Elezi Cannaferina, Anguenot og Favrot er lagets fremste kort.",
+   "spik": "Frankrike møter til sesongåpningen i Sölden uten Alexis Pinturault, som i en årrekke var lagets fremste profil og vant den samlede verdenscupen i 2021. Blant åtte franske herrer er Alban Elezi Cannaferina og Flavio Vitale de mest spennende talentene, mens Thibaut Favrot er tilbake i full trening etter skade. På damesiden stiller Frankrike med kun Doriane Escane etter Clara Direz sin karriereslutt og en ny alvorlig skade til Clarisse Noel.",
+   "utovere": [
+    "Alexis Pinturault"
+   ],
+   "land": [
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/et-voila-l-equipe-de-france-che-affrontera-il-primo-rettenbach-senza-pinturault-elezi-cannaferina-anguenot-e-favrot-le-punte"
+  },
+  {
+   "id": 46319,
+   "publisert": "2026-10-19 16:31",
+   "publisert_iso": "2026-10-19T14:31:35.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Damenes fartsrenn i Narvik strykes fra programmet",
+   "ingress": "Verdenscupets fartsdisipliner for kvinner i Narvik er fjernet fra årets kalender.",
+   "spik": "De planlagte verdenscupfartsrennene for kvinner i Narvik – en utfor og en super-G 12.–13. mars 2027 – er avlyst etter at det lokale organisasjonskomitéet trakk seg. Årsaken er at infrastrukturen ikke vil bli ferdigstilt i tide uten å ta uakseptabel risiko, ifølge FIS-rennsjef Peter Gerdol. Narvik er VMby i 2029, og arrangør-CEO Knut-Eirik Dybdal understreker at avlysningen ikke påvirker ambisjonene for mesterskapet. FIS vil snart kunngjøre et alternativt arrangørsted for de aktuelle rennene.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163797/"
+  },
+  {
+   "id": 46280,
+   "publisert": "2026-10-19 16:05",
+   "publisert_iso": "2026-10-19T14:05:07.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Bare én kvinne og åtte menn i Frankrikes Sölden-tropp",
+   "ingress": "Frankrike stiller med kun én kvinnelig utøver og åtte menn til sesongåpningen i Sölden.",
+   "spik": "Frankrike stiller med bare én kvinne – Doriane Escane – og åtte menn til verdenscupåpningen i Sölden 24.–25. oktober. På herresiden anføres laget av Leo Anguenot etter at Alexis Pinturault har lagt opp. For damenes del har Frankrike slitt på Rettenbachferner siden Tessa Worley var på pallen i 2017, 2018 og 2019. Situasjonen minner om 2023, da kun Clara Direz stilte for det franske damelandslaget i Sölden.",
+   "utovere": [
+    "Alexis Pinturault",
+    "Tessa Worley"
+   ],
+   "land": [
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/maenner-frankreichs-aufgebot/"
+  },
+  {
+   "id": 46270,
+   "publisert": "2026-10-19 16:05",
+   "publisert_iso": "2026-10-19T14:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Sverige stiller med seks i Sölden – Kroatia satser på Ljutic og Zubcic",
+   "ingress": "Sverige møter opp med seks utøvere til Sölden, blant dem Oehlund og Sophie Nyberg ved siden av Hector, mens Kroatia ser til Ljutic og Zubcic for oppreisning.",
+   "spik": "Sverige stiller med seks kvinner og to herrer til sesongåpningen i Sölden, og OL-vinneren Sara Hector er det klare ankerfestet på damesiden – hun har aldri stått på pallen i Sölden og jakter sin første pallplass der. Cornelia Oehlund er tilbake etter en treningsfall i Val Senales, mens 22-årige Sophie Nyberg imponerte stort ved sitt verdenscupdebut i mars. For Kroatia er Elias Kolega Ljutic og Filip Zubcic lagets fremste håp om en sterk plassering på Rettenbach.",
+   "utovere": [
+    "Cornelia Oehlund"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/la-svezia-a-forza-6-per-soelden-oehlund-e-sophie-nyberg-al-fianco-di-hector-ljutic-e-zubcic-fari-croati-per-il-riscatto"
+  },
+  {
+   "id": 46281,
+   "publisert": "2026-10-19 15:29",
+   "publisert_iso": "2026-10-19T13:29:21.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Sverige med åtte utøvere i Sölden – Japan stiller med én",
+   "ingress": "Sverige sender et lag på åtte til Sölden, mens Japan kun stiller med én enkelt utøver.",
+   "spik": "Sverige stiller med åtte utøvere til sesongåpningen i Sölden – seks kvinner og to menn – mens Japan kun sender én enkelt utøver. Det svenske damelandslaget er i god form etter treningsukene på Rettenbachferner, og sjefstrener Charlie Laband melder om optimisme. Sverige har hatt sitt sterkeste kort i storslalåm de siste sesongene, med utøvere som Sara Hector som markante profiler i verdenscupsammenheng.",
+   "utovere": [
+    "Cornelia Oehlund",
+    "Kristoffer Jakobsen"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/koepfiges-schweden-einzelkaempfer/"
+  },
+  {
+   "id": 46271,
+   "publisert": "2026-10-19 15:15",
+   "publisert_iso": "2026-10-19T13:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Lara Colturi: – Brignone er et forbilde, jeg tilpasset meg utstyret raskt",
+   "ingress": "Lara Colturi forteller i en samtale med Francesca Marsaglia at hun bruker Brignone som inspirasjon og at samarbeidet med Clarey om fart går svært bra.",
+   "spik": "Lara Colturi, som konkurrerer under albansk flagg, forteller i et intervju at Federica Brignone er et forbilde og at tilpasningen til nytt utstyr har gått raskt. Den 19 år gamle valsusineren fra Italia er inne i sin femte verdenscupvinter og har syv pallplasser bak seg – fire av dem i slalåm sist sesong. Hun har også fått fartstrening med tidligere Tour de Ski-vinner Johan Clarey, og etter et møte med Loic Meillard i New Zealand beskriver hun hans råd som uvurderlige.",
+   "utovere": [
+    "Federica Brignone",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/brignone-un-esempio-con-clarey-lavoro-sulla-velocita-mi-sono-adattata-subito-al-materiale-lara-colturi-a-colloquio-con-francesc"
+  },
+  {
+   "id": 46272,
+   "publisert": "2026-10-19 14:35",
+   "publisert_iso": "2026-10-19T12:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Meillard jakter første pall i Sölden – Odermatt vil ta sin fjerde strake seier",
+   "ingress": "Åtte sveitsere er klare for Rettenbach, der Loïc Meillard ønsker sin første pallplass i Sölden og Marco Odermatt sikter mot å vinne for fjerde gang på rad.",
+   "spik": "Sveits stiller med åtte utøvere til åpningsrunden i Sölden, der Marco Odermatt sikter mot sin fjerde strake seier i den tradisjonsrike gigantslalåmen på Rettenbach-breen. Odermatt har dominert alpinverdenscupen de siste sesongene og vunnet fem sammenlagtglobus på rad, men tapte tittelen i storslalåmcupen til Lucas Pinheiro Braathen sist sesong. Loïc Meillard har aldri stått på pallen i Sölden og ønsker å rette på det, mens Gino Caviezel gjør comeback etter nesten to år skadet.",
+   "utovere": [
+    "Loïc Meillard",
+    "Marco Odermatt"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/meillard-vuole-il-primo-podio-a-soelden-odermatt-il-poker-di-trionfi-ecco-gli-8-svizzeri-per-il-rettenbach"
+  },
+  {
+   "id": 46282,
+   "publisert": "2026-10-19 14:17",
+   "publisert_iso": "2026-10-19T12:17:40.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Kun åtte sveitsere til start i Sölden",
+   "ingress": "Sveits stiller med en begrenset tropp på bare åtte utøvere til sesongåpningen i Sölden.",
+   "spik": "Sveits stiller med åtte menn til storslalåmen i Sölden søndag 25. oktober, anført av regjerende verdenscupvinner Marco Odermatt. Opprinnelig kunne elleve sveitsere ha startet, men tre er ikke med i den endelige troppen. Det sveitsiske herrelaget har hatt en sterk europacupsesong, der Lenz Hächler vant sammenlagt og Sandro Zurbrügg og Fadri Janutin tok de to øverste plassene i storslalåmcupen – noe som gir Swiss Ski solid bredde bak Odermatt.",
+   "utovere": [
+    "Marco Odermatt"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/sieben-schweizer-soelden/"
+  },
+  {
+   "id": 46273,
+   "publisert": "2026-10-19 14:05",
+   "publisert_iso": "2026-10-19T12:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Offisielt: Narvik trekker seg fra damenes fartsprogram før finalene",
+   "ingress": "Det er nå bekreftet at Narvik gir avkall på et fartsstevne for kvinner før sesongens finaler. – Vi kan ikke ta sjanser, sier Gerdol.",
+   "spik": "Narvik trekker seg offisielt fra damenes fartsprogram før sesongens finaler, og arrangøren begrunner avgjørelsen med at de ikke kan ta sjanser. Narvik har vært inne som mulig vertsby for fartsdisiplinene, men bekrefter nå at de ikke kan gjennomføre arrangementet. Det er en betydelig logistisk og sportslig utfordring for FIS, som må finne alternative løsninger for å sikre at fartsprogrammet for kvinner blir gjennomført før sesongslutt.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/ora-e-ufficiale-narvik-rinuncia-alla-tappa-di-velocita-femminile-prima-delle-finali-gerdol-non-possiamo-correre-rischi"
+  },
+  {
+   "id": 46283,
+   "publisert": "2026-10-19 13:40",
+   "publisert_iso": "2026-10-19T11:40:18.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Kalenderendring – ingen verdenscuprenner i Narvik",
+   "ingress": "Verdenscupkalenderen er endret og rennene i Narvik er tatt ut av programmet.",
+   "spik": "Verdenscupkalenderen for 2026/27-sesongen er allerede endret før den første rennhelgen i Sölden: de planlagte fartsrennene for kvinner i Narvik 12.–13. mars 2027 er tatt ut. FIS-rennsjef Peter Gerdol forklarte at infrastrukturen ikke var ferdig – verken løype, snøkanoner, heis eller sikkerhetsinstallasjoner. Narvik er tildelt alpint-VM i 2029, og arrangørene understreker at avlysningen ikke endrer ambisjonene for mesterskapet.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/aenderung-kalender-weltcup/"
+  },
+  {
+   "id": 46284,
+   "publisert": "2026-10-19 11:30",
+   "publisert_iso": "2026-10-19T09:30:47.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Ti sveitsiske kvinner klar til verdenscupåpningen",
+   "ingress": "Sveits stiller med ti utøvere til start når verdenscupsesongen åpner.",
+   "spik": "Sveits stiller med ti kvinner til sesongåpningen i Sölden 24. oktober, der rennene arrangeres på Rettenbachferner. Italia er det største laget med elleve utøvere, mens Sveits følger tett bak. Blant de ti sveitsiske utøverne er det et trio med til sammen bare ni verdenscupstarter, noe som illustrerer at Swiss Ski satser på å utvikle ny generasjon ved siden av de etablerte profilene.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/schweizerinnen-weltcup-auftakt/"
+  },
   {
    "id": 43398,
    "publisert": "2026-10-18 19:23",
