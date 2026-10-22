@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-22T21:30:09.146Z",
- "antall": 234,
+ "oppdatert": "2026-10-22T21:45:15.812Z",
+ "antall": 235,
  "saker": [
+  {
+   "id": 52131,
+   "publisert": "2026-10-22 23:39",
+   "publisert_iso": "2026-10-22T21:39:15.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Alice Robinson tilbake i Sölden med fokus på storslalåm",
+   "ingress": "Alice Robinson er klar for comeback i Sölden, der hun sikter mot storslalåmrennet.",
+   "spik": "Alice Robinson er tilbake i Sölden, syv år etter at hun som 17-åring vant verdenscupåpningen på Rettenbachbreen i 2019 — et gjennombrudd som satte alpinverdenen i sjokk. Nyzealanderen, som fyller 25 år i desember, har siden vunnet sju verdenscuprenn og tatt 24 pallplasser, noe som gjør henne til den mest meritterte kvinnelige alpinisten fra land utenfor Europa og Nord-Amerika i verdenscuphistorien. I fjor ble hun nummer to sammenlagt i super-G bak Sofia Goggia, og hun avsluttet sesongen femte i storslalåm. Nå jakter hun seier igjen på den glaesialen der det hele startet.",
+   "utovere": [
+    "Alice Robinson"
+   ],
+   "land": [
+    "NZL"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/alice-robinson-solden-giant-slalom/"
+  },
   {
    "id": 51667,
    "publisert": "2026-10-22 21:34",
