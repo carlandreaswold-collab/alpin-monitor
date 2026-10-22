@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-22T17:00:16.419Z",
- "antall": 232,
+ "oppdatert": "2026-10-22T17:15:20.004Z",
+ "antall": 233,
  "saker": [
+  {
+   "id": 50873,
+   "publisert": "2026-10-22 19:05",
+   "publisert_iso": "2026-10-22T17:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Europacup-utøverne samles på Stelvio og Val Senales",
+   "ingress": "Fartsspesialistene fra Europacup-laget trener på Stelvio sammen med Guerinoni og Pomaré, mens Carolli, Sola og lagvenninner reiser til Val Senales fra mandag.",
+   "spik": "Det italienske alpinlandslaget samler Europacup-utøverne til treningsleir på to ulike isbreer denne høsten. Fartsspesialistene Righi, Amigoni, Parravicini, Vanni og Putzer trener på Stelvio-breen, sammen med gigantistene Guerinoni og Pomaré som begge er på vei tilbake etter alvorlige skader fra forrige sesong. Carolli, Sola og resten av gigantistgruppen reiser til Val Senales fra mandag. Stelvio og Val Senales er de to viktigste høyfjellsglasierene i Italia for tidlig sesongforberedelse, og brukes jevnlig av alpinnasjoner fra hele Europa på høsten.",
+   "utovere": [
+    "Ambra Pomaré"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/allo-stelvio-anche-le-velociste-del-team-coppa-europa-oltre-a-guerinoni-e-pomare-carolli-sola-e-compagne-in-val-senales-da-lune"
+  },
   {
    "id": 50737,
    "publisert": "2026-10-22 18:46",
