@@ -1,7 +1,224 @@
 {
- "oppdatert": "2026-10-20T11:00:17.199Z",
- "antall": 209,
+ "oppdatert": "2026-10-22T10:57:42.756Z",
+ "antall": 221,
  "saker": [
+  {
+   "id": 48084,
+   "publisert": "2026-10-22 12:22",
+   "publisert_iso": "2026-10-22T10:22:24.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Make Skiracing great again – en glosse",
+   "ingress": "En satirisk kommentar om tilstanden i alpint og hva som skal til for å gjøre sporten stor igjen.",
+   "spik": "En satirisk kommentar fra skinews.ch bruker Donald Trump som metafor for tilstanden i alpinsporten foran sesongåpningen i Sölden. Teksten leker med tanken om at ego og personlighet har overtatt for det tekniske og atletiske i sporten. Innholdet er låst bak betalingsmur, men tonen er tydelig ironisk og peker på tendenser i tidens ånd – et gjenkjennelig grep i europeisk sportsjournalistikk.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/skiracing-great-glosse/"
+  },
+  {
+   "id": 48069,
+   "publisert": "2026-10-22 11:20",
+   "publisert_iso": "2026-10-22T09:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Preparering av Rettenbach etter snøfall – ingen trening fredag morgen for damene",
+   "ingress": "Arbeidet på Rettenbach-breen pågår etter kraftig snøfall, og damene får ikke trene på pisten fredag morgen før storslalåmrennet.",
+   "spik": "Et kraftig snøfall på rundt 20 centimeter la seg over Rettenbach-breen natta før dametreningen fredag, og pisten måtte klargjøres på ny. Som følge av dette ble den tradisjonelle løpet på konkurransepisten fredag morgen avlyst – noe som ifølge arrangøren ikke er uvanlig. Damenes storslalåm i Sölden kjøres lørdag med første omgang klokken 10.00 og finale klokken 13.00.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/si-lavora-sul-rettenbach-dopo-la-nevicata-niente-sciata-in-pista-venerdi-mattina-per-le-ragazze-alla-vigilia-del-gigante"
+  },
+  {
+   "id": 48070,
+   "publisert": "2026-10-22 10:30",
+   "publisert_iso": "2026-10-22T08:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Brignone på rød løper i Roma: «Jeg savner adrenalinet fra pisten»",
+   "ingress": "Federica Brignone deltok på premieren av filmen «Federica – L'ultima Olimpiade» i Roma og innrømmet at hun savner følelsen av å konkurrere.",
+   "spik": "Federica Brignone deltok på premieren av dokumentarfilmen «Federica – L'ultima Olimpiade» under filmfestivalen i Roma, der hun åpnet opp om at hun savner adrenalinet fra konkurranse. Den italienske alpinstjernen er fortsatt i rehabilitering etter en operasjon for om lag to måneder siden, og tilbringer dagene på treningssenteret J Medical i Torino. Filmen dokumenterer hennes formidable comeback og de to OL-gullene i Cortina, og ble vist for første gang for et stort publikum.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/a-roma-la-premiere-di-federica-l-ultima-olimpiade-brignone-sul-red-carpet-mi-manca-l-adrenalina-della-pista"
+  },
+  {
+   "id": 48071,
+   "publisert": "2026-10-22 09:00",
+   "publisert_iso": "2026-10-22T07:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "20 cm snø på Rettenbach to dager før åpningen – Rast ser tilbake på ti år",
+   "ingress": "Det har falt 20 cm snø på Rettenbach-breen to dager før sesongåpningen. Rast reflekterer over ti år siden sin debut på samme sted.",
+   "spik": "To dager før sesongåpningen i Sölden falt det 20 centimeter snø på Rettenbach-breen, noe som gir et skikkelig vinterlig bakteppe for de første to storslalåmrennene i den 61. utgaven av verdenscupen. Den sveitsiske alpinisten Lara Gut-Behrami er ikke det eneste kjente ansiktet som ser tilbake – Rast markerer tiårsjubileet for sitt debut på nettopp denne banen 22. oktober 2016, og sier at hun nå setter mye større pris på øyeblikkene enn da hun var debutant.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/due-giorni-all-opening-20-cm-di-neve-nella-notte-sul-rettenbach-rast-10-anni-dopo-il-debutto-qui-ora-mi-rendo-conto-di-tutto"
+  },
+  {
+   "id": 48154,
+   "publisert": "2026-10-21 21:57",
+   "publisert_iso": "2026-10-21T19:57:05.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Skistjerne Emma Aicher klar for sesongstart: Alt er mulig",
+   "ingress": "Emma Aicher stiller til sesongstart med blanke ark og full motivasjon. Den tyske alpinstjernen ser frem mot en ny sesong der alt er mulig.",
+   "spik": "Emma Aicher går inn i den nye sesongen etter en strålende vinter der hun tok to olympiske sølvmedaljer, tre verdenscupseire og seks ytterligere pallplasseringer. Den 22 år gamle tyske allroundkjøreren er blant favorittene til den store krystallkula, og åpner sesongen i Sölden. Aicher innrømmer selv at hun knapt tenkte på fjorårets bragder i løpet av sommeren – fokuset er allerede rettet fremover mot nye utfordringer.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/regional/swr/swr-skistar-emma-aicher-alles-auf-null-und-alles-ist-drin-100.html"
+  },
+  {
+   "id": 48076,
+   "publisert": "2026-10-21 15:10",
+   "publisert_iso": "2026-10-21T13:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Shiffrin, Aicher og Brignone blant favorittene i damealpint 2026/27",
+   "ingress": "En analyse av den kommende verdenscupsesongen for damer peker på Shiffrin og Aicher som toppfavoritter, men også Brignone kan utfordre om hun er i toppform.",
+   "spik": "Foran den nye verdenscupsesongen pekes Mikaela Shiffrin og Emma Aicher ut som de fremste favorittene i damesirkuset, mens Federica Brignone er et stort spørsmålstegn etter sin skade. Shiffrin er historiens mestervinnende alpin-utøver og har dominert sammenlagtcupen i en rekke sesonger, mens Aicher kom inn som en ny stjerne med tre seire og OL-sølv i 2025/26. Brignone vant den store krystallkula i 2020 og er i toppklasse når hun er frisk, men rehabiliteringen gjør hennes sesong usikker.",
+   "utovere": [
+    "Emma Aicher",
+    "Federica Brignone",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "GER",
+    "ITA",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/shiffrin-aicher-ma-la-miglior-brignone-puo-esserci-nella-lotta-i-5x5-della-coppa-del-mondo-femminile-2026-27"
+  },
+  {
+   "id": 48078,
+   "publisert": "2026-10-21 13:35",
+   "publisert_iso": "2026-10-21T11:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Tre slovenere på Rettenbach – britiske Carrick-Smith eneste representant fra Storbritannia",
+   "ingress": "Tre slovenske utøvere stiller til start på Rettenbach søndag, mens Slokar ikke deltar. Unge Freddy Carrick-Smith er eneste brite i feltet.",
+   "spik": "Tre slovenere stiller til start på Rettenbach søndag, men Andreja Slokar er ikke blant dem. Slovenia har hatt en sterk generasjon slalåmkjørere de siste årene, med Slokar som en av de mest fremtredende. Unge Freddy Carrick-Smith representerer Storbritannia alene i feltet – britisk alpint har lenge hatt begrenset tilstedeværelse i verdenscupen, og Carrick-Smith er blant de få som slåss om plasseringer på høyeste nivå.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/tre-sloveni-sul-rettenbach-slokar-non-ci-sara-il-talento-freddy-carrick-smith-unico-britannico-presente-domenica"
+  },
+  {
+   "id": 48079,
+   "publisert": "2026-10-21 12:20",
+   "publisert_iso": "2026-10-21T10:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Atomic og Braathen sammen til 2030 – sikter mot den store krystallkulen",
+   "ingress": "Atomic og Lucas Pinheiro Braathen har forlenget samarbeidet til 2030, med den sammenlagte verdenscupseieren som neste store mål.",
+   "spik": "Lucas Pinheiro Braathen og utstyrsmerket Atomic har forlenget samarbeidet sitt frem til 2030, med den store krystallkulen – sammenlagttittelen i verdenscupen – som overordnet mål. Braathen, som representerer Brasil etter å ha byttet nasjonalitet fra Norge, vant slalåmkula i 2022–23-sesongen og har etablert seg blant verdens beste teknikkjørere. En sammenlagtseier vil kreve at han hevder seg også utenfor slalåm, noe som gjenstår å bevise.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/atomic-e-lucas-pinheiro-braathen-assieme-sino-al-2030-il-prossimo-obiettivo-e-la-sfera-di-cristallo-assoluta"
+  },
+  {
+   "id": 48085,
+   "publisert": "2026-10-21 10:59",
+   "publisert_iso": "2026-10-21T08:59:22.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Emma Aicher kåret til Tysklands «Skisportutøver av året»",
+   "ingress": "Emma Aicher er kåret til Tysklands beste skisportutøver av året og mottar den gjeve utmerkelsen.",
+   "spik": "Emma Aicher er kåret til Tysklands beste skisportutøver av året av Det tyske skiforbundet (DSV), en utmerkelse som ble delt ut under lagets sesongklargjøring i Herzogenaurach. Kåringen kommer etter en sesong der 22-åringen tok to olympiske sølvmedaljer og tre verdenscupseire. Aicher befester dermed sin posisjon som det tyske alpinlaget flaggskip foran den nye sesongen.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/deutschlands-skisportlerin-gekuert/"
+  },
+  {
+   "id": 48086,
+   "publisert": "2026-10-21 10:06",
+   "publisert_iso": "2026-10-21T08:06:14.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Braathen og Atomic forlenger samarbeidet til 2030",
+   "ingress": "Lucas Pinheiro Braathen og utstyrsmerket Atomic har forlenget sitt partnerskap frem til 2030.",
+   "spik": "Lucas Pinheiro Braathen og utstyrsmerket Atomic forlenger sitt samarbeid frem til 2030 – et partnerskap som har vart siden 2019. Den 26 år gamle brasilianeren, som vant OL-gull i storslalåm og den lille krystallkula i storslalåm i 2026, er en av alpinsportens mest profilerte utøvere. Forlengelsen signaliserer gjensidig tro på en karriere som fortsatt har mange år foran seg.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/pinheiro-verlaengern-partnerschaft/"
+  },
+  {
+   "id": 48155,
+   "publisert": "2026-10-21 06:14",
+   "publisert_iso": "2026-10-21T04:14:39.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Storslalåm-åpning i Sölden – DSV-håpene under lupen",
+   "ingress": "Verdenscupen åpner med storslalåm i Sölden, og de tyske alpinhåpene blir grundig vurdert foran den nye sesongen.",
+   "spik": "Verdenscupen åpner med storslalåm i Sölden, og de tyske alpinistene stiller med store ambisjoner etter en lovende fjorårsesong. Siden Stefan Luitz' seier i Beaver Creek i 2018 har DSV ventet på et nytt verdenscupgull i storslalåm. Emma Aicher og Lena Dürr er de fremste damehåpene, mens Anton Grammel, Jonas Stockinger og Fabian Gratz representerer et mannstrio som rykket frem i verdenstoppen forrige sesong.",
+   "utovere": [
+    "Emma Aicher",
+    "Lena Dürr"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/regional/br/br-riesenslalom-auftakt-in-soelden-dsv-hoffnungstraeger-im-check-102.html"
+  },
+  {
+   "id": 48087,
+   "publisert": "2026-10-20 13:06",
+   "publisert_iso": "2026-10-20T11:06:29.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Nickco Palamaras debuterer i verdenscupen i Sölden",
+   "ingress": "Nickco Palamaras gjør sitt verdenscupdebut i Sölden og er klar for åpningsrennet i alpinsesongen.",
+   "spik": "Den 22 år gamle tyske alpinisten Nickco Palamaras gjør sitt verdenscupdebut i Sölden etter gode prestasjoner i sydamerikansk snø i løpet av sommeren. DSV stiller med fem menn og fem kvinner til åpningsrennet, og Palamaras er det nye ansiktet i troppen. Sjefstrener Andreas Puelacher melder om en god oppkjøring der alle er friske og klare, og forhåpningene er at treningsflyten kan overføres til konkurransearenaen.",
+   "utovere": [
+    "Nickco Palamaras"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/palamaras-soelden-weltcup/"
+  },
   {
    "id": 47975,
    "publisert": "2026-10-20 12:50",
