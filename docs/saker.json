@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-10-22T13:15:26.390Z",
- "antall": 223,
+ "oppdatert": "2026-10-22T13:30:57.025Z",
+ "antall": 229,
  "saker": [
   {
    "id": 49037,
@@ -129,6 +129,59 @@
    "url": "https://www.sportschau.de/regional/swr/swr-skistar-emma-aicher-alles-auf-null-und-alles-ist-drin-100.html"
   },
   {
+   "id": 49133,
+   "publisert": "2026-10-21 20:10",
+   "publisert_iso": "2026-10-21T18:10:57.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Stifel-rookie Katie Rowekamp gjør VM-debut i Sölden",
+   "ingress": "Katie Rowekamp gjør sin første verdenscupopptreden i Sölden som nykommer på det amerikanske Stifel-skiteamet.",
+   "spik": "Katie Rowekamp, 17 år og den yngste på det amerikanske Stifel-laget, gjør sin første verdenscupopptreden i storslalåm i Sölden 24. oktober 2026 etter å ha vunnet en intern uttaksprøve om to startplasser. Rowekamp er fra Girdwood i Alaska og gikk rett inn på Stifel U.S. Ski Team etter bare én FIS-sesong, der hun vant et NorAm-renn i super-G på Whiteface Mountain og ble nummer to i NorAm-sammendraget i øvelsen. Med en sjuendeplass i sin første Europa Cup-storslalåm og sommercuperfaring fra Sør-Amerika er hun allerede et navn å følge i den amerikanske alpinsatsingen.",
+   "utovere": [
+    "Katie Rowekamp"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/katie-rowekamp-solden-world-cup-debut/"
+  },
+  {
+   "id": 49134,
+   "publisert": "2026-10-21 19:00",
+   "publisert_iso": "2026-10-21T17:00:33.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Fabian Ax Swartz klar for SHRED. foran 2026/27-sesongen",
+   "ingress": "Alpinisten Fabian Ax Swartz har skrevet kontrakt med utstyrsmerket SHRED. og er klar for den kommende sesongen.",
+   "spik": "Den svenske alpinisten Fabian Ax Swartz, 22 år, har signert med utstyrsmerket SHRED. foran 2026/27-sesongen og konkurrerer uavhengig av det svenske landslaget. Swartz tok sitt første verdenscuppoeng som 19-åring med en 20.-plass i Kitzbühel i 2024 og har siden notert to 11.-plasser i verdenscupen, bronse i junior-VM 2025 og en 14.-plass i slalåm under OL i Milano Cortina 2026. SHRED. er grunnlagt av blant andre tobarns-OL-mesteren Ted Ligety, som personlig har gitt uttrykk for stor respekt for karriereveien Swartz har valgt.",
+   "utovere": [
+    "Fabian Ax Swartz"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/fabian-ax-swartz-joins-shred-ahead-of-2026-27-season/"
+  },
+  {
+   "id": 49135,
+   "publisert": "2026-10-21 18:22",
+   "publisert_iso": "2026-10-21T16:22:56.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Slik ser du alpint verdenscup i USA i 2026–27",
+   "ingress": "Her er en oversikt over hvordan amerikanske seere kan følge alpint verdenscup i løpet av sesongen 2026–27.",
+   "spik": "Fra og med sesongen 2026/27 vil alle alpinverdenscuprenn sendes direkte på strømmetjenesten Peacock i USA, etter en ny avtale mellom NBC Sports, U.S. Ski & Snowboard og FIS. Hele renn vil i tillegg bli tilgjengelige gratis på en ny YouTube-kanal 24 timer etter sending, noe som gir et bredere publikum tilgang uten abonnement. Avtalen trer i kraft fra sesongåpningen i Sölden 24.–25. oktober 2026, og utvalgte renn vil også sendes på tradisjonell TV via NBC og NBC Sports Network.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/how-to-watch-alpine-world-cup-ski-racing-in-the-u-s-in-2026-27/"
+  },
+  {
    "id": 48076,
    "publisert": "2026-10-21 15:10",
    "publisert_iso": "2026-10-21T13:10:00.000Z",
@@ -242,6 +295,59 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.sportschau.de/regional/br/br-riesenslalom-auftakt-in-soelden-dsv-hoffnungstraeger-im-check-102.html"
+  },
+  {
+   "id": 49136,
+   "publisert": "2026-10-20 22:09",
+   "publisert_iso": "2026-10-20T20:09:30.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Odermatt stiller spørsmål ved eget toppnivå i jakten på sjette verdenscuptittel",
+   "ingress": "Marco Odermatt er usikker på om han er på sitt beste, men jakter likevel sin sjette sammenlagtseier i verdenscupen.",
+   "spik": "Marco Odermatt, 29 år, jakter sin sjette strake sammenlagtseier i verdenscupen, men har overrasket mange med å innrømme at han tror han allerede har passert toppformen sin. Sveitseren har vunnet fem verdenscuptitler på rad, men gikk glipp av OL-gull i Milano Cortina og mistet storslalåmtittelen i verdenscupen forrige sesong. I et intervju med Olympics.com sier han rett ut: «Jeg føler at jeg allerede har nådd mitt toppnivå» – en usedvanlig åpen uttalelse fra en utøver som fortsatt regnes som dominerende i alpinsporten.",
+   "utovere": [
+    "Marco Odermatt"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/marco-odermatt-sixth-world-cup-title-2026/"
+  },
+  {
+   "id": 49137,
+   "publisert": "2026-10-20 17:53",
+   "publisert_iso": "2026-10-20T15:53:48.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Aksel Lund Svindal tilbake i Norges landslag – nå som trener",
+   "ingress": "Aksel Lund Svindal er tilbake i det norske alpinlandslaget, denne gangen i en trenerrolle.",
+   "spik": "Aksel Lund Svindal er tilbake i det norske alpinlandslaget som trener for sesongen 2026/27, etter at Norges Skiforbund kunngjorde samarbeidet 20. oktober 2026. Han starter med det tekniske herrelandslaget – slalåm og storslalåm – og deltar allerede på lagets forberedelsesamling før sesongåpningen i Sölden. Svindal, som selv tok OL-gull i utfor i 2010 og 2018 og vant to sammenlagte verdenscuptitler, vil ifølge herrenes sjefstrener Michael Rottensteiner bidra i fire til fem utvalgte trenings- og konkurranseblokker gjennom vinteren.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/aksel-lund-svindal-returns-to-norways-national-team-in-coaching-role/"
+  },
+  {
+   "id": 49138,
+   "publisert": "2026-10-20 15:32",
+   "publisert_iso": "2026-10-20T13:32:58.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Nina O'Brien tilbake i Sölden med fart og ny giv",
+   "ingress": "Nina O'Brien er tilbake i Sölden med god form og mer motivasjon enn noensinne etter å ha kjempet seg tilbake fra skader.",
+   "spik": "Nina O'Brien, 28 år og en av de mest erfarne på det amerikanske Stifel-laget, stiller i Sölden 24. oktober med imponerende statistikk på den krevende Rettenbach-breen: de tre siste gangene hun har startet der, har hun endt på henholdsvis niende-, sjuende- og sjetteplass. Med totalt 12 individuelle topp-10-resultater i verdenscupen og to strake sesonger blant verdens elleve beste storslalåmkjørere er hun nærmere enn noensinne sin første individuelle pallplass. O'Brien har tidligere kjempet seg tilbake etter alvorlige skader, og beskriver sin nåværende motivasjon som sterkere enn noensinne.",
+   "utovere": [
+    "Nina O'Brien"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/nina-obrien-solden-world-cup-2026/"
   },
   {
    "id": 48087,
