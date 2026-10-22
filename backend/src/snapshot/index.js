@@ -432,7 +432,7 @@ export async function generateSnapshot() {
       FROM articles a
       LEFT JOIN categorizations c ON c.article_id = a.id
       LEFT JOIN article_tags t ON t.article_id = a.id
-      WHERE a.fact_ok = 1 AND a.is_duplicate = 0
+      WHERE (a.fact_ok = 1 AND a.is_duplicate = 0) OR c.category IS NOT NULL
       GROUP BY a.id
       ORDER BY COALESCE(a.pub_date, strftime('%Y-%m-%dT%H:%M:%fZ', a.fetched_at)) DESC
     `).all().map(a => ({
@@ -443,7 +443,8 @@ export async function generateSnapshot() {
     }))
 
     db.close()
-    const htmlArticles = articles.slice(0, HTML_LIMIT)
+    // Kategoriserte saker beholdes alltid, også utenfor de nyeste
+    const htmlArticles = articles.filter((a, i) => i < HTML_LIMIT || a.category)
 
     const updatedAt = new Date().toLocaleString('nb-NO', {
       day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit'

@@ -129,7 +129,17 @@ export function uncategorize(article_id) {
   getDb().prepare(`DELETE FROM categorizations WHERE article_id=?`).run(article_id);
 }
 
-export function getRecentArticles({ limit = 60, country, athlete } = {}) {
+// Kategoriserte saker skal alltid med, uansett alder, faktasjekk eller limit.
+export function getRecentArticles(opts = {}) {
+  const recent = queryArticles(opts);
+  const have = new Set(recent.map(a => a.id));
+  const kept = queryArticles({ ...opts, limit: 1e9, onlyCategorized: true }).filter(a => !have.has(a.id));
+  if (!kept.length) return recent;
+  const key = a => a.pub_date || a.fetched_at.replace(' ', 'T') + 'Z';
+  return [...recent, ...kept].sort((a, b) => key(b).localeCompare(key(a)));
+}
+
+function queryArticles({ limit = 60, country, athlete, onlyCategorized = false } = {}) {
   const db = getDb();
   let sql = `
     SELECT
@@ -145,7 +155,9 @@ export function getRecentArticles({ limit = 60, country, athlete } = {}) {
     LEFT JOIN categorizations c ON c.article_id = a.id
     LEFT JOIN article_tags t    ON t.article_id  = a.id
   `;
-  const where = ['a.is_duplicate = 0', "(a.fact_ok = 1 OR a.fact_ok IS NULL)"];
+  const where = onlyCategorized
+    ? ['c.category IS NOT NULL']
+    : ['a.is_duplicate = 0', "(a.fact_ok = 1 OR a.fact_ok IS NULL)"];
   const params = [];
   // Landsflagg = saker med utøvere fra landet. INT er en kildekategori, ikke et land.
   if (country === 'INT') { where.push("a.country = 'INT'"); }
