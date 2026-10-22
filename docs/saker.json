@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-10-22T17:30:07.128Z",
- "antall": 233,
+ "oppdatert": "2026-10-22T17:45:15.926Z",
+ "antall": 234,
  "saker": [
+  {
+   "id": 51150,
+   "publisert": "2026-10-22 19:35",
+   "publisert_iso": "2026-10-22T17:35:24.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Første kvinnelige klubb-VM arrangeres i USA",
+   "ingress": "Det første VM for kvinnelige klubblag i alpint skal arrangeres i USA.",
+   "spik": "Dette er en fotballsak, ikke en alpinsak — artikkelteksten handler om det første kvinnelige klubb-VM i fotball, arrangert av FIFA i USA i januar 2028. Saken har ingen tilknytning til alpint eller vintersport. Det er derfor ikke mulig å skrive et relevant bakgrunnsnotat for NRK Sport alpint basert på dette materialet.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163911/"
+  },
   {
    "id": 50873,
    "publisert": "2026-10-22 19:05",
