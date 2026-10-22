@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-22T12:45:19.137Z",
- "antall": 221,
+ "oppdatert": "2026-10-22T13:00:23.832Z",
+ "antall": 222,
  "saker": [
+  {
+   "id": 48956,
+   "publisert": "2026-10-22 14:53",
+   "publisert_iso": "2026-10-22T12:53:28.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Ny trener for Lara Colturi",
+   "ingress": "Lara Colturi har fått en ny trener.",
+   "spik": "Lara Colturi starter Weltcup-sesongen 2026/27 i Sölden med en ny trener ved sin side: franske Johan Clarey, som selv har 240 verdenscuprenn og en olympisk medalje bak seg. Den 19 år gamle Colturi konkurrerer for Albania, men er datter av italienske Daniela Ceccarelli, som vant OL-gull i super-G under lekene i Salt Lake City i 2002. Ambisjonen er nå at Colturi – i tillegg til de tekniske disiplinene slalåm og storslalåm der hun allerede har markert seg – også skal utvikle seg i nettopp super-G, morens spesialitet.",
+   "utovere": [
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/neuer-coach-colturi/"
+  },
   {
    "id": 48084,
    "publisert": "2026-10-22 12:22",
