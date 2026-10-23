@@ -1,7 +1,229 @@
 {
- "oppdatert": "2026-10-23T05:00:05.265Z",
- "antall": 237,
+ "oppdatert": "2026-10-23T21:02:55.107Z",
+ "antall": 249,
  "saker": [
+  {
+   "id": 55646,
+   "publisert": "2026-10-23 20:14",
+   "publisert_iso": "2026-10-23T18:14:40.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Alice Robinson åpner verdenscupsesongen 2026/27 lørdag klokken 10",
+   "ingress": "Alice Robinson innleder verdenscupsesongen 2026/27 med start lørdag morgen klokken 10.",
+   "spik": "Newzealandske Alice Robinson åpner verdenscupsesongen 2026/27 med startnummer én i riesenslalåmen i Sölden lørdag klokken 10. Robinson, som er 24 år gammel, er en av de fremste storslalåmkjørerne i verden og vant sin første verdenscupseier allerede som 17-åring i nettopp Sölden i 2019. Hun har siden befestet seg i verdenseliten i storslalåm og representerer et av alpintsportens minste nasjoner på høyeste nivå.",
+   "utovere": [
+    "Alice Robinson"
+   ],
+   "land": [
+    "NZL"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/robinson-eroeffnet-samstag/"
+  },
+  {
+   "id": 55611,
+   "publisert": "2026-10-23 20:05",
+   "publisert_iso": "2026-10-23T18:05:25.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Sölden kvinner stor slalåm 2026: Startliste, resultater og TV-tider",
+   "ingress": "Alt du trenger å vite om kvinnenes gigantslalåm i Sölden 2026, inkludert startliste, rangeringer, tider og hvordan du kan følge rennet.",
+   "spik": "Lørdag 25. oktober åpner den nye verdenscupsesongen med kvinnenes gigantslalåm på Rettenbach-breen i Sölden, der 67 løpere fra 19 nasjoner er påmeldt. Forsvarende vinner og regjerende gigantslalåmvinner Julia Scheib er toppfavoritt – østerrikeren tok fem GS-seiere forrige sesong og vant sin første krystallkule i grenen. Blant de store navnene som stiller er Mikaela Shiffrin og Paula Moltzan for USA, samt Petra Vlhová som gjør comeback i verdenscupen etter lang tids fravær. De siste tre Sölden-vinnerne har alle gått videre til å vinne GS-kulen sammenlagt, noe som gir åpningsrennet ekstra historisk tyngde.",
+   "utovere": [
+    "Mikaela Shiffrin",
+    "Petra Vlhová"
+   ],
+   "land": [
+    "SVK",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/solden-womens-gs-2026-start-list-how-to-watch/"
+  },
+  {
+   "id": 55631,
+   "publisert": "2026-10-23 19:15",
+   "publisert_iso": "2026-10-23T17:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Alice Robinson åpner verdenscupen i Sölden – 11 italienske utøvere på startlisten",
+   "ingress": "Alice Robinson får startnummer én i Sölden, med Scheib like bak. Hele 11 italienske alpinister er klare for sesongåpningen i riesenslalåm.",
+   "spik": "Alice Robinson åpner den 61. sesongen av verdenscupen med startnummer én i riesenslalåmen på Rettenbach-breen i Sölden lørdag. Julia Scheib, fjorårets vinner av sesongåpningen i Sölden, starter som nummer to og er blant favorittene. Italia stiller med hele 11 alpinister, men uten de to store stjernene Federica Brignone og Sofia Goggia, mens Mikaela Shiffrin starter med nummer fem.",
+   "utovere": [
+    "Alice Robinson"
+   ],
+   "land": [
+    "NZL"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/sara-alice-robinson-ad-aprire-la-coppa-del-mondo-poi-scheib-nell-arena-di-soelden-11-azzurre-al-via"
+  },
+  {
+   "id": 55687,
+   "publisert": "2026-10-23 18:16",
+   "publisert_iso": "2026-10-23T16:16:04.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Kilde innstilt etter ny skade",
+   "ingress": "Aleksander Aamodt Kilde viser kampvilje etter å ha blitt rammet av enda en skade.",
+   "spik": "Aleksander Aamodt Kilde sier han ønsker å komme tilbake til verdenscupen etter å ha pådratt seg et akillessenebrudd under utfortrening i Chile i midten av oktober. 34-åringen må vente minst 12–18 uker før han kan trene normalt igjen, og når han kan stå på ski er fortsatt uvisst. Kilde har vært ute av konkurranse siden det dramatiske styrtet i Wengen i januar 2024, og det nye tilbakeslaget gjør en allerede langvarig skadehistorie enda tyngre.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163952/"
+  },
+  {
+   "id": 55632,
+   "publisert": "2026-10-23 17:35",
+   "publisert_iso": "2026-10-23T15:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Timer igjen til Rettenbach-utfordringen – italienske utøvere klar for start",
+   "ingress": "Marta Bassino er tilbake etter skade og avslørte at hun bestemte seg for å stille for bare noen dager siden. De italienske utøverne er klare for riesenslalåmen i Sölden.",
+   "spik": "Marta Bassino er tilbake i verdenscupen etter over halvannet år skadefravær og avslørte at hun bestemte seg for å stille i Sölden bare noen dager før rennet. Hun starter med startnummer 28 i riesenslalåmen på Rettenbach. Italia stiller uten Federica Brignone og Sofia Goggia, og det er Lucia Della Mea som er landets fremste kort etter å ha vært eneste italiener i topp 15 forrige sesong.",
+   "utovere": [
+    "Federica Brignone",
+    "Marta Bassino",
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/poche-ore-alla-sfida-del-rettenbach-parola-alle-azzurre-bassino-al-rientro-progredisco-ma-ho-deciso-solo-in-questi-giorni-di-es"
+  },
+  {
+   "id": 55633,
+   "publisert": "2026-10-23 16:50",
+   "publisert_iso": "2026-10-23T14:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Pirovano, Shiffrin og Odermatt delte tanker i FIS Race Talk før Sölden",
+   "ingress": "Laura Pirovano og flere av verdens beste alpinister, deriblant Mikaela Shiffrin og Marco Odermatt, uttalte seg i FIS' Race Talk før sesongåpningen i Sölden.",
+   "spik": "I FIS' tradisjonelle Race Talk kvelden før sesongåpningen i Sölden deltok blant andre Mikaela Shiffrin og Marco Odermatt, som begge er forsvarende innehavere av den store krystallkula. Laura Pirovano representerte Italia og uttrykte glede over å starte sesongen med storslalåm. Også Aline Danioth, Lara Colturi og Eduard Hallberg – som representerer neste generasjon – deltok i samtalen, i tillegg til Henrik Kristoffersen-utfordreren Atle Lie McGrath og Lucas Pinheiro Braathen.",
+   "utovere": [
+    "Laura Pirovano",
+    "Marco Odermatt",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "ITA",
+    "SUI",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/al-race-talk-della-fis-anche-laura-pirovano-che-bello-partire-con-il-gigante-da-shiffrin-a-odermatt-tutte-le-voci"
+  },
+  {
+   "id": 55635,
+   "publisert": "2026-10-23 15:45",
+   "publisert_iso": "2026-10-23T13:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Ti italienske storslalåmkjørere trener i Val Senales i fem dager",
+   "ingress": "Fra søndag av samles ti italienske storslalåmkjørere fra Europa Cup-troppen til en femagers treningsleir i Val Senales.",
+   "spik": "Fra søndag 25. til torsdag 29. oktober samles ti italienske storslalåm- og slalåmkjørere fra Europa Cup-troppen til treningsleir på isbreen i Val Senales i Sør-Tirol. Blant utøverne er Corrado Barbera, Matteo Bendotti og brødrene Enrico og Francesco Zucchini. Parallelt gjennomfører det italienske Europa Cup-landslaget i utfor og super-G et eget treningssamling på samme bre i samme periode.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/da-domenica-e-per-cinque-giorni-lavorano-in-val-senales-dieci-slalomgigantisti-azzurri-del-team-coppa-europa"
+  },
+  {
+   "id": 55636,
+   "publisert": "2026-10-23 14:50",
+   "publisert_iso": "2026-10-23T12:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "3Tre-rennet letter fra Verona – to måneder til stor natt på Canalone Miramonti",
+   "ingress": "Med to måneder igjen til det store slalåmrennet på Canalone Miramonti tar 3Tre-organisasjonen av fra Verona lufthavn i forberedelsene.",
+   "spik": "Med to måneder igjen til nattrennet på Canalone Miramonti i Madonna di Campiglio sparket 3Tre-komiteen i gang en promoturné fra Verona lufthavn. Slalåmrennet i Madonna di Campiglio er en av de mest tradisjonsrike og spektakulære arrangementene på verdenscupkalenderen og arrangeres for 73. gang den 23. desember 2026. Rennet er kjent for sin unike stemning under flombelysning og har gjennom tidene tiltrukket seg enorme folkemengder og TV-seere.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/a-due-mesi-dalla-grande-notte-sul-canalone-miramonti-la-3tre-prende-il-volo-dall-aeroporto-di-verona"
+  },
+  {
+   "id": 55637,
+   "publisert": "2026-10-23 14:10",
+   "publisert_iso": "2026-10-23T12:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Første snø på Mausefalle – befaring i Kitzbühel for nye innovasjoner",
+   "ingress": "De første snøfallene har kommet på den berømte Mausefalle-traseen i Kitzbühel, og arrangørene er i gang med befaring for å utvikle nye løsninger.",
+   "spik": "De første snøflyene har lagt seg over den øvre delen av Streif-løypen i Kitzbühel, blant annet ved det beryktede Mausefalle-partiet over 1600 meters høyde. Arrangørene av Hahnenkamm-rennet gjennomførte befaring med FIS og ORFs TV-produksjon for å jobbe med nye innovasjoner til den 87. utgaven av rennet, som er planlagt til 22.–24. januar 2027. Hahnenkamm-helgen med super-G, utfor og slalåm regnes som en av de mest prestisjefylte arrangementene i alpinsporten.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/nelle-scorse-ore-la-prima-neve-anche-sulla-mausefalle-sopralluogo-a-kitzbuehel-per-lavorare-ad-altre-innovazioni"
+  },
+  {
+   "id": 55639,
+   "publisert": "2026-10-23 12:25",
+   "publisert_iso": "2026-10-23T10:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Endelig Petra: Vlhová er tilbake og klar for comeback",
+   "ingress": "Petra Vlhová er tilbake i verdenstoppen og beskriver returen som et sjokk, men sier hun er lykkelig over å være tilbake på full fart igjen.",
+   "spik": "Petra Vlhová er tilbake i verdenscupen for første gang siden hun skadet høyre kne alvorlig i Jasna 20. januar 2024, og stiller til start i riesenslalåmen i Sölden med startnummer 18. Den slovakiske stjernen, som vant den store krystallkula i 2021, beskriver returen som et sjokk, men sier hun er lykkelig over å være tilbake. Hennes tidligere trener Livio Magoni mener hun har tapt tid i karrieren og er overbevist om at hun vil nå toppen igjen.",
+   "utovere": [
+    "Petra Vlhová"
+   ],
+   "land": [
+    "SVK"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/finalmente-petra-e-una-vigilia-unica-per-vlhova-la-coppa-ritrova-una-fuoriclasse-uno-shock-tornare-a-regime-ma-sono-felice"
+  },
+  {
+   "id": 55641,
+   "publisert": "2026-10-23 11:25",
+   "publisert_iso": "2026-10-23T09:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Darbellay uteblir fra Sölden med tommelbrudd – Nord-Amerika i fare",
+   "ingress": "Clement Darbellay misser Sölden-åpningen etter et tommelbrudd, og skaden setter hans deltakelse i de nordamerikanske verdenscuprennet i fare.",
+   "spik": "Sveitsiske Delphine Darbellay, født 2002, går glipp av Sölden-åpningen etter å ha brukket tommelen i en treningskollisjon med en port på Diavolezza. Det er et tungt tilbakeslag for gigantspesialisten fra Valais, som allerede mistet hele fjorårssesongen på grunn av ryggproblemer. Bruddet setter nå også deltakelsen i de nordamerikanske verdenscuprennene i fare, og Darbellay må avvente videre medisinsk vurdering.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/il-motivo-dell-assenza-di-darbellay-a-soelden-per-una-frattura-al-pollice-lo-stop-mette-a-rischio-il-nordamerica"
+  },
+  {
+   "id": 55706,
+   "publisert": "2026-10-23 10:38",
+   "publisert_iso": "2026-10-23T08:38:59.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Fabian Ax Swartz om samarbeidet med Hirscher: – Han har støttet meg mye",
+   "ingress": "Den svenske alpinisten Fabian Ax Swartz forteller om hva samarbeidet med Marcel Hirscher har betydd for ham.",
+   "spik": "Den 22 år gamle svenske slalomkjøreren Fabian Ax Swartz forteller at Marcel Hirscher har støttet ham mye, og at støtten fra skimerkevaren er avgjørende. Ax Swartz er Sveriges høyest rangerte slalomkjører og konkurrerer for IFK Lidingö slalomklubb. Etter mange år med utkjøringer og tapte andrerunder fant han stabiliteten mot slutten av forrige sesong, da han hentet poeng i åtte av de ni siste tekniske rennene. Nå er han rangert blant de 30 beste i slalåm, og målet for den nye sesongen er å nå pallen.",
+   "utovere": [
+    "Fabian Ax Swartz",
+    "Marcel Hirscher"
+   ],
+   "land": [
+    "NED",
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/fabian-ax-swartz-om-samarbetet-med-hirscher-har-stottat-mig-en-hel-del"
+  },
   {
    "id": 53291,
    "publisert": "2026-10-23 02:00",
