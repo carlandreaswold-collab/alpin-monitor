@@ -1,7 +1,144 @@
 {
- "oppdatert": "2026-10-24T16:45:24.625Z",
- "antall": 284,
+ "oppdatert": "2026-10-24T20:31:33.625Z",
+ "antall": 291,
  "saker": [
+  {
+   "id": 63465,
+   "publisert": "2026-10-24 22:09",
+   "publisert_iso": "2026-10-24T20:09:46.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Østerrike sparker trener Helm",
+   "ingress": "Det østerrikske alpinlandslaget går separate veier med trener Helm.",
+   "spik": "Artikkelteksten handler om at fotballklubben Austria Wien sparker sin trener Stephan Helm etter svak seriestart – dette er ikke en alpinsak. Ingen relevant alpinkontekst kan hentes fra denne kilden, og notatet lar seg derfor ikke skrive på faglig grunnlag.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164019/"
+  },
+  {
+   "id": 63462,
+   "publisert": "2026-10-24 21:54",
+   "publisert_iso": "2026-10-24T19:54:11.000Z",
+   "kilde": "VG",
+   "kilde_land": "NOR",
+   "tittel": "Usikkerhet før alpinstarten: – Forventer at de finner ut av det",
+   "ingress": "",
+   "spik": "Bare to uker før sesongåpningen i Sölden kunngjorde Markus Waldner at han trekker seg som renndirektør for herrene etter tolv år i stillingen. Italieneren har vært en av alpinsportens mest innflytelsesrike skikkelser, med ansvar for konkurranseavvikling, sikkerhet og løypeforhold. Inntil en permanent erstatter er på plass, skal kvinnenes renndirektør lede begge sirklene – en løsning Atle Lie McGrath beskriver som kaotisk, særlig når kvinner og menn konkurrerer på ulike steder samtidig.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.vg.no/sport/i/oKg3JR/usikkerhet-foer-alpinstarten-forventer-at-de-finner-ut-av-det"
+  },
+  {
+   "id": 63399,
+   "publisert": "2026-10-24 20:54",
+   "publisert_iso": "2026-10-24T18:54:32.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Sölden storslalåm menn 2026: Startliste, resultater og TV-tider",
+   "ingress": "Her er alt du trenger å vite om herrenes storslalåm i Sölden, inkludert startliste, tider og hvor du kan se rennet.",
+   "spik": "Herrenes storslalåm i Sölden åpner verdenscupsesongen 2026/27 søndag med 69 utøvere fra 24 nasjoner på Rettenbachbreen. Atle Lie McGrath starter med startnummer 1, mens Lucas Pinheiro Braathen – regjerende OL-mester og verdenscupvinner i GS – starter som nummer 4. Braathen gikk ut i første omgang i Sölden i fjor, men avsluttet sesongen med titler i både OL og verdenscupen i disiplinen.",
+   "utovere": [
+    "Atle Lie McGrath",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/solden-mens-gs-2026-start-list-times-how-to-watch/"
+  },
+  {
+   "id": 63435,
+   "publisert": "2026-10-24 20:07",
+   "publisert_iso": "2026-10-24T18:07:28.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Odermatt stiller i sitt 200. verdenscuprenn søndag",
+   "ingress": "Marco Odermatt når en stor milepæl når han søndag stiller til start i sitt 200. verdenscuprenn.",
+   "spik": "Marco Odermatt stiller søndag til start i sitt 200. verdenscuprenn når storslalåmen i Sölden åpner sesongen 2026/27. Sveitseren fra Nidwalden er 29 år og jakter sin 55. verdenscupseier i jubileumsrennet. Odermatt er forsvarende vinner i Sölden og nummer to på GS-verdenscuplisten, bare slått av Lucas Pinheiro Braathen som tok OL-gull og verdenscuptittelen i storslalåm forrige sesong.",
+   "utovere": [
+    "Marco Odermatt"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/sonntag-bestreitet-odermatt/"
+  },
+  {
+   "id": 63419,
+   "publisert": "2026-10-24 19:50",
+   "publisert_iso": "2026-10-24T17:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Startliste storslalåm menn Sölden: Odermatt med startnummer 6, Steen Olsen melder forfall",
+   "ingress": "Odermatt starter med nummer 6 etter McGrath og Pinheiro Braathen, mens Vinatzer er nummer 11. Steen Olsen har trukket seg fra rennet.",
+   "spik": "Startlisten til herrenes storslalåm i Sölden er klar med Atle Lie McGrath på nummer 1, Lucas Pinheiro Braathen på 4 og forsvarende vinner Marco Odermatt på 6. Henrik Steen Olsen har trukket seg fra rennet. Vindforholdene på Rettenbachbreen er usikre, og arrangørene følger værsituasjonen nøye før start.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Alexander Steen Olsen",
+    "Atle Lie McGrath",
+    "Lucas Braathen",
+    "Marco Odermatt"
+   ],
+   "land": [
+    "BRA",
+    "ITA",
+    "NOR",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/la-startlist-del-gigante-maschile-per-l-opening-odermatt-con-il-6-dopo-mcgrath-e-pinheiro-braathen-vinatzer-n-11-steen-olsen-ri"
+  },
+  {
+   "id": 63400,
+   "publisert": "2026-10-24 19:41",
+   "publisert_iso": "2026-10-24T17:41:40.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Valérie Grenier operert etter Sölden-skade: ACL og menisk",
+   "ingress": "Kanadiske Valérie Grenier har gjennomgått operasjon for korsbåndskade og meniskskade etter å ha blitt skadet i Sölden.",
+   "spik": "Kanadiske Valérie Grenier har gjennomgått vellykket ACL-rekonstruksjon og meniskoperasjon etter å ha skadet kneet under trening på Rettenbachbreen i Sölden. Grenier bekrefter på Instagram at inngrepet gikk «super smooth» og takker kirurg Dr. Simard og teamet ved CEOM. Dette er ikke første gang Grenier opererer ACL, noe som gjør rehabiliteringen ekstra krevende – hun må nå forberede seg på en lang pause fra verdenscupen.",
+   "utovere": [
+    "Valérie Grenier"
+   ],
+   "land": [
+    "CAN"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/valerie-grenier-undergoes-acl-reconstruction-and-meniscus-repair-after-solden-injury/"
+  },
+  {
+   "id": 63420,
+   "publisert": "2026-10-24 19:10",
+   "publisert_iso": "2026-10-24T17:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Zenere nær topp 15 i Killington – verdenscupkampen kompliseres for Bassino og Brignone",
+   "ingress": "Etter Sölden er Zenere tett på topp 15 foran Killington, mens situasjonen i verdenscupsammenlagningen ser vanskeligere ut for både Bassino og Brignone.",
+   "spik": "Etter sesongåpningen i Sölden, der Paula Moltzan vant og leder verdenscupen totalt med 100 poeng, er den italienske håpefulle Asja Zenere på 5. plass og tett på topp 15 foran Killington. Situasjonen er derimot vanskeligere for de italienske stjernene Marta Bassino og Federica Brignone – Bassino er utenfor topp 30 i GS-cupen, Brignone utenfor topp 20. Mikaela Shiffrin er foreløpig 7. totalt, men er ikke påmeldt slalomene i Levi og Gurgl.",
+   "utovere": [
+    "Federica Brignone",
+    "Marta Bassino",
+    "Paula Moltzan"
+   ],
+   "land": [
+    "ITA",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/zenere-a-ridosso-delle-15-per-killington-per-bassino-e-brignone-la-wcsl-si-complica-le-classifiche-di-cdm-dopo-soelden"
+  },
   {
    "id": 63301,
    "publisert": "2026-10-24 18:40",
