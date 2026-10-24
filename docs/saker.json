@@ -1,7 +1,91 @@
 {
- "oppdatert": "2026-10-24T12:45:27.759Z",
- "antall": 268,
+ "oppdatert": "2026-10-24T13:00:38.602Z",
+ "antall": 272,
  "saker": [
+  {
+   "id": 61610,
+   "publisert": "2026-10-24 14:55",
+   "publisert_iso": "2026-10-24T12:55:10.000Z",
+   "kilde": "franceinfo",
+   "kilde_land": "FRA",
+   "tittel": "Paula Moltzan åpner sesongen med sin første karriereseier i storslalåmen i Sölden",
+   "ingress": "Paula Moltzan sikret sin første seier i verdenscupen da hun vant storslalåmen i Sölden ved sesongåpningen.",
+   "spik": "Paula Moltzan tok sin aller første verdenscupseier da hun vant storslalåmen i Sölden 24. oktober 2026, sesongåpningen i alpint. Amerikaneren på 32 år slo landskvinninnen Mikaela Shiffrin, som ledet etter første omgang, men falt tilbake til syvendeplass i annen omgang. Moltzan vant foran Lara Colturi (Albania) og Emma Aicher (Tyskland) med kun en hundredel til gode over Colturi – en drømmeavslutning for en utøver som har jaktet gjennombruddet gjennom hele karrieren.",
+   "utovere": [
+    "Paula Moltzan"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin/coupe-du-monde/paula-moltzan-lance-la-saison-avec-sa-premiere-victoire-en-carriere-sur-le-geant-de-solden_8252242.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  {
+   "id": 61542,
+   "publisert": "2026-10-24 14:48",
+   "publisert_iso": "2026-10-24T12:48:48.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Moltzan vinner i Sölden på hundredelen – video av 2. omgang i storslalåm",
+   "ingress": "Paula Moltzan sikret sin første verdenscupseier i Sölden med kun hundredels margin, og video fra 2. omgang er tilgjengelig.",
+   "spik": "Paula Moltzan vant sesongåpningens storslalåm i Sölden med kun én hundredels margin foran Lara Colturi – en av de knappeste seirene man kan oppleve i alpint. For 32 år gamle Moltzan kom seieren etter en lang rekke forsøk og podiumplasseringer uten å gå helt til topps. Mikaela Shiffrin, som var raskest i første omgang, kjørte forsiktig i andre og endte på syvendeplass, noe som åpnet for Moltzans gjennombrudd.",
+   "utovere": [
+    "Paula Moltzan"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/video/a-soelden-per-un-centesimo-paula-moltzan-conquista-la-sua-prima-gara-il-video-della-2-manche-in-gigante"
+  },
+  {
+   "id": 61621,
+   "publisert": "2026-10-24 14:47",
+   "publisert_iso": "2026-10-24T12:47:13.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Andre omgang i storslalåm",
+   "ingress": "Andre omgang i storslalåmrennet er i fokus.",
+   "spik": "Andre omgang i sesongåpningens storslalåm i Sölden ble avgjørende for det endelige resultatet. Amerikaneren Paula Moltzan klatret fra femteplass etter første omgang og tok seieren, mens tyske Emma Aicher kjørte seg opp til en tredjeplass. Sölden på Rettenbach-breen i Østerrike er det tradisjonelle startpunktet for verdenscupsesongen og har vært det siden 1990-tallet.",
+   "utovere": [
+    "Emma Aicher",
+    "Paula Moltzan"
+   ],
+   "land": [
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/der-zweite-lauf-im-riesenslalom-in-der-wintersaison-2026-27,riesenslalom-frauen-soelden-2-100.html"
+  },
+  {
+   "id": 61577,
+   "publisert": "2026-10-24 14:46",
+   "publisert_iso": "2026-10-24T12:46:16.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Moltzan feirer premiereseier i Sölden",
+   "ingress": "Paula Moltzan tok sin første verdenscupseier da hun triumferte i storslalåmen i Sölden.",
+   "spik": "Paula Moltzan tok sin første verdenscupseier i storslalåmen i Sölden 24. oktober 2026, 32 år gammel og i sitt 149. individuelle verdenscuprenn. Amerikaneren klatret fra femteplass til seier i andre omgang og vant med én hundredel foran Lara Colturi, som representerer Albania. Emma Aicher tok en sterk tredjeplass for Tyskland, mens østerrikske Franziska Gritsch var beste hjemmeløper på niendeplass. Mikaela Shiffrin, som ledet etter første omgang, endte på syvendeplass etter en forsiktig annen kjøring.",
+   "utovere": [
+    "Emma Aicher",
+    "Julia Scheib",
+    "Lara Colturi",
+    "Paula Moltzan"
+   ],
+   "land": [
+    "ALB",
+    "AUT",
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163991/"
+  },
   {
    "id": 61432,
    "publisert": "2026-10-24 14:31",
