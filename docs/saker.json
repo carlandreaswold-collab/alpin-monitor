@@ -1,7 +1,45 @@
 {
- "oppdatert": "2026-10-24T14:00:22.677Z",
- "antall": 277,
+ "oppdatert": "2026-10-24T14:15:27.447Z",
+ "antall": 279,
  "saker": [
+  {
+   "id": 62132,
+   "publisert": "2026-10-24 16:03",
+   "publisert_iso": "2026-10-24T14:03:31.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Høydepunktene fra kvinnenes storslalåm i Sölden",
+   "ingress": "Her er høydepunktene fra kvinnenes storslalåmrenn i Sölden.",
+   "spik": "Paula Moltzan fra USA vant kvinnenes storslalåm i Sölden og sikret seg dermed sitt første verdenscuprenn i karrieren. Seieren var også historisk for skiutstyrsprodusenten VanDeer, som tok sin første verdenscupseier i kvinnealpint. Moltzan har vært en jevn verdenscupløper i flere år uten å ha vunnet, og triumfen kom i selskap med Emma Aicher og Lara Colturi på resultatlisten – to av de mest spennende unge profilene i kvinnealpint for tiden.",
+   "utovere": [
+    "Emma Aicher",
+    "Lara Colturi",
+    "Paula Moltzan"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/video/2026/hoehepunkte-riesenslaloms-soelden/"
+  },
+  {
+   "id": 62209,
+   "publisert": "2026-10-24 15:57",
+   "publisert_iso": "2026-10-24T13:57:05.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Storslalåm for kvinner i Sölden – oppsummering",
+   "ingress": "Her er en oppsummering av kvinnenes storslalåm i Sölden.",
+   "spik": "Sölden markerte åpningen av alpinverdenscupsesongen 2026/27 med storslalåm for kvinner på den ikoniske Rettenbach-breen. Sölden har vært fast åpningsarena for verdenscupen siden 2000-tallet og gir ryttere og lag en første pekepinn på formen før den lange sesongen. Rennet samler verdens beste alpinister og er alltid tett fulgt av fansen som hungrer etter alpint etter en lang sommerpause.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/riesenslalom-der-frauen-in-soelden-die-zusammenfassung,video-zusammenfassung-riesenslalom-soelden-100.html"
+  },
   {
    "id": 61998,
    "publisert": "2026-10-24 15:50",
