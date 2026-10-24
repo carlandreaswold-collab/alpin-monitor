@@ -1,7 +1,45 @@
 {
- "oppdatert": "2026-10-24T13:15:20.948Z",
- "antall": 273,
+ "oppdatert": "2026-10-24T13:30:35.244Z",
+ "antall": 275,
  "saker": [
+  {
+   "id": 61743,
+   "publisert": "2026-10-24 15:26",
+   "publisert_iso": "2026-10-24T13:26:32.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Moltzan tok sin første verdenscupseier i Sølden",
+   "ingress": "Paula Moltzan sikret seg sin aller første verdenscupseier i Sølden i et overraskende oppgjør om pallplassene.",
+   "spik": "Paula Moltzan vant sin første verdenscupseier noensinne i sesongåpningen i Sølden, og avsluttet en lang venting med ti pallplasseringer bak seg. Den 32 år gamle amerikaneren fra Minnesota er kjent som en teknisk sterk slalåm- og storslalåmkjører som lenge har vært i verdenstoppen uten å ta steget opp til topps. Seieren kom i et overraskende oppgjør om pallplassene, og markerer en milepæl i karrieren til en av de mest erfarne utøverne på kvinnenes verdenscupsirkus.",
+   "utovere": [
+    "Paula Moltzan"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/moltzan-claims-first-world-cup-victory-in-solden-podium-shake-up/"
+  },
+  {
+   "id": 61763,
+   "publisert": "2026-10-24 15:20",
+   "publisert_iso": "2026-10-24T13:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Moltzan skriver historie i Sølden sammen med Van Deer",
+   "ingress": "Paula Moltzan satte seg selv i historiebøkene i Sølden sammen med Van Deer, som vant i sin debut på verdenscupsirkuset. – Jeg gleder meg til å feire med laget, sa Moltzan.",
+   "spik": "Paula Moltzan skrev alpinhistorie i Sølden da hun tok sin aller første verdenscupseier i kjempeslalåm på Rettenbach-breen, 32 år gammel og etter hele ti pallplasseringer uten seier. Moltzan er den første og hittil eneste kvinnen som kjører på utstyr utviklet av Marcel Hirscher og hans nederlandske merke Van Deer, som dermed vant på sin absolutte debut i verdenscupen. Seieren ble ekstra dramatisk da Lara Colturi – som kjører for Albania – endte bare ett hundredels sekund bak på andreplass, mens Mikaela Shiffrin nøyde seg med sjuendeplass. – Jeg gleder meg til å feire med laget, sa Moltzan etter løpet.",
+   "utovere": [
+    "Paula Moltzan"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/moltzan-fa-la-storia-a-soelden-assieme-a-van-deer-vincente-al-debutto-nel-circo-rosa-non-vedo-l-ora-di-festeggiare-con-il-team"
+  },
   {
    "id": 61730,
    "publisert": "2026-10-24 15:05",
