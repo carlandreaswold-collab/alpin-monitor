@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-10-24T10:00:11.143Z",
- "antall": 259,
+ "oppdatert": "2026-10-24T10:15:19.308Z",
+ "antall": 260,
  "saker": [
   {
    "id": 60129,
@@ -107,6 +107,29 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.skinews.ch/news/2026/shiffrin-sachen-soelden/"
+  },
+  {
+   "id": 60379,
+   "publisert": "2026-10-24 11:21",
+   "publisert_iso": "2026-10-24T09:21:38.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Første omgang i storslalåm i vintersesongen 2026/27",
+   "ingress": "Den første omgangen i storslalåm er gjennomført i vintersesongen 2026/27.",
+   "spik": "Mikaela Shiffrin er raskest etter første omgang i sesongåpningens storslalåm i Sölden, foran Sara Hector og Camille Rast. Sölden har tradisjonelt vært stedet der verdenscupen i alpint åpner sesongen hvert år i slutten av oktober, og Shiffrin har en imponerende merittliste her. Den amerikanske stjernen er tidenes mestvinnenede alpinist med over 100 verdenscupseire, og en sterk første omgang i Sölden er et godt tegn foran resten av sesongen 2026/27.",
+   "utovere": [
+    "Camille Rast",
+    "Mikaela Shiffrin",
+    "Sara Hector"
+   ],
+   "land": [
+    "SUI",
+    "SWE",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/der-erste-lauf-im-riesenslalom-der-wintersaison-2026-27,riesenslalom-lauf-1-soelden-100.html"
   },
   {
    "id": 59459,
