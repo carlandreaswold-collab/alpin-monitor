@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-10-24T20:31:33.625Z",
- "antall": 291,
+ "oppdatert": "2026-10-24T20:45:16.677Z",
+ "antall": 292,
  "saker": [
+  {
+   "id": 63582,
+   "publisert": "2026-10-24 22:39",
+   "publisert_iso": "2026-10-24T20:39:43.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Østerrike skiller lag med trener Helm",
+   "ingress": "Østerrike har avsluttet samarbeidet med trener Helm.",
+   "spik": "Dette er ikke en alpinsak, men en fotballsak: Austria Wien i østerriksk Bundesliga har sparket treneren Stephan Helm etter en svak sesongstart. Helm, 43 år, hadde vært sjeftrener siden juli 2024 og fikk kontrakten forlenget så sent som i vår, men etter ti kamper med bare to seire og syv poeng står laget nest sist. Erstatteren blir Maximilian Uhlig, 33, som tidligere ledet reservelaget Young Violets.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164020/"
+  },
   {
    "id": 63465,
    "publisert": "2026-10-24 22:09",
