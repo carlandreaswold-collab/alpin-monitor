@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-10-24T09:30:41.593Z",
- "antall": 258,
+ "oppdatert": "2026-10-24T09:45:19.873Z",
+ "antall": 259,
  "saker": [
+  {
+   "id": 60129,
+   "publisert": "2026-10-24 11:37",
+   "publisert_iso": "2026-10-24T09:37:39.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Sara Hector i toppposisjon etter åpningen – tett bak Shiffrin",
+   "ingress": "Sara Hector er i en sterk posisjon etter premiären og ligger tett bak Mikaela Shiffrin i konkurransen.",
+   "spik": "Sara Hector kjørte seg inn på andreplass etter første omgang i storslalomåpningen i Sölden, bare 14 hundredeler bak Mikaela Shiffrin. Den 34 år gamle svenske veteranen har vært en fast gjest i toppen av storslalomcupen og har endt på tredjeplass sammenlagt tre sesonger på rad. Hector har vunnet flere verdenscuprenn i storslalom og var VM-gull-vinner i samme disiplin i Cortina 2021. Også Estelle Alphand imponerte med en sjuendeplass etter første omgang, noe som gir Sverige sterke kort foran annen omgang.",
+   "utovere": [
+    "Mikaela Shiffrin",
+    "Sara Hector"
+   ],
+   "land": [
+    "SWE",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/slaglage-for-sara-hector-i-premiaren-tatt-bakom-shiffrin"
+  },
   {
    "id": 59996,
    "publisert": "2026-10-24 11:26",
