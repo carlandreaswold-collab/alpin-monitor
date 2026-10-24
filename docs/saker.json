@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-10-24T13:00:38.602Z",
- "antall": 272,
+ "oppdatert": "2026-10-24T13:15:20.948Z",
+ "antall": 273,
  "saker": [
+  {
+   "id": 61730,
+   "publisert": "2026-10-24 15:05",
+   "publisert_iso": "2026-10-24T13:05:35.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Alpint: Emma Aicher på pallen i Verdenscup-åpningen",
+   "ingress": "Emma Aicher leverte en sterk prestasjon og sikret seg en pallplass ved åpningen av alpint-verdenscupen.",
+   "spik": "Den 22 år gamle tyske alpinisten Emma Aicher sikret seg tredjeplass i storslalåmåpningen i Sölden, og satte dermed karrierebeste i denne disiplinen. Seieren gikk til amerikanske Paula Moltzan, mens Lara Colturi — som kjører for Albania — tok andreplassen. Aicher var bare niende etter første omgang, noe som gjør andreetappen imponerende. Storslalåm regnes som hennes svakeste gren, og hennes tidligere beste resultat der var en fjerdeplass i Åre i mars — så prestasjonen i Sölden er et tydelig tegn på at hun er i utvikling mot toppen av verdenscupen.",
+   "utovere": [
+    "Emma Aicher",
+    "Paula Moltzan"
+   ],
+   "land": [
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/aicher-rast-beim-weltcup-auftakt-auf-podest,ski-alpin-soelden-riesenslalom-100.html"
+  },
   {
    "id": 61610,
    "publisert": "2026-10-24 14:55",
