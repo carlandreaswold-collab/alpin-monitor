@@ -1,7 +1,52 @@
 {
- "oppdatert": "2026-10-24T12:15:08.056Z",
- "antall": 264,
+ "oppdatert": "2026-10-24T12:30:27.524Z",
+ "antall": 266,
  "saker": [
+  {
+   "id": 61349,
+   "publisert": "2026-10-24 14:28",
+   "publisert_iso": "2026-10-24T12:28:14.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Amerikanske Moltzan vinner storslalåm i Sölden",
+   "ingress": "Paula Moltzan fra USA tok seieren i verdenscupåpningens storslalåm i Sölden.",
+   "spik": "Paula Moltzan fra USA vant overraskende sesongåpningens storslalåm i Sölden lørdag – hennes første seier i verdenscupen. 32-åringen klatret fra femteplass etter første omgang og slo Lara Colturi (Albania) og Emma Aicher (Tyskland) med bare ett hundredels sekund. For Østerrike ble det en skuffelse: titelforsvarer Julia Scheib styrtet i første omgang, og eneste østerrikske finalist Franziska Gritsch endte på tiendeplass.",
+   "utovere": [
+    "Emma Aicher",
+    "Lara Colturi",
+    "Paula Moltzan"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164000/"
+  },
+  {
+   "id": 61304,
+   "publisert": "2026-10-24 14:25",
+   "publisert_iso": "2026-10-24T12:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Moltzan vinner første storslalåm med ett hundredels sekunds margin over Colturi – Zenere femte",
+   "ingress": "Det ble en dramatisk snuoperasjon på Rettenbach-breen, der Paula Moltzan vant sesongåpningens storslalåm med ett hundredels sekund foran Colturi. Zenere imponerte med en femteplass.",
+   "spik": "Paula Moltzan sikret sitt første verdenscupseier i sesongåpningens storslalåm på Rettenbach-breen i Sölden, kun ett hundredels sekund foran Lara Colturi fra Albania. Den 32 år gamle amerikaneren, kjent som en solid slalåmkjører, vant med nytt utstyr etter samarbeid med Van Deer. Italienske Federica Zenere imponerte med en femteplass, mens storstjernen Mikaela Shiffrin endte på syvende plass etter et skiftende vær under rennet.",
+   "utovere": [
+    "Lara Colturi",
+    "Mikaela Shiffrin",
+    "Paula Moltzan"
+   ],
+   "land": [
+    "ALB",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/che-ribaltone-sul-rettenbach-il-primo-gigante-di-coppa-e-di-moltzan-per-un-centesimo-su-colturi-una-gran-zenere-e-quinta"
+  },
   {
    "id": 60855,
    "publisert": "2026-10-24 13:25",
