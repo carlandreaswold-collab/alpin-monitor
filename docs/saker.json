@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-24T10:45:22.024Z",
- "antall": 262,
+ "oppdatert": "2026-10-24T11:00:18.196Z",
+ "antall": 263,
  "saker": [
+  {
+   "id": 60629,
+   "publisert": "2026-10-24 12:55",
+   "publisert_iso": "2026-10-24T10:55:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Della Mea første italiener i startgropa i 2. omgang, deretter Pazzaglia og Zenere: ny start kl. 13.30 på Rettenbach",
+   "ingress": "Della Mea er første italienske utøver i startgropa i den andre omgangen, etterfulgt av Pazzaglia og Zenere. Rennet fortsetter på Rettenbach-løypa klokken 13.30, der også Shiffrin stiller til start.",
+   "spik": "Verdenscupsesongen i alpint åpnes med storslalåm for kvinner på Rettenbach-løypa i Sölden, der Mikaela Shiffrin leder etter første omgang med 14 hundredeler ned til svenske Sara Hector og 37 til sveitsiske Camille Rast. Shiffrin har ikke vunnet en storslalåm på nesten tre år – sist var hun nær seier i Killington i november 2024, da hun falt få porter fra mål. Amerikaneren har vunnet i Sölden tidligere, i 2014 og 2021, og jager sin 111. verdenscupseier. For Italia stiller Della Mea, Pazzaglia og Zenere i andre omgang, med ambisjoner om topp ti.",
+   "utovere": [
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/della-mea-prima-azzurra-al-cancelletto-nella-2-manche-poi-pazzaglia-e-zenere-alle-1330-si-riparte-sul-rettenbach-e-shiffrin"
+  },
   {
    "id": 60497,
    "publisert": "2026-10-24 12:30",
