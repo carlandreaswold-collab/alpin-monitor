@@ -1,7 +1,32 @@
 {
- "oppdatert": "2026-10-24T10:30:24.841Z",
- "antall": 261,
+ "oppdatert": "2026-10-24T10:45:22.024Z",
+ "antall": 262,
  "saker": [
+  {
+   "id": 60497,
+   "publisert": "2026-10-24 12:30",
+   "publisert_iso": "2026-10-24T10:30:55.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Shiffrin satte farten i Sölden – titelforsvarer Scheib krasjet ut",
+   "ingress": "Mikaela Shiffrin var raskest i Sölden, mens den forsvarende mesteren Scheib røk ut etter en smell.",
+   "spik": "Mikaela Shiffrin var raskest etter første omgang i sesongåpningen i Sölden, med tiden 1:07.27 – 0,14 sekunder foran svenske Sara Hector og 0,37 foran Camille Rast. Den forsvarende mesteren Scheib røk ut etter en krasj og tok ikke del i finaleomgangen. Shiffrin, som har vunnet Sölden-rennet en rekke ganger gjennom karrieren og nærmer seg 100 verdenscupseirer, leverte et teknisk sterkt løp med god fart gjennom de krevende partiene i det nedre flate feltet. Løpet ble forsinket av snø, og vinden skapte utfordringer i øvre del av løypen på Rettenbachgletsjeren.",
+   "utovere": [
+    "Camille Rast",
+    "Julia Scheib",
+    "Mikaela Shiffrin",
+    "Sara Hector"
+   ],
+   "land": [
+    "AUT",
+    "SUI",
+    "SWE",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/shiffrin-sets-the-pace-in-solden-as-defending-champion-scheib-crashes-out/"
+  },
   {
    "id": 60403,
    "publisert": "2026-10-24 12:20",
