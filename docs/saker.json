@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-10-24T16:30:14.695Z",
- "antall": 283,
+ "oppdatert": "2026-10-24T16:45:24.625Z",
+ "antall": 284,
  "saker": [
+  {
+   "id": 63301,
+   "publisert": "2026-10-24 18:40",
+   "publisert_iso": "2026-10-24T16:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Sju italienske utøvere åpner sesongen – Vinatzer og Franzoni med store ambisjoner",
+   "ingress": "Sju italienske alpinister er klare for sesongstart. Vinatzer satser med nytt støtteapparat, mens Franzoni håper å utvikle seg til storslalømkjører.",
+   "spik": "Sju italienske alpinister stiller til sesongstart i storslalåm i Sölden søndag, med Alex Vinatzer som eneste italiener blant de 15 beste på startlisten. Vinatzer, 27 år og fra Gröden, er inne i et nytt samarbeid med støtteapparatet etter at trener Mauro Pini trakk seg følge et skuffende OL. Giovanni Franzoni, som starter med startnummer 31, har ambisjoner om å etablere seg som storslalåmkjører på høyeste nivå. Luca De Aliprandini må nøye seg med startnummer 44, noe som gjør oppgaven betydelig vanskeligere på den tekniske Rettenbach-glaciéren.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Giovanni Franzoni"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/sette-azzurri-per-aprire-la-stagione-vinatzer-ci-prova-un-nuovo-percorso-con-lo-staff-franzoni-spero-di-diventare-un-gigantista"
+  },
   {
    "id": 62473,
    "publisert": "2026-10-24 16:50",
