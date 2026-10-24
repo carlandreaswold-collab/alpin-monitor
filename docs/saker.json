@@ -1,7 +1,42 @@
 {
- "oppdatert": "2026-10-24T21:15:08.563Z",
- "antall": 292,
+ "oppdatert": "2026-10-24T21:30:30.150Z",
+ "antall": 294,
  "saker": [
+  {
+   "id": 63934,
+   "publisert": "2026-10-24 23:22",
+   "publisert_iso": "2026-10-24T21:22:54.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Gritsch reddet Østerrike fra total fiasko",
+   "ingress": "Gritsch forhindret et totalt østerriksk fiasko da hun var eneste lyspunkt for ÖSV.",
+   "spik": "Franziska Gritsch reddet Østerrike fra et totalt fiasko i sesongåpningen i Sölden, der hun som eneste østerrikske løper tok seg videre til andreomgang og endte på niendeplass i storslalåm. Fjorårets vinner Julia Scheib styrtet ut i første omgang, noe som understreket hvor sårbart det østerrikske laget er bak sine fremste profiler. Gritsch, som trener alene adskilt fra landslaget, forbedret seg fra 15.- til 9.-plass i andreomgangen og leverte sitt beste storslalåmresultat på lang tid – hennes beste forrige sesong var en 18.-plass.",
+   "utovere": [
+    "Franziska Gritsch",
+    "Julia Scheib"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164003/"
+  },
+  {
+   "id": 63948,
+   "publisert": "2026-10-24 23:18",
+   "publisert_iso": "2026-10-24T21:18:18.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Kaos rundt Moa Lundgren etter comeback på A-landslaget",
+   "ingress": "Moa Lundgren opplevde kaotiske tilstander etter sin retur til det svenske alpinlandslaget.",
+   "spik": "Moa Lundgren er tilbake på det svenske alpinlandslaget etter fem år utenfor, men comebacket har vært preget av kaos etter gjentatte sykdomsperioder med covidliknende luftveisplager. Den 28 år gamle sprintspesialisten måtte avbryte eller miste alle treningssamlinger i løpet av forsommeren og høsten – i Riksgränsen, Torsby og norske Meråker – og var syk i over fire sammenhengende uker. Lundgren forteller at hun siden covid har hatt rundt 40 sykedager per år, og til tross for fem topp ti-plasseringer i verdenscupen forrige sesong ble hun ikke tatt ut til OL-troppen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/langdskidor/moa-lundgrens-kaos-efter-aterkomsten-i-a-landslaget"
+  },
   {
    "id": 63582,
    "publisert": "2026-10-24 22:39",
