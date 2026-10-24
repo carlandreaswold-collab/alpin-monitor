@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-24T10:15:19.308Z",
- "antall": 260,
+ "oppdatert": "2026-10-24T10:30:24.841Z",
+ "antall": 261,
  "saker": [
+  {
+   "id": 60403,
+   "publisert": "2026-10-24 12:20",
+   "publisert_iso": "2026-10-24T10:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Italia-gigantene sliter i Sölden – Zenere, Pazzaglia og Della Mea inne",
+   "ingress": "Det italienske alpinlandslaget hadde en tøff dag i Sölden. Zenere innrømmer hun var nervøs, mens Bassino sier hun trenger flere treningspassasjer.",
+   "spik": "Det italienske alpinlandslaget fikk en tøff åpning på verdenscupsesongen i Sölden, der bare tre av elleve sendte utøvere kvalifiserte seg til andre omgang i storslalåm på Rettenbach-breen. Giovanna Zenere innrømte at hun var nervøs, men mener hun har mer å gå på, mens Marta Bassino – som er tilbake etter et alvorlig kneskade i fjor – sier hun trenger flere treningspassasjer for å finne formen. Italia stilte uten sine to største profiler, Federica Brignone og Sofia Goggia, noe som økte presset på de øvrige løperne fra start.",
+   "utovere": [
+    "Marta Bassino"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/l-italgigante-fatica-a-soelden-dentro-zenere-ero-tesa-ho-margine-pazzaglia-e-della-mea-bassino-ho-bisogno-di-passaggi"
+  },
   {
    "id": 60129,
    "publisert": "2026-10-24 11:37",
