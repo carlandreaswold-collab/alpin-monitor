@@ -1,7 +1,43 @@
 {
- "oppdatert": "2026-10-24T14:15:27.447Z",
- "antall": 279,
+ "oppdatert": "2026-10-24T14:30:15.305Z",
+ "antall": 281,
  "saker": [
+  {
+   "id": 62276,
+   "publisert": "2026-10-24 16:17",
+   "publisert_iso": "2026-10-24T14:17:49.000Z",
+   "kilde": "VG",
+   "kilde_land": "NOR",
+   "tittel": "Forloveden om Kildes nye skademareritt: ­ – Hjerteskjærende",
+   "ingress": "",
+   "spik": "Aleksander Aamodt Kilde pådro seg en akilleskadeskade under utfortrening i Chile 14. oktober, noe som setter en brutal stopper for comebacket hans. Kilde har allerede vært ute med alvorlig kneskade siden januar 2024, og har dermed mistet nesten to hele sesonger. Forloveden Mikaela Shiffrin, som åpnet verdenscupsesongen med en syvendeplass i Sölden, reiste til Chile for å være med ham og beskriver tilbakeslaget som hjerteskjærende – men sier hennes første reaksjon var lettelse over at skaden ikke var livstruende.",
+   "utovere": [
+    "Aleksander Aamodt Kilde",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "NOR",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.vg.no/sport/i/9kJQxq/shiffrin-om-aleksander-aamodt-kildes-nye-skade-hjerteskjaerende"
+  },
+  {
+   "id": 62277,
+   "publisert": "2026-10-24 16:17",
+   "publisert_iso": "2026-10-24T14:17:28.000Z",
+   "kilde": "VG",
+   "kilde_land": "NOR",
+   "tittel": "– Føler jeg har sviktet henne",
+   "ingress": "",
+   "spik": "Denne saken handler ikke om alpint og er ikke relevant som bakgrunnsnotat for NRK Sport alpint.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.vg.no/nyheter/i/qyLmde/sas-nektet-faren-aa-fly-hjem-med-datteren-4-foeler-jeg-har-sviktet-henne"
+  },
   {
    "id": 62132,
    "publisert": "2026-10-24 16:03",
