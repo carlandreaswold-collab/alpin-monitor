@@ -21,6 +21,13 @@ export const SOURCES = [
   // SVT Sport er generell sport — faktasjekk filtrerer bort rusk
   { id: 'svt',        name: 'SVT Sport',   url: 'https://www.svt.se/sport/rss.xml',          type: 'rss', country: 'SWE', lang: 'sv' },
 
+  // Expressen — generell sport (ingen alpint-feed), faktasjekk filtrerer bort rusk
+  { id: 'expressen',  name: 'Expressen',   url: 'https://www.expressen.se/rss/sport',        type: 'rss', country: 'SWE', lang: 'sv' },
+
+  // ── SLOVENIA ──
+  // RTV SLO sport (feed 03) — generell sport, mest fotball/basket/sykling, faktasjekk filtrerer bort rusk
+  { id: 'rtvslo',     name: 'RTV SLO',     url: 'https://img.rtvslo.si/feeds/03.xml',        type: 'rss', country: 'SLO', lang: 'sl' },
+
   // ── FRANKRIKE ──
   // franceinfo (France Télévisions) — dedikert ski alpin-feed, offentlig kringkaster
   { id: 'franceinfo', name: 'franceinfo',  url: 'https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin.rss', type: 'rss', country: 'FRA', lang: 'fr' },
