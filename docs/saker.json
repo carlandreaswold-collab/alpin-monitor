@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-10-27T20:00:16.322Z",
- "antall": 313,
+ "oppdatert": "2026-10-27T20:15:23.519Z",
+ "antall": 314,
  "saker": [
+  {
+   "id": 71625,
+   "publisert": "2026-10-27 21:02",
+   "publisert_iso": "2026-10-27T20:02:36.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Beaver Creek innfører automatisert snøproduksjon til verdenscupen",
+   "ingress": "Beaver Creek har installert automatisert snøproduksjon for å sikre ideelle forhold under Stifel Birds of Prey FIS alpint verdenscup.",
+   "spik": "Beaver Creek har installert 16 automatiserte snøkanoner på den nedre tredjedelen av Birds of Prey-løypen for å sikre stabile forhold under verdenscupen 3.–13. desember. Bakgrunnen er at varmt vær i desember i fjor skapte problemer med snøproduksjonen, noe som tvang arrangørene til å endre start og mål og stryke ett utfor. Det nye systemet består av ti SMI Grizzly-kanoner og seks SMI Super Puma-vigsler, og er designet for å bruke mindre energi og vann enn tradisjonelt utstyr. Vail Valley Foundation, som organiserer rennet, peker på at den nedre løypeseksjonen er særlig sårbar for temperaturinversjoner tidlig i sesongen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/beaver-creek-stifel-birds-of-prey-snowmaking/"
+  },
   {
    "id": 71317,
    "publisert": "2026-10-27 20:35",
