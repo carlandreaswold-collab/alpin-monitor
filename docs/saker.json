@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-27T19:30:17.553Z",
- "antall": 312,
+ "oppdatert": "2026-10-27T19:45:24.690Z",
+ "antall": 313,
  "saker": [
+  {
+   "id": 71317,
+   "publisert": "2026-10-27 20:35",
+   "publisert_iso": "2026-10-27T19:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Italia forbereder seg til Levi med samling i Val Senales",
+   "ingress": "Alle italienske slalomkvinner på verdenscupnivå, fra Trocker til Peterlini, er samlet i Val Senales for å forberede seg til Levi.",
+   "spik": "Det italienske slalomlandslaget for kvinner samles på breen i Val Senales fra 28. til 30. oktober for å forberede seg til sesongåpningen i Levi 14. november. Alle åtte utøverne på verdenscupnivå er med i samlingen, ledet av trener Luca Agazzi og teknisk direktør Gianluca Rulfi. Blant deltakerne er Anna Trocker, som nettopp gjennomførte sin første sesongåpning i Sölden, samt Martina Peterlini og Marta Rossetti. Etter Levi venter også slalomrenn i Gurgl 21. november og Killington 29. november.",
+   "utovere": [
+    "Martina Peterlini"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/levi-si-prepara-in-val-senales-tutte-le-slalomiste-azzurre-di-cdm-in-raduno-da-trocker-a-peterlini"
+  },
   {
    "id": 67445,
    "publisert": "2026-10-27 13:45",
