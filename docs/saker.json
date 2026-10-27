@@ -1,7 +1,376 @@
 {
- "oppdatert": "2026-10-25T04:45:07.302Z",
- "antall": 294,
+ "oppdatert": "2026-10-27T13:46:41.160Z",
+ "antall": 314,
  "saker": [
+  {
+   "id": 67445,
+   "publisert": "2026-10-27 13:45",
+   "publisert_iso": "2026-10-27T12:45:24.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Gandler satser på sin egen vei mot pallen",
+   "ingress": "Alpinisten Gandler følger sin egen tilnærming i håp om å nå podiet i verdenscupen.",
+   "spik": "OBS: Denne saken handler om skiskyting, ikke alpint — Anna Gandler er biatlet, ikke alpinist. Den østerrikske skiskytteren Gandler tilbrakte sommerens forberedelsesperiode i Frankrike på egenhånd, delvis fordi samboeren Emilien Claude trener der. Gandler ønsker å gjenfinne formen fra to sesonger tilbake og sikter mot pallplasseringer i verdenscupen, etter å ha slitt med motivasjonen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3163893/"
+  },
+  {
+   "id": 67400,
+   "publisert": "2026-10-27 11:00",
+   "publisert_iso": "2026-10-27T10:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Italienske utforkjørere trener på Stelvio – Goggia i Sölden før avreise til Copper",
+   "ingress": "De italienske fartskvinnene trener under solen på Stelvio, mens Goggia forbereder seg i Sölden før videre til Copper Mountain.",
+   "spik": "De italienske fartskvinnene er samlet på Stelvio-breen for treningsdager i godt vær, etter at et planlagt samling uken før måtte avlyses. Utøvere som Elena Curtoni, Roberta Melesi, Nadia og Nicol Delago, Sara Allemand, Teresa Runggaldier og Sara Thaler er i gang under coach Feltrin, med blikket rettet mot sesongåpningen i Beaver Creek 11.–13. desember. Sofia Goggia trener separat på Sölden-breen i Østerrike før hele gruppen reiser til Copper Mountain i USA for videre forberedelser. Italia er en av de sterkeste fartsnasjoner på dameside, med Goggia som en av verdens beste utforkjørere gjennom flere år.",
+   "utovere": [
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/sotto-il-sole-dello-stelvio-le-velociste-azzurre-poi-con-goggia-che-si-allena-a-soelden-si-vola-a-copper"
+  },
+  {
+   "id": 67465,
+   "publisert": "2026-10-27 09:32",
+   "publisert_iso": "2026-10-27T08:32:44.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "William Poromaa om den mentale kampen etter skaden: «Wake up call»",
+   "ingress": "Alpinisten William Poromaa åpner opp om den mentale utfordringen han har møtt etter skaden sin.",
+   "spik": "OBS: Denne saken handler om langrenn, ikke alpint — William Poromaa er langrennsløper. Den svenske 25-åringen brakk ankelen under trening 5. juli i sommer og mistet store deler av forsesesongen. Poromaa beskriver perioden som et «wake up call» og fremhever familie og venner som avgjørende støtte gjennom rehabiliteringen. Fysisk har han kommet seg raskt, men den mentale belastningen har vært betydelig etter en allerede tøff sesong.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/langdskidor/william-poromaa-om-mentala-kampen-efter-skadan-wake-up-call"
+  },
+  {
+   "id": 67402,
+   "publisert": "2026-10-27 09:30",
+   "publisert_iso": "2026-10-27T08:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Vlhovas comeback nesten utelukkende positivt – ser frem til Levi",
+   "ingress": "Petra Vlhovas retur til verdenscupen ble godt mottatt, og slovaken gleder seg til neste renn i Levi.",
+   "spik": "Petra Vlhova er tilbake i verdenscupen etter en lang og krevende rehabilitering følge av en alvorlig kneskade hun pådro seg under VM i Cortina i februar 2023, der hun rev over korsbåndet. Comebacket ble tatt svært godt imot av omgivelsene, og slovaken ser selv frem til neste renn i finske Levi, der slalåm tradisjonelt er første disiplin på damekalenderen. Vlhova er en av de mest vinnende slalåmkjørerne i verdenscuphistorien og var den totale verdenscupvinneren i sesongen 2021/22.",
+   "utovere": [
+    "Petra Vlhová"
+   ],
+   "land": [
+    "SVK"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/quasi-solo-note-positive-per-il-ritorno-di-vlhova-in-coppa-e-ora-la-sua-levi-sono-competitiva-non-vedo-l-ora-della-prossima"
+  },
+  {
+   "id": 67378,
+   "publisert": "2026-10-26 22:19",
+   "publisert_iso": "2026-10-26T21:19:26.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Alex Leever bringer utøverperspektiv til SYNC Performance",
+   "ingress": "Tidligere alpinist Alex Leever bidrar med sin erfaring som utøver i arbeidet med SYNC Performance.",
+   "spik": "Tidligere alpinist Alex Leever går inn i en ny rolle hos sportsprestasjonsselskapet SYNC Performance, der han bidrar med erfaringer direkte fra utøverens perspektiv. Overgangen fra aktiv karriere til arbeid med prestasjonsutvikling er et voksende felt i alpinsporten, der tidligere utøvere i stadig større grad brukes til å bygge bro mellom teori og praksis. SYNC Performance jobber med optimalisering av utøveres fysiske og mentale yteevne.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/alex-leever-brings-a-racers-perspective-to-sync-performance/"
+  },
+  {
+   "id": 67381,
+   "publisert": "2026-10-26 17:10",
+   "publisert_iso": "2026-10-26T16:10:12.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Raimund Plancker utnevnt til FIS' sjefsløpsdirektør for herrenes alpint verdenscup",
+   "ingress": "Raimund Plancker er utnevnt til ny sjefsløpsdirektør i FIS for herrenes alpine verdenscup.",
+   "spik": "Raimund Plancker er utnevnt til ny sjefsløpsdirektør i FIS for herrenes alpine verdenscup, en av de mest sentrale administrative rollene i internasjonal alpinsport. Sjefsløpsdirektøren har ansvar for gjennomføring og sportslig koordinering av herrenes verdenscuprenn gjennom hele sesongen. FIS har de siste årene arbeidet med å profesjonalisere den administrative strukturen rundt sporten, og Planckers utnevnelse er en del av denne satsingen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/raimund-plancker-named-fis-chief-race-director-for-mens-alpine-world-cup/"
+  },
+  {
+   "id": 67407,
+   "publisert": "2026-10-26 14:15",
+   "publisert_iso": "2026-10-26T13:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Livigno og Diavolezza tar imot italienske alpinister",
+   "ingress": "Italias fartskjørere fra verdenscuplaget samles i Livigno og Diavolezza denne uken, sammen med blant andre Bassino, Pirovano og Zenere.",
+   "spik": "Det italienske alpinlandslaget for herre-fart er samlet i Livigno og på Diavolezza-breen i begynnelsen av sesongforberedelsene, og blant deltakerne er Marta Bassino, Laura Pirovano og Asja Zenere. Italia satser bredt i alpint denne sesongen, med et av de mest ressurssterke landsforbundene i verden. Livigno og Diavolezza-området i Alpene er populære treningssteder tidlig på høsten takket være høyden og breforhold som gir gode snøbetingelser allerede i oktober.",
+   "utovere": [
+    "Laura Pirovano",
+    "Marta Bassino"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/la-neve-di-livigno-accoglie-gli-azzurri-fino-a-venerdi-i-velocisti-del-team-cdm-ma-anche-bassino-pirovano-e-zenere"
+  },
+  {
+   "id": 67408,
+   "publisert": "2026-10-26 13:40",
+   "publisert_iso": "2026-10-26T12:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Brignone tar noen timers pause ved havet – Goggia trener med Robinson i Sölden",
+   "ingress": "Federica Brignone kobler av ved havet under sin restitusjon, mens Sofia Goggia trener med Robinson i Sölden.",
+   "spik": "Federica Brignone tar en kortere pause ved havet som del av sin restitusjon mellom treningsblokker, mens Sofia Goggia er i aktivt arbeid på Sölden-breen i Østerrike sammen med Robinson. De to er begge sentrale i det italienske fartslandslaget og regnes blant verdens aller beste nedfartsutøvere. Brignone er særlig sterk i storslalåm og kombinasjon og er tidligere vinner av den totale verdenscupen, mens Goggia er en av de fremste spesialistene i utfor.",
+   "utovere": [
+    "Alice Robinson",
+    "Federica Brignone",
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA",
+    "NZL"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/brignone-e-qualche-ora-di-mare-mentre-prosegue-il-recupero-quando-sulla-neve-goggia-a-soelden-si-allena-con-robinson"
+  },
+  {
+   "id": 67481,
+   "publisert": "2026-10-26 13:21",
+   "publisert_iso": "2026-10-26T12:21:36.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Vlhova tilbake etter tre år: – Glad etter så langt opphold",
+   "ingress": "Petra Vlhova er tilbake i konkurranse etter tre års fravær og uttrykker glede over å være tilbake på ski.",
+   "spik": "Petra Vlhova var tilbake i verdenscupen i Sölden etter hele 1008 dager — nesten tre år — utenfor toppsirkuset. Den slovakiske OL-mesteren fra Beijing 2022 i slalom pådro seg en alvorlig kneskade i januar 2024 og har siden jobbet seg tilbake. Hun endte på 23.-plass i Sölden etter å ha vært ellevte etter første omgang, men understreket at det er poengene og comebacket som teller, ikke plasseringen.",
+   "utovere": [
+    "Petra Vlhová"
+   ],
+   "land": [
+    "SVK"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/petra-vlhova-tillbaka-efter-tre-ar-glad-efter-ett-sa-langt-uppehall"
+  },
+  {
+   "id": 67414,
+   "publisert": "2026-10-26 11:23",
+   "publisert_iso": "2026-10-26T10:23:57.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Raimund Plancker blir ny FIS-rennsjef fra 1. november",
+   "ingress": "Raimund Plancker overtar stillingen som FIS-rennsjef fra og med 1. november.",
+   "spik": "Raimund Plancker overtar som FIS-rennsjef for herrer fra 1. november, etter at Markus Waldner overraskende trakk seg like før sesongstart. Plancker, som er fra Sør-Tirol i likhet med Waldner, har fungert som assisterende rennsjef siden 2022 og er dermed godt kjent med rollen. Waldner hadde i mange år vært en sentral og kontroversiell skikkelse i alpinsirkuset, og skippertaksskiftet skjer midt i en viktig sesong med VM som høydepunkt.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/plancker-november-renndirektor/"
+  },
+  {
+   "id": 67382,
+   "publisert": "2026-10-26 10:00",
+   "publisert_iso": "2026-10-26T09:00:00.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Didier Cuche og HEAD feirer 20 år med Supershape med limitert utgave",
+   "ingress": "Didier Cuche og skiproduusenten HEAD markerer 20-årsjubileet for Supershape-skien med en eksklusiv limitert utgave.",
+   "spik": "Didier Cuche og skiproduusenten HEAD markerer 20-årsjubileet for den ikoniske Supershape-skien med en limitert spesialutgave. Cuche, som vant fem verdenscuptitler i utfor og er en av de mest dekorerte alpinistene i sveitsisk historie, har vært tett knyttet til HEAD gjennom store deler av karrieren. Supershape ble lansert for to tiår siden og har siden blitt en av de mest gjenkjennelige og vellykkede skimodellene i alpinsporten, brukt av en rekke toppløpere.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/head-supershape-limited-didier-cuche/"
+  },
+  {
+   "id": 67383,
+   "publisert": "2026-10-25 17:45",
+   "publisert_iso": "2026-10-25T16:45:53.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Lucas Pinheiro Braathen: Slik endret OL-gullet hans tilnærming til alpint",
+   "ingress": "Lucas Pinheiro Braathen forteller om hvordan OL-gullet forandret hans perspektiv og tilnærming til alpint skiløp.",
+   "spik": "Lucas Pinheiro Braathen forteller om hvordan OL-gullet han vant for Brasil forandret hans perspektiv på alpinsporten og motivasjonen som driver ham. Braathen, som er sønn av norske Henrik Braathen, valgte i 2023 å bytte nasjon fra Norge til Brasil og representerer nå det søramerikanske landet internasjonalt. Han er en av verdens beste i tekniske disipliner og har vunnet verdenscuprenn i slalåm og storslalåm, og OL-gullet bekreftet ham som en av generasjonens fremste alpinister.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/lucas-pinheiro-braathen-olympic-gold-motivation/"
+  },
+  {
+   "id": 67486,
+   "publisert": "2026-10-25 16:06",
+   "publisert_iso": "2026-10-25T15:06:38.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Braathen vant sesongåpningen i Sölden",
+   "ingress": "Lucas Pinheiro Braathen fra Brasil vant riesenslalåmen som åpnet alpinski-sesongen i Sölden.",
+   "spik": "Lucas Pinheiro Braathen vant sesongåpningen i Sölden og slo dermed regjerende storkuleinnehaver Marco Odermatt med 0,49 sekunder, med Loic Meillard på andreplass. Den 26 år gamle brasilianeren, som er OL-mester i storslalåm, hadde på forhånd erklært at han ville utfordre Odermatt om den store krystallkulen — og fulgte opp med handling allerede i første renn. Odermatt har vunnet sammenlagtcupen fem år på rad, men Braathen endte som nummer to sammenlagt forrige sesong.",
+   "utovere": [
+    "Loïc Meillard",
+    "Lucas Braathen",
+    "Marco Odermatt"
+   ],
+   "land": [
+    "BRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/brasilianer-pinheiro-braathen-gewinnt-ski-auftakt-in-soelden,ski-alpin-soelden-riesenslalom-maenner-100.html"
+  },
+  {
+   "id": 67415,
+   "publisert": "2026-10-25 15:21",
+   "publisert_iso": "2026-10-25T14:21:24.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Høydepunkter fra herrenes storslalåm i Sölden",
+   "ingress": "Her er høydepunktene fra herrenes storslalåm i Sölden, som åpnet alpinverdenscupen.",
+   "spik": "Lucas Pinheiro Braathen vant herrenes storslalåm i Sölden foran Loic Meillard og Marco Odermatt, og sikret seg dermed sitt tredje verdenscuprenn i storslalåm på rad. For Sveits var det en sterk sesongåpning med to pallplasseringer, en oppmuntrende start med VM på hjemmebane som sesongmål. Braathen vant med startnummer 4, som har vist seg å bli en slags talisman for brasilianeren.",
+   "utovere": [
+    "Loïc Meillard",
+    "Lucas Braathen",
+    "Marco Odermatt"
+   ],
+   "land": [
+    "BRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/video/2026/hoehepunkte-maenner-riesenslaloms/"
+  },
+  {
+   "id": 67384,
+   "publisert": "2026-10-25 14:32",
+   "publisert_iso": "2026-10-25T13:32:30.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Sölden herrer storslalåm 2026: Pinheiro Braathen vinner, Radamus på fjerdeplass",
+   "ingress": "Lucas Pinheiro Braathen vant herrenes storslalåm i Sölden, mens amerikaneren Radamus endte på fjerdeplass.",
+   "spik": "Lucas Pinheiro Braathen vant herrenes storslalåm i sesongåpningen på Rettenbach-breen i Sölden, og tok dermed en sterk start på den alpine verdenscupsesongen 2025/26. Amerikaneren River Radamus imponerte med en fjerdeplass og viste at han er i utvikling som storslamlåmkjører på det høyeste nivået. Sölden er tradisjonelt første renn i alpinkalenderen og fungerer som en viktig pekepinn på hvem som er i form etter sommerens forberedelser.",
+   "utovere": [
+    "Lucas Braathen",
+    "River Radamus"
+   ],
+   "land": [
+    "BRA",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/solden-mens-gs-2026-pinheiro-braathen-wins-radamus-fourth/"
+  },
+  {
+   "id": 67482,
+   "publisert": "2026-10-25 14:14",
+   "publisert_iso": "2026-10-25T13:14:14.000Z",
+   "kilde": "franceinfo",
+   "kilde_land": "FRA",
+   "tittel": "Braathen dominerte riesenslalåmen i Sölden",
+   "ingress": "Brasilianske Lucas Pinheiro Braathen knuste konkurrentene i riesenslalåmen i Sölden og åpnet verdenscupen i alpint med en overlegen seier.",
+   "spik": "Brasilianeren Lucas Pinheiro Braathen dominerte storslalåmen i Sölden og åpnet dermed verdenscupsesongen med en overlegen seier foran Loic Meillard og Marco Odermatt. Braathen, som er forsvarende OL-mester i storslalåm etter Milano-Cortina 2026, vant med god margin og sendte et tydelig signal om at han er klar for å kjempe om sammenlagtseieren. Den brasiliansk-norske utøveren, som representerer Brasil etter å ha byttet nasjon fra Sveits i 2023, fortsetter å imponere i storslalåm-bakken.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin/coupe-du-monde/le-bresilien-lucas-pinheiro-braathen-lamine-la-concurrence-sur-le-geant-de-solden-pour-la-reprise-de-la-saison_8253163.html#xtor=RSS-3-%5Bgeneral%5D"
+  },
+  {
+   "id": 67416,
+   "publisert": "2026-10-25 13:49",
+   "publisert_iso": "2026-10-25T12:49:48.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Braathen med storslalåm-hattrick fra startnummer 4",
+   "ingress": "Lucas Pinheiro Braathen sikret seg en imponerende hattrick i storslalåm med startnummer 4 i Sölden.",
+   "spik": "Lucas Pinheiro Braathen vant storslalåmen i Sölden og fullførte dermed et bemerkelsesverdig hattrick: tre verdenscupseiere på rad i storslalåm, alle med startnummer 4. Det var hans fjerde verdenscupseier totalt som brasiliansk utøver — tre i storslalåm og én i slalom. Seieren i Sölden gjenskapte nesten pallen fra OL, der Braathen vant foran Odermatt og Meillard.",
+   "utovere": [
+    "Loïc Meillard",
+    "Lucas Braathen",
+    "Marco Odermatt"
+   ],
+   "land": [
+    "BRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/pinheiro-riesenslalom-startnummer/"
+  },
+  {
+   "id": 67385,
+   "publisert": "2026-10-25 11:41",
+   "publisert_iso": "2026-10-25T10:41:08.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Sölden herrer storslalåm 2026: Pinheiro Braathen leder etter første omgang",
+   "ingress": "Lucas Pinheiro Braathen tok ledelsen etter første omgang i herrenes storslalåm i Sölden.",
+   "spik": "Lucas Pinheiro Braathen satte seg øverst på listen etter første omgang i herrenes storslalåm i Sölden, og viste tidlig i rennet at han var i ekstraordinær form. Braathen er kjent for sin tekniske presisjon og angrepslyst i storslalåm, og Sölden-løypen på Rettenbach-breen stiller store krav til nettopp disse egenskapene. En ledelse etter første omgang i Sölden er et godt utgangspunkt, men andreetappen er notorisk krevende og har snudd mange renn tidligere.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/solden-mens-gs-2026-pinheiro-braathen-leads-run-1/"
+  },
+  {
+   "id": 67495,
+   "publisert": "2026-10-25 11:23",
+   "publisert_iso": "2026-10-25T10:23:52.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Riesenslalåm i Sölden – første omgang for menn i re-live",
+   "ingress": "Se første omgang av herreriesenslalåmen i Sölden i re-live.",
+   "spik": "Sesongåpningen i alpint for herrer gikk som vanlig i Sölden på Rettenbachferner-breen i Østerrike, med storslalåm som første disiplin. Sölden har siden 1992 vært det tradisjonelle startskuddet for verdenscupsesongen i alpint. Kraftig vind førte til at første omgang måtte kortes ned, noe som preget forholdene for utøverne.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/video/riesenslalom-in-soelden-der-erste-lauf-der-maenner-im-re-live,re-live-slalom-soelden-maenner-100.html"
+  },
+  {
+   "id": 67417,
+   "publisert": "2026-10-25 10:49",
+   "publisert_iso": "2026-10-25T09:49:07.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Braathen satte farten i Sölden-«spurten»",
+   "ingress": "Lucas Pinheiro Braathen ledet an i det som beskrives som en «spurt» under storslalåmåpningen i Sölden.",
+   "spik": "Braathen ledet etter første omgang av storslalåmen i Sölden, som ble kortet ned på grunn av kraftig vind på Rettenbachferner. Den 26 år gamle brasilianeren endte forrige sesong som nummer to i sammendraget bak Odermatt og har åpent erklært at han vil utfordre Odermatt om den store krystallkulen. En sterk ledelse etter første omgang bekreftet at ambisjonene er realistiske.",
+   "utovere": [
+    "Lucas Braathen",
+    "Marco Odermatt"
+   ],
+   "land": [
+    "BRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/weltcup/2026/pinheiro-braathen-soelden/"
+  },
   {
    "id": 63934,
    "publisert": "2026-10-24 23:22",
