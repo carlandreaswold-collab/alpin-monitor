@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-10-28T14:30:19.482Z",
- "antall": 319,
+ "oppdatert": "2026-10-28T14:45:20.101Z",
+ "antall": 320,
  "saker": [
+  {
+   "id": 77356,
+   "publisert": "2026-10-28 15:39",
+   "publisert_iso": "2026-10-28T14:39:30.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Carrick-Smith satte britisk GS-historie med 12.-plass i Sölden",
+   "ingress": "Freddy Carrick-Smith skrev britisk alpinhistorie med sin 12.-plass i storslalåm i Sölden.",
+   "spik": "Freddy Carrick-Smith skrev britisk alpinhistorie da han ble nummer 12 i åpningsrennets storslalåm i Sölden, som var hans første verdenscuppoeng. Det var Storbritannias beste plasering i en verdenscup-storslalåm for herrer siden mars 2022. Carrick-Smith, som startet med startnummer 46, var bare i sitt femte verdenscupstevne totalt og debuterte i Sölden for akkurat ett år siden. Han er sønn av firedobbel britisk olympier Emma Carrick-Anderson, og faren Phil Smith fungerer som hans tekniker.",
+   "utovere": [
+    "Freddy Carrick-Smith",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "GBR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/freddy-carrick-smiths-12th-in-solden-makes-british-gs-history/"
+  },
   {
    "id": 77260,
    "publisert": "2026-10-28 15:17",
