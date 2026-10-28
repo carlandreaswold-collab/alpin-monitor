@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-28T14:15:20.424Z",
- "antall": 318,
+ "oppdatert": "2026-10-28T14:30:19.482Z",
+ "antall": 319,
  "saker": [
+  {
+   "id": 77260,
+   "publisert": "2026-10-28 15:17",
+   "publisert_iso": "2026-10-28T14:17:16.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Tvungen pause for slalomstjernen Gallhuber",
+   "ingress": "Slalomspesialisten Gallhuber må ta en ufrivillig pause fra konkurransene.",
+   "spik": "Den østerrikske slalomspesialisten Katharina Gallhuber må gå glipp av starten på verdenscupsesongen etter en kneartroskopi. 29-åringen fra Niederøsterreich bekreftet selv på Instagram at hun vil miste de første rennene, deriblant åpningsrennene i Levi, Gurgl og Killington i november. Gallhuber er en erfaren profil på verdenscupsirkuset og har olympiske meritter: bronse i slalåm og sølv i lagkonkurransen under OL i Pyeongchang 2018. Målet er å komme tilbake til konkurransene så raskt som mulig.",
+   "utovere": [
+    "Katharina Gallhuber"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164155/"
+  },
   {
    "id": 77053,
    "publisert": "2026-10-28 15:05",
