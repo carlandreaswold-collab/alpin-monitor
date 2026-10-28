@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-10-28T12:15:11.515Z",
- "antall": 315,
+ "oppdatert": "2026-10-28T12:30:31.060Z",
+ "antall": 316,
  "saker": [
+  {
+   "id": 75937,
+   "publisert": "2026-10-28 13:26",
+   "publisert_iso": "2026-10-28T12:26:31.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Østerrikske kvinner mister utøver i slalåmtroppen",
+   "ingress": "Det østerrikske kvinnelandslaget i slalåm må klare seg uten en av sine utøvere etter et nytt frafall.",
+   "spik": "Katharina Gallhuber må ta en pause fra årets slalåmsesong etter at hun gjennomgikk en kne-artroskopi. Den 29 år gamle østerrikeren fra Niederösterreich rangerer på 23.-plass på slalåmverdenscuplisten og er den fjerde beste østerrikske utøveren i disiplinen, bak Truppe, Liensberger og Huber. Frafallet svekker det østerrikske slalåmlaget foran sesongåpningen i Levi 14. november.",
+   "utovere": [
+    "Katharina Gallhuber",
+    "Katharina Liensberger"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/ausfall-slalom-oesterreicherinnen/"
+  },
   {
    "id": 75436,
    "publisert": "2026-10-28 12:35",
