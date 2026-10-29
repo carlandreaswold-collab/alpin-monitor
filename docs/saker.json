@@ -1,5 +1,5 @@
 {
- "oppdatert": "2026-10-29T16:30:15.191Z",
+ "oppdatert": "2026-10-29T16:45:12.491Z",
  "antall": 331,
  "saker": [
   {
@@ -33,7 +33,9 @@
    "utovere": [],
    "land": [],
    "kategori": "",
-   "flere_kilder": [],
+   "flere_kilder": [
+    "VG"
+   ],
    "url": "https://www.expressen.se/sport/langdskidor/skidlandslagets-krisdrag-tvingas-aka-till-norge/"
   },
   {
