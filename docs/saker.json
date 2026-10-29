@@ -1,7 +1,25 @@
 {
- "oppdatert": "2026-10-29T09:15:18.551Z",
- "antall": 325,
+ "oppdatert": "2026-10-29T09:30:33.166Z",
+ "antall": 326,
  "saker": [
+  {
+   "id": 79240,
+   "publisert": "2026-10-29 10:25",
+   "publisert_iso": "2026-10-29T09:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "FIS bekrefter: Kvitfjell overtar de avlyste Narvik-rennene for kvinner",
+   "ingress": "FIS kunngjør at de avlyste fartsrennene for kvinner i Narvik flyttes til Kvitfjell, akkurat som ventet.",
+   "spik": "FIS bekrefter offisielt at de avlyste fartsrennene for kvinner i Narvik flyttes til Kvitfjell, med utfor og super-G planlagt 12.–13. mars 2027. Narvik måtte gi fra seg rennene på grunn av forsinkelser i infrastrukturen og pågående arbeider knyttet til VM i alpint 2029. Kvitfjell og løypa «Olympiabakken» er et populært og veletablert sted for fartsdisiplinene – i 2026 sikret Italia en historisk bragd der da Pirovano og Goggia tok henholdsvis seier og sammenlagtcup.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [
+    "SkinEWS",
+    "ORF Sport"
+   ],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/tutto-secondo-previsioni-la-fis-annuncia-la-ricollocazione-a-kvitfjell-delle-gare-veloci-femminili-saltate-a-narvik"
+  },
   {
    "id": 79137,
    "publisert": "2026-10-29 10:11",
