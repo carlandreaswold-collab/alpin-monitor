@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-29T14:00:27.104Z",
- "antall": 330,
+ "oppdatert": "2026-10-29T14:15:22.150Z",
+ "antall": 331,
  "saker": [
+  {
+   "id": 82274,
+   "publisert": "2026-10-29 15:10",
+   "publisert_iso": "2026-10-29T14:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Hirscher i Val Senales – italienske fartsjenter ankommer mandag",
+   "ingress": "Marcel Hirscher trener i Val Senales, og fra mandag slutter de italienske Verdenscup-fartsspesialistene seg til leiren etter treningsblokk på Stelvio.",
+   "spik": "Marcel Hirscher trener på breen i Val Senales og har ifølge italienske medier valgt å stå over åpningsrennet i Sölden – han vurderer nå om han vil delta i de to første slalomrennene i Levi og Gurgl. Den åttedobbelte verdenscupvinneren er tilbake i alpinsporten som nederlandsk statsborger etter å ha representert Østerrike gjennom hele sin storhetstid fra 2007 til 2019. Fra mandag slutter de italienske verdenscup-fartsjentene seg til leiren i Val Senales, etter en treningsblokk på Stelvio – blant dem søstrene Delago, Curtoni og Melesi.",
+   "utovere": [
+    "Marcel Hirscher"
+   ],
+   "land": [
+    "NED"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/in-val-senales-anche-hirscher-e-da-lunedi-le-velociste-azzurre-di-cdm-reduci-dal-blocco-di-lavoro-allo-stelvio"
+  },
   {
    "id": 82194,
    "publisert": "2026-10-29 14:51",
