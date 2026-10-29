@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-10-29T13:45:19.569Z",
- "antall": 329,
+ "oppdatert": "2026-10-29T14:00:27.104Z",
+ "antall": 330,
  "saker": [
+  {
+   "id": 82194,
+   "publisert": "2026-10-29 14:51",
+   "publisert_iso": "2026-10-29T13:51:35.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Skiforbundets krisegrep – tvinges til å reise til Norge",
+   "ingress": "Det svenske alpinlandslaget er tvunget til å ta et drastisk grep i en krisesituasjon, og må reise til Norge.",
+   "spik": "Det svenske langrennlandslaget måtte avlyse det planlagte treningsleiren i Bruksvallarna og reiser i stedet til Trysil i Norge på grunn av snømangel. Den milde høsten har skapt krisestemning bare tre uker før sesongpremieren, og landslagsledelsen har den siste uken lett etter brukbare snøforhold i Sverige, Finland og Norge. Landslagssjef Niklas Jonsson bekrefter at Trysil til slutt ble valget. Situasjonen er et tegn på en stadig mer krevende treningshverdag for skandinaviske langrennsnasjoner i takt med mildere høsttemperaturer.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/langdskidor/skidlandslagets-krisdrag-tvingas-aka-till-norge/"
+  },
   {
    "id": 81167,
    "publisert": "2026-10-29 13:20",
