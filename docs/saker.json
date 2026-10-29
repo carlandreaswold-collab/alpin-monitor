@@ -1,7 +1,46 @@
 {
- "oppdatert": "2026-10-28T16:15:19.445Z",
- "antall": 322,
+ "oppdatert": "2026-10-29T08:17:37.757Z",
+ "antall": 325,
  "saker": [
+  {
+   "id": 78602,
+   "publisert": "2026-10-29 08:06",
+   "publisert_iso": "2026-10-29T07:06:07.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Alpinisten Christina Födermayr avslutter karrieren",
+   "ingress": "Den østerrikske alpinisten Christina Födermayr har valgt å legge opp og avslutter sin aktive karriere.",
+   "spik": "Den østerrikske skicross-utøveren Christina Födermayr avslutter karrieren som 25-åring, etter en rekke alvorlige skader som preget store deler av løpetiden hennes. Hennes største øyeblikk kom i 2021, da hun ble juniorverdenssmester med det østerrikske landslaget, og hun stilte til start i OL to ganger for Østerrike. I 2023 tok hun sin første pallplass i verdenscupen, men ble samtidig pådratt et bakre korsbåndsbrudd som satte henne ute igjen. På Instagram skriver hun at hun ga sporten alt hun hadde, og at hun ønsker å huske det som faktisk var.",
+   "utovere": [
+    "Christina Födermayr"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/alpint/skidakaren-christina-fodermayr-avslutar-karriaren/"
+  },
+  {
+   "id": 78518,
+   "publisert": "2026-10-28 18:35",
+   "publisert_iso": "2026-10-28T17:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Bassino trener hardt på Diavolezza før amerikanske renn",
+   "ingress": "Marta Bassino har gjennomført viktig trening på den krevende Diavolezza-pisten sammen med Pirovano og Zenere, i forkant av konkurransene i USA.",
+   "spik": "Marta Bassino har gjennomført intensiv trening på Diavolezza-breen i Sveits sammen med lagvenninnene Laura Pirovano og Asja Zenere, som forberedelse til rennene i USA. Bassino er en av Italias mest allsidige alpinister og har vunnet verdenscupseirer i disipliner som storslalåm, parallellslalåm og super-G. Den 28 år gamle piemonteseren har tidligere vist god evne til å toppe seg mot slutten av sesongen, og treningen på Diavolezza – en krevende og høytliggende piste – er en bevisst strategi for å holde formen oppe mellom rennene.",
+   "utovere": [
+    "Laura Pirovano",
+    "Marta Bassino"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/sul-duro-di-diavolezza-un-lavoro-importante-per-bassino-in-pista-con-pirovano-e-zenere-quale-marta-vedremo-negli-states"
+  },
   {
    "id": 78191,
    "publisert": "2026-10-28 16:45",
@@ -16,6 +55,21 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.neveitalia.it/snowboard/news/ben-tre-settimane-a-stubai-prima-dello-start-matteoli-e-compagni-preparano-in-austria-una-grande-stagione"
+  },
+  {
+   "id": 78497,
+   "publisert": "2026-10-28 16:30",
+   "publisert_iso": "2026-10-28T15:30:00.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Kan nakketrening gi bedre skikjøring og redusere hjernerystelsesrisiko?",
+   "ingress": "Eksperter undersøker om målrettet nakketrening kan forbedre prestasjoner i alpint og samtidig redusere risikoen for hjernerystelse.",
+   "spik": "Forskningsmiljøer og eksperter undersøker nå om målrettet nakketrening kan gjøre alpinister raskere og samtidig redusere risikoen for hjernerystelse ved fall. Teorien er at en sterkere nakkemuskulator demper kraftoverføringen til hjernen ved støt, noe som er særlig relevant i fartsdisiplinene utfor og super-G der utøverne kan nå godt over 130 km/t. Hjernerystelse er et økende tema i alpinsporten, og flere utøvere – blant dem Aleksander Aamodt Kilde – har måttet stå over lengre perioder etter hodeskader. Forskningen på feltet er fortsatt i en tidlig fase, men interessen fra trenere og medisinske team er voksende.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/could-neck-training-improve-ski-racing-performance-and-reduce-concussion-risk/"
   },
   {
    "id": 77539,
