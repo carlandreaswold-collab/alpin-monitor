@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-10-29T09:45:09.015Z",
- "antall": 326,
+ "oppdatert": "2026-10-29T10:00:20.441Z",
+ "antall": 327,
  "saker": [
+  {
+   "id": 79663,
+   "publisert": "2026-10-29 10:47",
+   "publisert_iso": "2026-10-29T09:47:52.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Alpinrennet for kvinner flyttet fra Narvik til Kvitfjell",
+   "ingress": "Alpinrennene for kvinner som opprinnelig skulle arrangeres i Narvik, er flyttet til Kvitfjell.",
+   "spik": "Alpinrennene for kvinner som skulle arrangeres i Narvik er flyttet til Kvitfjell. Narvik har de siste årene profilert seg som alpinby og har arrangert verdenscuprenn, men logistiske eller værmessige utfordringer kan føre til at renn må flyttes. Kvitfjell i Gudbrandsdalen er Norges mest erfarne verdenscuparena for alpint og har siden 1990-tallet vært et fast innslag på sirkusen, særlig for fartsdisiplinene utfor og super-G.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/tekmi-alpskih-smucark-iz-narvika-preselili-v-kvitfjell/798410"
+  },
   {
    "id": 79240,
    "publisert": "2026-10-29 10:25",
