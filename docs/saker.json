@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-10-29T12:15:17.302Z",
- "antall": 328,
+ "oppdatert": "2026-10-29T12:30:25.636Z",
+ "antall": 329,
  "saker": [
+  {
+   "id": 81167,
+   "publisert": "2026-10-29 13:20",
+   "publisert_iso": "2026-10-29T12:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Marta Rossetti tok utdanning før comeback i Levi",
+   "ingress": "Etter en sesong utenfor løypene har Marta Rossetti fullført utdannelsen sin og er klar for retur til Levi.",
+   "spik": "Den italienske slalomkjøreren Marta Rossetti er klar for comeback i Levi 14. november etter en sesong utenfor løypene, og hun har i mellomtiden fullført en grad i økonomi og bedriftsledelse. Rossetti har vært ute med sitt andre korsbåndskade på 13 måneder, og Levi-rennet blir hennes første verdenscupstart siden skaden. Den brescianske utøveren var i sin tid regnet som et av de største håpene for italiensk slalom etter en rekke sterke macher, og det er 14 år siden Italia sist var på pallen i lagkonkurransen for kvinner.",
+   "utovere": [
+    "Marta Rossetti"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/in-vista-del-gran-ritorno-a-levi-dopo-una-stagione-ai-box-marta-rossetti-si-e-laureata"
+  },
   {
    "id": 80689,
    "publisert": "2026-10-29 12:35",
