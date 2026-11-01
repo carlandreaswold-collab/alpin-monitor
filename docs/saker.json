@@ -1,7 +1,159 @@
 {
- "oppdatert": "2026-10-29T17:15:13.497Z",
- "antall": 331,
+ "oppdatert": "2026-11-01T21:03:30.774Z",
+ "antall": 339,
  "saker": [
+  {
+   "id": 84412,
+   "publisert": "2026-11-01 16:15",
+   "publisert_iso": "2026-11-01T15:15:30.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Østerrikske alpinister holder kontakten med toppen",
+   "ingress": "De østerrikske alpinistinnene holder seg i nærheten av verdenstoppen og viser lovende form.",
+   "spik": "De østerrikske alpinistinnene viser lovende form i oppkjøringen til den nye verdenscupsesongen og holder seg nær verdenstoppen. Østerrike har tradisjonelt vært en stormakt i damenes alpint, med profiler som Cornelia Hütter og Mirjam Puchner i fartsdisiplinene. Landslaget har investert tungt i å bygge et bredt og konkurransedyktig lag etter at de dominerte deler av forrige sesong.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164350/"
+  },
+  {
+   "id": 84353,
+   "publisert": "2026-11-01 11:25",
+   "publisert_iso": "2026-11-01T10:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Lara Colturi tester seg på Red Bull Center før retur til Rettenbach",
+   "ingress": "Lara Colturi gjennomfører testing på Red Bull Center og vender snart tilbake til Rettenbach-glacieret. I Levi debuterte hun for fire år siden og tok en pallplass bak Shiffrin.",
+   "spik": "Lara Colturi tester seg på Red Bull Center i Østerrike og forbereder retur til Rettenbach-glacieret i Sölden, der verdenscupsesongen tradisjonelt åpner. Den albansk-italienske slalomtalentet debuterte i Levi for fire år siden og tok allerede da en pallplass bak Mikaela Shiffrin som tenåring. Colturi er datter av den tidligere alpinisten Alessandro Colturi og regnes som et av damenes største talenter i tekniske disipliner.",
+   "utovere": [
+    "Lara Colturi",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "ALB",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/test-al-red-bull-center-per-lara-colturi-poi-di-nuovo-sul-rettenbach-a-levi-il-suo-esordio-4-anni-fa-e-il-podio-dietro-a-shiffr"
+  },
+  {
+   "id": 84356,
+   "publisert": "2026-11-01 08:30",
+   "publisert_iso": "2026-11-01T07:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Under to uker til Levi: Vlhova drømmer om slalomretur på Pitztal-snøen",
+   "ingress": "Petra Vlhova trener på Pitztal og sikter mot en sterk comeback i slalom i Levi, selv om mange rivaler venter – også uten Shiffrin i feltet.",
+   "spik": "Petra Vlhova trener på Pitztal-glacieret og sikter mot et sterkt comeback i slalom når sesongen åpner i finske Levi om under to uker. Den slovakiske stjernen mistet store deler av fjorårssesongen til kneskade, men har gradvis arbeidet seg tilbake mot toppform. Med Mikaela Shiffrin ute av bildet åpner det seg en mulig seier for Vlhova, som har vunnet slalomåpningen i Levi ved flere anledninger og er en av historiens mest meritterte slalomkjørere.",
+   "utovere": [
+    "Mikaela Shiffrin",
+    "Petra Vlhová"
+   ],
+   "land": [
+    "SVK",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/meno-di-due-settimane-a-levi-vlhova-sulla-neve-di-pitztal-sogna-un-ritorno-super-in-slalom-ma-anche-senza-shiffrin-quante-rival"
+  },
+  {
+   "id": 84367,
+   "publisert": "2026-10-31 22:35",
+   "publisert_iso": "2026-10-31T21:35:38.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Oscar Heine – fra ulykkesfugl til Verdenscup-debutant",
+   "ingress": "Oscar Heine har gjort en bemerkelsesverdig reise fra motgang til sin første start i alpint verdenscup.",
+   "spik": "Tyske Oscar Heine gjør sin første start i alpint verdenscup etter en karriere preget av skader og tilbakeslag. Heine har kjempet seg tilbake gjennom lavere konkurranseserier og representerer en ny generasjon tyske fartskjørere. Verdenscupdebytet er resultatet av langvarig og tålmodig arbeid, og markerer et gjennombrudd for en utøver som lenge har vært plaget av uflaks.",
+   "utovere": [
+    "Oscar Heine"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/pechvogel-weltcup-debuetanten/"
+  },
+  {
+   "id": 84368,
+   "publisert": "2026-10-30 11:50",
+   "publisert_iso": "2026-10-30T10:50:54.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Michelle Gisin – avgjørelsen nærmer seg",
+   "ingress": "For Michelle Gisin nærmer en viktig avgjørelse seg, trolig knyttet til hennes videre karriere i alpint.",
+   "spik": "Sveitsiske Michelle Gisin nærmer seg trolig en avgjørelse om sin fremtid i alpint. Gisin vant kombinasjon under OL i Pyeongchang 2018 og har gjennom karrieren kjempet mot gjentatte skadeproblemer, særlig kneskader. Hun er søster av den tidligere verdenscupvinneren Marc Gisin og kombinasjonsspesialisten Dominique Gisin, og har lenge vært en allrounder i det sveitsiske landslaget.",
+   "utovere": [
+    "Michelle Gisin"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/michelle-gisin-entscheidung/"
+  },
+  {
+   "id": 84369,
+   "publisert": "2026-10-30 11:44",
+   "publisert_iso": "2026-10-30T10:44:03.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "BOSV: Franjo von Allmen gjest på sesongåpningen",
+   "ingress": "Franjo von Allmen var æresgjest under Bayersk skiforbunds sesongkick-off og delte erfaringer med deltakerne.",
+   "spik": "Sveitsiske Franjo von Allmen var æresgjest under Bayersk skiforbunds sesongåpning og delte erfaringer fra sitt gjennombrudd på verdenscupnivå. Von Allmen markerte seg kraftig i sesongen 2023/24 med sterke resultater i utfør og super-G, og ble raskt regnet som et av alpinsportens største nye navn. At han inviteres som inspirasjonskilde for tysk ungdom understreker den imponerende gjennomslagskraften han har fått i hele alpinverden.",
+   "utovere": [
+    "Franjo von Allmen"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/ski-insider/2026/franjo-allmen-saison/"
+  },
+  {
+   "id": 84370,
+   "publisert": "2026-10-30 11:12",
+   "publisert_iso": "2026-10-30T10:12:29.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Franjo von Allmen tildelt «Skieur d'Or»",
+   "ingress": "Franjo von Allmen er blitt tildelt den prestisjetunge prisen «Skieur d'Or» for sine prestasjoner i alpint.",
+   "spik": "Franjo von Allmen er tildelt «Skieur d'Or», en av alpinsportens mest prestisjefylte utmerkelser. Den sveitsiske fartsspesialisten hadde sitt store gjennombrudd i verdenscupsesongen 2023/24, da han tok flere pallplasseringer og imponerte i utfør og super-G. Prisen bekrefter at von Allmen allerede i ung alder er anerkjent som en av de fremste fartsutøverne i internasjonal alpint.",
+   "utovere": [
+    "Franjo von Allmen"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/video/2026/franjo-allmen-ausgezeichnet/"
+  },
+  {
+   "id": 84371,
+   "publisert": "2026-10-30 11:00",
+   "publisert_iso": "2026-10-30T10:00:30.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Franjo von Allmen mottar «Skieur d'Or» for første gang",
+   "ingress": "For første gang er Franjo von Allmen hedret med «Skieur d'Or», en av alpinsportens gjeve utmerkelser.",
+   "spik": "Franjo von Allmen mottar «Skieur d'Or» for første gang og føyer seg dermed inn i en eksklusiv rekke av alpinstjerner som har mottatt utmerkelsen. Von Allmen fikk sitt internasjonale gjennombrudd i løpet av sesongen 2023/24 med imponerende resultater i de raske disiplinene utfør og super-G. For Sveits, som har en stolt tradisjon i fartsalpint, representerer den unge von Allmen et lysende håp for kommende sesonger.",
+   "utovere": [
+    "Franjo von Allmen"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/franjo-erstmals-ausgezeichnet/"
+  },
   {
    "id": 82274,
    "publisert": "2026-10-29 15:10",
