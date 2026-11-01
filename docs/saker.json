@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-01T21:03:30.774Z",
- "antall": 339,
+ "oppdatert": "2026-11-01T21:16:08.666Z",
+ "antall": 343,
  "saker": [
   {
    "id": 84412,
@@ -77,6 +77,78 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.skinews.ch/news/2026/pechvogel-weltcup-debuetanten/"
+  },
+  {
+   "id": 84360,
+   "publisert": "2026-10-31 13:30",
+   "publisert_iso": "2026-10-31T12:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kildes mamma om lagkameratenes støtte: «En fantastisk gjeng»",
+   "ingress": "Aleksander Aamodt Kildes mor Kristin forteller om den varme støtten sønnen har fått fra lagkameratene sine under rehabiliteringen.",
+   "spik": "Aleksander Aamodt Kildes mor Kristin forteller om den varme støtten sønnen har fått fra lagkameratene under rehabiliteringen etter akillessenen-skaden han pådro seg i Chile 15. oktober 2026. Skaden koster ham hele sesongen og kommer knapt tre år etter det alvorlige kneskaden i Wengen i januar 2023. Kilde skal selv ha sagt at han manglet bare ti prosent for å være på et nivå der han kunne kjempe om seire igjen. Også Steen Olsen sliter med kneproblemene, noe som skaper usikkerhet rundt norges alpinlag foran rennene i Copper Mountain og Beaver Creek.",
+   "utovere": [
+    "Aleksander Aamodt Kilde"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/kilde-l-affetto-dei-compagni-di-squadra-il-racconto-di-mamma-kristin-un-gruppo-di-persone-fantastiche"
+  },
+  {
+   "id": 84331,
+   "publisert": "2026-10-30 22:35",
+   "publisert_iso": "2026-10-30T21:35:48.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Moltzans Sölden-seier viderefører collegeskiingens VM-arv",
+   "ingress": "Paula Moltzans verdenscupseier i Sölden bekrefter den sterke tradisjonen amerikanske collegeskiløpere har i verdenscupen.",
+   "spik": "Paula Moltzan vant åpningsrennets storslalåm i Sölden 24. oktober 2026 med 0,01 sekunds margin etter å ha gått fra femteplass til seier på andrerunden. 32-åringen ble dermed den eldste kvinnen som har vunnet sitt første verdenscuprenn i alpint. Med 13 sesonger på verdenscuptouren, ti pallplasser og OL-bronse i lagkonkurransen fra Milano-Cortina 2026 i bagasjen, var Sölden-seieren det resultatet som hadde unnsluppet henne lengst. Seieren løfter samlet pallstatistikk til 11, og bekrefter den sterke tradisjonen NCAA-utdannede løpere har for å lykkes på det høyeste nivået.",
+   "utovere": [
+    "Paula Moltzan"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/paula-moltzan-world-cup-ncaa-skiing/"
+  },
+  {
+   "id": 84332,
+   "publisert": "2026-10-30 21:23",
+   "publisert_iso": "2026-10-30T20:23:30.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Derfor valgte Lara Gut-Behrami livet etter skikarrieren",
+   "ingress": "Den sveitsiske stjernen Lara Gut-Behrami forteller om valgene som førte henne bort fra toppidrettslivet og hva som venter henne videre.",
+   "spik": "Lara Gut-Behrami kunngjorde sin karriereslutt i august 2026, selv om hun hadde kommet seg fullt tilbake etter en alvorlig kneskade. I et intervju med Tages-Anzeiger forklarte hun at det ville koste for mye energi og kreve for mange måneders oppofringer å vende tilbake, og at skisporten de siste årene hadde føles mer som en byrde enn en frihet. Sveitseren rakk heller ikke la seg friste av utsikten til et hjemme-VM i Crans-Montana i februar 2027. Karrieren hennes teller 48 verdenscupseire, 101 pallplasser og sammenlagtseire i 2016 og 2024.",
+   "utovere": [
+    "Lara Gut-Behrami"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/why-lara-gut-behrami-chose-life-beyond-ski-racing/"
+  },
+  {
+   "id": 84334,
+   "publisert": "2026-10-30 12:30",
+   "publisert_iso": "2026-10-30T11:30:00.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "SYNC Performance Elite: Det kuttresistente undertøyet løpere bør kjenne til",
+   "ingress": "SYNC Performances nye kuttresistente base layer er designet spesielt for alpinister og kan bli et viktig sikkerhetstilskudd denne sesongen.",
+   "spik": "Fra og med sesongen 2026/27 krever FIS at alle utøvere i FIS-godkjente alpinrenn bruker kuttresistente bukser, en regel som tidligere kun gjaldt de øverste konkurransenivåene som verdenscup og kontinentalcup. SYNC Performance lanserer nå et kuttresistent base layer-plagg som er godkjent med tre stjerner etter FIS-DITF 2021-standarden og finnes i både voksen- og juniørstørrelser. Bakgrunnen for regelskjerpingen er at skikanter er skarpere enn noensinne og kan forårsake alvorlige kutt ved fall, særlig på beina.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/sync-performance-elite-cut-resistant-base-layer-what-racers-need-to-know-this-season/"
   },
   {
    "id": 84368,
