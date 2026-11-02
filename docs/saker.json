@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-02T16:45:18.805Z",
- "antall": 351,
+ "oppdatert": "2026-11-02T17:00:20.894Z",
+ "antall": 352,
  "saker": [
+  {
+   "id": 91299,
+   "publisert": "2026-11-02 17:46",
+   "publisert_iso": "2026-11-02T16:46:20.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "To år etter skrekkfallet – Sarrazin klar for comeback",
+   "ingress": "To år etter et alvorlig fall er Alexis Sarrazin klar for å gjøre comeback i alpinsporten.",
+   "spik": "To år etter det dramatiske fallet i Bormio er franske Cyprien Sarrazin klar for å returnere til verdenscupen. Den 32 år gamle franskmannen pådro seg alvorlige hodeskader under en treningskjøring på Stelvio-løypa 27. desember 2024, men slapp unna varige hjerne- eller nevrologiske skader. Han var med på det franske treningsleiret i Argentina i september, og sikter nå mot åpningsrennene i USA i slutten av november og begynnelsen av desember. Sarrazin understreker at han vil avgjøre kvelden før hvert renn om han er klar nok til å starte.",
+   "utovere": [
+    "Cyprien Sarrazin"
+   ],
+   "land": [
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/zwei-jahre-nach-horror-sturz-sarrazin-vor-rueckkehr,ski-alpin-sarrazin-comeback-100.html"
+  },
   {
    "id": 91055,
    "publisert": "2026-11-02 17:30",
