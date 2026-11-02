@@ -1,7 +1,75 @@
 {
- "oppdatert": "2026-11-02T04:45:17.985Z",
- "antall": 343,
+ "oppdatert": "2026-11-02T14:17:28.212Z",
+ "antall": 347,
  "saker": [
+  {
+   "id": 89447,
+   "publisert": "2026-11-02 14:44",
+   "publisert_iso": "2026-11-02T13:44:15.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Noen i ditt hjørne: Innsikt i World Cup Dreams' mentorprogram",
+   "ingress": "World Cup Dreams tilbyr et mentorprogram som støtter unge alpinister på veien mot toppen av sporten.",
+   "spik": "World Cup Dreams er en organisasjon som driver et mentorprogram rettet mot unge, talentfulle alpinister som drømmer om å nå verdenscupnivå. Programmet kobler lovende utøvere med erfarne mentorer fra sporten, og søker å fylle gapet mellom nasjonale talentprogrammer og den ressurskrevende veien mot toppen. Alpinsporten er kjent for høye kostnader og store krav til støtteapparat, og slike initiativ spiller en viktig rolle for utøvere uten store nasjonale forbund i ryggen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/someone-in-your-corner-inside-world-cup-dreams-mentorship-program/"
+  },
+  {
+   "id": 89467,
+   "publisert": "2026-11-02 14:25",
+   "publisert_iso": "2026-11-02T13:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Italienske utforskjørere trener i Pitztal frem til fredag",
+   "ingress": "Casse, Franzoni og resten av det italienske utforlaget er i Pitztal i Østerrike for treningssamling frem til fredag.",
+   "spik": "Det italienske utforlaget, med Mattia Casse og Giovanni Franzoni i spissen, er samlet til treningsleir i Pitztal i Østerrike frem til fredag. Pitztal-breen er et populært treningsområde tidlig i sesongen og brukes av flere nasjoner for å bygge form og teknisk grunnlag før Verdenscupåpningen. Italia har de siste sesongene utviklet seg til en solid utfernasjon, og Casse er blant de mest erfarne løperne i den fartsdominerte disiplinen.",
+   "utovere": [
+    "Giovanni Franzoni"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/c-e-pitztal-nel-menu-dei-discesisti-azzurri-fino-a-venerdi-casse-franzoni-e-soci-in-allenamento-sulle-nevi-austriache"
+  },
+  {
+   "id": 89468,
+   "publisert": "2026-11-02 12:00",
+   "publisert_iso": "2026-11-02T11:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kan Cochran-Siegle bli sesongens store overraskelse?",
+   "ingress": "Ryan Cochran-Siegle sikter mot en sterk sesong og beskrives som en farlig utfordrer etter å ha funnet tilbake til toppformen.",
+   "spik": "Amerikaneren Ryan Cochran-Siegle blir fremhevet som en av sesongenes potensielle store overraskelser etter å ha jobbet seg tilbake til toppform. Han vant sin eneste verdenscupseier i super-G i Bormio i desember 2020 og tok VM-sølv i super-G i Cortina 2021, men har siden slitt med skader som har begrenset resultatene. Med fornyet selvtillit beskrives 34-åringen nå som en farlig utfordrer i de raske disiplinene.",
+   "utovere": [
+    "Ryan Cochran-Siegle"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/rcs-puo-fare-saltare-il-banco-cochran-siegle-punta-ad-una-gran-stagione-per-tanti-motivi-ora-e-un-atleta-ritrovato-e-pericolosi"
+  },
+  {
+   "id": 89483,
+   "publisert": "2026-11-02 09:23",
+   "publisert_iso": "2026-11-02T08:23:29.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Ytterligere tre utøvere slutter etter sesongen 2025/26",
+   "ingress": "Også dette trioen vil ikke fortsette konkurransekarrieren fra og med sesongen 2026/27.",
+   "spik": "Tre alpinister avslutter karrieren etter sesongen 2025/26: latviske Liene Bondare og de britiske søsknene Charlotte og Robert Holmes. Robert Holmes, som fyller 25 år i 2026, deltok på Ungdoms-OL i Sveits i 2020, men har aldri slått gjennom på øverste nivå i verdenscupen. Alle tre beskrives som utøvere som har viet seg fullt til alpinsporten, men uten å ha nådd den store offentlige oppmerksomheten.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/dieses-tritt-nicht/"
+  },
   {
    "id": 84412,
    "publisert": "2026-11-01 16:15",
