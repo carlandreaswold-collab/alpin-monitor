@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-02T17:00:20.894Z",
- "antall": 352,
+ "oppdatert": "2026-11-02T17:15:23.416Z",
+ "antall": 353,
  "saker": [
+  {
+   "id": 91335,
+   "publisert": "2026-11-02 18:05",
+   "publisert_iso": "2026-11-02T17:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Fem dager i Val Senales for de italienske Europa Cup-kvinnene",
+   "ingress": "Det italienske Europa Cup-laget for kvinner gjennomfører en fem dagers treningssamling i Val Senales, med utøvere som Bieler, Mathiou, Pomaré og D'Antonio.",
+   "spik": "Det italienske Europa Cup-laget for kvinner gjennomfører en fem dagers treningssamling på isbreen i Val Senales i Sør-Tirol, fra 3. til 7. november. Åtte utøvere er kalt inn av teknisk direktør Gianluca Rulfi, blant dem Tatum Bieler og Sophie Mathiou, som nettopp deltok i sesongåpningen i Sölden. Giada D'Antonio og Ambra Pomaré er også med, men som en del av rehabiliteringen etter skader — Alessia Guerinoni er i en lignende situasjon, nesten ett år etter sin ulykke. Val Senales er et populært treningssted for alpinister tidlig i sesongen takket være høydeisbreen som gir snøsikre forhold allerede i oktober og november.",
+   "utovere": [
+    "Ambra Pomaré"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/cinque-giorni-in-val-senales-per-le-azzurre-del-team-coppa-europa-da-bieler-e-mathiou-a-pomare-e-d-antonio"
+  },
   {
    "id": 91299,
    "publisert": "2026-11-02 17:46",
