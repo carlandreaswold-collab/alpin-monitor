@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-02T15:00:15.700Z",
- "antall": 348,
+ "oppdatert": "2026-11-02T15:15:20.513Z",
+ "antall": 349,
  "saker": [
+  {
+   "id": 90053,
+   "publisert": "2026-11-02 16:00",
+   "publisert_iso": "2026-11-02T15:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Federica Brignone forlater C.S. Carabinieri og returnerer til Sci Club Courmayeur",
+   "ingress": "Federica Brignone har besluttet å ta avskjed fra C.S. Carabinieri og vil heretter konkurrere under Sci Club Courmayeur.",
+   "spik": "Federica Brignone forlater C.S. Carabinieri og vil fra sesongen 2026/27 konkurrere under Sci Club Courmayeur – klubben hun vokste opp med i Valle d'Aosta. Den 34 år gamle italieneren er en av de største alpinistene i historien, med to olympiske gull, og ble så sent som i desember forfremmet til grad av «Maresciallo» i Carabinieri for sine sportslige meritter. Brignone er fortsatt i rehabilitering etter operasjon, men markerer nå et symbolsk skifte mot karrierens sluttfase ved å returnere til røttene.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/federica-brignone-saluta-il-cs-carabinieri-ho-deciso-di-congedarmi-e-tornero-sugli-sci-con-lo-sci-club-courmayeur"
+  },
   {
    "id": 89709,
    "publisert": "2026-11-02 15:13",
