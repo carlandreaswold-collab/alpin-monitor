@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-02T14:17:28.212Z",
- "antall": 347,
+ "oppdatert": "2026-11-02T14:30:30.256Z",
+ "antall": 348,
  "saker": [
+  {
+   "id": 89709,
+   "publisert": "2026-11-02 15:13",
+   "publisert_iso": "2026-11-02T14:13:20.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Tjaša Vrtačič nær topp ti i Chile",
+   "ingress": "Den slovenske alpinisten Tjaša Vrtačič presterte sterkt i Chile og var nær å ta seg inn blant de ti beste.",
+   "spik": "Den slovenske alpinisten Tjaša Vrtačič leverte en sterk prestasjon i Chile og var nær topp ti. Vrtačič er en av Slovenias mest profilerte utøvere i tekniske disipliner, og har representert landet i verdenscupen over flere sesonger. Treninger og konkurranser på den sørlige halvkule om sommeren er viktige for alpinister som ønsker å holde seg i form og teste formen før den europeiske vintersesongen starter.",
+   "utovere": [
+    "Tjaša Vrtačič"
+   ],
+   "land": [
+    "SLO"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/tjasa-vrtacic-v-cilu-blizu-najboljse-deseterice/798800"
+  },
   {
    "id": 89447,
    "publisert": "2026-11-02 14:44",
