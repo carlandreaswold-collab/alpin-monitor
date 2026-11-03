@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-03T15:15:11.959Z",
- "antall": 367,
+ "oppdatert": "2026-11-03T15:30:21.760Z",
+ "antall": 368,
  "saker": [
+  {
+   "id": 106018,
+   "publisert": "2026-11-03 16:25",
+   "publisert_iso": "2026-11-03T15:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Val di Fassa-ambassadører klar for Sölden – med Colturi og Aicher i spissen",
+   "ingress": "Val di Fassa, kjent for sine blå løyper, sender sine ambassadører til Sölden, blant dem Colturi, Aicher og Radamus.",
+   "spik": "Val di Fassa-regionen i Trentino sender sine ambassadører til åpningsrunden av verdenscupen i Sölden, og de to fremste profilene leverte umiddelbart. Lara Colturi, som representerer Albania og er datter av den tidligere alpinisten Giorgio Colturi, ble nummer to i kvinnenes storslalåm – bare ett hundredels sekund bak Paula Moltzan. Tyske Emma Aicher kompletterte podiet på tredjeplass, mens amerikaneren River Radamus, som har sterke bånd til Val di Fassa fra junior-VM i 2019, ble nummer fire.",
+   "utovere": [
+    "Emma Aicher",
+    "Lara Colturi",
+    "River Radamus"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/la-val-di-fassa-simbolo-delle-piste-azzurre-e-i-suoi-ambassador-volano-a-soelden-a-partire-da-colturi-e-aicher-e-pure-radamus"
+  },
   {
    "id": 105538,
    "publisert": "2026-11-03 15:40",
