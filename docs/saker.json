@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-03T21:15:13.304Z",
- "antall": 371,
+ "oppdatert": "2026-11-03T21:30:23.546Z",
+ "antall": 372,
  "saker": [
+  {
+   "id": 109865,
+   "publisert": "2026-11-03 22:18",
+   "publisert_iso": "2026-11-03T21:18:31.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Dobbelt olympisk mester Michelle Gisin legger opp som 32-åring",
+   "ingress": "Sveitsiske Michelle Gisin, todobbelt olympisk mester, avslutter karrieren som 32-åring.",
+   "spik": "Sveitsiske Michelle Gisin annonserte tirsdag sin karriereslutt i en pressekonferanse på Titlis over Engelberg, knapt et år etter at en alvorlig treningskræsj i St. Moritz satte en stopper for sesongen. I ulykken i desember 2025 pådro hun seg skader i nakkevirvlene, håndleddet og kneet, inkludert brudd på korsbåndet og det mediale kollateralbåndet. Gisin, som vant olympisk gull i alpint kombinert både i Pyeongchang 2018 og Beijing 2022, rakk 291 verdenscupstarter og 21 individuelle pallplasser på tvers av fem disipliner i løpet av en 14 år lang karriere.",
+   "utovere": [
+    "Michelle Gisin"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/two-time-olympic-champion-michelle-gisin-retires-at-32/"
+  },
   {
    "id": 109643,
    "publisert": "2026-11-03 21:58",
