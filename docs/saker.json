@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-03T10:15:51.707Z",
- "antall": 359,
+ "oppdatert": "2026-11-03T10:30:24.529Z",
+ "antall": 360,
  "saker": [
   {
    "id": 102530,
@@ -20,6 +20,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://sport.orf.at/stories/3164412/"
+  },
+  {
+   "id": 102661,
+   "publisert": "2026-11-03 11:05",
+   "publisert_iso": "2026-11-03T10:05:24.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Gisin legger opp – avslutter karrieren",
+   "ingress": "Michelle Gisin har annonsert at hun avslutter sin aktive karriere som alpinist.",
+   "spik": "Michelle Gisin annonserte 3. november 2026 at hun avslutter sin aktive karriere som alpinist, 327 dager etter et alvorlig fall under treningen til utforrennet i St. Moritz i desember 2025. 32-åringen fra Engelberg er todobbelt olympisk mester og en av Sveits mest allsidige alpinister gjennom tidene, med seirer i både kombinasjon, super-G og slalåm i verdenscupen. Med henne legger den siste av søsknene Gisin opp – søsteren Dominique sluttet i mars 2015 og broren Marc i november 2020. Familien Gisin har vært en av de mest markante alpinfamiliene i internasjonal alpinhistorie.",
+   "utovere": [
+    "Michelle Gisin"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/michelle-beendet-karriere/"
   },
   {
    "id": 102343,
