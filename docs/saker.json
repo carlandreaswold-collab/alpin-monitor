@@ -1,7 +1,64 @@
 {
- "oppdatert": "2026-11-03T11:15:15.422Z",
- "antall": 361,
+ "oppdatert": "2026-11-03T11:30:43.092Z",
+ "antall": 364,
  "saker": [
+  {
+   "id": 103411,
+   "publisert": "2026-11-03 12:29",
+   "publisert_iso": "2026-11-03T11:29:21.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "327 dager etter fall: Olympiamester Gisin avslutter karrieren",
+   "ingress": "Michelle Gisin, olympisk mester i alpint, har avsluttet karrieren sin 327 dager etter at hun pådro seg en alvorlig skade i et fall.",
+   "spik": "Michelle Gisin avslutter karrieren 327 dager etter et alvorlig fall under utfortrening i St. Moritz i desember 2025, der hun så vidt unngikk å bli lam. Den 32 år gamle sveitsiske allrounderen er dobbel olympisk mester i kombinasjon, med gull fra både Pyeongchang 2018 og Beijing 2022, der hun i tillegg tok bronse i super-G. Fallet påførte henne alvorlige skader i nakken, håndleddet og kneet, og hun måtte gjennom flere operasjoner. Gisin sier i en uttalelse til det sveitsiske skiforbundet at beslutningen modnet parallelt med rehabiliteringen, og at hun nå er «svært glad» for valget hun har tatt.",
+   "utovere": [
+    "Michelle Gisin"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/olympiasiegerin-gisin-beendet-karriere,ski-alpin-gisin-100.html"
+  },
+  {
+   "id": 103287,
+   "publisert": "2026-11-03 12:25",
+   "publisert_iso": "2026-11-03T11:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "SC Courmayeur tar imot Brignone igjen: – En forelder holder alltid døren åpen",
+   "ingress": "Federica Brignone ønskes velkommen tilbake til skiklubben SC Courmayeur, som beskriver henne som jenta som alltid har elsket å stå fritt på ski.",
+   "spik": "Federica Brignones hjemklubb SC Courmayeur ønsker henne hjertelig velkommen tilbake og beskriver henne som «jenta som alltid har elsket å stå fritt på ski». Nyheten kommer dagen etter at Brignone kunngjorde at hun forlater sin stilling i Carabinieri, den italienske militærenheten mange alpinister er tilknyttet. Den 34-årige alpinisten fra La Salle er Italias mestvinnende utøver gjennom tidene med to olympiske gull og over 30 verdenscupseire, og er nå i gang med oppkjøringen mot en ny comeback-sesong etter skade.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/un-genitore-lascia-sempre-la-porta-aperta-fede-e-rimasta-la-ragazza-che-ama-sciare-in-liberta-lo-sc-courmayeur-riaccoglie-brign"
+  },
+  {
+   "id": 103387,
+   "publisert": "2026-11-03 12:24",
+   "publisert_iso": "2026-11-03T11:24:50.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Olympisk mester Michelle Gisin avslutter karrieren 11 måneder etter fall",
+   "ingress": "Den olympiske mesteren Michelle Gisin har valgt å avslutte sin aktive karriere, elleve måneder etter at hun ble skadet i et alvorlig fall.",
+   "spik": "Michelle Gisin bekrefter karriereslutten elleve måneder etter at hun veltet stygt under utfortrening i St. Moritz i desember 2025. Den 32-årige sveitseren er en av alpinhistoriens mest allsidige utøvere, med to olympiske gull i kombinasjon fra henholdsvis 2018 og 2022, samt to VM-medaljer og pallplasseringer i samtlige disipliner i verdenscupen. Etter fallet, som nesten resulterte i lammelse, gjennomgikk hun flere operasjoner på nakke, håndledd og kne. At hun nå trekker seg, kommer ikke som en overraskelse etter omfanget av skadene.",
+   "utovere": [
+    "Michelle Gisin"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/olimpijska-prvakinja-michelle-gisin-11-mesecev-po-padcu-koncala-kariero/798885"
+  },
   {
    "id": 103013,
    "publisert": "2026-11-03 11:54",
