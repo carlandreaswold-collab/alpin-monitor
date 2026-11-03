@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-03T10:45:18.304Z",
- "antall": 360,
+ "oppdatert": "2026-11-03T11:00:29.430Z",
+ "antall": 361,
  "saker": [
+  {
+   "id": 103013,
+   "publisert": "2026-11-03 11:54",
+   "publisert_iso": "2026-11-03T10:54:27.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "OL-vinner Gisin legger opp",
+   "ingress": "Olympiamester Michelle Gisin setter strek over karrieren som alpinist.",
+   "spik": "Michelle Gisin avslutter karrieren med umiddelbar virkning etter at hun aldri kom seg tilbake etter et alvorlig fall i Abfahrttreningen i St. Moritz i desember 2025, der hun pådro seg skader i nakkevirvlene, håndleddet og kneet — og var nær ved å bli lam. Den 32 år gamle sveitseren vant OL-gull i alpint kombinasjon i både Pyeongchang 2018 og Beijing 2022, pluss OL-bronse i super-G i 2022. I løpet av 292 verdenscuprenn sto hun 22 ganger på pallen og vant individuelt én gang, i slalåm på Semmering i desember 2020 — samme bakke der hun hadde hatt sin verdenscupdebut i 2012.",
+   "utovere": [
+    "Michelle Gisin"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164414/"
+  },
   {
    "id": 102530,
    "publisert": "2026-11-03 11:11",
