@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-03T12:00:16.709Z",
- "antall": 364,
+ "oppdatert": "2026-11-03T12:15:20.512Z",
+ "antall": 365,
  "saker": [
+  {
+   "id": 103813,
+   "publisert": "2026-11-03 13:04",
+   "publisert_iso": "2026-11-03T12:04:15.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Flere nasjoner truer med Russland-boikott",
+   "ingress": "Flere nasjoner har truet med å boikotte Russland i forbindelse med internasjonal alpint-konkurranse.",
+   "spik": "Flere ishockey-nasjoner, deriblant Finland og Norge, truer med å boikotte kamper mot Russland under VM i Tyskland neste år. Det norske forbundet begrunner standpunktet med sikkerhetshensyn og krever at Russland holdes utenom internasjonale mesterskap så lenge krigen i Ukraina pågår. Presset mot det tyske ishockeyforbundet og verdensorganisasjonen IIHF øker, og Finland samler nå støtte fra flere land for en koordinert front. Saken er ikke direkte knyttet til alpint, og kilden omhandler ishockey.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164417/"
+  },
   {
    "id": 103411,
    "publisert": "2026-11-03 12:29",
