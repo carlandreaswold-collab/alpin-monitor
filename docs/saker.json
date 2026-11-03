@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-03T08:15:14.571Z",
- "antall": 356,
+ "oppdatert": "2026-11-03T08:30:24.727Z",
+ "antall": 357,
  "saker": [
+  {
+   "id": 101375,
+   "publisert": "2026-11-03 09:26",
+   "publisert_iso": "2026-11-03T08:26:04.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Fra Braathen til Shiffrin: Sölden-stjernene trener på Val Senales – nye løyper åpnet",
+   "ingress": "Alpinstjerner som Lucas Braathen og Mikaela Shiffrin har valgt Val Senales som treningsarena. Nye løyper er åpnet på breen foran sesongen.",
+   "spik": "Val Senales-breen i Sør-Tyrol bekrefter sin status som en av alpinsportens viktigste treningsarenaer: hele 18 av de 30 best plasserte utøverne i åpningsrennene i Sölden hadde forberedt seg nettopp her. Blant dem var Lucas Braathen, som vant herrenes storslalåm i Sölden, og Mikaela Shiffrin. Nye løyper er åpnet på breen, og 28. november er det planlagt åpning av nedenforliggende løyper, noe som utvider treningsmulighetene ytterligere frem mot sesongen.",
+   "utovere": [
+    "Lucas Braathen",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "BRA",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/ski/valsenales/news/da-braathen-a-shiffrin-i-protagonisti-di-solden-scelgono-la-val-senales-nuove-piste-aperte-sul-ghiacciaio"
+  },
   {
    "id": 100903,
    "publisert": "2026-11-03 08:42",
