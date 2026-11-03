@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-03T07:15:14.634Z",
- "antall": 354,
+ "oppdatert": "2026-11-03T07:30:18.206Z",
+ "antall": 355,
  "saker": [
+  {
+   "id": 100827,
+   "publisert": "2026-11-03 08:07",
+   "publisert_iso": "2026-11-03T07:07:24.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Houthi-raketter tvang asiatisk mesterskap fra januar til desember 2027",
+   "ingress": "Asiatisk mesterskap i alpint er blitt flyttet fra januar til desember 2027 som følge av houthi-rakettangrep.",
+   "spik": "Det asiatiske alpinmesterskapet er flyttet fra januar til desember 2027 på grunn av houthi-rakettangrep i regionen. Houthi-bevegelsen i Jemen har siden 2023 gjennomført en rekke angrep mot skip og mål i Rødehavet og omkringliggende områder, noe som har skapt usikkerhet og sikkerhetsproblemer for arrangementer i nærheten. Det er uvanlig at geopolitiske konflikter direkte påvirker internasjonale alpinarrangementer, og beslutningen understreker hvor stor rekkevidden av konflikten har blitt.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/rakete-hutijev-prestavile-azijsko-prvenstvo-z-januarja-na-december-2027/798849"
+  },
   {
    "id": 93021,
    "publisert": "2026-11-02 20:30",
