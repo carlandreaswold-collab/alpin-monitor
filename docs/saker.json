@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-03T19:45:12.886Z",
- "antall": 371,
+ "oppdatert": "2026-11-03T20:00:22.668Z",
+ "antall": 370,
  "saker": [
   {
    "id": 107787,
@@ -111,21 +111,6 @@
    "url": "https://skiracing.com/three-friends-one-shared-goal-making-ski-racing-video-easier-to-access/"
   },
   {
-   "id": 103813,
-   "publisert": "2026-11-03 13:04",
-   "publisert_iso": "2026-11-03T12:04:15.000Z",
-   "kilde": "ORF Sport",
-   "kilde_land": "AUT",
-   "tittel": "Flere nasjoner truer med Russland-boikott",
-   "ingress": "Flere nasjoner har truet med å boikotte Russland i forbindelse med internasjonal alpint-konkurranse.",
-   "spik": "Flere ishockey-nasjoner, deriblant Finland og Norge, truer med å boikotte kamper mot Russland under VM i Tyskland neste år. Det norske forbundet begrunner standpunktet med sikkerhetshensyn og krever at Russland holdes utenom internasjonale mesterskap så lenge krigen i Ukraina pågår. Presset mot det tyske ishockeyforbundet og verdensorganisasjonen IIHF øker, og Finland samler nå støtte fra flere land for en koordinert front. Saken er ikke direkte knyttet til alpint, og kilden omhandler ishockey.",
-   "utovere": [],
-   "land": [],
-   "kategori": "",
-   "flere_kilder": [],
-   "url": "https://sport.orf.at/stories/3164417/"
-  },
-  {
    "id": 103411,
    "publisert": "2026-11-03 12:29",
    "publisert_iso": "2026-11-03T11:29:21.000Z",
@@ -159,7 +144,7 @@
    "land": [
     "ITA"
    ],
-   "kategori": "",
+   "kategori": "naert",
    "flere_kilder": [],
    "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/un-genitore-lascia-sempre-la-porta-aperta-fede-e-rimasta-la-ragazza-che-ama-sciare-in-liberta-lo-sc-courmayeur-riaccoglie-brign"
   },
@@ -309,7 +294,7 @@
    "spik": "Det asiatiske alpinmesterskapet er flyttet fra januar til desember 2027 på grunn av houthi-rakettangrep i regionen. Houthi-bevegelsen i Jemen har siden 2023 gjennomført en rekke angrep mot skip og mål i Rødehavet og omkringliggende områder, noe som har skapt usikkerhet og sikkerhetsproblemer for arrangementer i nærheten. Det er uvanlig at geopolitiske konflikter direkte påvirker internasjonale alpinarrangementer, og beslutningen understreker hvor stor rekkevidden av konflikten har blitt.",
    "utovere": [],
    "land": [],
-   "kategori": "",
+   "kategori": "nyheter",
    "flere_kilder": [],
    "url": "https://www.rtvslo.si/sport/rakete-hutijev-prestavile-azijsko-prvenstvo-z-januarja-na-december-2027/798849"
   },
