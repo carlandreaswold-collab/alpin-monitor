@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-03T10:00:29.511Z",
- "antall": 358,
+ "oppdatert": "2026-11-03T10:15:51.707Z",
+ "antall": 359,
  "saker": [
+  {
+   "id": 102530,
+   "publisert": "2026-11-03 11:11",
+   "publisert_iso": "2026-11-03T10:11:01.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Olympiamester Gisin avslutter karrieren",
+   "ingress": "Alpinisten Michelle Gisin, som har vunnet olympisk gull, legger opp og avslutter sin aktive karriere som alpinist.",
+   "spik": "Michelle Gisin avslutter karrieren etter et alvorlig treningsfall i desember 2025 og kommer ikke tilbake til verdenscupen. Den sveitsiske allroundkjøreren tok to olympiske gull i kombinasjon, i Pyeongchang 2018 og Beijing 2022, og la til bronse i super-G i Beijing. I VM vant hun sølv i kombinasjon i 2017 og bronse i 2021. I løpet av 291 verdenscupstarter hentet hun 22 pallplasseringer og to seirer.",
+   "utovere": [
+    "Michelle Gisin"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164412/"
+  },
   {
    "id": 102343,
    "publisert": "2026-11-03 10:50",
