@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-03T12:30:08.661Z",
- "antall": 365,
+ "oppdatert": "2026-11-03T12:45:27.118Z",
+ "antall": 366,
  "saker": [
+  {
+   "id": 104069,
+   "publisert": "2026-11-03 13:32",
+   "publisert_iso": "2026-11-03T12:32:29.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Tre venner med ett felles mål: Gjøre alpint videoinnhold lettere tilgjengelig",
+   "ingress": "Tre venner har gått sammen om å gjøre videoer fra alpint skiløp enklere å finne og se for alle interesserte.",
+   "spik": "Tre venner – Sean Doucette, Peter Zawadzki og Jeremy Stonier – har grunnlagt selskapet YULLR, som skal gjøre det enklere å få tak i videoopptak fra alpintrening og -renn. Systemet bruker automatiserte kameraer som fanger opp kjøring og gjør opptakene tilgjengelige på nett mens utøverne fortsatt er på fjellet. Problemet de vil løse er velkjent i alpinmiljøet: trenere har allerede mer enn nok å gjøre med kursoppsett, portar og tidtaking, og videoen ender ofte opp som en ekstraopp­gave etter en lang treningsdag – da utøverne kanskje har mistet interessen for å se seg selv.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/three-friends-one-shared-goal-making-ski-racing-video-easier-to-access/"
+  },
   {
    "id": 103813,
    "publisert": "2026-11-03 13:04",
