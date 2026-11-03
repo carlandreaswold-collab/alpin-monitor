@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-03T07:30:18.206Z",
- "antall": 355,
+ "oppdatert": "2026-11-03T07:45:24.009Z",
+ "antall": 356,
  "saker": [
+  {
+   "id": 100903,
+   "publisert": "2026-11-03 08:42",
+   "publisert_iso": "2026-11-03T07:42:46.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Ny utmerkelse til tredobbel olympisk mester Franjo von Allmen",
+   "ingress": "Franjo von Allmen, som vant tre olympiske gull, mottar nok en prestisjetung utmerkelse.",
+   "spik": "Franjo von Allmen er kåret til «Årets idrettsutøver i kantonen Bern 2026», nok en prestisjetung utmerkelse til den sveitsiske alpinisten. 25-åringen fra Berner Oberland tok tre olympiske gull og har hatt en formidabel sesong. Kantonen Bern deler hvert år ut prisen til utøvere som har nådd pallen i VM, EM eller andre høyprofilerte internasjonale konkurranser, og over 50 medaljevinnere ble hedret ved årets utdeling.",
+   "utovere": [
+    "Franjo von Allmen"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/naechste-auszeichnung-olympiasieger/"
+  },
   {
    "id": 100827,
    "publisert": "2026-11-03 08:07",
