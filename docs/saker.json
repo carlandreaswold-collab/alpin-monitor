@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-03T17:45:12.499Z",
- "antall": 369,
+ "oppdatert": "2026-11-03T18:00:24.841Z",
+ "antall": 370,
  "saker": [
+  {
+   "id": 107606,
+   "publisert": "2026-11-03 18:51",
+   "publisert_iso": "2026-11-03T17:51:01.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Rocky Mountain Division lanserer alpin-kalender for 2026–27",
+   "ingress": "Rocky Mountain Division har offentliggjort rennkalenderen for alpinsesongen 2026–27.",
+   "spik": "Rocky Mountain Division har offentliggjort alpinkalenderen for sesongen 2026–27, med sesongstart på Aspen Highlands 30. november–1. desember. Kalenderen strekker seg til 15. april og omfatter FIS-, FISU-, SYNC Cup- og ungdomsrenn over hele regionen, inkludert det populære Holiday Classic på Vail i desember og regionale FIS-mesterskap på Copper Mountain i mars. Rocky Mountain Division er en av de viktigste divisjonene i US Ski and Snowboard-systemet, og fungerer som et sentralt utviklingsløp for unge amerikanske alpinister. En ny regel denne sesongen krever at alle FIS-utøvere må bruke kutt-resistente underplagg med minst tre stjerners klassifisering.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/rocky-mountain-division-releases-2026-27-alpine-race-calendar/"
+  },
   {
    "id": 106499,
    "publisert": "2026-11-03 17:10",
