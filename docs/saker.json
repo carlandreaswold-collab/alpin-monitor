@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-03T20:45:12.183Z",
- "antall": 370,
+ "oppdatert": "2026-11-03T21:00:19.987Z",
+ "antall": 371,
  "saker": [
+  {
+   "id": 109643,
+   "publisert": "2026-11-03 21:58",
+   "publisert_iso": "2026-11-03T20:58:17.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Svensk raseri mot det nye systemet: «Katastrofe»",
+   "ingress": "Svenske alpinister reagerer med sterk kritikk mot det nye systemet og betegner det som en katastrofe.",
+   "spik": "Svenske utøvere raser mot WADAs nye system for oppholdsrapportering, kalt Athlete Center, som skal erstatte det gamle Adams-systemet fra februar. Friidrettsprofilen Perseus Karlström er blant de skarpeste kritikerne og beskriver den nye portalen som en «total katastrofe». Systemet krever at toppidrettsutøvere daglig rapporterer hvor de befinner seg, slik at dopingkontrollanter kan gjennomføre uanmeldte tester — tre bomturer på tolv måneder gir automatisk dopingutestengelse. Karlström frykter at det tungvinte nye systemet vil føre til flere feilregistreringer og urettferdige utestengelser.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/friidrott/svenska-ilskan-mot-nya-systemet-katastrof/"
+  },
   {
    "id": 107787,
    "publisert": "2026-11-03 19:00",
