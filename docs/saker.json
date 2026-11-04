@@ -1,7 +1,62 @@
 {
- "oppdatert": "2026-11-03T22:15:19.618Z",
- "antall": 372,
+ "oppdatert": "2026-11-04T20:03:11.191Z",
+ "antall": 375,
  "saker": [
+  {
+   "id": 110536,
+   "publisert": "2026-11-04 19:20",
+   "publisert_iso": "2026-11-04T18:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Bassino, Goggia og Pirovano samlet på Pitztal – andre treningsdag i gang",
+   "ingress": "Marta Bassino trener på Pitztal sammen med Sofia Goggia og Laura Pirovano, samt herrelandslagets utforere. I dag er andre treningsdag på programmet.",
+   "spik": "Den italienske alpinlandsbyen Pitztal er et populært treningssted på isbre tidlig i sesongen, og her samles nå tre av Italias fremste alpinister: Marta Bassino, Sofia Goggia og Laura Pirovano. Bassino er en allsidig tekniker med VM-gull i parallellslalåm, mens Goggia er en av verdens beste utforere med OL-gull fra Pyeongchang 2018. At de trener sammen med herrelandslagets utforere tyder på felles bruk av banekapasitet og treningsressurser i sesongoppkjøringen.",
+   "utovere": [
+    "Laura Pirovano",
+    "Marta Bassino",
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/con-bassino-a-pitztal-ci-sono-anche-goggia-e-pirovano-e-i-discesisti-del-team-maschile-oggi-la-seconda-giornata-in-pista"
+  },
+  {
+   "id": 110538,
+   "publisert": "2026-11-04 15:50",
+   "publisert_iso": "2026-11-04T14:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Aicher forbereder Levi og Gurgl på Kaunertal",
+   "ingress": "Tyske Aicher trener til Levi- og Gurgl-rennene på Kaunertal-isbreen sammen med unge lagvenninner.",
+   "spik": "Tyske Emma Aicher bruker Kaunertal-isbreen i Østerrike til å forberede seg til de første teknikkrhomework i Levi og Gurgl, to av de tidligste verdenscuprennene på høsten. Aicher, som er en av Tysklands mest lovende unge slalåm- og storslalåmkjørere, trener her sammen med unge lagvenninner. Kaunertal er et mye brukt treningssenter for alpinlandslag fordi isbreen gir snøsikre forhold gjennom hele sommeren og høsten.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/super-aicher-dove-prepara-levi-e-gurgl-la-bavarese-lavora-a-kaunertal-con-le-giovani-compagne-di-nazionale"
+  },
+  {
+   "id": 110615,
+   "publisert": "2026-11-04 00:03",
+   "publisert_iso": "2026-11-03T23:03:23.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Isak Bjerkebo reagerer på spesielle bilder",
+   "ingress": "Den norske alpinisten Isak Bjerkebo reagerer på noen oppsiktsvekkende bilder som har dukket opp.",
+   "spik": "Denne saken handler ikke om alpinist Isak Bjerkebo, men om en norsk fotballspiller med samme navn som spiller for IFK Sirius i svensk Allsvenskan. 23-åringen fikset et straffespark og scoret i 1–0-seieren mot Halmstad, men bilder fra situasjonen fikk ham til å le – det så nemlig ut som han bevisst søkte kontakt med motstanderens hånd. Bjerkebo selv benekter det, men innrømmer at det ser mistenkelig ut.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/fotboll/isak-bjerkebo-reagerar-pa-speciella-bilderna"
+  },
   {
    "id": 109865,
    "publisert": "2026-11-03 22:18",
