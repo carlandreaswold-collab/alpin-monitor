@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-06T15:00:19.997Z",
- "antall": 389,
+ "oppdatert": "2026-11-06T15:15:17.511Z",
+ "antall": 390,
  "saker": [
+  {
+   "id": 120733,
+   "publisert": "2026-11-06 16:08",
+   "publisert_iso": "2026-11-06T15:08:17.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Rusty-Jake Rodriguez sikrer seg Grand Slam-billett",
+   "ingress": "Rusty-Jake Rodriguez har kvalifisert seg til Grand Slam i alpint.",
+   "spik": "Artikkelteksten handler om darts, ikke alpint – Rusty-Jake Rodriguez kvalifiserte seg til PDC Grand Slam i darts i Wolverhampton, ikke til et alpinarrangement. Siden dette ikke er en alpinsak, finnes det ingen relevant bakgrunn å gi fra alpinsporten. Det ser ut til å ha oppstått en feil i kildematerialet som er sendt inn.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164594/"
+  },
   {
    "id": 120607,
    "publisert": "2026-11-06 15:51",
