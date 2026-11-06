@@ -1,7 +1,41 @@
 {
- "oppdatert": "2026-11-06T12:00:13.739Z",
- "antall": 384,
+ "oppdatert": "2026-11-06T12:15:35.875Z",
+ "antall": 386,
  "saker": [
+  {
+   "id": 118795,
+   "publisert": "2026-11-06 13:10",
+   "publisert_iso": "2026-11-06T12:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Nøkkelsamling i Val Senales for Italias toppløpere før verdenscupstart",
+   "ingress": "Italias beste alpinister samles i Val Senales fra starten av neste uke for en viktig treningsleir, før verdenscupsesongen sparkes i gang.",
+   "spik": "Italias snowboard parallell-lag samles på Val Senales-breen i Sør-Tirol fra mandag 9. til fredag 13. november for en viktig treningsleir, kun to uker før den internasjonale sesongen åpner i Kina. Teknisk direktør Cesare Pisoni har innkalt fjorten utøvere fra A-landslaget, blant dem rutinerte navn som Maurizio Bormolini, Roland Fischnaller og Aaron March, som alle har vært faste poengfigurer på verdenscuptouren i en årrekke. Val Senales er et av Alpenes mest brukte høyfjellssentre for tidlig sesongtrening og benyttes jevnlig av flere nasjoner på grunn av stabile snøforhold på breen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/snowboard/news/dall-inizio-della-prossima-settimana-un-raduno-chiave-in-val-senales-per-i-big-azzurri-poi-sara-coppa-del-mondo"
+  },
+  {
+   "id": 118811,
+   "publisert": "2026-11-06 13:03",
+   "publisert_iso": "2026-11-06T12:03:57.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Jakob Eisner: Fra verdenscupdebut til tvungen pause",
+   "ingress": "Jakob Eisner rakk knapt å debutere i verdenscupen før han ble tvunget til å ta en ufrivillig pause fra konkurransene.",
+   "spik": "Den 23 år gamle østerrikske teknikkspesialisten Jakob Eisner fikk en drømmestart på sesongen da han debuterte i verdenscupen under åpningsrennet i Sölden 25. oktober, men måtte kort etter legge inn en ufrivillig pause på grunn av skade. Eisner, som kommer fra Kärnten, klarte ikke å kvalifisere seg videre etter første omgang i Sölden, der han noterte seg som nummer 59. Overgangen fra lovende debut til skadebenken illustrerer hvor tøff og uforutsigbar veien opp i verdenscupens toppsjikt kan være for unge alpinister.",
+   "utovere": [
+    "Jakob Eisner"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/eisner-weltcup-zwangspause/"
+  },
   {
    "id": 118472,
    "publisert": "2026-11-06 12:40",
