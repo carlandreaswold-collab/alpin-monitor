@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-06T15:30:17.318Z",
- "antall": 390,
+ "oppdatert": "2026-11-06T15:45:27.842Z",
+ "antall": 391,
  "saker": [
+  {
+   "id": 121025,
+   "publisert": "2026-11-06 16:39",
+   "publisert_iso": "2026-11-06T15:39:53.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Olympiamester Michaela Dorfmeister støtter innendørs skihall",
+   "ingress": "Den tidligere olympiske mesteren Michaela Dorfmeister går inn for bygging av en innendørs skihall.",
+   "spik": "Den østerrikske alpinlegenden Michaela Dorfmeister støtter planene om å bygge en innendørs skihall. Dorfmeister er en av Østerrikes mest meritterte alpinister og vant to gull under OL i Torino i 2006, i utfor og super-G. Etter karrieren har hun engasjert seg i alpinsportens utvikling, og hennes støtte til innendørsskianlegg kan bidra til å sikre rekruttering og trening uavhengig av snøforhold – noe som er stadig mer aktuelt i en tid med klimaendringer.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/olympiasiegerin-michaela-dorfmeister/"
+  },
   {
    "id": 120733,
    "publisert": "2026-11-06 16:08",
