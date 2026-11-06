@@ -1,7 +1,116 @@
 {
- "oppdatert": "2026-11-05T05:15:11.978Z",
- "antall": 375,
+ "oppdatert": "2026-11-06T08:58:15.791Z",
+ "antall": 381,
  "saker": [
+  {
+   "id": 116648,
+   "publisert": "2026-11-06 09:45",
+   "publisert_iso": "2026-11-06T08:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Swenn Larsson, Oehlund og Aronsson Elfman trener i Sulden før Levi – også Moltzan tilbake på snø",
+   "ingress": "Flere alpinister gjennomfører forberedende trening i Sulden foran Levi-rennet, og Moltzan er tilbake på snø etter skade.",
+   "spik": "Svenske Anna Swenn Larsson, Hanna Oehlund og Estelle Aronsson Elfman er blant utøverne som forbereder seg i Sulden i Sør-Tirol foran sesongåpningen i Levi i Finland. Også amerikanske Paula Moltzan er tilbake på snø etter å ha vært ute med skade. Levi-slalåmen for kvinner er tradisjonelt den første tekniske verdenscuprennet i sesongen og er satt til midten av november.",
+   "utovere": [
+    "Anna Swenn-Larsson",
+    "Cornelia Oehlund",
+    "Paula Moltzan"
+   ],
+   "land": [
+    "SWE",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/a-solda-il-training-pre-levi-di-swenn-larsson-oehlund-e-aronsson-elfman-torna-sulla-neve-anche-moltzan"
+  },
+  {
+   "id": 116649,
+   "publisert": "2026-11-06 08:55",
+   "publisert_iso": "2026-11-06T07:55:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Ny skade i Norge: Theodor Braekken ute med hjernerystelse etter trening på SNO",
+   "ingress": "Det norske alpinlandslaget rammes av nok en skade, da Theodor Braekken pådro seg hjernerystelse under trening ved SNO-anlegget.",
+   "spik": "Det norske alpinlandslaget er rammet av nok en skade etter at Theodor Braekken pådro seg hjernerystelse under trening ved SNO-anlegget på Hafjell. Braekken er en av de yngre profilene i det norske slalåmmiljøet. Hjernerystelse krever som regel en lengre restitusjonsprosess, og det er uklart om han rekker sesongstarten. Skaden kommer i en periode der det norske landslaget allerede er hardt skadefra.",
+   "utovere": [
+    "Theodor Braekken"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/altri-guai-fisici-in-casa-norvegia-si-ferma-theodor-braekken-commozione-cerebrale-allenandosi-allo-sno"
+  },
+  {
+   "id": 116628,
+   "publisert": "2026-11-05 22:17",
+   "publisert_iso": "2026-11-05T21:17:52.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Powder7-stipend gir lokal utøver full sesong med Loveland Ski Club",
+   "ingress": "En lokal utøver får muligheten til en hel sesong med Loveland Ski Club gjennom et stipend fra Powder7.",
+   "spik": "En lokal utøver har mottatt et stipend fra sportsforhandleren Powder7 som gir mulighet til en hel sesong med Loveland Ski Club i Colorado. Loveland er et av de sentrale alpinmiljøene i USA og tilbyr utøvere strukturert trening og konkurranseerfaring gjennom vinteren. Slike stipendordninger spiller en viktig rolle for å gi talenter uten stor økonomi i ryggen tilgang til profesjonell utvikling.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/powder7-scholarship-offers-full-season-with-loveland-ski-club-for-local-athlete/"
+  },
+  {
+   "id": 116651,
+   "publisert": "2026-11-05 19:10",
+   "publisert_iso": "2026-11-05T18:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Felix Hacker reiser ikke til USA: Kneproblemene vedvarer – Østerrike velger ut slalomister til Levi",
+   "ingress": "Felix Hacker må stå over reisen til USA på grunn av vedvarende kneskader, mens det østerrikske laget tar ut slalomister til Levi.",
+   "spik": "Østerrikske Felix Hacker må stå over reisen til USA på grunn av vedvarende kneskader, og er dermed heller ikke aktuell for Levi-uttaket. Østerrike er tradisjonelt en stormakt i slalåm, med utøvere som Manuel Feller og Michael Matt i spissen. Hacker er en ung utøver som har vært ansett som et fremtidig talent, og ny skade er et alvorlig tilbakeslag for karriereutviklingen hans.",
+   "utovere": [
+    "Felix Hacker"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/felix-hacker-non-volera-negli-states-il-ginocchio-causa-ancora-problemi-in-casa-austria-selezione-tra-gli-slalomisti-per-levi"
+  },
+  {
+   "id": 116655,
+   "publisert": "2026-11-05 16:23",
+   "publisert_iso": "2026-11-05T15:23:26.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Taktikk i utfor: Angrip tidlig for ikke å falle bakover",
+   "ingress": "En taktisk analyse understreker viktigheten av å angripe utforkjøringen tidlig for å unngå å tape tid og plassering.",
+   "spik": "En taktisk analyse av utforkjøring fremhever at de beste kjørerne angriper bakken aktivt allerede fra starten, fremfor å la farten bygge seg opp passivt. Prinsippet handler om å ta kontroll over skiene tidlig i svingene for å unngå å havne i bakvekt, noe som lett koster tid i de avgjørende partiene lenger ned. Utfor er den raskeste alpindisiplinen med topphastigheter over 140 km/t, og små taktiske feil kan utgjøre store tidsforskjeller.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/tecnica/dry-skiing/news/dryland-ski-teck-la-scala-anticipare-la-discesa-per-non-arretrare"
+  },
+  {
+   "id": 116658,
+   "publisert": "2026-11-05 14:20",
+   "publisert_iso": "2026-11-05T13:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Hirscher tilbake i slalåmbakken i Gurgl – kan dette bli comebackarenaen?",
+   "ingress": "Marcel Hirscher er tilbake på slalåmtrening i Gurgl, på den samme pisten der verdenscuprennet 22. november skal avholdes. Blir dette hans offisielle comeback?",
+   "spik": "Marcel Hirscher er observert på slalåmtrening i Gurgl i Østerrike, på den samme pisten der verdenscuprennet er planlagt 22. november. Hirscher, som dominerte alpinsporten med åtte strake sammenlagttitler i verdenscupen frem til han la opp i 2019, gjorde comeback i fjor sesong under nederlandsk flagg. Han har ennå ikke fått vist sitt beste etter comebacket, og spekulasjonene går nå på om Gurgl kan bli scenen for hans første virkelige gjenkomst på toppnivå.",
+   "utovere": [
+    "Marcel Hirscher"
+   ],
+   "land": [
+    "NED"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/hirscher-torna-a-fare-slalom-a-gurgl-sulla-pista-di-gara-del-22-novembre-sara-quello-lo-stadio-del-rientro"
+  },
   {
    "id": 110536,
    "publisert": "2026-11-04 19:20",
