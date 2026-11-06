@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-06T17:15:15.132Z",
- "antall": 392,
+ "oppdatert": "2026-11-06T17:30:17.935Z",
+ "antall": 393,
  "saker": [
+  {
+   "id": 122227,
+   "publisert": "2026-11-06 18:24",
+   "publisert_iso": "2026-11-06T17:24:06.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Dommen: Han skal bli svensk VM-joker",
+   "ingress": "En utøver pekes ut som Sveriges store joker foran VM i alpint.",
+   "spik": "Artikkelteksten handler ikke om alpint, men om innebandylandslaget i Sverige foran et VM. Det er derfor ikke mulig å skrive et alpinrelevant bakgrunnsnotat basert på dette materialet. Saken ser ut til å ha blitt feilkategorisert som alpinstoff.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/innebandy/domen-han-ska-bli-svensk-vm-joker/"
+  },
   {
    "id": 121331,
    "publisert": "2026-11-06 17:00",
