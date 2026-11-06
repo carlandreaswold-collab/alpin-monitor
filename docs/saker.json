@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-06T11:15:20.541Z",
- "antall": 382,
+ "oppdatert": "2026-11-06T11:30:23.765Z",
+ "antall": 383,
  "saker": [
+  {
+   "id": 118346,
+   "publisert": "2026-11-06 12:27",
+   "publisert_iso": "2026-11-06T11:27:11.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Wiley Maple avslutter karrieren for andre gang",
+   "ingress": "Den amerikanske alpinisten Wiley Maple legger opp for andre gang i sin karriere.",
+   "spik": "Wiley Maple, 36 år gammel fartsspesialist fra Aspen i Colorado, avslutter sin karriere for andre gang. Han legger opp under World Cup-rennene i Beaver Creek 3.–4. desember, etter å ha deltatt i totalt 105 verdenscuprenn og representert USA under OL i 2018. Maple trakk seg første gang i 2020 på grunn av helseproblemer, men valgte siden å gjøre comeback. Nå setter han endelig strek for en lang karriere på øverste nivå i alpint.",
+   "utovere": [
+    "Wiley Maple"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/beendet-karriere-zweiten/"
+  },
   {
    "id": 117378,
    "publisert": "2026-11-06 10:50",
