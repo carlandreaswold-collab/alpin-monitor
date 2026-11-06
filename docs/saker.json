@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-06T11:30:23.765Z",
- "antall": 383,
+ "oppdatert": "2026-11-06T11:45:25.718Z",
+ "antall": 384,
  "saker": [
+  {
+   "id": 118472,
+   "publisert": "2026-11-06 12:40",
+   "publisert_iso": "2026-11-06T11:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Huetter og lagvenninner forbereder seg til Beaver Creek på kanadisk snø",
+   "ingress": "De østerrikske alpinistene innleder Canada-oppholdet på Nakiska fra 18. november, som oppkjøring til Beaver Creek.",
+   "spik": "Det østerrikske kvinnelandslaget reiser til Nakiska i Canada fra 18. november for å forberede seg til sesongåpningen i utfor og super-G på Birds of Prey-løypen i Beaver Creek 11.–13. desember. Cornelia Hütter er et av lagets største navn i fartsdisiplinene – hun vant utforrennet i Beaver Creek for to år siden foran Sofia Goggia. Laget har allerede hatt en produktiv oppkjøringsperiode på Sölden-breen, med fokus på super-G, og noen av gigantistene har i tillegg trent i Mayrhofen-Hippach.",
+   "utovere": [
+    "Marco Schwarz"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/huetter-e-compagne-verso-beaver-creek-sulle-nevi-di-nakiska-dal-18-novembre-le-austriache-in-canada"
+  },
   {
    "id": 118346,
    "publisert": "2026-11-06 12:27",
