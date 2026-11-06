@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-06T16:00:15.809Z",
- "antall": 391,
+ "oppdatert": "2026-11-06T16:15:18.354Z",
+ "antall": 392,
  "saker": [
+  {
+   "id": 121331,
+   "publisert": "2026-11-06 17:00",
+   "publisert_iso": "2026-11-06T16:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Fem fartskjørere i Europa Cup-troppen til treningsleir i Pitztal",
+   "ingress": "Fem fartsspesialister fra Europa Cup-laget samles til en drøy uke med trening i Pitztal. De første utforrennene i kretsen arrangeres i Santa Caterina.",
+   "spik": "Fem italienske Europa Cup-fartsspesialister samles til treningsleir på Pitztal-breen i Tirol fra 8. til 16. november. Utøverne Emanuel Lamp, Leonardo Rigamonti, Luca Ruffinoni, Glauco Antonioli og Pietro Broglio trener under ledelse av teknisk direktør Massimo Carca, med tidligere Verdenscup-utøver Matteo Marsaglia blant trenerstaben. Pitztal er et populært tidligsesongsalternativ for alpin trening ettersom breen gir snøsikre forhold allerede om høsten. Sesongens første Europa Cup-utforrenn er satt til Santa Caterina, og rennsessongen ventes å komme i gang for fullt mot midten av desember.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/cinque-velocisti-del-team-coppa-europa-per-una-settimana-abbondante-a-pitztal-le-prime-discese-del-circuito-a-s-caterina"
+  },
   {
    "id": 121025,
    "publisert": "2026-11-06 16:39",
