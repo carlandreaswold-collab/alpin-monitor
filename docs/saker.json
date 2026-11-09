@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-09T13:30:24.164Z",
- "antall": 410,
+ "oppdatert": "2026-11-09T13:45:25.949Z",
+ "antall": 411,
  "saker": [
+  {
+   "id": 125471,
+   "publisert": "2026-11-09 14:40",
+   "publisert_iso": "2026-11-09T13:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Tommy Sala frykter ny alvorlig skade – mulig korsbåndskade i Gurgl",
+   "ingress": "Tommy Sala måtte bryte av i Gurgl etter mistanke om korsbåndskade, noe som vekker frykt for enda en alvorlig skade i hans karriere.",
+   "spik": "Tommy Sala måtte bryte treningen i Gurgl med smerter i høyre kne, og frykter nå et nytt korsbåndsbrudd – denne gangen i høyre kne. Den italienske slalomspesialisten skadet for to år siden det venstre korsbåndet under trening i Val Senales og mistet store deler av sesongen. Sala er kjent som en teknisk sterk slalomkjører på det italienske landslaget, og en ny alvorlig skade vil være et hardt slag like før sesongstart. Endelig diagnose ventes i løpet av de nærmeste dagene.",
+   "utovere": [
+    "Tommy Sala"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/per-sala-il-timore-di-un-altro-grave-infortunio-tommy-si-ferma-a-gurgl-l-ipotesi-e-di-un-danno-al-crociato"
+  },
   {
    "id": 125300,
    "publisert": "2026-11-09 14:20",
