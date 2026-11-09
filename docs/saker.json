@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-09T16:30:39.257Z",
- "antall": 414,
+ "oppdatert": "2026-11-09T16:45:20.411Z",
+ "antall": 415,
  "saker": [
+  {
+   "id": 127518,
+   "publisert": "2026-11-09 17:23",
+   "publisert_iso": "2026-11-09T16:23:22.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Bekymringene for Tommaso Sala",
+   "ingress": "Det er stor bekymring knyttet til Tommaso Salas situasjon.",
+   "spik": "Den italienske slalåmkjøreren Tommaso Sala skadet seg under trening i Gurgl i Østerrike søndag, og det mistenkes korsbåndskade – selv om endelig diagnose ennå ikke foreligger. Sala skal ha kjent smerter i kneet kort etter start, uten at det var noe fall. 31-åringen har hatt en karriere preget av motgang, og en eventuell korsbåndskade ville være et alvorlig tilbakeslag for en rytter som aldri helt har befestet seg i verdenstoppen i slalåm. Det italienske skiforbundet FISI bekreftet hendelsen mandag.",
+   "utovere": [
+    "Tommy Sala"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/bangen-tommaso-sala/"
+  },
   {
    "id": 126684,
    "publisert": "2026-11-09 16:29",
