@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-09T14:45:11.090Z",
- "antall": 411,
+ "oppdatert": "2026-11-09T15:00:23.482Z",
+ "antall": 412,
  "saker": [
+  {
+   "id": 126326,
+   "publisert": "2026-11-09 15:55",
+   "publisert_iso": "2026-11-09T14:55:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Meillard er Sveits' store håp i Levi – Zenhäusern klar, Nef jakter første pall",
+   "ingress": "Loic Meillard er det sveitsiske lagets ledende navn foran «Levi Black»-rennet, mens Ramon Zenhäusern stiller og Tanguy Nef håper på sin første pallplass.",
+   "spik": "Loic Meillard er Sveits' klare førstevalg i Levi-slalåmen søndag, og han møter til renn med god form etter en sterk andreplass i sesongåpningen i Sölden. 30-åringen fra Héremence er regjerande OL-mester og verdensmester i slalåm, og har en tredjeplass fra nettopp Levi i 2024. Ved hans side stiller Tanguy Nef, som fortsatt jakter sin aller første pallplass i verdensklassen, mens storformede Ramon Zenhäusern også er med i det syvmanns sterke sveitsiske laget.",
+   "utovere": [
+    "Loïc Meillard",
+    "Ramon Zenhäusern",
+    "Tanguy Nef"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/loic-meillard-e-il-faro-della-squadra-rossocrociata-per-la-levi-black-zenhauesern-c-e-nef-insegue-il-primo-podio"
+  },
   {
    "id": 125471,
    "publisert": "2026-11-09 14:40",
