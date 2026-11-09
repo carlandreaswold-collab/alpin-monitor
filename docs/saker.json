@@ -1,7 +1,68 @@
 {
- "oppdatert": "2026-11-06T17:45:06.878Z",
- "antall": 393,
+ "oppdatert": "2026-11-09T09:35:40.953Z",
+ "antall": 396,
  "saker": [
+  {
+   "id": 122487,
+   "publisert": "2026-11-09 10:07",
+   "publisert_iso": "2026-11-09T09:07:22.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Ti sveitsiske kvinner klar for Levi",
+   "ingress": "Hele ti sveitsiske alpinister stiller til start i Levi, et imponerende tosifret antall for Sveits.",
+   "spik": "Hele ti sveitsiske kvinner er påmeldt til slalåmåpningen i Levi, noe som er et imponerende antall for nasjonen. Sveits har de siste årene styrket seg betydelig i tekniske disipliner på kvinnesiden, med profiler som Wendy Holdener og Michelle Gisin i spissen. Et tosifret startfelt signaliserer god bredde i det sveitsiske landslaget og økt konkurransetrykk internt.",
+   "utovere": [
+    "Camille Rast",
+    "Lara Gut-Behrami",
+    "Michelle Gisin",
+    "Wendy Holdener"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/zweistellig-schweizerinnen-start/"
+  },
+  {
+   "id": 122471,
+   "publisert": "2026-11-09 09:35",
+   "publisert_iso": "2026-11-09T08:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Popovic utgår fra Levi etter ny kneopersjon – fem kroater i renn",
+   "ingress": "Leona Popovic er tvunget til å stå over Levi-rennet etter en ny operasjon i venstre kne. Fem kroater stiller likevel til start.",
+   "spik": "Leona Popovic må stå over Levi-åpningen etter en ny operasjon i venstre kne, et alvorlig tilbakeslag for den kroatiske slalåmstjernen. Popovic er en av de fremste slalåmkjørerne i verdenscupen og har flere pallplasseringer på merittlisten. Kroatia stiller likevel med fem utøvere i Levi, et land som har en sterk tradisjon i tekniske disipliner takket være profiler som Janica Kostelić og Ivica Kostelić fra en tidligere generasjon.",
+   "utovere": [
+    "Leona Popovic"
+   ],
+   "land": [
+    "CRO"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/leona-popovic-costretta-a-rinunciare-a-levi-dopo-un-altro-intervento-al-ginocchio-sinistro-ecco-i-5-croati-in-pista"
+  },
+  {
+   "id": 122488,
+   "publisert": "2026-11-07 12:21",
+   "publisert_iso": "2026-11-07T11:21:53.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Feller hopper over Levi – Pertl tar plassen",
+   "ingress": "Manuel Feller trekker seg fra rennet i Levi, og Adrian Pertl rykker opp på laget som erstatning.",
+   "spik": "Manuel Feller trekker seg fra slalåmrennet i Levi, og Adrian Pertl rykker inn som erstatning på det østerrikske laget. Feller er en av Østerrikes mest meritterte slalåmkjørere og vant slalåmcupen sammenlagt i 2023/24-sesongen. Pertl er en teknisk sterk kjører som selv har vært på pallen i verdenscupen, og er et naturlig valg som reserve for det østerrikske alpinlandslaget.",
+   "utovere": [
+    "Adrian Pertl",
+    "Manuel Feller"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/manuel-feller-verzichtet/"
+  },
   {
    "id": 122227,
    "publisert": "2026-11-06 18:24",
