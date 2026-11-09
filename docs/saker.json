@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-09T11:00:07.669Z",
- "antall": 407,
+ "oppdatert": "2026-11-09T11:15:19.100Z",
+ "antall": 408,
  "saker": [
+  {
+   "id": 123810,
+   "publisert": "2026-11-09 12:00",
+   "publisert_iso": "2026-11-09T11:00:11.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Østerrike samler kreftene mot USA",
+   "ingress": "Østerrike går sammen om å møte utfordringen fra USA i alpint.",
+   "spik": "Dette er ikke en alpinsak – artikkelteksten handler om ishockey-VM der Østerrike møter USA i A-VM for kvinner i Esbjerg, Danmark. USA er regjerende verdens- og olympiamester og det eneste laget som har stått i finalen i alle 24 VM-turneringer. Østerrike er debutanter på A-nivå og møter et amerikansk lag som innledet turneringen med 7-0 over Sveits.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164658/"
+  },
   {
    "id": 122950,
    "publisert": "2026-11-09 10:50",
