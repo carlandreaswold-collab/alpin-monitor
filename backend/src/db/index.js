@@ -157,7 +157,7 @@ function queryArticles({ limit = 60, country, athlete, onlyCategorized = false }
   `;
   const where = onlyCategorized
     ? ['c.category IS NOT NULL']
-    : ['a.is_duplicate = 0', "(a.fact_ok = 1 OR a.fact_ok IS NULL)"];
+    : ['a.is_duplicate = 0', "(a.fact_ok = 1 OR a.fact_ok IS NULL)", 'a.translated = 1'];
   const params = [];
   // Landsflagg = saker med utøvere fra landet. INT er en kildekategori, ikke et land.
   if (country === 'INT') { where.push("a.country = 'INT'"); }

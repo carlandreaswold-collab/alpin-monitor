@@ -44,36 +44,57 @@ ${JSON.stringify(items, null, 2)}`;
 }
 
 export async function translatePending() {
-  const untranslated = getUntranslated();
-  if (untranslated.length === 0) return 0;
-
-  console.log(`\n🌐 Oversetter ${untranslated.length} artikler med Haiku...`);
   let total = 0;
+  let first = true;
 
-  // Norwegian articles need no translation — copy title directly
-  const norwegian = untranslated.filter(a => a.lang_orig === 'no');
-  for (const a of norwegian) {
-    updateTranslation(a.id, a.title_orig, '');
-    total++;
-  }
+  // Gjenta til køen er tom. Stopp hvis en runde ikke fikk oversatt noe
+  // (f.eks. gateway-feil), ellers ville vi gått i evig løkke.
+  while (true) {
+    const untranslated = getUntranslated();
+    if (untranslated.length === 0) break;
 
-  // All other languages go to Claude Haiku in batches
-  const foreign = untranslated.filter(a => a.lang_orig !== 'no');
-  for (let i = 0; i < foreign.length; i += BATCH_SIZE) {
-    const batch = foreign.slice(i, i + BATCH_SIZE);
-    try {
-      const results = await translateBatch(batch);
-      for (const r of results) {
-        updateTranslation(r.id, r.title_no, r.summary_no);
-        total++;
+    if (first) {
+      const n = untranslated.length;
+      console.log(`\n🌐 Oversetter artikler (${n}${n === 100 ? '+' : ''} i første runde)...`);
+      first = false;
+    }
+    let pass = 0;
+
+    // Norwegian articles need no translation — copy title directly
+    const norwegian = untranslated.filter(a => a.lang_orig === 'no');
+    for (const a of norwegian) {
+      updateTranslation(a.id, a.title_orig, '');
+      pass++;
+    }
+
+    // All other languages go to Claude in batches
+    const foreign = untranslated.filter(a => a.lang_orig !== 'no');
+    for (let i = 0; i < foreign.length; i += BATCH_SIZE) {
+      const batch = foreign.slice(i, i + BATCH_SIZE);
+      try {
+        const results = await translateBatch(batch);
+        const ids = new Set(batch.map(a => a.id));
+        let ok = 0;
+        for (const r of results) {
+          if (!ids.has(r.id)) continue;
+          updateTranslation(r.id, r.title_no, r.summary_no);
+          ok++;
+        }
+        pass += ok;
+        console.log(`  ✓ Batch ${Math.floor(i / BATCH_SIZE) + 1}: ${ok} artikler oversatt`);
+      } catch (err) {
+        console.error(`  ✗ Batch feil: ${err.message}`);
       }
-      console.log(`  ✓ Batch ${Math.floor(i / BATCH_SIZE) + 1}: ${results.length} artikler oversatt`);
-    } catch (err) {
-      console.error(`  ✗ Batch feil: ${err.message}`);
+    }
+
+    total += pass;
+    if (pass === 0) {
+      console.error('  ✗ Ingen artikler oversatt i denne runden — avbryter, prøver igjen ved neste henting');
+      break;
     }
   }
 
-  console.log(`✓ Oversettelse ferdig — ${total} artikler\n`);
+  if (total > 0) console.log(`✓ Oversettelse ferdig — ${total} artikler\n`);
   return total;
 }
 
