@@ -1,7 +1,29 @@
 {
- "oppdatert": "2026-11-10T08:15:23.889Z",
- "antall": 423,
+ "oppdatert": "2026-11-10T08:30:27.571Z",
+ "antall": 424,
  "saker": [
+  {
+   "id": 128518,
+   "publisert": "2026-11-10 09:25",
+   "publisert_iso": "2026-11-10T08:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Ni svenske utøvere til slalomåpningen i Levi – Oehlund ikke hundre prosent",
+   "ingress": "Sverige stiller med ni utøvere til slalomåpningen i Levi, der Swenn Larsson og Hector er blant favorittene, mens Oehlund ikke er i toppform.",
+   "spik": "Sverige stiller med ni utøvere til slalomåpningen i Levi, der Anna Swenn Larsson og Hector regnes blant favorittene, mens Oehlund ikke er i hundre prosent form. Swenn Larsson, født 1991, er en av verdens mest erfarne slalomspesialister og har tidligere tatt VM-sølv og olympisk bronse i Beijing 2022. Hun har gode minner fra Levis «Black»-løype med blant annet en andreplass og flere topp fem-plasseringer. Fire svenske kvinner og fire menn er tatt ut, etter intern uttakskjøring i Storklinten.",
+   "utovere": [
+    "Anna Swenn-Larsson",
+    "Cornelia Oehlund",
+    "Sara Hector"
+   ],
+   "land": [
+    "SWE",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/nove-svedesi-per-l-opening-di-slalom-a-levi-ambizioni-per-swenn-larsson-e-hector-oehlund-non-e-al-100"
+  },
   {
    "id": 128458,
    "publisert": "2026-11-10 09:12",
