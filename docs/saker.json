@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-10T10:45:10.475Z",
- "antall": 426,
+ "oppdatert": "2026-11-10T11:00:21.208Z",
+ "antall": 427,
  "saker": [
+  {
+   "id": 130197,
+   "publisert": "2026-11-10 11:55",
+   "publisert_iso": "2026-11-10T10:55:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Sju fartsspesialister til Val Senales-breen",
+   "ingress": "Sju fartsspesialister fra Europacup-laget, blant dem Righi og Guerinoni, ankommer snart breen i Val Senales.",
+   "spik": "Sju italienske fartsspesialister fra Europacup-laget samles på breen i Val Senales fra 11. til 14. november for treningssamling. Blant dem er Ludovica Righi og Alessia Guerinoni, samt Ambra Pomaré som er i sluttfasen av comebacket etter en alvorlig korsbåndskade i februar. Også Sofia Amigoni, Sofia Parravicini, Arianna Putzer og Camilla Vanni er med. Samlingen ledes av teknisk direktør Gianluca Rulfi og en stab av trenere og skismørere.",
+   "utovere": [
+    "Ambra Pomaré"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/in-arrivo-sul-ghiacciaio-della-val-senales-sette-velociste-del-team-di-coppa-europa-da-righi-a-guerinoni"
+  },
   {
    "id": 129866,
    "publisert": "2026-11-10 11:15",
