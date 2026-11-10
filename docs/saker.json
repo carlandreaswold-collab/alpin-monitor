@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-10T13:15:21.363Z",
- "antall": 431,
+ "oppdatert": "2026-11-10T13:30:26.362Z",
+ "antall": 432,
  "saker": [
+  {
+   "id": 131887,
+   "publisert": "2026-11-10 14:20",
+   "publisert_iso": "2026-11-10T13:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Italienske alpinister på banen i Levi – Mondinelli full av selvtillit før slalåmen",
+   "ingress": "De italienske alpinistene gjennomførte sin første treningsdag i Levi lørdag, der slalåmrennene i verdenscupen arrangeres, med en selvtillitsfull Mondinelli i troppen.",
+   "spik": "Det italienske alpinlandslaget for kvinner gjennomførte sin første treningsøkt i Levi lørdag, fire dager før sesongåpningen i slalåm på den kjente Levi Black-løypa nord for polarsirkelen. Asja Mondinelli, født 2004 og fra Valsesia, er i god form etter å ha avsluttet fjorårssesongen med en 17.-plass i Åre og gjort sin første storslalåmstart i verdenscupen i Sölden. Italia har historisk sett slitt på Levi Black, men har flere interessante kort å spille, inkludert Marta Rossetti som gjør comeback etter over ett år ute med korsbåndskade.",
+   "utovere": [
+    "Marta Rossetti"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/primo-giorno-in-pista-a-levi-per-le-azzurre-sabato-lo-slalom-di-coppa-e-c-e-una-mondinelli-piena-di-fiducia"
+  },
   {
    "id": 131728,
    "publisert": "2026-11-10 14:13",
