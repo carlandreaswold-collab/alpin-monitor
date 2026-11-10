@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-10T13:00:11.367Z",
- "antall": 430,
+ "oppdatert": "2026-11-10T13:15:21.363Z",
+ "antall": 431,
  "saker": [
+  {
+   "id": 131728,
+   "publisert": "2026-11-10 14:13",
+   "publisert_iso": "2026-11-10T13:13:57.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Lila Lapanja sier farvel",
+   "ingress": "Den amerikanske alpinisten Lila Lapanja avslutter karrieren og sier farvel til sporten.",
+   "spik": "Den amerikanske alpinisten Lila Lapanja legger opp, knapt en måned før hun fyller 32 år. I en video på sosiale medier forklarer hun at prioriteringene har endret seg og at kroppen trenger tid til å restituere seg. Lapanja, som konkurrerte for Slovenia, bruker ikke ordene «karriereslutt» eller «pensjonering» eksplisitt, men er heller ikke med i det slovenske uttaket for sesongen 2026/27 — noe som tyder på at kapittelet som aktiv utøver er over.",
+   "utovere": [
+    "Lila Lapanja"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/lila-lapanja-lebewohl/"
+  },
   {
    "id": 131437,
    "publisert": "2026-11-10 13:37",
