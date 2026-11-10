@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-10T08:02:36.096Z",
- "antall": 422,
+ "oppdatert": "2026-11-10T08:15:23.889Z",
+ "antall": 423,
  "saker": [
+  {
+   "id": 128458,
+   "publisert": "2026-11-10 09:12",
+   "publisert_iso": "2026-11-10T08:12:42.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Lindsey Vonn gjennom sin niende operasjon",
+   "ingress": "Alpinstjernen Lindsey Vonn har gjennomgått sin niende operasjon. Den amerikanske skilegendens kropp har vært gjennom en rekke kirurgiske inngrep gjennom karrieren.",
+   "spik": "Lindsey Vonn har gjennomgått sin niende operasjon, noe som understreker den enorme fysiske belastningen hun har båret gjennom karrieren. Den amerikanske alpinstjernen er en av tidenes mest dekorerte utøvere i utfor og super-G, med 82 verdenscupseirer og fire store krystallkuler. Hun har tidligere operert både knær, hofter og skulder, og det var en alvorlig kneskade under VM i Schladming i 2013 som kostet henne store deler av karrieren. Vonn gjorde comeback i 2024-sesongen etter en lang pause.",
+   "utovere": [
+    "Lindsey Vonn"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/lindsey-vonn-prestala-ze-deveto-operacijo/799588"
+  },
   {
    "id": 128186,
    "publisert": "2026-11-10 08:30",
