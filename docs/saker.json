@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-10T14:00:40.178Z",
- "antall": 437,
+ "oppdatert": "2026-11-10T14:15:27.438Z",
+ "antall": 438,
  "saker": [
+  {
+   "id": 132448,
+   "publisert": "2026-11-10 15:00",
+   "publisert_iso": "2026-11-10T14:00:55.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Baumgartner tilbake i toppform",
+   "ingress": "Baumgartner er tilbake og viser strålende form etter en periode borte fra toppen av alpinsporten.",
+   "spik": "Dette er ikke en alpinsak – artikkelteksten handler om den østerrikske fotballspilleren Christoph Baumgartner, som er tilbake i ÖFB-landslaget etter en alvorlig lårskinneverveskade som kostet ham VM-deltakelsen. 27-åringen, som spiller for RB Leipzig, har scoret eller laget mål fem ganger på seks kamper siden comebacket sitt i slutten av oktober. Saken har ingen tilknytning til alpint.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164731/"
+  },
   {
    "id": 132177,
    "publisert": "2026-11-10 14:40",
