@@ -1,7 +1,133 @@
 {
- "oppdatert": "2026-11-09T17:30:17.774Z",
- "antall": 415,
+ "oppdatert": "2026-11-10T08:02:36.096Z",
+ "antall": 422,
  "saker": [
+  {
+   "id": 128186,
+   "publisert": "2026-11-10 08:30",
+   "publisert_iso": "2026-11-10T07:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Shiffrin klar for trening i Colorado – to uker til Killington mens Vonn er under kniven igjen",
+   "ingress": "Mikaela Shiffrin forbereder seg på trening i Colorado med to uker til Killington-rennet. Lindsey Vonn gjennomgår nok en operasjon.",
+   "spik": "Mikaela Shiffrin er i gang med forberedelsene i Colorado og har to uker igjen til sesongåpningen i Killington. Shiffrin har en spesiell tilknytning til Killington, der hun har vunnet slalåmrennet flere ganger foran hjemmepublikum i Vermont. Samtidig gjennomgår venninnen og rivalinnen Lindsey Vonn nok en operasjon, noe som understreker den skarpe kontrasten mellom de to amerikanske alpinstjernenes situasjon denne høsten.",
+   "utovere": [
+    "Lindsey Vonn",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/shiffrin-pronta-ad-allenarsi-in-colorado-due-settimane-per-avvicinarsi-a-killington-mentre-vonn-torna-sotto-i-ferri"
+  },
+  {
+   "id": 128166,
+   "publisert": "2026-11-10 00:06",
+   "publisert_iso": "2026-11-09T23:06:40.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Tokos produkter for 2026–27: Nytt voks, strykejern og prepareringsutstyr",
+   "ingress": "Toko lanserer nye produkter for sesongen 2026–27, inkludert nytt skivoks, strykejern og verktøy for skipreparering.",
+   "spik": "Toko lanserer en rekke nye produkter for sesongen 2026–27, deriblant nytt skivoks, strykejern og prepareringsutstyr. Det sveitsiske merket er en av de ledende aktørene innen skipreparering og brukes av profesjonelle servicemannskap på alle nivåer i alpint og langrenn. Produktlanseringer av denne typen kommer gjerne rett før sesongstart og er rettet mot både elitemiljøer og breddemarkedet.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/tokos-2026-27-products-new-wax-irons-and-tuning-tools/"
+  },
+  {
+   "id": 128246,
+   "publisert": "2026-11-09 23:37",
+   "publisert_iso": "2026-11-09T22:37:30.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Skilegenden Vonn «ganske nervøs» foran sin niende operasjon",
+   "ingress": "Den amerikanske alpinstjernen Lindsey Vonn innrømmer at hun er ganske nervøs i forkant av sin niende operasjon. Inngrepet er nok et kapittel i hennes lange kamphistorie med skader.",
+   "spik": "Lindsey Vonn innrømmer på Instagram at hun er «ganske nervøs» foran sin niende operasjon, der alle plater og skruer skal fjernes og et nytt korsbånd settes inn i kneet. Den 42 år gamle amerikaneren skadet seg alvorlig under OL-utforkjøringen i Cortina d'Ampezzo i februar 2026, og har siden gjennomgått flere inngrep for et komplekst brudd i venstre leggbein. Vonn, som vant fire sammenlagtseirer i verdenscupen og har 82 verdenscupseirer, regner med seks til ni måneder utenfor løypene, og håper inngrepet blir det siste.",
+   "utovere": [
+    "Lindsey Vonn"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164720/"
+  },
+  {
+   "id": 128187,
+   "publisert": "2026-11-09 21:30",
+   "publisert_iso": "2026-11-09T20:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Lila Lapanja tar pause fra karrieren: «Det er et farvel for nå – kroppen trenger hvile»",
+   "ingress": "Den amerikanske alpinisten Lila Lapanja setter karrieren på pause og sier kroppen hennes trenger tid til å komme seg.",
+   "spik": "Den amerikanske alpinisten Lila Lapanja tar pause fra karrieren og begrunner det med at kroppen trenger hvile og tid til å komme seg. Lapanja har representert USA i verdenscupen og konkurrert internasjonalt i flere år, men har slitt med å hevde seg konsekvent i verdenstoppen. Pausen understreker de fysiske og mentale kravene som stilles til eliteutøvere, og det er foreløpig uklart om det dreier seg om et midlertidig avbrekk eller en permanent avslutning.",
+   "utovere": [
+    "Lila Lapanja"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/lila-lapanja-mette-in-pausa-la-sua-carriera-e-un-arrivederci-ora-il-mio-corpo-ha-bisogno-di-recuperare"
+  },
+  {
+   "id": 128167,
+   "publisert": "2026-11-09 21:00",
+   "publisert_iso": "2026-11-09T20:00:00.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Bode Miller, Erik Schlopy og Dane Spencer slutter seg til «Skiing is Believing»",
+   "ingress": "Skilegendene Bode Miller, Erik Schlopy og Dane Spencer blir en del av organisasjonen Skiing is Believing.",
+   "spik": "Bode Miller, Erik Schlopy og Dane Spencer har sluttet seg til organisasjonen Skiing is Believing, som arbeider med å gjøre skisporten mer tilgjengelig. Miller er den mest meritterte av de tre, med seks VM-gull og en sammenlagtseier i verdenscupen, og er en av USAs mest kjente skiikoner gjennom tidene. At etablerte navn fra amerikansk alpinhistorie engasjerer seg i slike initiativer, kan bidra til økt oppmerksomhet og rekruttering til sporten.",
+   "utovere": [
+    "Bode Miller"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/bode-miller-erik-schlopy-and-dane-spencer-join-skiing-is-believing/"
+  },
+  {
+   "id": 128188,
+   "publisert": "2026-11-09 20:30",
+   "publisert_iso": "2026-11-09T19:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Frankrike stiller med 14 utøvere i Levi – Noel jakter første røde startnummer",
+   "ingress": "Det franske landslaget møter opp i Levi med 14 utøvere. Clément Noel, som har vunnet de to siste rennene der, sikter mot ledertroféen i verdenstoppen.",
+   "spik": "Frankrike stiller med hele 14 utøvere i Levi-åpningen, og Clément Noel er lagets store profil i slalåm. Noel har vunnet de to siste slalåmrennene i Levi og jakter nå det røde startnummeret som tildeles den ledende utøveren i verdenscupen. 25-åringen fra Alsace har utviklet seg til en av slalåmens fremste navn siden han vant OL-gull i Beijing i 2022, og er blant favorittene foran årets sesong.",
+   "utovere": [
+    "Clement Noel"
+   ],
+   "land": [
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/l-equipe-de-france-per-levi-con-14-atleti-noel-1-e-2-nelle-ultime-due-occasioni-punta-al-primo-pettorale-rosso"
+  },
+  {
+   "id": 128169,
+   "publisert": "2026-11-09 19:20",
+   "publisert_iso": "2026-11-09T18:20:04.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Fra NorAm-debutant til verdenscupstart: Maxi Hoders oppstigningen",
+   "ingress": "Maxi Hoder har tatt den imponerende veien fra å være nybegynner i NorAm-cupen til å kvalifisere seg for verdenscupen.",
+   "spik": "Kanadiske Maxi Hoder har tatt et bemerkelsesverdig steg opp gjennom systemet og kvalifisert seg for verdenscupen etter å ha startet karrieren på NorAm-nivå, det nordamerikanske kontinentalcupkretsløpet. NorAm fungerer som et viktig springbrett for unge utøvere i Canada og USA som sikter mot verdenscupen, og det er relativt få som tar spranget raskt. Hoders utvikling følges nøye som et eksempel på nordamerikansk talentutvikling.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/maximilien-hoder-world-cup-debut-levi/"
+  },
   {
    "id": 127518,
    "publisert": "2026-11-09 17:23",
