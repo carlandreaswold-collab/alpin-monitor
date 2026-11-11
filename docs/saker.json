@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-11T18:00:12.588Z",
- "antall": 466,
+ "oppdatert": "2026-11-11T18:15:23.040Z",
+ "antall": 467,
  "saker": [
+  {
+   "id": 138768,
+   "publisert": "2026-11-11 19:10",
+   "publisert_iso": "2026-11-11T18:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Razzoli og Mair lanserer Campiglio-slalåm på Senatets bibliotek",
+   "ingress": "Giuliano Razzoli og «Much» Mair deltok på den andre lanseringen av Campiglio-slalåmen ved Senatets bibliotek i Italia.",
+   "spik": "Giuliano Razzoli og Markus «Much» Mair deltok på en offisiell lansering av Campiglio-slalåmen i Senatets bibliotek i Roma. 3Tre på Canalone Miramonti er en av alpinsportens mest tradisjonsrike renn, og årets utgave er den 73. i rekken – planlagt til 23. desember. Razzoli er OL-gullvinner i slalåm fra Vancouver 2010 og har et nært forhold til nettopp dette rennet. Lanseringen understreker hvilken institusjonell status Madonna di Campiglio-slalåmen har i italiensk idrett.",
+   "utovere": [
+    "Giuliano Razzoli"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/alla-biblioteca-del-senato-il-secondo-lancio-dello-slalom-di-campiglio-con-giuliano-razzoli-e-much-mair"
+  },
   {
    "id": 138068,
    "publisert": "2026-11-11 18:00",
