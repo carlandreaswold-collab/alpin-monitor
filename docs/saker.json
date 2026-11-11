@@ -1,7 +1,216 @@
 {
- "oppdatert": "2026-11-10T16:30:13.648Z",
- "antall": 439,
+ "oppdatert": "2026-11-11T11:34:05.974Z",
+ "antall": 451,
  "saker": [
+  {
+   "id": 134215,
+   "publisert": "2026-11-11 12:04",
+   "publisert_iso": "2026-11-11T11:04:16.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Lindsey Vonn har gjennomgått sin niende operasjon etter OL-krasjet",
+   "ingress": "Lindsey Vonn har gjennomgått sin niende operasjon etter den alvorlige krasjen hun pådro seg under OL.",
+   "spik": "Lindsey Vonn har gjennomgått sin niende operasjon etter den dramatiske krasjen i OL-utforen i Cortina d'Ampezzo i februar 2026, der hun falt ut av løypa etter bare 13 sekunder og måtte helikopterfraktes til sykehus. Under det siste inngrepet fjernet kirurgene metallimplantater fra åtte tidligere operasjoner og reparerte det fremre korsbåndet. 42-åringen, som la opp i 2019 og gjorde comeback i 2024 etter delvis kneprotese, sier hun ber om at dette blir den siste operasjonen.",
+   "utovere": [
+    "Lindsey Vonn"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/lindsey-vonn-har-gjort-sin-nionde-operation-efter-kraschen-i-os"
+  },
+  {
+   "id": 134142,
+   "publisert": "2026-11-11 12:00",
+   "publisert_iso": "2026-11-11T11:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Finland klar som vertsnasjon: Hallberg vil ta sin første seier i Levi",
+   "ingress": "Finland er offisielt bekreftet som vertsnasjon, og Hallberg – som slo gjennom i Levi i fjor – sikter mot sin aller første verdenscupseier.",
+   "spik": "Finland er bekreftet som vertsnasjon for sesongåpningen i Levi, der slalåmrennene tradisjonelt er blant de første på verdenscupprogrammet. Hallberg, som slo gjennom nettopp i Levi forrige sesong, stiller med ambisjoner om sin aller første verdenscupseier på hjemmebane. Levi-rennet har en lang tradisjon for å lansere nye navn i alpinsporten, og den finske folkefesten rundt arrangementet gir et unikt bakteppe for en eventuell historisk debut.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/annunciata-la-finlandia-padrona-di-casa-un-anno-fa-a-levi-si-rivelo-hallberg-ora-una-certezza-che-vuole-la-prima-vittoria"
+  },
+  {
+   "id": 134182,
+   "publisert": "2026-11-11 11:20",
+   "publisert_iso": "2026-11-11T10:20:26.000Z",
+   "kilde": "VG",
+   "kilde_land": "NOR",
+   "tittel": "Lindsey Vonn operert for niende gang etter OL-fallet",
+   "ingress": "",
+   "spik": "Lindsey Vonn er operert for niende gang etter OL-krasjen i Cortina d'Ampezzo i februar 2026, der hun falt 13 sekunder ut i utforen og pådro seg brudd i bein og ankel – ni dager etter at hun allerede hadde røket leddbånd i venstre kne. Under inngrepet fjernet legene metall fra åtte tidligere operasjoner og rekonstruerte det fremre korsbåndet, noe som betyr seks til ni måneder med rehabilitering. Norske Aksel Lund Svindal var treneren hennes under comebacket, men sa i etterkant at trenerforholdet trolig var over – han er siden ansatt som trener for det norske alpinlandslaget.",
+   "utovere": [
+    "Lindsey Vonn"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.vg.no/sport/i/dJd6rj/vonn-operert-for-niende-gang-etter-ol-smellen?utm_medium=rss"
+  },
+  {
+   "id": 134256,
+   "publisert": "2026-11-11 11:03",
+   "publisert_iso": "2026-11-11T10:03:04.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Naraločnik vender tilbake til verdenscupkaravanen smertefri og klar",
+   "ingress": "Naraločnik er tilbake i verdenscupen uten smerter og uten forbehold etter å ha vært borte fra karavanen.",
+   "spik": "Sloveneren Andreja Naraločnik er tilbake i verdenscupen uten smerter og reservasjoner etter en periode utenfor karavanen. Naraločnik er en av Slovenias profiler i tekniske disipliner og har tidligere vist gode resultater i slalåm og storslalåm på verdenscupnivå. Comebacket er ventet med interesse, særlig med tanke på åpningsrennene i Levi.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/naralocnik-se-v-karavano-svetovnega-pokala-vraca-brez-bolecin-in-zadrzkov/799733"
+  },
+  {
+   "id": 134158,
+   "publisert": "2026-11-11 10:43",
+   "publisert_iso": "2026-11-11T09:43:10.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Levi-slalåmen blir verdenscupdebut for flere utøvere",
+   "ingress": "Flere alpinister vil oppleve sin første verdenscupstart når slalåmrennet i Levi avvikles.",
+   "spik": "Slalåmrennet i Levi, som sparker i gang verdenscupsesongen 2026/27 på kunstig snø lagt ut gjennom snowfarming, blir verdenscupdebut for flere utøvere – blant dem østerrikeren Oscar Heine, britiske Molly Butler og utøvere fra Tyskland og Japan. Levi-rennet er tradisjonelt en attraktiv scene for debutanter ettersom det er et av de første rennene i sesongen og arrangeres under kontrollerte forhold på den kjente Black-pisten. For mange unge alpinister er et verdenscupdebut i Finland starten på en internasjonal karriere.",
+   "utovere": [
+    "Oscar Heine"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/athletinnen-athleten-premiere/"
+  },
+  {
+   "id": 134145,
+   "publisert": "2026-11-11 10:30",
+   "publisert_iso": "2026-11-11T09:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Tyskland med sju utøvere til Levi – Grandinger gjør offisiell debut",
+   "ingress": "Det tyske alpinlandslaget stiller med sju utøvere i Levi, der Grandinger debuterer offisielt ved siden av Aicher og Duerr.",
+   "spik": "Det tyske alpinlandslaget stiller med sju utøvere i helgens slalåmrenn i Levi, Finland, der Lena Grandinger gjør sin offisielle Verdenscup-debut. Hun stiller til start sammen med erfarne Emma Aicher og Lena Duerr, som er Tysklands fremste slalåmhåp. Duerr har vært jevnt blant topp ti i slalåm de siste sesongene og tok sin første Verdenscupseier i nettopp denne disiplinen. Levi-åpningen er tradisjonelt en viktig prøvestone for å sette standarden for vintersesongen.",
+   "utovere": [
+    "Emma Aicher",
+    "Lena Dürr"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/germania-con-7-atleti-a-levi-ufficiale-il-debutto-di-grandinger-al-fianco-di-aicher-e-duerr-5-podi-in-finlandia"
+  },
+  {
+   "id": 134257,
+   "publisert": "2026-11-11 10:00",
+   "publisert_iso": "2026-11-11T09:00:16.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Alpinistene reiste til Levi – Slovenia uten mannlig representant",
+   "ingress": "De slovenske alpinistinnene har reist til Levi, mens Slovenia ikke stiller med noen mannlig representant i rennet.",
+   "spik": "De slovenske alpinistinnene har reist til Levi for sesongåpningen i slalåm, mens Slovenia ikke stiller med noen mannlig representant i helgens renn. Slovenias kvinner har tradisjonelt vært sterkere representert enn herrene i tekniske disipliner på verdenscupnivå, med utøvere som Ilka Štuhec og Andreja Naraločnik som profilnavn. Fraværet av en mannlig startende utøver illustrerer den skjeve balansen i det slovenske alpinlandslaget.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/smucarke-odpotovale-v-levi-slovenija-brez-moskega-predstavnika/799722"
+  },
+  {
+   "id": 134147,
+   "publisert": "2026-11-11 09:35",
+   "publisert_iso": "2026-11-11T08:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Killington venter på kulde – «Superstar»-løypen mangler fortsatt snø",
+   "ingress": "Killington venter på kaldere vær for å kunne beskjive «Superstar»-løypen med snø, men værmeldingene i Vermont er foreløpig ikke lovende.",
+   "spik": "Killington i Vermont venter fortsatt på tilstrekkelig kulde til å produsere nok kunstsnø for å preparere den berømte «Superstar»-løypen, og værmeldingene gir foreløpig lite håp. Killington har vært fast vertskap for Verdenscuprenn i tekniske disipliner for kvinner siden 2016, og arrangementet har blitt et av de mest besøkte i USA takket være sin festivalatmosfære og nærhet til østkysten. Snøproduksjonen er avgjørende ettersom naturlig snø sjelden er tilstrekkelig på dette tidspunktet av sesongen i Vermont.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/superstar-completamente-da-innevare-killington-attende-il-freddo-anche-se-le-previsioni-nel-vermont-non-sono-ottimali"
+  },
+  {
+   "id": 134122,
+   "publisert": "2026-11-11 07:59",
+   "publisert_iso": "2026-11-11T06:59:00.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Alex Astridge: Fra Ski Dubai til vinter-OL",
+   "ingress": "Alex Astridge har gått veien fra den kunstige skibakken Ski Dubai til å sikte mot vinter-OL.",
+   "spik": "Alex Astridge har tatt en uvanlig vei til toppen av alpinsporten – via den innendørs kunstige skibakken Ski Dubai, der han lærte seg å stå på ski i et kjøpesenter i ørkenen. Hans historie er et eksempel på hvordan alpinsporten gradvis rekrutterer fra land uten tradisjonelle fjell og snøforhold, og han representerer en voksende gruppe utøvere som sikter mot vinter-OL gjennom utradisjonelle veier inn i idretten.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/alex-astridge-from-ski-dubai-to-the-winter-olympics/"
+  },
+  {
+   "id": 134123,
+   "publisert": "2026-11-10 22:00",
+   "publisert_iso": "2026-11-10T21:00:00.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Lindsey Vonn avslører planer om niende operasjon og korsbåndsrekonstruksjon",
+   "ingress": "Alpinstjernen Lindsey Vonn deler nyheten om at hun skal gjennomgå sin niende operasjon, inkludert rekonstruksjon av korsbåndet.",
+   "spik": "Lindsey Vonn avslørte planene om sin niende operasjon via Instagram, der hun forklarte at kirurgene ville fjerne metallimplantater fra åtte tidligere inngrep og rekonstruere det fremre korsbåndet. Vonn, som la opp i 2019 og gjorde comeback i 2024 etter delvis kneprotese i høyre kne, krasjet dramatisk i OL-utforen i Cortina i februar 2026 etter bare 13 sekunder i løypa. Rehabiliteringsperioden er anslått til seks til ni måneder, og 42-åringen har selv holdt åpent for å fortsette karrieren til tross for skaden.",
+   "utovere": [
+    "Lindsey Vonn"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/lindsey-vonn-shares-plans-for-ninth-surgery-and-acl-reconstruction/"
+  },
+  {
+   "id": 134124,
+   "publisert": "2026-11-10 21:17",
+   "publisert_iso": "2026-11-10T20:17:32.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Slalomglobus-vinner Atle Lie McGrath jakter verdens raskeste sving",
+   "ingress": "Norske Atle Lie McGrath, vinner av slalomgloben, setter seg nye mål etter en sterk sesong.",
+   "spik": "Atle Lie McGrath vant slalomgloben forrige sesong og befester seg dermed som en av verdens beste slalåmkjørere. 23-åringen fra Voss har imponert med en aggressiv og konsistent kjørestil i verdenscupen, og vekket stor oppsikt da han slo gjennom blant de absolutte toppene. Med slalomgloben i bagasjen går McGrath inn i den nye sesongen som en av de store favorittene og som et norsk håp om videre suksess i tekniske disipliner.",
+   "utovere": [
+    "Atle Lie McGrath"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/atle-lie-mcgrath-slalom-globe-levi/"
+  },
+  {
+   "id": 134126,
+   "publisert": "2026-11-10 18:31",
+   "publisert_iso": "2026-11-10T17:31:00.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Lila Lapanja om å legge opp fra alpint | Podcast",
+   "ingress": "Lila Lapanja forteller i en podcast om beslutningen om å trekke seg tilbake fra alpinracingen.",
+   "spik": "Lila Lapanja, den amerikanske alpinisten, forteller i en podcast om veien mot beslutningen om å avslutte karrieren. Lapanja representerte USA på verdenscupnivå i slalåm og storslalåm over flere sesonger og var en del av et sterkt amerikansk kvinnelag. Å trekke seg tilbake fra toppidrett er en stor overgang, og Lapanja deler i podcasten de personlige og sportslige refleksjonene bak valget.",
+   "utovere": [
+    "Lila Lapanja"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/lila-lapanja-on-stepping-back-from-ski-racing-podcast/"
+  },
   {
    "id": 133617,
    "publisert": "2026-11-10 16:55",
