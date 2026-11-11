@@ -1,5 +1,5 @@
 {
- "oppdatert": "2026-11-11T17:45:24.963Z",
+ "oppdatert": "2026-11-11T18:00:12.588Z",
  "antall": 466,
  "saker": [
   {
@@ -246,7 +246,9 @@
     "USA"
    ],
    "kategori": "",
-   "flere_kilder": [],
+   "flere_kilder": [
+    "ORF Sport"
+   ],
    "url": "https://www.svt.se/sport/alpint/lindsey-vonn-har-gjort-sin-nionde-operation-efter-kraschen-i-os"
   },
   {
