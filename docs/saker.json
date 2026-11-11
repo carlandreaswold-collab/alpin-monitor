@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-11T13:00:24.258Z",
- "antall": 457,
+ "oppdatert": "2026-11-11T13:15:25.355Z",
+ "antall": 458,
  "saker": [
+  {
+   "id": 135273,
+   "publisert": "2026-11-11 14:10",
+   "publisert_iso": "2026-11-11T13:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Stefano Pizzato vant i Diavolezza: Tok seieren i første FIS-slalåm foran Maechler og Fux",
+   "ingress": "Padovaneren Stefano Pizzato vant den første FIS-slalåmen i Diavolezza og slo dermed Maechler og Fux.",
+   "spik": "Den italienske alpinisten Stefano Pizzato vant den første FIS-slalåmen i Diavolezza og slo hjemmesterke sveitsere som Reto Maechler (2.) og junior-VM-mester Giuliano Fux (3.). Pizzato, født i 2003 og fra Padova-regionen, har fire verdenscupstarter bak seg – alle i storslalåm – etter gode resultater på Europacupnivå. FIS-rennet brukes til å senke FIS-poengene hans, et ledd i forberedelsene til en sesong der han også satser på slalåm. Torsdag kjøres det en ny FIS-slalåm på samme sted.",
+   "utovere": [
+    "Stefano Pizzato"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/stefano-pizzato-vince-a-diavolezza-e-del-padovano-il-primo-slalom-fis-battuti-maechler-e-fux"
+  },
   {
    "id": 135156,
    "publisert": "2026-11-11 13:56",
