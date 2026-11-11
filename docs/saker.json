@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-11-11T11:34:05.974Z",
- "antall": 451,
+ "oppdatert": "2026-11-11T11:45:44.864Z",
+ "antall": 454,
  "saker": [
+  {
+   "id": 134315,
+   "publisert": "2026-11-11 12:40",
+   "publisert_iso": "2026-11-11T11:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Nervøs venting og håp om å redde sesongen: Tommaso Sala og diagnosen på høyre kne",
+   "ingress": "Tommaso Sala venter spent på diagnosen etter en skade på høyre kne, med håp om å kunne redde resten av vintersesongen.",
+   "spik": "Den italienske slalomspesialisten Tommaso Sala skadet høyre kne under trening i Gurgl og venter spent på diagnosen. For tre år siden rev han det fremre korsbåndet i venstre kne i Val Senales, noe som kostet ham store deler av en sesong. Sala hadde nettopp funnet tilbake til godt nivå i 2025/26 og regnes sammen med Alex Vinatzer som Italias viktigste slalomutøver — noe som gjør en ny kneskade særlig dramatisk for det italienske alpinlandslaget.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Tommy Sala"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/un-attesa-snervante-e-la-speranza-di-salvare-l-inverno-tommaso-sala-e-la-diagnosi-al-ginocchio-destro"
+  },
   {
    "id": 134215,
    "publisert": "2026-11-11 12:04",
@@ -140,6 +160,25 @@
    "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/superstar-completamente-da-innevare-killington-attende-il-freddo-anche-se-le-previsioni-nel-vermont-non-sono-ottimali"
   },
   {
+   "id": 134148,
+   "publisert": "2026-11-11 08:35",
+   "publisert_iso": "2026-11-11T07:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Spennende britisk tropp til Levi: Taylor, Major og tvillingene Carrick-Smith stiller til start",
+   "ingress": "Storbritannia stiller med et interessant lag til Levi, der Taylor, som ble nummer fire i 2025, konkurrerer sammen med Major og tvillingene Carrick-Smith.",
+   "spik": "Storbritannia stiller med fire herrer i søndagens slalomåpning i Levi, og det markerer starten på en ny æra etter at Dave Ryding, som i 2022 ble den første brite noensinne til å vinne et verdenscuprenn i alpint, la opp. Laurie Taylor imponerte med en fjerdeplass i Levi i 2025, og Freddy Carrick-Smith fristet med en strålende 12.-plass i storslalåmåpningen i Sølden — nå stiller han i slalåm for første gang på dette nivået. Tvillingene Carrick-Smith og veteran Kyle Major kompletterer en britisk tropp som vekker oppsikt i det internasjonale alpinmiljøet.",
+   "utovere": [
+    "Freddy Carrick-Smith"
+   ],
+   "land": [
+    "GBR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/una-gran-bretagna-interessantissima-per-levi-taylor-4-nel-2025-in-gara-con-major-e-i-gemelli-carrick-smith"
+  },
+  {
    "id": 134122,
    "publisert": "2026-11-11 07:59",
    "publisert_iso": "2026-11-11T06:59:00.000Z",
@@ -191,6 +230,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://skiracing.com/atle-lie-mcgrath-slalom-globe-levi/"
+  },
+  {
+   "id": 134150,
+   "publisert": "2026-11-10 18:50",
+   "publisert_iso": "2026-11-10T17:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Deborah Compagnoni om Brignone: «Et kunstverk» – og om egne skader: «Lærte å starte på nytt som 18-åring»",
+   "ingress": "Skilegenden Deborah Compagnoni roser Federica Brignones OL-innsats og forteller åpent om sine egne skader og hvordan hun som 18-åring lærte å begynne forfra.",
+   "spik": "Skilegenden Deborah Compagnoni omtaler Federica Brignones OL-innsats som et «kunstverk», og åpner selv om de mange skadene som preget karrieren hennes. Compagnoni fra Santa Caterina Valfurva vant tre olympiske gull i tre ulike OL — Calgary 1992, Lillehammer 1994 og Nagano 1998 — til tross for at hun ble rammet av alvorlige kneskader gjentatte ganger. Hun forteller at hun allerede som 18-åring lærte seg å starte på nytt etter motgang, og at de beste resultatene faktisk kom i kjølvannet av skadene.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/brignone-ai-giochi-un-capolavoro-d-arte-i-miei-infortuni-a-18-anni-ho-capito-come-ripartire-da-zero-deborah-compagnoni-si-racco"
   },
   {
    "id": 134126,
