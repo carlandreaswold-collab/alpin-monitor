@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-11T12:00:07.015Z",
- "antall": 454,
+ "oppdatert": "2026-11-11T12:15:26.120Z",
+ "antall": 455,
  "saker": [
+  {
+   "id": 134621,
+   "publisert": "2026-11-11 13:10",
+   "publisert_iso": "2026-11-11T12:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "USA-reisen starter: Paris og co. drar til Copper Mountain",
+   "ingress": "Det alpine landslaget setter kursen mot USA, der Paris og resten av troppen ankommer Copper Mountain lørdag, mens fire kvinner reiser allerede fredag.",
+   "spik": "Det italienske alpinlandslaget drar til USA for treningsleir og konkurranser, med herretroppen rundt Dominik Paris på vei til Copper Mountain i Colorado lørdag. Paris og resten av fartsgjengen skal tilbringe to uker i det såkalte «Speed Center» før sesongens første renn – et super-G på Copper Mountain 28. november, etterfulgt av storslalåm dagen etter. Fire kvinner, blant dem Sofia Goggia og Marta Bassino, reiser allerede fredag og skal videre til Killington. Copper Mountain har vært et fast innslag i det italienske lagets oppkjøring de siste sesongene.",
+   "utovere": [
+    "Dominik Paris"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/missione-usa-si-parte-sabato-il-via-direzione-copper-mountain-per-paris-co-gia-domani-un-quartetto-femminile"
+  },
   {
    "id": 134315,
    "publisert": "2026-11-11 12:40",
