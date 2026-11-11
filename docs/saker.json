@@ -1,7 +1,41 @@
 {
- "oppdatert": "2026-11-11T15:45:12.113Z",
- "antall": 462,
+ "oppdatert": "2026-11-11T16:00:30.380Z",
+ "antall": 464,
  "saker": [
+  {
+   "id": 137307,
+   "publisert": "2026-11-11 16:55",
+   "publisert_iso": "2026-11-11T15:55:14.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "EM 2027 avholdes i Danmark",
+   "ingress": "Etter Šenčur får Danmark æren av å arrangere de europeiske mesterskapene i alpint i 2027.",
+   "spik": "Danmark er tildelt arrangørrollen for de europeiske mesterskapene i alpint i 2027, etter at Slovenia og Šenčur arrangerer EM i 2025. Det er uvanlig at Danmark er vert for et alpint mesterskap, ettersom landet ikke har noen alpine fjell eller tradisjon for teknisk alpint på høyt nivå. EM i alpint samler europeiske nasjoner som ikke kvalifiserer til VM, og arrangeres typisk i mindre alpinnasjoner som et ledd i å spre sporten geografisk.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/po-sencurju-se-bo-za-evropske-naslove-v-letu-2027-dirkalo-na-danskem/799789"
+  },
+  {
+   "id": 137193,
+   "publisert": "2026-11-11 16:55",
+   "publisert_iso": "2026-11-11T15:55:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Lindsey Vonn etter ny operasjon: – Inngrepet gikk bra",
+   "ingress": "Lindsey Vonn har gjennomgått en ny operasjon i Vail og melder at alt gikk som planlagt.",
+   "spik": "Lindsey Vonn har gjennomgått sin niende operasjon siden comebacket, denne gangen på det fremre korsbåndet i venstre kne, og melder at inngrepet ved Steadman-klinikken i Vail gikk som planlagt. Skaden skjedde i forbindelse med et fall under utforrennet i Crans-Montana i februar 2025, bare dager etter at hun hadde ledet utforverdenscupen i comeback-sesongen sin. Vonn, som har 82 verdenscupseiere og regnes som en av tidenes beste alpinister, håper dette skal være den siste operasjonen i et langvarig skadedrama som har preget slutten av karrieren hennes.",
+   "utovere": [
+    "Lindsey Vonn"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/il-primo-aggiornamento-di-lindsey-vonn-dopo-essere-tornata-sotto-i-ferri-a-vail-l-intervento-e-andato-bene"
+  },
   {
    "id": 136843,
    "publisert": "2026-11-11 16:15",
