@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-11T12:45:23.090Z",
- "antall": 456,
+ "oppdatert": "2026-11-11T13:00:24.258Z",
+ "antall": 457,
  "saker": [
+  {
+   "id": 135156,
+   "publisert": "2026-11-11 13:56",
+   "publisert_iso": "2026-11-11T12:56:33.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Herrelandslaget langt unna VM-medalje",
+   "ingress": "Det tyske herrelandslaget i alpint gikk glipp av VM-medalje og endte langt ned på resultatlisten.",
+   "spik": "Det østerrikske herrelandslaget i sportsskyting gikk glipp av medalje i KK-treposisjonskamp under VM i Doha, og endte på sjuendeplass med 1741 ringer. Alexander Schmirl, Patrick Diem og Thomas Mathis var alle langt bak seierspallen, der Tsjekkia tok gull foran Norge og India. Artikkelteksten omhandler altså ikke alpint, men skyting – og det er verdt å merke seg at kilden ser ut til å være feilkategorisert.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164764/"
+  },
   {
    "id": 134927,
    "publisert": "2026-11-11 13:40",
