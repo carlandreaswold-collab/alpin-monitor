@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-11T19:30:15.689Z",
- "antall": 468,
+ "oppdatert": "2026-11-11T19:45:23.987Z",
+ "antall": 469,
  "saker": [
+  {
+   "id": 139778,
+   "publisert": "2026-11-11 20:34",
+   "publisert_iso": "2026-11-11T19:34:14.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Hva FIS' nye klimaveiledning betyr for alpint",
+   "ingress": "FIS har utgitt ny klimaveiledning som vil påvirke hvordan alpinbakker forberedes og gjennomføres i fremtiden.",
+   "spik": "FIS og Verdens meteorologiorganisasjon (WMO) har gitt ut en ny felles rapport om hvordan skisentre og arrangører kan bruke vær- og klimainformasjon til å forberede løyper, forvalte ressurser og planlegge fremtidige investeringer. Rapporten kom 3. november og følges av en kortere praktisk veileder. Bakgrunnen er alvorlig: ifølge FIS' egne beregninger ble 25 verdenscuprenn avlyst på grunn av dårlig vær i sesongen 2025–26. Klimautfordringene rammer steder ulikt – fra Levi i Finland til Beaver Creek i Colorado – men felles for alle er problemet med å klargjøre en løype til en fastsatt dato under forhold man ikke kan kontrollere.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/preparing-the-mountain-what-new-fis-climate-guidance-means-for-alpine-racing/"
+  },
   {
    "id": 139543,
    "publisert": "2026-11-11 19:57",
