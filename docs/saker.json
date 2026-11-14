@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-14T17:30:12.123Z",
- "antall": 520,
+ "oppdatert": "2026-11-14T17:45:18.876Z",
+ "antall": 521,
  "saker": [
   {
    "id": 146651,
@@ -185,6 +185,21 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/la-solita-levi-per-l-italdonne-ma-sorride-una-positiva-sola-buona-partenza-della-mea-non-sono-soddisfatta"
+  },
+  {
+   "id": 147154,
+   "publisert": "2026-11-14 14:18",
+   "publisert_iso": "2026-11-14T13:18:21.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Dameslaløm i Levi i re-live",
+   "ingress": "Se dameslalømet i Levi på nytt i re-live.",
+   "spik": "Dameslalømet i Levi åpner verdenscupsesongen i alpint, slik tradisjonen tilsier – den finske byen nord for polarsirkelen har vært fast vertskap for sesongåpningen i slaløm siden tidlig 2000-tall. Levi er kjent for sine krevende lysforhold og utfordrende snøforhold tidlig i november, noe som gjør løpet til en test på form og forberedelse snarere enn fullt gjennomkjørt sesongform. Rennet gir de første verdifulle poengenevmed tanke på det samlede verdenscupregnslapet.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/regional/br/br-erster-weltcup-sieg-im-slalom-aicher-jubelt-in-levi-106.html"
   },
   {
    "id": 144325,
