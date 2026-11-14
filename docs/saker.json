@@ -1,7 +1,54 @@
 {
- "oppdatert": "2026-11-14T09:45:16.918Z",
- "antall": 494,
+ "oppdatert": "2026-11-14T10:00:26.951Z",
+ "antall": 496,
  "saker": [
+  {
+   "id": 141775,
+   "publisert": "2026-11-14 10:50",
+   "publisert_iso": "2026-11-14T09:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Aicher imponerte i Levi – kun Colturi nær bavareren etter første omgang",
+   "ingress": "Aicher leverte en strålende kjøring i første omgang i Levi, med kun Colturi tett bak. Moltzan røk ut, mens Rast og Holdener betalte en høy pris.",
+   "spik": "Emma Aicher leverte en imponerende første omgang i Levi-slalåmen og leder med 36 hundredeler foran Lara Colturi, mens Zrinka Ljutic er best av de øvrige. Aicher, som nettopp fylte 23 år, er en av de store favorittkandidatene til verdenscupen sammenlagt denne sesongen, særlig med Mikaela Shiffrin fraværende. Amerikaneren Paula Moltzan røk ut, og erfarne navn som Wendy Holdener og Rahel Rast ligger mer enn ett sekund bak lederen etter første omgang.",
+   "utovere": [
+    "Camille Rast",
+    "Emma Aicher",
+    "Lara Colturi",
+    "Paula Moltzan",
+    "Wendy Holdener"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "SUI",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/aicher-perfetta-solo-colturi-resta-vicina-alla-bavarese-dopo-la-1-di-levi-out-moltzan-pagano-rast-e-holdener"
+  },
+  {
+   "id": 141791,
+   "publisert": "2026-11-14 10:48",
+   "publisert_iso": "2026-11-14T09:48:07.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Aicher foran Colturi – bursdagsduel i Levi",
+   "ingress": "I Levi pågår en spennende duell mellom Aicher og Colturi, som begge feirer bursdag.",
+   "spik": "I åpningsslalåmen i Levi leder tyske Emma Aicher etter første omgang, tett fulgt av Lara Colturi som kjører for Albania. Det spesielle er at de to rivalene begge feirer bursdag i disse dager – Aicher fylte 23 år 13. november, mens Colturi fyller 20 år 15. november. Colturi, som er italiensk-født, men representerer Albania gjennom sin far Ervin Colturi, regnes som et av alpinens største talenter. De to ligger klart foran resten av feltet etter første omgang.",
+   "utovere": [
+    "Emma Aicher",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/aicher-colturi-geburtstagskinder/"
+  },
   {
    "id": 140476,
    "publisert": "2026-11-14 09:05",
