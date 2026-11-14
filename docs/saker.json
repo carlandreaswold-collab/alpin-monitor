@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-14T15:15:12.089Z",
- "antall": 516,
+ "oppdatert": "2026-11-14T15:30:30.394Z",
+ "antall": 517,
  "saker": [
+  {
+   "id": 145590,
+   "publisert": "2026-11-14 16:20",
+   "publisert_iso": "2026-11-14T15:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Lara med litt anger: «På trening går jeg mye raskere – nå må jeg ta det med i konkurransen»",
+   "ingress": "Lara innrømmer en viss skuffelse etter konkurransen og sier at treningsformen hennes er langt bedre enn det hun viser i renn.",
+   "spik": "Lara Colturi innrømmer en viss skuffelse etter andreplass i Levi-slalåmen, som ble vunnet av Emma Aicher, og sier at treningsformen hennes er langt bedre enn det hun klarer å vise i konkurransene. Den Albania-representerende italienskfødte utøveren, som trener under faren Cristian Colturies veiledning, åpnet sesongen med andreplass i Sölden – ett hundredels sekund bak seieren. Det er Colturies niende pallplass i verdenscupen uten at seieren lar vente på seg, men to andreplass på de to første rennene i sesongen er likevel et sterkt utgangspunkt.",
+   "utovere": [
+    "Emma Aicher",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/lara-questa-volta-un-po-di-rammarico-c-e-in-allenamento-sto-andando-molto-piu-forte-ma-devo-portarlo-in-gara"
+  },
   {
    "id": 145240,
    "publisert": "2026-11-14 15:45",
