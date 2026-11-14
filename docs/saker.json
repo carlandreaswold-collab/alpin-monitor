@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-14T13:15:32.607Z",
- "antall": 509,
+ "oppdatert": "2026-11-14T13:30:18.878Z",
+ "antall": 510,
  "saker": [
+  {
+   "id": 144325,
+   "publisert": "2026-11-14 14:18",
+   "publisert_iso": "2026-11-14T13:18:16.000Z",
+   "kilde": "franceinfo",
+   "kilde_land": "FRA",
+   "tittel": "Aicher tok første slalåmstart – Chevrier og Lamure i topp 7",
+   "ingress": "Emma Aicher gjennomførte sin første verdenscupslalåm denne sesongen, mens franske Marion Chevrier og Marie Lamure begge endte på topp 7.",
+   "spik": "Emma Aicher vant sitt første slalåmrenn i verdenscupen da hun tok seieren i Levi i Finland lørdag – dette var også hennes første slalåmstart denne sesongen. Den unge tyske alpinisten dro fordel av at Mikaela Shiffrin var fraværende. For Frankrike var det grunn til optimisme: Marion Chevrier og Marie Lamure endte begge blant de syv beste, noe som lover godt for det franske slalåmlaget videre i sesongen.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin/coupe-du-monde/le-premier-slalom-de-la-saison-de-coupe-du-monde-pour-emma-aicher-tops-7-pour-les-francaises-marion-chevrier-et-marie-lamure_8282492.html#xtor=RSS-3-%5Bsports%2Fsports-d-hiver%2Fski-alpin%5D"
+  },
   {
    "id": 144076,
    "publisert": "2026-11-14 14:12",
