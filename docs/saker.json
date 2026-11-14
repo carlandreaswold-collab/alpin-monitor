@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-11-14T14:45:13.423Z",
- "antall": 515,
+ "oppdatert": "2026-11-14T15:00:18.187Z",
+ "antall": 516,
  "saker": [
+  {
+   "id": 145240,
+   "publisert": "2026-11-14 15:45",
+   "publisert_iso": "2026-11-14T14:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Vinatzer bekrefter at Sala må opereres: «Veldig synd for Tommy»",
+   "ingress": "Vinatzer bekrefter at lagkameraten Tommy Sala må gjennomgå en operasjon. De italienske alpinistene uttalte seg om situasjonen dagen før rennet i Levi.",
+   "spik": "Italias slalåmtalent Alex Vinatzer bekrefter at lagkamerat Tommy Sala må opereres etter en kneskade han pådro seg for seks dager siden. Vinatzer selv stiller til start med startnummer 17 i Levis slalåmåpning, og beskrives av de italienske trenerne som i god form etter en lovende innsats i storslalåmen i Sölden. Sala er en av Italias yngre slalåmhåp, og fraværet hans svekker et allerede begrenset italiensk mannskap i en av alpinistenes sterkeste grener.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Tommy Sala"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/vinatzer-conferma-l-intervento-necessario-per-sala-dispiace-tanto-per-tommy-gli-azzurri-alla-vigilia-di-levi"
+  },
   {
    "id": 144731,
    "publisert": "2026-11-14 15:11",
