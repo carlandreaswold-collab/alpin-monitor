@@ -1,7 +1,34 @@
 {
- "oppdatert": "2026-11-14T18:45:26.041Z",
- "antall": 523,
+ "oppdatert": "2026-11-14T19:00:27.084Z",
+ "antall": 524,
  "saker": [
+  {
+   "id": 148033,
+   "publisert": "2026-11-14 19:57",
+   "publisert_iso": "2026-11-14T18:57:55.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Startliste for herrenes slalåm i Levi 2026",
+   "ingress": "Her er startlisten for herrenes slalåmrenn i Levi i 2026.",
+   "spik": "Herrenes slalåmverdenscup åpner søndag 15. november 2026 i finske Levi, med 86 løpere fra 23 nasjoner på startlisten. Forsvarende vinner Lucas Pinheiro Braathen starter med startnummer 7, mens Clément Noël trekker nummer 1. Fra norsk side er Timon Haugan, Atle Lie McGrath og Henrik Kristoffersen blant de syv første ut. Levi er tradisjonelt sesongåpner for herrenes slalåm og et renn der norske utøvere historisk har gjort seg sterkt gjeldende.",
+   "utovere": [
+    "Atle Lie McGrath",
+    "Clement Noel",
+    "Henrik Kristoffersen",
+    "Loïc Meillard",
+    "Lucas Braathen",
+    "Timon Haugan"
+   ],
+   "land": [
+    "BRA",
+    "FRA",
+    "NOR",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/levi-mens-start-list-article-2026/"
+  },
   {
    "id": 147875,
    "publisert": "2026-11-14 19:40",
