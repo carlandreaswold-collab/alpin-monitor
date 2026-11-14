@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-14T17:45:18.876Z",
- "antall": 521,
+ "oppdatert": "2026-11-14T18:00:19.325Z",
+ "antall": 522,
  "saker": [
+  {
+   "id": 147361,
+   "publisert": "2026-11-14 18:45",
+   "publisert_iso": "2026-11-14T17:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Startliste for herreslalåmen i Levi: Noel åpner, etterfulgt av Haugan, Meillard og de norske essene",
+   "ingress": "Noel starter først i herreslalåmen i Levi-arenaen, etterfulgt av Haugan, Meillard og de øvrige norske toppløperne.",
+   "spik": "Clément Noel starter med startnummer 1 i herreslalåmen i Levi, mens Timon Haugan er nummer 2 og Loïc Meillard nummer 3. Levi-rennet er det første av 13 planlagte slalåmrenn for menn i Verdenscupen 2025/26-sesongen. Lucas Pinheiro Braathen, som vant i Levi for ett år siden, trekker startnummer 7. Noel har historisk sett trivdes godt i den finske arenaen og har flere pallplasseringer der.",
+   "utovere": [
+    "Clement Noel",
+    "Loïc Meillard",
+    "Timon Haugan"
+   ],
+   "land": [
+    "FRA",
+    "NOR",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/la-startlist-dello-slalom-maschile-nell-arena-di-levi-noel-apre-poi-haugan-meillard-e-gli-altri-due-assi-norge"
+  },
   {
    "id": 146651,
    "publisert": "2026-11-14 17:50",
