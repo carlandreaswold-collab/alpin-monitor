@@ -1,7 +1,76 @@
 {
- "oppdatert": "2026-11-14T13:00:38.205Z",
- "antall": 506,
+ "oppdatert": "2026-11-14T13:15:32.607Z",
+ "antall": 509,
  "saker": [
+  {
+   "id": 144076,
+   "publisert": "2026-11-14 14:12",
+   "publisert_iso": "2026-11-14T13:12:22.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Truppe klatret seg opp på slalompallen",
+   "ingress": "Truppe sikret seg en pallplass i slalomrennet med en imponerende kjøring.",
+   "spik": "Katharina Truppe tok en sterk tredjeplass i åpningsslalomen i Levi, bare 0,07 sekunder bak andreplassen til Lara Colturi. Den 30 år gamle kärntnerindene kjørte beste tid i finaleomgangen og halvert dermed rykket fra halvtidsfemteplassen. Det er hennes syvende pallplass totalt i verdenscupen, og det er påfallende at nettopp Levi var stedet der hun for syv år siden tok sin aller første pallplass. Hennes hittil eneste verdenscupseier kom i Åre i mars 2025.",
+   "utovere": [
+    "Emma Aicher",
+    "Katharina Truppe",
+    "Lara Colturi",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "ALB",
+    "AUT",
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164871/"
+  },
+  {
+   "id": 144158,
+   "publisert": "2026-11-14 14:08",
+   "publisert_iso": "2026-11-14T13:08:26.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Første slalomseier – Aicher jubler i Levi",
+   "ingress": "Aicher tok sin første slalomseier i Levi i en sterk prestasjon.",
+   "spik": "Emma Aicher tok sin første slalomseier i Levi lørdag, 43 hundredeler foran Lara Colturi. Den tyske alpinisten startet med startnummer én og holdt teten gjennom begge omganger i fraværet av slalomdominator Mikaela Shiffrin. Aicher, som representerer DSV, har tidligere vist lovende form i tekniske disipliner og omtalte kjøringen med startnummer én som nesten identisk med trening. Seieren er hennes første i slalåm, og hun noterer seg dermed for sin sjette verdenscupseier totalt.",
+   "utovere": [
+    "Emma Aicher",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/erster-slalom-sieg-aicher-jubelt-in-levi,ski-alpin-levi-erster-slalom-sieg-emma-aicher-100.html"
+  },
+  {
+   "id": 144077,
+   "publisert": "2026-11-14 14:01",
+   "publisert_iso": "2026-11-14T13:01:45.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Truppe tok tredjeplass da Aicher vant i Levi",
+   "ingress": "Aicher vant slalomrennet i Levi, mens Truppe endte på tredjeplass.",
+   "spik": "Katharina Truppe kjørte seg opp fra femteplass til tredjeplass med beste tid i finaleomgangen i Levis åpningsslalom, og sikret dermed sin åttende pallplass i verdenscupen. Emma Aicher vant rennet med 0,43 sekunder foran Lara Colturi, som starter for Albania, mens Truppe lå ytterligere 0,07 sekunder bak. Det var en oppløftende sesongstart for den 30 år gamle østerrikeren, som tok sin hittil eneste verdenscupseier i Åre i mars 2025.",
+   "utovere": [
+    "Emma Aicher",
+    "Katharina Truppe",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "AUT",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164877/"
+  },
   {
    "id": 143863,
    "publisert": "2026-11-14 13:55",
