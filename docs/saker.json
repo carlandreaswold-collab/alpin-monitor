@@ -1,7 +1,35 @@
 {
- "oppdatert": "2026-11-14T10:00:26.951Z",
- "antall": 496,
+ "oppdatert": "2026-11-14T10:15:28.781Z",
+ "antall": 497,
  "saker": [
+  {
+   "id": 142003,
+   "publisert": "2026-11-14 11:07",
+   "publisert_iso": "2026-11-14T10:07:25.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Østerriksk duo holder medaljesjansene i slalåm i live",
+   "ingress": "To østerrikske utøvere har sikret seg gode plasseringer og holder fortsatt muligheten åpen for plass på pallen i slalåmkonkurransen.",
+   "spik": "I første omgang av sesongåpningsslalåmen i Levi leder tyske Emma Aicher, 0,36 sekunder foran Lara Colturi fra Albania – i fravær av stjernen Mikaela Shiffrin. Østerrikernes beste håp er Katharina Truppe på femteplass, 1,05 sekunder bak Aicher, fulgt av landskvinnen Katharina Huber åtte hundredeler bak. Truppe begikk en kostbar feil tidlig i løypa og innrømmer at feilen kom på verst tenkelige sted, men er optimistisk foran annen omgang. Kroatiske Zrinka Ljutic er tredje halvveis og er blant de sterkeste utfordrerne til pallplass.",
+   "utovere": [
+    "Emma Aicher",
+    "Katharina Huber",
+    "Katharina Truppe",
+    "Lara Colturi",
+    "Mikaela Shiffrin",
+    "Zrinka Ljutic"
+   ],
+   "land": [
+    "ALB",
+    "AUT",
+    "CRO",
+    "GER",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164864/"
+  },
   {
    "id": 141775,
    "publisert": "2026-11-14 10:50",
