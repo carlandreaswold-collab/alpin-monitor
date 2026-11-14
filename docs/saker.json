@@ -1,7 +1,45 @@
 {
- "oppdatert": "2026-11-14T15:45:22.142Z",
- "antall": 517,
+ "oppdatert": "2026-11-14T16:00:23.568Z",
+ "antall": 519,
  "saker": [
+  {
+   "id": 145959,
+   "publisert": "2026-11-14 16:50",
+   "publisert_iso": "2026-11-14T15:50:51.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Bittert – VM-vinteren er over for Melanie Meillard",
+   "ingress": "En trist slutt for Melanie Meillard, som ikke får fullføre VM-vinteren.",
+   "spik": "Melanie Meillard må avslutte VM-sesongen 2026/27 uten et eneste renn etter at hun falt under slalomtreningen i Levi fredag og skadet høyre kne. MR-undersøkelsene lørdag i Genf bekreftet frykten: brudd på begge meniskene og korsbåndsbrudd. For den 28-årige sveitseren fra Neuchâtel er det et bittert tilbakeslag, særlig etter en vellykket sommeroppkjøring og med VM-sesongen i sikte.",
+   "utovere": [
+    "Melanie Meillard"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/bitter-melanie-meillard/"
+  },
+  {
+   "id": 145999,
+   "publisert": "2026-11-14 16:48",
+   "publisert_iso": "2026-11-14T15:48:11.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Sesongslutt for sveitsiske Meillard",
+   "ingress": "Den sveitsiske alpinisten Melanie Meillard er ferdig for sesongen.",
+   "spik": "Sveitsiske Melanie Meillard er ute av VM-sesongen 2026/27 etter en alvorlig kneskade pådratt under slalomtrening i Levi, bare én dag før sesongstart. MR-undersøkelser i Genf bekreftet brudd på begge meniskene samt et korsbåndsbrudd på høyre kne. Den 28 år gamle teknikeren fra Neuchâtel lå på 16. plass i slalomklassementet forrige sesong. Meillard sier hun kjenner veien tilbake og er fast bestemt på å returnere sterkere.",
+   "utovere": [
+    "Melanie Meillard"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164888/"
+  },
   {
    "id": 145590,
    "publisert": "2026-11-14 16:20",
