@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-14T10:15:28.781Z",
- "antall": 497,
+ "oppdatert": "2026-11-14T10:30:18.109Z",
+ "antall": 498,
  "saker": [
   {
    "id": 142003,
@@ -182,6 +182,27 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://sport.orf.at/stories/3164845/"
+  },
+  {
+   "id": 142236,
+   "publisert": "2026-11-13 20:54",
+   "publisert_iso": "2026-11-13T19:54:41.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Emma Aicher leder, Andreja Slokar brøt",
+   "ingress": "Emma Aicher tok ledelsen, mens sloveneren Andreja Slokar brøt i rennet.",
+   "spik": "Emma Aicher tok ledelsen i rennet, mens sloveneren Andreja Slokar brøt. Aicher er en tysk allroundkjører født i 2003 som har etablert seg i verdenstoppen de siste sesongene, med særlig styrke i tekniske disipliner. Slokar er en av Slovenias fremste slalåmkjørere og har tidligere vunnet verdenscuprenn, men brøt altså ut av dette rennet uten å fullføre.",
+   "utovere": [
+    "Andreja Slokar",
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER",
+    "SLO"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/v-vodstvu-emma-aicher-andreja-slokar-odstopila/800075"
   },
   {
    "id": 140130,
