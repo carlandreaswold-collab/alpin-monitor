@@ -1,7 +1,82 @@
 {
- "oppdatert": "2026-11-14T12:45:14.710Z",
- "antall": 503,
+ "oppdatert": "2026-11-14T13:00:38.205Z",
+ "antall": 506,
  "saker": [
+  {
+   "id": 143863,
+   "publisert": "2026-11-14 13:55",
+   "publisert_iso": "2026-11-14T12:55:52.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Emma Aicher tok sin første slalåmseier",
+   "ingress": "Emma Aicher sikret seg sin aller første verdenscupseier i slalåm.",
+   "spik": "Emma Aicher vant slalåmen i Levi og tok dermed sin aller første verdenscupseier i en teknisk disiplin. Den tyske alpinisten slo Lara Colturi fra Albania med 0,43 sekunder, mens Katharina Truppe tok tredjeplassen. Rennet markerte et historisk brudd i Levi: for første gang siden 2016 vant noen andre enn Mikaela Shiffrin eller Petra Vlhová en slalåm der — etter henholdsvis åtte og seks seire for de to. Shiffrin stilte ikke til start, mens Vlhová var tilbake etter lang skadepause.",
+   "utovere": [
+    "Emma Aicher",
+    "Katharina Truppe",
+    "Lara Colturi",
+    "Mikaela Shiffrin",
+    "Petra Vlhová"
+   ],
+   "land": [
+    "ALB",
+    "AUT",
+    "GER",
+    "SVK",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/erster-slalom-erfolg/"
+  },
+  {
+   "id": 143904,
+   "publisert": "2026-11-14 13:54",
+   "publisert_iso": "2026-11-14T12:54:45.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Truppe tok tredjeplass etter Aichers seier i Levi",
+   "ingress": "Katharina Truppe endte på tredjeplass i Levi, der Emma Aicher tok seieren i slalåmrennet.",
+   "spik": "Katharina Truppe tok tredjeplass i sesongåpningens slalåm i Levi, der tyske Emma Aicher vant foran albanske Lara Colturi. Den 30 år gamle østerrikeren fra Kärnten kjørte andredrag med løypens beste tid og avanserte fra femteplass til pallen — hennes åttende pallplass totalt i verdenscupen. Truppe er en erfaren slalåmspesialist som jevnlig har vært i nærheten av pallen, men uten å ha vunnet en verdenscupseier. Landslagskollega Katharina Huber endte på niendeplass som nest beste østerrikske.",
+   "utovere": [
+    "Emma Aicher",
+    "Katharina Truppe",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "AUT",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164875/"
+  },
+  {
+   "id": 143847,
+   "publisert": "2026-11-14 13:50",
+   "publisert_iso": "2026-11-14T12:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Aicher slo Colturi og vant slalåm i Levi",
+   "ingress": "Emma Aicher holdt Lara Colturi bak seg og vant sitt første slalåmrenn i Levi.",
+   "spik": "Emma Aicher vant slalåmen i Levi og holdt Lara Colturi bak seg, noe som også betyr at albaneren fremdeles venter på sin første verdenscupseier. Aicher er en ung tysk allroundkjører som har markert seg jevnt i verdenscupen de siste sesongene, og seieren i Levi er hennes gjennombrudd i slalåm. Det var over et tiår siden en annen utøver enn Shiffrin eller Vlhová vant på Levi Black. Australske Hoffman overrasket med en sterk plassering, mens sveitsiske Holdener og Rast skuffet.",
+   "utovere": [
+    "Emma Aicher",
+    "Lara Colturi",
+    "Mikaela Shiffrin",
+    "Petra Vlhová"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "SVK",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/emma-aicher-respinge-lara-colturi-a-levi-la-tedesca-si-prende-anche-il-primo-trionfo-in-slalom"
+  },
   {
    "id": 143557,
    "publisert": "2026-11-14 13:23",
