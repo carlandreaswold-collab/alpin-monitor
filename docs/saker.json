@@ -1,7 +1,34 @@
 {
- "oppdatert": "2026-11-14T11:00:21.188Z",
- "antall": 500,
+ "oppdatert": "2026-11-14T11:15:18.771Z",
+ "antall": 501,
  "saker": [
+  {
+   "id": 142636,
+   "publisert": "2026-11-14 12:10",
+   "publisert_iso": "2026-11-14T11:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Aicher-Colturi leder, Ljutic og Rast truer – slalomavgjørelsen i Levi nærmer seg",
+   "ingress": "Aicher-Colturi er i tet foran Ljutic og en form for Rast i Levi-slalåmen. Italienske håp hviler på Della Mea, Sola og Peterlini.",
+   "spik": "Lara Colturi leder etter første omgang i slalåmen i Levi, med 36 hundredeler ned til tyske Emma Aicher, mens Zrinka Ljutic og Camille Rast også truer om pallplass. Colturi, som fyller 20 år i løpet av renndagen, representerer Albania og har allerede fem annenplasser i verdenscupen – nå jager hun sin første seier. Aicher søker på sin side sin aller første verdenscupseier i slalåm. Også Petra Vlhova er i nærheten av pallen, mens de italienske håpene hviler på Della Mea, Sola og Peterlini.",
+   "utovere": [
+    "Camille Rast",
+    "Emma Aicher",
+    "Lara Colturi",
+    "Martina Peterlini",
+    "Zrinka Ljutic"
+   ],
+   "land": [
+    "ALB",
+    "CRO",
+    "GER",
+    "ITA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/aicher-colturi-poi-ljutic-e-la-furia-di-rast-si-decide-lo-slalom-di-levi-della-mea-sola-e-peterlini-in-corsa-per-l-italia"
+  },
   {
    "id": 142443,
    "publisert": "2026-11-14 11:53",
