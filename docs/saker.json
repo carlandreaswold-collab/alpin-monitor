@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-14T10:45:26.428Z",
- "antall": 499,
+ "oppdatert": "2026-11-14T11:00:21.188Z",
+ "antall": 500,
  "saker": [
+  {
+   "id": 142443,
+   "publisert": "2026-11-14 11:53",
+   "publisert_iso": "2026-11-14T10:53:47.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Aicher leder Levi-slalåmen – Hoffman imponerte fra startnummer 57",
+   "ingress": "Aicher tok ledelsen i slalåmen i Levi, mens Hoffman gjennomførte en sterk kjøring fra startnummer 57.",
+   "spik": "Emma Aicher leder etter første omgang i sesongåpningens slalåm i Levi, 0,36 sekunder foran Lara Colturi, med Zrinka Ljutić på tredjeplass. Aicher, 23 år gamle og firedobbel disiplinstjerne for Tyskland, endte som nummer to sammenlagt i forrige sesongs verdenscup, men har ennå ikke vunnet en slalåm til tross for fem pallplasseringer. Colturi, som representerer Albania og bare er 19 år, er i samme situasjon med fem pallplasseringer uten seier. Fraværet av regjerende slalåmdronning Mikaela Shiffrin åpner dermed for at en av de to lederne kan ta sin aller første verdenscupseier i disiplinen. Australske Madison Hoffman imponerte med en sterk kjøring fra startnummer 57 og klatret opp til 13. plass.",
+   "utovere": [
+    "Emma Aicher",
+    "Lara Colturi",
+    "Zrinka Ljutic"
+   ],
+   "land": [
+    "ALB",
+    "CRO",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/aicher-leads-levi-slalom-as-hoffman-surges-from-bib-57/"
+  },
   {
    "id": 142291,
    "publisert": "2026-11-14 11:40",
