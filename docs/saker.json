@@ -1,7 +1,72 @@
 {
- "oppdatert": "2026-11-14T14:00:11.448Z",
- "antall": 511,
+ "oppdatert": "2026-11-14T14:15:42.193Z",
+ "antall": 515,
  "saker": [
+  {
+   "id": 144731,
+   "publisert": "2026-11-14 15:11",
+   "publisert_iso": "2026-11-14T14:11:28.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Emma Aicher kjørte til sin første slalomseier",
+   "ingress": "Tyske Emma Aicher tok sin aller første seier i slalom i verdenscupen.",
+   "spik": "Tyske Emma Aicher vant slalomrennet i Levi og tok dermed sin aller første verdenscupseier i en teknisk disiplin. Bak henne fulgte Lara Colturi for Albania og Østerrikes Katharina Truppe på podiet. Aicher har tidligere vist seg frem i fartsdisiplinene, og seieren i Levi bekrefter at 23-åringen er en allsidig utøver med potensialet til å kjempe om sammenlagtseieren i verdenscupen.",
+   "utovere": [
+    "Emma Aicher",
+    "Katharina Truppe",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "AUT",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/video/2026/aichers-faehrt-ersten/"
+  },
+  {
+   "id": 144715,
+   "publisert": "2026-11-14 15:10",
+   "publisert_iso": "2026-11-14T14:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Ett år etter første pallplass i slalom er Levi enda søtere for super-Aicher: «En flott bursdagsgave»",
+   "ingress": "Emma Aicher vant i Levi, ett år etter sin første pallplass på samme sted, og beskriver seieren som en drømmemessig bursdagsgave.",
+   "spik": "Emma Aicher vant slalomrennet i Levi nøyaktig ett år etter sin aller første pallplass i slalom på samme sted, og beskriver seieren som en drømmemessig bursdagsgave – hun fylte 23 år dagen før rennet. Den bayerske løperen ledet etter første omgang og vant til slutt foran Lara Colturi med 0,43 sekunder på den krevende og islagte Levi Black-løypa. Aicher og Colturi har begge stått på pallen i begge verdenscuprennene denne sesongen, og Aicher er nå en av favorittene til sammenlagtseieren.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/un-anno-dopo-il-primo-podio-in-slalom-qui-levi-e-ancora-piu-dolce-per-super-aicher-un-gran-regalo-di-compleanno"
+  },
+  {
+   "id": 144695,
+   "publisert": "2026-11-14 15:04",
+   "publisert_iso": "2026-11-14T14:04:06.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Emma Aicher vinner første verdenscupslalom i Levi",
+   "ingress": "Emma Aicher tok sin første verdenscupseier i slalom etter en sterk kjøring i Levi.",
+   "spik": "Emma Aicher feiret sin 23-årsdag med å vinne sitt første verdenscupslalomrenn i Levi, Finland, og slo Albanias Lara Colturi med 0,43 sekunder på den krevende og islagte Levi Black-løypa. Levi har en særlig plass i Aichers karriere: hun debuterte i verdenscupen nettopp her, tok sin første slalompallplass på samme sted forrige sesong, og returnerte nå for å vinne. Katharina Truppe fra Østerrike ble nummer tre. Aicher og Colturi har nå begge stått på pallen i begge damenes verdenscuprenn denne sesongen, etter podiumsplasseringene i storslalåmen i Sölden.",
+   "utovere": [
+    "Emma Aicher",
+    "Katharina Truppe",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "AUT",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/emma-aicher-levi-slalom-2026/"
+  },
   {
    "id": 144367,
    "publisert": "2026-11-14 14:40",
@@ -488,6 +553,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.rtvslo.si/sport/finale-slaloma-v-vodstvu-emma-aicher-neja-dvornik-15/800075"
+  },
+  {
+   "id": 144836,
+   "publisert": "2026-11-13 20:54",
+   "publisert_iso": "2026-11-13T19:54:41.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Emma Aicher tok første slalomseier – kun Neja Dvornik scoret poeng blant slovenerne",
+   "ingress": "Emma Aicher vant sin første slalomseier, mens Neja Dvornik var den eneste sloveneren som klarte å poengfeste seg.",
+   "spik": "Emma Aicher vant sitt første verdenscupslalomrenn i Levi, mens Neja Dvornik var eneste slovenske utøver som scoret poeng. Aicher, som er 23 år og fra Bayern, har tidligere vunnet i utfor og super-G, men har altså nå også vist at hun er i verdensklasse i slalom. For Slovenia var det en skuffende dag, ettersom Neja Dvornik er en av de mer etablerte navnene blant slovenernes slalomkvinner.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/emma-aicher-do-prve-slalomske-zmage-od-slovenk-tocke-le-za-nejo-dvornik/800075"
   },
   {
    "id": 140130,
