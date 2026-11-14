@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-14T12:00:10.421Z",
- "antall": 501,
+ "oppdatert": "2026-11-14T12:15:18.228Z",
+ "antall": 502,
  "saker": [
   {
    "id": 142636,
@@ -272,6 +272,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.rtvslo.si/sport/v-vodstvu-emma-aicher-andreja-slokar-odstopila/800075"
+  },
+  {
+   "id": 143448,
+   "publisert": "2026-11-13 20:54",
+   "publisert_iso": "2026-11-13T19:54:41.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Slalomfinale: Emma Aicher leder – Neja Dvornik på 15. plass",
+   "ingress": "Emma Aicher leder etter første omgang i slalomfinalen. Neja Dvornik ligger på 15. plass.",
+   "spik": "Emma Aicher leder etter første omgang i slalomfinalen, mens slovenske Neja Dvornik ligger på 15. plass. Aicher er en tysk-fransk alpinist som representerer Tyskland, og har etablert seg som en av de mer fremadstormende slalomkjørerne på verdenscupturen de siste sesongene. Dvornik er en av Slovenias største håp i tekniske disipliner og har jevnlig plassert seg i verdenstoppen. Andre omgang vil avgjøre den endelige plasseringen.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/finale-slaloma-v-vodstvu-emma-aicher-neja-dvornik-15/800075"
   },
   {
    "id": 140130,
