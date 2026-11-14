@@ -1,7 +1,73 @@
 {
- "oppdatert": "2026-11-14T07:49:14.079Z",
- "antall": 478,
+ "oppdatert": "2026-11-14T08:01:48.536Z",
+ "antall": 493,
  "saker": [
+  {
+   "id": 140129,
+   "publisert": "2026-11-14 08:05",
+   "publisert_iso": "2026-11-14T07:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Start kl. 10.00 på «Levi Black»: Ni italienske kvinner i første verdenscupslalåm",
+   "ingress": "Den første slalåmkonkurransen i verdenscupen går av stabelen på Levi Black-løypen, med ni italienske løpere på startlisten.",
+   "spik": "",
+   "utovere": [
+    "Camille Rast",
+    "Emma Aicher",
+    "Lara Colturi",
+    "Wendy Holdener"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/alle-1000-lo-start-sulla-levi-black-e-sfida-apertissima-per-il-primo-slalom-di-coppa-9-le-azzurre-in-gara"
+  },
+  {
+   "id": 140109,
+   "publisert": "2026-11-14 02:02",
+   "publisert_iso": "2026-11-14T01:02:35.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Startliste for dameslalåm i Levi: Vlhová er tilbake – Shiffrin står over",
+   "ingress": "Petra Vlhová er tilbake i konkurransesporet når dameslalåmen i Levi åpner sesongen, mens Mikaela Shiffrin ikke stiller til start.",
+   "spik": "",
+   "utovere": [
+    "Camille Rast",
+    "Mikaela Shiffrin",
+    "Petra Vlhová"
+   ],
+   "land": [
+    "SUI",
+    "SVK",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/levi-womens-slalom-start-list-vlhova-returns-as-shiffrin-sits-out/"
+  },
+  {
+   "id": 140110,
+   "publisert": "2026-11-13 23:14",
+   "publisert_iso": "2026-11-13T22:14:04.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Freddy Carrick-Smiths historiske resultat ga bare 2500 euro i premiepenger",
+   "ingress": "Freddy Carrick-Smith satte et historisk resultat, men måtte ta til takke med kun 2500 euro i premiepenger for bragden.",
+   "spik": "",
+   "utovere": [
+    "Freddy Carrick-Smith"
+   ],
+   "land": [
+    "GBR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/freddy-carrick-smiths-historic-finish-just-e2500-in-prize-money/"
+  },
   {
    "id": 140190,
    "publisert": "2026-11-13 22:00",
@@ -22,6 +88,83 @@
    "url": "https://sport.orf.at/stories/3164845/"
   },
   {
+   "id": 140130,
+   "publisert": "2026-11-13 18:50",
+   "publisert_iso": "2026-11-13T17:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Slalåmsesongen i gang fra Levi: Aicher med startnummer 1, Colturi og Holdener klar",
+   "ingress": "Verdenscupslalåmen i Levi sparker i gang sesongen, med Aicher som nummer 1, etterfulgt av Colturi og Holdener med startnummer 7.",
+   "spik": "",
+   "utovere": [
+    "Emma Aicher",
+    "Lara Colturi",
+    "Wendy Holdener"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/e-tempo-di-slalom-si-parte-dall-incanto-di-levi-pettorale-1-per-aicher-poi-colturi-holdener-con-il-7"
+  },
+  {
+   "id": 140111,
+   "publisert": "2026-11-13 17:03",
+   "publisert_iso": "2026-11-13T16:03:49.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Swiatek og Shiffrin møtes for å snakke om press, perspektiv og glede",
+   "ingress": "Tennisstjernen Iga Swiatek og alpinisten Mikaela Shiffrin har møttes for en samtale om det å håndtere press og finne glede i idretten.",
+   "spik": "",
+   "utovere": [
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/iga-swiatek-joins-mikaela-shiffrin-to-talk-pressure-perspective-and-finding-joy/"
+  },
+  {
+   "id": 140132,
+   "publisert": "2026-11-13 16:35",
+   "publisert_iso": "2026-11-13T15:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Silvaplana er treningsbase for Tabanelli, Gasslitter og Donaggio før Innsbruck-åpningen",
+   "ingress": "Flora og Miro Tabanelli, Gasslitter og Donaggio gjennomfører de siste treningene i Silvaplana før sesongåpningen i Innsbruck.",
+   "spik": "",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/freestyle/news/silvaplana-e-sede-degli-ultimi-allenamenti-pre-opening-di-innsbruck-per-flora-e-miro-tabanelli-gasslitter-e-donaggio"
+  },
+  {
+   "id": 140133,
+   "publisert": "2026-11-13 15:45",
+   "publisert_iso": "2026-11-13T14:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Della Mea klar for Levi: – Kroppen svarer og følelsene er gode",
+   "ingress": "Lara Della Mea er optimistisk foran slalåmåpningen i Levi og forteller at formen er god og kroppen reagerer bra.",
+   "spik": "Den italienske slalåmkjøreren Lara Della Mea stiller optimistisk til start i Levi og melder at kroppen svarer bra og følelsene er gode. Den 25 år gamle friulanske utøveren starter med startnummer 16, noe som skyldes fravær av stjerner som Mikaela Shiffrin og Katharina Liensberger. Italia stiller med hele ni løpere i lørdagens slalåm, men Levi-rennet er historisk sett en bane som ikke har passet det italienske laget spesielt godt.",
+   "utovere": [
+    "Marta Rossetti",
+    "Martina Peterlini"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/ho-ritrovato-buone-sensazioni-e-il-fisico-risponde-della-mea-alla-vigilia-di-levi-i-pettorali-delle-azzurre"
+  },
+  {
    "id": 140145,
    "publisert": "2026-11-13 15:32",
    "publisert_iso": "2026-11-13T14:32:03.000Z",
@@ -37,6 +180,25 @@
    "url": "https://www.skinews.ch/video/2026/pressekonferenz-weltcup-wochenende/"
   },
   {
+   "id": 140134,
+   "publisert": "2026-11-13 15:00",
+   "publisert_iso": "2026-11-13T14:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Nok et skuffende tilbakeslag for Mélanie Meillard: Skadet i trening – går glipp av sesongåpningen",
+   "ingress": "Sveitsiske Mélanie Meillard pådro seg en skade under trening og må stå over sesongåpningen i slalåm.",
+   "spik": "Sveitsiske Mélanie Meillard må stå over sesongåpningen i Levi etter å ha falt under trening og pådratt seg en forstuing i høyre kne. Den 28 år gamle Meillard har en tung skadehistorikk bak seg, særlig knyttet til venstre kne, og hadde sett frem til å revansjere en vanskelig sesong. Swiss-Ski bekrefter at videre undersøkelser gjennomføres etter hjemkomst, og Sveits velger ikke å sende en erstatningsløper til Levi.",
+   "utovere": [
+    "Melanie Meillard"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/un-altra-disdetta-per-melanie-meillard-caduta-in-allenamento-niente-opening-di-specialita-per-l-elvetica"
+  },
+  {
    "id": 140200,
    "publisert": "2026-11-13 14:48",
    "publisert_iso": "2026-11-13T13:48:36.000Z",
@@ -50,6 +212,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://sport.orf.at/stories/3164842/"
+  },
+  {
+   "id": 140135,
+   "publisert": "2026-11-13 14:35",
+   "publisert_iso": "2026-11-13T13:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Lara Colturi i storslag før Levi-slalåm: – Forholdene er topp og Levi er spesielt",
+   "ingress": "Lara Colturi er full av selvtillit foran den første slalåmkonkurransen i Levi, som faller like før bursdagen hennes.",
+   "spik": "Lara Colturi er blant de store favorittene til lørdagens slalåm i Levi og fyller 20 år dagen etter rennet. Den Albania-representerende italienskfødte utøveren startet fjorårssesongen eksepsjonelt med fire pallplasser i de fem første slalåmrennene, og i Levi i fjor endte hun like bak Mikaela Shiffrin. Med Shiffrin fraværende denne helgen er Colturi en av de mest sannsynlige kandidatene til seieren, og hun understreker at hun allerede i søndags imponerte under trening.",
+   "utovere": [
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/un-regalo-di-compleanno-anticipato-lara-colturi-in-super-fiducia-per-il-primo-slalom-levi-e-speciale-e-le-condizioni-sono-top"
   },
   {
    "id": 140146,
@@ -71,6 +252,25 @@
    "url": "https://www.skinews.ch/news/2026/melanie-meillard-verzichten/"
   },
   {
+   "id": 140138,
+   "publisert": "2026-11-13 12:00",
+   "publisert_iso": "2026-11-13T11:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Rossetti tilbake etter 615 dager: – Det tok lang tid å komme over skaden",
+   "ingress": "Rossetti er endelig tilbake etter 615 dager ute med skade og ønsker å gjenfinne formen han hadde tidlig i 2025.",
+   "spik": "Matteo Rossetti gjør comeback etter over 615 dager ute med skade og er klar for slalåmåpningen i Levi. Den italienske slalåmspesialisten pådro seg skaden tidlig i 2024 og har brukt lang tid på rehabilitering. Rossetti håper å gjenfinne formen han viste i begynnelsen av 2025, da han var en av de mest lovende italienske slalåmkjørerne på verdenscupnivå.",
+   "utovere": [
+    "Marta Rossetti"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/rossetti-615-giorni-dopo-ci-ho-messo-tanto-a-superare-l-infortunio-voglio-ripartire-da-quel-2025-dove-stavo-andando-cosi-bene"
+  },
+  {
    "id": 140267,
    "publisert": "2026-11-13 11:56",
    "publisert_iso": "2026-11-13T10:56:13.000Z",
@@ -88,6 +288,72 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.sportschau.de/regional/br/br-strasser-vor-levi-der-einsame-deutsche-wolf-in-der-slalomwelt-102.html"
+  },
+  {
+   "id": 140139,
+   "publisert": "2026-11-13 11:25",
+   "publisert_iso": "2026-11-13T10:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Optimale forhold i Levi: Alle de store kjørte på pisten 24 timer før slalåmstarten",
+   "ingress": "Forholdene på Levi-pisten er optimale, og samtlige toppløpere var ute og trente dagen før slalåmsesongen sparkes i gang.",
+   "spik": "Forholdene på Levi-bakken beskrives som optimale før lørdagens sesongåpning i slalåm, og samtlige toppløpere gjennomførte trening på pisten dagen i forveien. Levi i Finland er et klassisk åpningssted for slalåmsesongen og har vært fast på verdenscupprogrammet i en årrekke. Den arktiske beliggenheten gir stabil snø og lave temperaturer, noe som normalt sikrer gode konkurranseforhold tidlig i november.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/condizioni-ottimali-a-levi-sciata-in-pista-per-tutte-le-big-a-24-ore-dallo-start-della-stagione-di-slalom-alle-1800-i-pettorali"
+  },
+  {
+   "id": 140112,
+   "publisert": "2026-11-12 20:01",
+   "publisert_iso": "2026-11-12T19:01:29.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Sydney Daly og Ian Tezak pryder forsiden av Race Place Catalog 2026–2027",
+   "ingress": "Sydney Daly og Ian Tezak er kåret til vinnere av forsidekonkurransen for Race Place Catalog for sesongen 2026–2027.",
+   "spik": "",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/sydney-daly-and-ian-tezak-named-2026-2027-race-place-catalog-cover-winners/"
+  },
+  {
+   "id": 140113,
+   "publisert": "2026-11-12 19:24",
+   "publisert_iso": "2026-11-12T18:24:05.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "CMC Ski Team tilbake på sporet etter finanskrise",
+   "ingress": "CMC Ski Team har kommet seg gjennom en alvorlig finansieringskrise og er klare for ny satsing.",
+   "spik": "",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/cmc-ski-team-bounces-back-after-funding-crisis/"
+  },
+  {
+   "id": 140114,
+   "publisert": "2026-11-12 17:35",
+   "publisert_iso": "2026-11-12T16:35:16.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Timon Haugan jobber med utstyrsproblem før Levi-slalåmen",
+   "ingress": "Norske Timon Haugan har hatt utfordringer med utstyret i forkant av slalåmåpningen i Levi.",
+   "spik": "",
+   "utovere": [
+    "Atle Lie McGrath",
+    "Henrik Kristoffersen",
+    "Timon Haugan"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/timon-haugan-works-through-equipment-issue-ahead-of-levi-slalom/"
   },
   {
    "id": 140268,
@@ -157,6 +423,21 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.skinews.ch/news/2026/eintrag-geschichtsbuch-ruecktritt/"
+  },
+  {
+   "id": 140115,
+   "publisert": "2026-11-11 21:55",
+   "publisert_iso": "2026-11-11T20:55:21.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Salomon satser på neste generasjon i nordamerikansk alpinsport",
+   "ingress": "Salomon innleder et nytt kapittel i nordamerikansk alpinracing med fokus på unge, kommende utøvere.",
+   "spik": "",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/salomons-next-chapter-in-north-american-racing-starts-with-the-next-generation/"
   },
   {
    "id": 139778,
