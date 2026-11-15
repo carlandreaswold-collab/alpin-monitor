@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-15T14:42:13.776Z",
- "antall": 556,
+ "oppdatert": "2026-11-15T14:45:16.761Z",
+ "antall": 557,
  "saker": [
+  {
+   "id": 155937,
+   "publisert": "2026-11-15 15:43",
+   "publisert_iso": "2026-11-15T14:43:29.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Gustav Wissting etter den historiske noteringen",
+   "ingress": "Gustav Wissting kommenterer sin historiske prestasjon i alpint.",
+   "spik": "Den svenske alpinisten Gustav Wissting skrev historiske sider da han fra startnummer 82 klarte å kvalifisere seg videre til andre omgang i slalåm – det sent har ingen startet og likevel kommet videre, ifølge FIS. 21-åringen endte til slutt på 17.-plass, hans beste karriereresultat noensinne. Wissting krediterer mye av suksessen til lagmiljøet på det svenske alpinlandslaget, der William Hansson, Fabian Ax Swartz og Kristoffer Jakobsen bidrar til en særegen treningskultur med intern konkurranse utøverne imellom.",
+   "utovere": [
+    "Gustav Wissting"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/gustav-wissting-efter-historiska-noteringen"
+  },
   {
    "id": 155401,
    "publisert": "2026-11-15 15:21",
