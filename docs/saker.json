@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-15T14:15:29.884Z",
- "antall": 555,
+ "oppdatert": "2026-11-15T14:30:15.902Z",
+ "antall": 556,
  "saker": [
+  {
+   "id": 155401,
+   "publisert": "2026-11-15 15:21",
+   "publisert_iso": "2026-11-15T14:21:32.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Østerrikske menn går glipp av OL-sjansen",
+   "ingress": "De østerrikske alpinistene misset en viktig mulighet til å kvalifisere seg til vinter-OL.",
+   "spik": "Artikkelteksten handler ikke om alpint, men om østerriksk lacrosse: det østerrikske herrelandslaget tapte 15–26 mot Hellas i Sixes-EM i Salou, Spania, og er dermed ute av OL-kvalifiseringen til Los Angeles 2028. Sjansen ble allerede før turneringen vurdert som liten. Østerrike skal mandag spille om plasseringene ni til tolv mot Sverige.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164974/"
+  },
   {
    "id": 155171,
    "publisert": "2026-11-15 15:10",
