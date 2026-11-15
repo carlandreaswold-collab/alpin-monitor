@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-15T11:45:07.606Z",
- "antall": 539,
+ "oppdatert": "2026-11-15T12:00:30.324Z",
+ "antall": 541,
  "saker": [
+  {
+   "id": 153615,
+   "publisert": "2026-11-15 12:50",
+   "publisert_iso": "2026-11-15T11:50:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "18 italienske alpinister samles i Igls etter Cortina – siste store samling før verdenscupen",
+   "ingress": "Etter oppholdet i Cortina reiser 18 italienske utøvere til Igls for den siste store treningssamlingen før verdenscupsesongen starter.",
+   "spik": "Artikkelen handler om det italienske landslaget i skeleton – ikke alpint – som samles i Igls etter treningsopphold i Cortina. 18 utøvere er tatt ut av teknisk direktør Armin Zoeggeler, med Dominik Fischnaller i spissen, og treningssamlingen varer frem til fredag som siste forberedelse før verdenscupåpningen i Winterberg 28. november. Igls i Tirol er et av de mest brukte øvingsanleggene i Europa for disse disiplinene.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/slittino/news/dopo-cortina-18-azzurri-scendono-in-pista-a-igls-per-l-ultimo-vero-raduno-prima-della-coppa-del-mondo"
+  },
   {
    "id": 153115,
    "publisert": "2026-11-15 12:29",
@@ -287,6 +302,27 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.rtvslo.si/sport/braathen-vodi-z-lepo-prednostjo-joshua-sturm-kar-tretji/800168"
+  },
+  {
+   "id": 153726,
+   "publisert": "2026-11-15 08:04",
+   "publisert_iso": "2026-11-15T07:04:46.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Braathen leder foran Noel – overraskelser på 3.- og 5.-plass",
+   "ingress": "Lucas Braathen leder sammenlagt foran Clément Noel, med overraskende navn på tredje- og femteplass.",
+   "spik": "Lucas Braathen leder sammenlagt i slalåmcupen foran franske Clément Noel, med overraskende navn på tredje- og femteplass. Braathen, som nå representerer Brasil etter å ha skiftet nasjonalitet fra Norge i 2023, er en av verdens beste slalåmkjørere og har tidligere vunnet verdenscupsesongen sammenlagt. Noel er regjerende olympisk mester i slalåm fra Beijing 2022. At det er overraskende navn høyt oppe på resultatlisten tidlig i sesongen, er ikke uvanlig – verdenscupen i slalåm er kjent for å skape sensasjoner.",
+   "utovere": [
+    "Clement Noel",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/braathen-vodi-pred-noelom-presenecenji-na-mestih-3-in-5/800168"
   },
   {
    "id": 151146,
