@@ -1,7 +1,49 @@
 {
- "oppdatert": "2026-11-15T14:00:25.876Z",
- "antall": 553,
+ "oppdatert": "2026-11-15T14:15:29.884Z",
+ "antall": 555,
  "saker": [
+  {
+   "id": 155171,
+   "publisert": "2026-11-15 15:10",
+   "publisert_iso": "2026-11-15T14:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Vinatzer imponerte med skremmende andrekjøring: – Jeg er kjempefornøyd",
+   "ingress": "Alex Vinatzer leverte en formidabel annen omgang og startet sesongen med lovende form. – Jeg er kjempefornøyd, sa alpinisten etterpå.",
+   "spik": "Alex Vinatzer imponerte med den raskeste andrekjøringen i Levi-slalåmen, nesten seks tideler foran Meillard på den avgjørende omgangen, og klatret fra 23.-plass til en samlet femteplass. 27-åringen fra Gröden har lenge blitt sett på som et av Italias største slalåmtalenter, men hans siste pallplass i slalåm var i Kitzbühel i januar 2025, da han mistet seieren med kun ni hundredeler til Noël. En slik andrekjøring gir likevel grunn til optimisme før de neste rennene, og Vinatzer selv var tydelig fornøyd med formen.",
+   "utovere": [
+    "Alex Vinatzer"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/e-questo-il-vinatzer-che-tutti-vogliono-2-manche-paurosa-e-un-inizio-che-fa-ben-sperare-sono-contentissimo"
+  },
+  {
+   "id": 155151,
+   "publisert": "2026-11-15 15:05",
+   "publisert_iso": "2026-11-15T14:05:57.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Braathen vinner igjen i Levi – to av to i sesongåpningen",
+   "ingress": "Lucas Pinheiro Braathen tok sin andre strake seier i Levi og innleder sesongen med to strake triumfer.",
+   "spik": "Lucas Pinheiro Braathen innleder sesongen 2026/27 med to strake seire etter å ha vunnet slalåmen i Levi med tiden 1:48.04, kun uker etter storslalåmseieren i Sölden. Franskmannen Clément Noël tok andreplassen, 0,56 sekunder bak, mens Loïc Meillard ble treer. Braathen, som representerer Brasil etter å ha skiftet nasjonalitet fra Norge i 2023, befester seg raskt som en av de fremste teknikkjørerne i verdenscupen og får nok en reinsdyr å navngi etter tradisjonen i Levi.",
+   "utovere": [
+    "Clement Noel",
+    "Loïc Meillard",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/lucas-pinheiro-braathen-wins-again-in-levi-opens-season-two-for-two/"
+  },
   {
    "id": 155053,
    "publisert": "2026-11-15 14:55",
