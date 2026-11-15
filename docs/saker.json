@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-15T09:15:16.223Z",
- "antall": 527,
+ "oppdatert": "2026-11-15T09:30:19.269Z",
+ "antall": 528,
  "saker": [
   {
    "id": 151085,
@@ -41,6 +41,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.rtvslo.si/sport/ob-10-uri-moski-slalom-v-leviju-a-brez-slovenskih-predstavnikov/800168"
+  },
+  {
+   "id": 151674,
+   "publisert": "2026-11-15 08:04",
+   "publisert_iso": "2026-11-15T07:04:46.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Braathen leder med god margin i Levi",
+   "ingress": "Lucas Braathen leder konkurransen i Levi med en komfortabel margin etter første omgang.",
+   "spik": "Lucas Braathen leder etter første omgang i slalåmåpningen i Levi, Finland, med god margin ned til sine nærmeste konkurrenter. Braathen, som representerer Brasil etter å ha skiftet nasjonalitet fra Norge i 2023, er en av de mest rutinerte slalåmkjørerne på verdenscupturen og vant slalåmkula i 2021/22-sesongen. Levi-rennet er tradisjonelt det første slalåmrennet i verdenscupsesongen, og en ledelse etter første omgang er ingen garanti – nettopp i denne bakken er comebacks velkjente.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/braathen-v-leviju-vodi-z-lepo-prednostjo/800168"
   },
   {
    "id": 151146,
