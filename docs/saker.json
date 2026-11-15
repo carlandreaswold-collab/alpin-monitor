@@ -1,7 +1,62 @@
 {
- "oppdatert": "2026-11-14T23:00:13.691Z",
- "antall": 524,
+ "oppdatert": "2026-11-15T08:46:29.086Z",
+ "antall": 527,
  "saker": [
+  {
+   "id": 151085,
+   "publisert": "2026-11-15 08:25",
+   "publisert_iso": "2026-11-15T07:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Klokken 10.00 er det start – norske utøvere jakter på Noel, Meillard og Braathen på Levi Black!",
+   "ingress": "De norske alpinistene er klare til å utfordre Clément Noel, Loïc Meillard og Lucas Pinheiro Braathen i slalåmrennet på Levi Black.",
+   "spik": "Klokken 10.00 norsk tid går startskuddet for herreslalåmen på Levi Black, der Clément Noel starter med startnummer 1 som OL-mester og pallgarantist i Levi — franskmannen har stått på pallen i Finland i 2019, 2024 og 2025. Lucas Pinheiro Braathen, som forsvarer seieren sin fra fjoråret, og Loïc Meillard regnes blant de største favorittkandidatene, mens norske Henrik Kristoffersen starter som nummer fem. McGrath, som holder slalåmcupen fra fjoråret, starter med startnummer fire i en åpningskamp som beskrives som ekstremt åpen.",
+   "utovere": [
+    "Clement Noel",
+    "Loïc Meillard",
+    "Lucas Braathen",
+    "Timon Haugan"
+   ],
+   "land": [
+    "BRA",
+    "FRA",
+    "NOR",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/alle-1000-si-parte-i-norvegesi-all-attacco-di-noel-meillard-e-pinheiro-braathen-che-sfida-sulla-levi-black"
+  },
+  {
+   "id": 151195,
+   "publisert": "2026-11-15 08:04",
+   "publisert_iso": "2026-11-15T07:04:46.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Herreslalåm i Levi kl. 10 – ingen slovenere med",
+   "ingress": "Herreslalåmen i Levi starter klokken 10, men ingen slovenske utøvere er representert i rennet.",
+   "spik": "Herreslalåmen i Levi åpner sesongen, men Slovenia stiller uten representanter i rennet. Det er oppsiktsvekkende for et land som lenge har vært en slalåmnasjon av rang — med utøvere som Henrik Kristoffersen stilte for Slovenia etter nasjonalitetsskifte, og med en sterk alpintradisjon generelt. Slovenia har tidligere hatt profiler som Mitja Valenčič i slalåm, men mangler tilsynelatende utøvere i verdensklasse denne sesongen til å kvalifisere seg for åpningsrennet i Lappland.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/ob-10-uri-moski-slalom-v-leviju-a-brez-slovenskih-predstavnikov/800168"
+  },
+  {
+   "id": 151146,
+   "publisert": "2026-11-15 00:01",
+   "publisert_iso": "2026-11-14T23:01:58.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Østerrikske herrer håper på god slalomstart",
+   "ingress": "Det østerrikske herrelandslaget ser frem til sesongåpningen i slalåm og håper på et sterkt resultat fra start.",
+   "spik": "Østerrike håper på en sterk sesongstart i Levi, men har slitt i slalåm de siste sesongene — fjorårets eneste pallplass kom ikke før i Kitzbühel i januar. Fabio Gstrein og Michael Matt er de fremste ØSV-håpene etter at Manuel Feller er satt til å utsette sin sesongstart til hjemmerennet i Gurgl 22. november på grunn av ryggproblemer. Sist østerriksk utøver sto på pallen i Levi var i 2018, da Marcel Hirscher vant — en statistikk laget gjerne vil endre i et VM-år.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164891/"
+  },
   {
    "id": 148033,
    "publisert": "2026-11-14 19:57",
