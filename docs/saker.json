@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-15T13:45:24.758Z",
- "antall": 551,
+ "oppdatert": "2026-11-15T14:00:25.876Z",
+ "antall": 553,
  "saker": [
+  {
+   "id": 155053,
+   "publisert": "2026-11-15 14:55",
+   "publisert_iso": "2026-11-15T13:55:44.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Hirscher står også over slalåmen i Gurgl",
+   "ingress": "Marcel Hirscher har valgt å ikke stille til start i slalåmrennet i Gurgl, og avstår dermed fra nok en konkurranse denne sesongen.",
+   "spik": "Marcel Hirscher har valgt å stå over slalåmrennet i Gurgl, og avstår dermed fra å bruke en av de fire wildcard-plassene han tildeles per disiplin fra FIS denne sesongen. 37-åringen, som gjør comeback for Østerrike etter å ha avsluttet karrieren i 2019, har heller ikke stilt i Sölden eller tidligere renn, og ifølge hans management fortsetter han å prioritere trening. Hirscher er tidenes mest meritterte alpinist med åtte sammenlagtseire i verdenscupen og 67 individuelle seire, og forventningene til comebacket er enormt — men tidspunktet for hans neste start er fortsatt uvisst.",
+   "utovere": [
+    "Marcel Hirscher"
+   ],
+   "land": [
+    "NED"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164973/"
+  },
   {
    "id": 154823,
    "publisert": "2026-11-15 14:40",
@@ -539,6 +558,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.rtvslo.si/sport/braathen-vodi-pred-noelom-presenecenji-na-mestih-3-in-5/800168"
+  },
+  {
+   "id": 155109,
+   "publisert": "2026-11-15 08:04",
+   "publisert_iso": "2026-11-15T07:04:46.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Braathen første til å vinne to ganger på rad i Levi",
+   "ingress": "Lucas Braathen har skrevet historie ved å vinne to ganger på rad i Levi, som den første utøveren til å oppnå denne bragden.",
+   "spik": "Lucas Braathen er den første utøveren som har vunnet slalåmrennet i Levi to ganger på rad, og har dermed skrevet seg inn i historien på den finske åpningsbakken. Braathen, som kjører for Brasil etter å ha skiftet nasjonalitet fra Norge, er en av verdens beste slalåmkjørere og har tidligere vunnet flere verdenscupseire i tekniske disipliner. Levi har i mange år vært åpningshelgen i verdenscupen i slalåm, og en dobbeltseier der understreker hans dominans på de smaleste portene.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/braathen-prvi-ki-je-v-leviju-zmagal-dvakrat-zapored/800168"
   },
   {
    "id": 151146,
