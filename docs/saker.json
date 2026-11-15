@@ -1,5 +1,5 @@
 {
- "oppdatert": "2026-11-15T16:15:24.938Z",
+ "oppdatert": "2026-11-15T16:30:15.314Z",
  "antall": 559,
  "saker": [
   {
@@ -139,7 +139,9 @@
     "NED"
    ],
    "kategori": "",
-   "flere_kilder": [],
+   "flere_kilder": [
+    "Neveitalia"
+   ],
    "url": "https://sport.orf.at/stories/3164973/"
   },
   {
