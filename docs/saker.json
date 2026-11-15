@@ -1,7 +1,70 @@
 {
- "oppdatert": "2026-11-15T09:45:19.384Z",
- "antall": 529,
+ "oppdatert": "2026-11-15T10:00:49.349Z",
+ "antall": 533,
  "saker": [
+  {
+   "id": 152026,
+   "publisert": "2026-11-15 10:58",
+   "publisert_iso": "2026-11-15T09:58:27.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Braathen i en klasse for seg etter 1. omgang – Straßer jakter pallen",
+   "ingress": "Lucas Braathen leverte en imponerende første omgang og leder suverent. Linus Straßer ligger an til å kjempe om pallplass.",
+   "spik": "Lucas Braathen leder suverent etter første omgang i slalåmrennet i Levi, med 65 hundredelers forsprang på franskmannen Clément Noël. Linus Straßer er kun 51 hundredeler bak tredjeplassen og har gode sjanser for pallen i finaleomgangen. Braathen, som kjører for Brasil etter å ha byttet nasjonalitet fra Norge, vant slalåmkuglens totalpris forrige sesong og viste igjen klasse på den krevende Levi Black-løypa i iskalde forhold.",
+   "utovere": [
+    "Linus Straßer",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/regional/br/br-braathen-im-1-lauf-in-eigener-liga-strasser-lauert-aufs-podest-102.html"
+  },
+  {
+   "id": 151927,
+   "publisert": "2026-11-15 10:48",
+   "publisert_iso": "2026-11-15T09:48:52.000Z",
+   "kilde": "VG",
+   "kilde_land": "NOR",
+   "tittel": "Braathen i egen klasse i Levi – leder suverent etter første omgang",
+   "ingress": "",
+   "spik": "Lucas Braathen leverte en enestående første omgang i Levi-slalåmen og leder med 65 hundredeler foran franskmannen Clément Noël, mens bestevennen Atle Lie McGrath er på fjerdeplass med 85 hundredelers tap. Braathen selv sier han fant rytmen tidlig og klarte å utnytte terrenget i den isdekte løypa til sin fordel. McGrath karakteriserer Levi som «kanskje den bakken Lucas er best i i slalåm» — et utsagn som understreker Braathens spesielle tilknytning til den finske arenaen, der han også vant i fjor.",
+   "utovere": [
+    "Atle Lie McGrath",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.vg.no/sport/i/pMLPVW/lucas-pinheiro-braathen-i-egen-klasse-i-levi-leder-suverent-etter-foerste-omgang?utm_medium=rss"
+  },
+  {
+   "id": 151906,
+   "publisert": "2026-11-15 10:48",
+   "publisert_iso": "2026-11-15T09:48:10.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Lucas Pinheiro Braathen på vei mot tittelforsvar",
+   "ingress": "Lucas Pinheiro Braathen er i rute for å forsvare tittelen sin og viser storform i konkurransen.",
+   "spik": "Lucas Pinheiro Braathen er i rute for å forsvare seieren sin fra Levi-slalåmen i fjor, og kan bli den første kjøreren som vinner det samme verdensscuprenn i Levi to år på rad. Den 26 år gamle brasiliansk-norske utøveren leder etter første omgang med 65 hundredelers margin til Clément Noël, mens Joshua Sturm fra Østerrike er på tredjeplass. Braathen vant slalåmkuglens totalpris forrige sesong og åpnet inneværende sesong med seier i storslalåmen i Sölden.",
+   "utovere": [
+    "Clement Noel",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/pinheiro-braathen-titelverteidigung/"
+  },
   {
    "id": 151737,
    "publisert": "2026-11-15 10:35",
@@ -81,6 +144,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.rtvslo.si/sport/braathen-v-leviju-vodi-z-lepo-prednostjo/800168"
+  },
+  {
+   "id": 152001,
+   "publisert": "2026-11-15 08:04",
+   "publisert_iso": "2026-11-15T07:04:46.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Braathen leder med solid margin – Sturm overraskende på tredjeplass",
+   "ingress": "Lucas Braathen topper sammenlagt etter første omgang med god ledelse. Joshua Sturm overrasker med en sterk tredjeplass.",
+   "spik": "Lucas Braathen leder sammenlagt etter første omgang i Levi, mens østerrikske Joshua Sturm overrasker med en tredjeplass. Braathen, 26 år gammal og konkurrerende for Brasil, har vist en dominans få rivalene klarer å matche denne sesongen. Sturm er en relativt ny figur i verdenstoppen og gjør det til en overraskelse at han befinner seg så høyt oppe mot etablerte slalåmstjerner.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/braathen-vodi-z-lepo-prednostjo-joshua-sturm-kar-tretji/800168"
   },
   {
    "id": 151146,
