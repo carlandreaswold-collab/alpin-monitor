@@ -1,7 +1,179 @@
 {
- "oppdatert": "2026-11-15T12:45:14.038Z",
- "antall": 541,
+ "oppdatert": "2026-11-15T13:01:08.303Z",
+ "antall": 549,
  "saker": [
+  {
+   "id": 154439,
+   "publisert": "2026-11-15 13:58",
+   "publisert_iso": "2026-11-15T12:58:30.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Braathen dominerte i Levi – Straßer solid, østerriksk kollaps",
+   "ingress": "Lucas Pinheiro Braathen imponerte stort i Levi, mens tyske Straßer leverte solid. Det ble et nedtur for de østerrikske løperne.",
+   "spik": "Lucas Pinheiro Braathen dominerte fullstendig i Levi og vant foran Clément Noël og Loïc Meillard, mens Linus Straßer endte på en 13.-plass – nær to sekunder bak. Det østerrikske landslaget opplevde et realt sammenbrudd: Joshua Sturm, Michael Matt, Fabio Gstrein og Simon Rueland kjørte alle ut i andreomgangen, og Johannes Strolz som eneste østerriker i mål havnet sist av de 21 som fullførte. Sandvik og Vinatzer klatret begge 18 plasser i andreomgangen og viste at det var mulig å hente inn mye tid.",
+   "utovere": [
+    "Linus Straßer",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/regional/br/br-strasser-solide-in-levi-braathen-demonstration-bei-oesv-debakel-102.html"
+  },
+  {
+   "id": 154432,
+   "publisert": "2026-11-15 13:57",
+   "publisert_iso": "2026-11-15T12:57:23.000Z",
+   "kilde": "franceinfo",
+   "kilde_land": "FRA",
+   "tittel": "Noël tok andreplass i åpningsslalåmen – Braathen vant",
+   "ingress": "Lucas Pinheiro Braathen vant sesongåpningen i slalåm i verdenscupen, mens franske Clément Noël tok andreplass.",
+   "spik": "Clément Noël tok andreplass i åpningsslalåmen i Levi, der Lucas Pinheiro Braathen vant suverent. For Noël er andreplass en god start på sesongen – franskmannen er en av verdens beste slalåmkjørere og vant blant annet VM-gull i 2021. Braathen leder etter den første slalåmen av totalt tretten i verdenscupen denne sesongen, noe som gir ham et solid utgangspunkt i kampen om verdenscupen sammenlagt.",
+   "utovere": [
+    "Clement Noel",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin/coupe-du-monde/clement-noel-deuxieme-du-premier-slalom-de-la-saison-de-coupe-du-monde-remporte-par-lucas-pinheiro-braathen_8283554.html#xtor=RSS-3-%5Bsports%2Fsports-d-hiver%2Fski-alpin%5D"
+  },
+  {
+   "id": 154319,
+   "publisert": "2026-11-15 13:51",
+   "publisert_iso": "2026-11-15T12:51:51.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Braathen triumferer for andre gang i Levi",
+   "ingress": "Lucas Pinheiro Braathen tok sin andre strake seier i Levi og befester sin posisjon i verdenscupen.",
+   "spik": "Lucas Pinheiro Braathen vant slalåmåpningen i Levi for andre strake år og befester dermed sin posisjon som en av verdens aller beste slalåmkjørere. Braathen, som kjører for Brasil etter å ha skiftet nasjonalitet fra Norge, startet sesongen med seier i storslalåmen i Sölden og vant nå også det første slalåmrennet. Clément Noël og Loïc Meillard fulgte på de neste plassene, 0,56 og 0,73 sekunder bak brasilianeren.",
+   "utovere": [
+    "Clement Noel",
+    "Loïc Meillard",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/pinheiro-braathen-triumphiert/"
+  },
+  {
+   "id": 154359,
+   "publisert": "2026-11-15 13:50",
+   "publisert_iso": "2026-11-15T12:50:28.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Braathen vant herreslalåmen i Levi",
+   "ingress": "Lucas Pinheiro Braathen tok seieren i herreslalåmen i Levi og starter verdenscupsesongen med stil.",
+   "spik": "Lucas Pinheiro Braathen vant herreslalåmen i Levi og starter verdenscupsesongen 2026/27 med to seire på to renn, etter å ha vunnet storslalåmen i Sölden. Det østerrikske herrelandslaget opplevde et svart renn: Joshua Sturm, Michael Matt, Fabio Gstrein og Simon Rueland kjørte alle ut i andreomgangen, og Johannes Strolz kom i mål som eneste østerriker – på sisteplass med over tre sekunder opp til Braathen.",
+   "utovere": [
+    "Clement Noel",
+    "Joshua Sturm",
+    "Loïc Meillard",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "AUT",
+    "BRA",
+    "FRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164971/"
+  },
+  {
+   "id": 154392,
+   "publisert": "2026-11-15 13:49",
+   "publisert_iso": "2026-11-15T12:49:48.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Fabian Ax Swartz tok karrierens beste plassering",
+   "ingress": "Fabian Ax Swartz leverte sitt livs løp og sikret sin beste plassering i karrieren.",
+   "spik": "22 år gamle Fabian Ax Swartz leverte karrierens beste verdenscupresultat med en fjerdeplass i slalåmåpningen i Levi. Svensken var i ledelsen etter andreomgangen en stund, men ble til slutt slått ned fra pallen med knappest mulig margin – kun ett hundredel skilte ham fra Loïc Meillard på tredjeplass. Det er et lovende tegn for svensk alpint, som lenge har ventet på en ny profilert slalåmkjører etter Kristoffer Jakobsen.",
+   "utovere": [
+    "Fabian Ax Swartz"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/alpint/fabian-ax-swartz-med-karriarens-basta-placering/"
+  },
+  {
+   "id": 154372,
+   "publisert": "2026-11-15 13:49",
+   "publisert_iso": "2026-11-15T12:49:45.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Fabian Ax Swartz på fjerdeplass – Gustav Wissting skrev alpinhistorie",
+   "ingress": "Fabian Ax Swartz endte på en sterk fjerdeplass, mens Gustav Wissting satte seg selv i alpinhistorien med en meritterende prestasjon.",
+   "spik": "Fabian Ax Swartz endte på en sterk fjerdeplass i åpningsslalåmen i Levi, mens Gustav Wissting skrev alpinhistorie ved å kvalifisere seg til andreomgangen fra startnummer 82 – det høyeste startnummeret som noen gang har tatt seg videre til et andreløp ifølge FIS. Ax Swartz, 22 år gammel, klatret fra niende til andreplassen i løpet av andreomgangen, men ble til slutt slått ned fra pallen i siste sekund. William Hansson var nest beste svenske etter første omgang på femteplass, men kjørte ut i andreomgangen.",
+   "utovere": [
+    "Fabian Ax Swartz"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/fabian-ax-swartz-fyra-gustav-wissting-skrev-alpin-historia"
+  },
+  {
+   "id": 154339,
+   "publisert": "2026-11-15 13:48",
+   "publisert_iso": "2026-11-15T12:48:41.000Z",
+   "kilde": "VG",
+   "kilde_land": "NOR",
+   "tittel": "Braathen overlegen i Levi – vant suverent",
+   "ingress": "",
+   "spik": "Lucas Braathen vant sesongens første slalåm i verdenscupen i Levi og kopierte fjorårets triumf på samme bakke – der tok han for øvrig Brasils aller første verdenscupseier. Med startnummer sju satte han et tempo ingen klarte å matche, og hadde 65 hundredeler til gode på Clément Noël etter første omgang. Norske Atle Lie McGrath var nærmest på fjerdeplass etter første omgang, men falt tilbake til syvendeplass i den avgjørende andre omgangen.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.vg.no/sport/i/4EqBgG/lucas-braathen-vant-sesongens-foerste-slalaam-i-verdenscupen?utm_medium=rss"
+  },
+  {
+   "id": 154303,
+   "publisert": "2026-11-15 13:45",
+   "publisert_iso": "2026-11-15T12:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Braathen-show i Levi – samba igjen, Vinatzer med anger",
+   "ingress": "Lucas Pinheiro Braathen leverte nok en strålende prestasjon i Levi, mens Alexander Vinatzer måtte slå seg til ro med en skuffende opplevelse til tross for en sterk opptur.",
+   "spik": "Lucas Pinheiro Braathen gjentok fjorårets triumf i Levi med en overlegen seier i det første slalåmrennet av sesongen, og feiret nok en gang med sin karakteristiske samba. Braathen, som vant OL-gull i storslalåm under Milano-Cortina 2026, hadde 65 hundredeler til gode etter første omgang og kontrollerte andreomgangen til seier. Alex Vinatzer imponerte med å klatre fra 23.-plass til femteplass i andreomgangen, men mistet bronseplassen med kun ett hundredel til svenske Fabian Ax Swartz.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Clement Noel",
+    "Loïc Meillard",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA",
+    "ITA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/lezione-di-sci-a-firma-pinheiro-braathen-e-ancora-samba-a-levi-rimonta-e-rimpianti-per-vinatzer"
+  },
   {
    "id": 153615,
    "publisert": "2026-11-15 12:50",
