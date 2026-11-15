@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-15T10:30:11.469Z",
- "antall": 534,
+ "oppdatert": "2026-11-15T10:45:23.505Z",
+ "antall": 535,
  "saker": [
+  {
+   "id": 152409,
+   "publisert": "2026-11-15 11:40",
+   "publisert_iso": "2026-11-15T10:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kun Vinatzer til finalen i Levi-slalåmen – italiensk skuffelse",
+   "ingress": "Italia hadde en tung dag i slalåmen i Levi, der kun Alexander Vinatzer kvalifiserte seg til finalen med en 23. plass. «Jeg tok ingen sjanser etter de siste årenes svake åpninger,» sa han.",
+   "spik": "Kun Alexander Vinatzer tok seg videre til finalen i åpningsslalåmen i Levi, der han endte på 23. plass med 1,80 sekunder opp til ledende Lucas Pinheiro Braathen etter første omgang. Vinatzer innrømmet selv at han ikke tok nok sjanser, et valg han begrunnet med svake åpningsrenn de siste sesongene. Av sju italienske startende var han den eneste som kvalifiserte seg, og Tommaso Saccardi røk ut med kun fem hundredeler for mye. Resultatet bekrefter den vedvarende krisen i italiensk herreslalåm på verdenscupnivå.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/sofferenza-pura-per-lo-slalom-azzurro-si-qualifica-solo-vinatzer-23-a-levi-non-ho-preso-rischi-visto-l-inizio-degli-ultimi-anni"
+  },
   {
    "id": 152119,
    "publisert": "2026-11-15 11:13",
