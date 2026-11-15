@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-15T10:00:49.349Z",
- "antall": 533,
+ "oppdatert": "2026-11-15T10:15:19.800Z",
+ "antall": 534,
  "saker": [
+  {
+   "id": 152119,
+   "publisert": "2026-11-15 11:13",
+   "publisert_iso": "2026-11-15T10:13:19.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Sturm overrasket med ledelse foran Braathen",
+   "ingress": "Sturm overrasket alle ved å ta ledelsen foran Braathen i rennet.",
+   "spik": "Lucas Pinheiro Braathen leder etter første omgang i slalåmåpningen i Levi med 0,65 sekunder ned til franske Clément Noël, mens østerrikske Joshua Sturm overrasket stort ved å kjøre inn på tredjeplass med startnummer 27. Braathen, som kjører for Brasil, viste toppform allerede i Sölden der han dominerte storslalåmen. Sturm er 25 år og har aldri stått på pallen i verdenscupen, men etter en feilfri første omgang på gode føreforhold er karrierens første pallplass innen rekkevidde. «Definitiv er jeg en bedre skiløper i år enn i fjor», sa Sturm selv etter løpet.",
+   "utovere": [
+    "Clement Noel",
+    "Joshua Sturm",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "AUT",
+    "BRA",
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164962/"
+  },
   {
    "id": 152026,
    "publisert": "2026-11-15 10:58",
