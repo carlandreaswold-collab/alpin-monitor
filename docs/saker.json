@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-15T16:00:09.671Z",
- "antall": 558,
+ "oppdatert": "2026-11-15T16:15:24.938Z",
+ "antall": 559,
  "saker": [
+  {
+   "id": 157294,
+   "publisert": "2026-11-15 17:09",
+   "publisert_iso": "2026-11-15T16:09:33.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Braathen vinner slalåmen i Levi",
+   "ingress": "Lucas Pinheiro Braathen tok seieren i slalåmrennet i Levi.",
+   "spik": "Lucas Pinheiro Braathen vinner slalåmen i Levi og tar sin andre seier i Verdenscupen denne sesongen, etter at han også vant storslalåmen i Sölden som åpnet 2026/27-sesongen. Braathen, som konkurrerer for Brasil etter å ha byttet nasjon fra Norge i 2023, foran Clément Noël fra Frankrike og sveitsiske Loïc Meillard på pallen. Braathen har tidligere vunnet slalåmkula i Verdenscupen og er en av de fremste teknikkerne i alpinsporten, og en dobbeltseier tidlig i sesongen sender et tydelig signal om at han er i strålende form.",
+   "utovere": [
+    "Clement Noel",
+    "Loïc Meillard",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/video/2026/pinheiro-braathen-gewinnt/"
+  },
   {
    "id": 156924,
    "publisert": "2026-11-15 16:50",
