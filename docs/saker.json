@@ -1,7 +1,41 @@
 {
- "oppdatert": "2026-11-15T11:18:03.435Z",
- "antall": 537,
+ "oppdatert": "2026-11-15T11:30:25.572Z",
+ "antall": 539,
  "saker": [
+  {
+   "id": 153115,
+   "publisert": "2026-11-15 12:29",
+   "publisert_iso": "2026-11-15T11:29:58.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "VM-sesongen også over for Tommaso Sala",
+   "ingress": "Tommaso Sala må gi opp resten av VM-sesongen på grunn av skade.",
+   "spik": "Den italienske slalomspesialisten Tommaso Sala (31) har pådratt seg et korsbåndbrudd i høyre kne under trening i Gurgl, og er ute resten av sesongen. Skaden skjedde uten fall, og selv om det innledningsvis ble snakket om en forstuing, viste det seg å være en alvorlig skade. For Sala er dette en brutal gjentakelse — han mistet også VM i 2025 på grunn av skade. Den erfarne teknikeren har aldri vunnet en verdenscupseier, men har jevnlig figurert i slalomtoppen gjennom karrieren.",
+   "utovere": [
+    "Tommy Sala"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/saison-tommaso-futsch/"
+  },
+  {
+   "id": 153168,
+   "publisert": "2026-11-15 12:17",
+   "publisert_iso": "2026-11-15T11:17:11.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Ukjente Johanna Nordqvist sikter mot verdenscupen",
+   "ingress": "Den lite kjente svenske alpinisten Johanna Nordqvist har ambisjoner om å kvalifisere seg til verdenscupen.",
+   "spik": "Den 26 år gamle svenske skiskytteren Johanna Nordqvist imponerte med en femteplass i den svenske sesongåpningen, og har nå verdenscupstart som et uttalt mål. Forrige sesong fikk hun kun én verdenscupstart, der hun endte på 79. plass i Nove Mesto. Etter lørdagens prestasjon mener begge SVT-ekspertene Mona Brorsson og Björn Ferry at Nordqvist fortjener en plass i verdenscuplaget til premiären om to uker. Merk: denne saken handler om skiskyting, ikke alpint.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/vintersport/doldisen-johanna-nordqvist-siktar-pa-varldscupen"
+  },
   {
    "id": 152927,
    "publisert": "2026-11-15 12:15",
