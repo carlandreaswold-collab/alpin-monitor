@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-15T11:00:11.379Z",
- "antall": 535,
+ "oppdatert": "2026-11-15T11:15:17.811Z",
+ "antall": 536,
  "saker": [
+  {
+   "id": 152735,
+   "publisert": "2026-11-15 12:01",
+   "publisert_iso": "2026-11-15T11:01:57.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Braathen dominerte første omgang i Levi-slalåmen",
+   "ingress": "Lucas Pinheiro Braathen leverte en sterk første omgang i herreslalåmen i Levi og tok kommandoen i rennet.",
+   "spik": "Lucas Pinheiro Braathen tok kommandoen i første omgang av herreslalåmen i Levi med en ledelse på 0,65 sekunder foran franske Clément Noël, mens østerrikske Joshua Sturm var tredje 0,84 sekunder bak. Braathen er forsvarende vinner i Levi og åpnet dermed sesongen på samme vis som fjoråret. Norske Atle Lie McGrath lå på fjerdeplass, kun 0,07 sekunder bak tredjeplassen, noe som lovet godt for den tette andreomgangen. Braathen, som kjører for Brasil etter å ha skiftet nasjonalitet fra Norge, har etablert seg som en av verdens beste slalåmkjørere med flere verdenscupseirer.",
+   "utovere": [
+    "Clement Noel",
+    "Joshua Sturm",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "AUT",
+    "BRA",
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/lucas-pinheiro-braathen-dominates-run-1-of-levi-mens-slalom/"
+  },
   {
    "id": 152409,
    "publisert": "2026-11-15 11:40",
