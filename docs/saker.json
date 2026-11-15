@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-15T16:30:15.314Z",
- "antall": 559,
+ "oppdatert": "2026-11-15T16:45:18.227Z",
+ "antall": 560,
  "saker": [
+  {
+   "id": 157688,
+   "publisert": "2026-11-15 17:42",
+   "publisert_iso": "2026-11-15T16:42:45.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Amerikanske kvinner stormer inn i finalen",
+   "ingress": "De amerikanske kvinnene kvalifiserte seg til finalen i alpint.",
+   "spik": "Artikkelteksten handler ikke om alpint, men om ishockey-VM for kvinner i Danmark, der USA slo Finland 5–0 i semifinalen. Det amerikanske laget er regjerende olympisk mester og tittelforsvarere i turneringen. I finalen møter de enten Canada eller Sverige. Ingen alpinrelevant informasjon er tilgjengelig i det innsendte materialet.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164980/"
+  },
   {
    "id": 157294,
    "publisert": "2026-11-15 17:09",
