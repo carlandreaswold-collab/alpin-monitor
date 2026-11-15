@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-15T11:15:17.811Z",
- "antall": 536,
+ "oppdatert": "2026-11-15T11:18:03.435Z",
+ "antall": 537,
  "saker": [
+  {
+   "id": 152927,
+   "publisert": "2026-11-15 12:15",
+   "publisert_iso": "2026-11-15T11:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Andre omgang på «Levi Black» – Pinheiro Braathen i tet",
+   "ingress": "Andre omgang i Levi starter klokken 13.00 med Pinheiro Braathen i ledelsen. Noel, McGrath og flere andre kjemper om pallplass.",
+   "spik": "Lucas Pinheiro Braathen leder etter første omgang i slalåmrennet i Levi, med et solid forsprang på nærmeste forfølger Clément Noel. Braathen, som representerer Brasil etter å ha skiftet nasjonalitet fra Norge, vant storslalåmen i Sölden tidligere denne sesongen og jakter nå sin andre strake verdenscupseier. 26-åringen vant også slalåmen i Levi i 2025, noe som gjør ham til klar favoritt. Blant de norske håpene er Hallberg, Kristoffersen og Haugan, som alle må hente inn tid i andre omgang.",
+   "utovere": [
+    "Atle Lie McGrath",
+    "Clement Noel",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA",
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/seconda-manche-sulla-levi-black-alle-1300-start-con-pinheiro-braathen-padrone-da-noel-a-mcgrath-e-tanti-altri-che-lotta-per-il-"
+  },
   {
    "id": 152735,
    "publisert": "2026-11-15 12:01",
