@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-16T14:00:13.522Z",
- "antall": 579,
+ "oppdatert": "2026-11-16T14:15:19.130Z",
+ "antall": 580,
  "saker": [
+  {
+   "id": 160956,
+   "publisert": "2026-11-16 14:58",
+   "publisert_iso": "2026-11-16T13:58:49.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Sally Sivertsson fikk kreft: «Som en bombe»",
+   "ingress": "Alpinisten Sally Sivertsson forteller om sjokket da hun fikk kreftdiagnosen.",
+   "spik": "Artikkelteksten handler om den svenske håndballspilleren Sally Sivertsson, ikke en alpinist. Det ser ut til å være feil artikkel koblet til saken. Sally Sivertsson er datter av den legendariske håndballspilleren Thomas Sivertsson og fikk en kreftdiagnose i 2023, men er altså håndballspiller – ikke alpinist. NRK Sport alpint bør verifisere om det finnes en alpinist med samme navn før dette eventuelt brukes på lufta.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/handboll/sally-sivertsson-fick-cancer-som-en-bomb/"
+  },
   {
    "id": 160517,
    "publisert": "2026-11-16 14:35",
