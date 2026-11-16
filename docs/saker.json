@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-16T16:15:17.793Z",
- "antall": 581,
+ "oppdatert": "2026-11-16T16:30:17.779Z",
+ "antall": 582,
  "saker": [
+  {
+   "id": 163142,
+   "publisert": "2026-11-16 17:15",
+   "publisert_iso": "2026-11-16T16:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Frankrike stiller med 13 utøvere til slalåmrennene i Gurgl",
+   "ingress": "Frankrike reiser til Gurgl med stor selvtillit etter Rassats seier der for ett år siden. 13 utøvere er uttatt til de kommende slalåmrennene.",
+   "spik": "Frankrike stiller med 13 utøvere til slalåmrennene i Gurgl neste helg, og reiser dit med god selvtillit etter en sterk helg i Levi. På damessiden utmerket Marion Chevrier og Marie Lamure seg med henholdsvis 6.- og 7.-plass i Finland – begge karrierebeste resultater. På herresiden er Clément Noël, som tok 2.-plass i Levi-åpningen, og Paco Rassat, som vant i Gurgl for ett år siden, de fremste medaljehåpene.",
+   "utovere": [
+    "Clement Noel"
+   ],
+   "land": [
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/la-francia-col-piedo-di-fiducia-verso-gurgl-dove-vinse-rassat-un-anno-fa-ecco-i-13-atleti-per-i-prossimi-slalom"
+  },
   {
    "id": 162675,
    "publisert": "2026-11-16 16:35",
