@@ -1,7 +1,190 @@
 {
- "oppdatert": "2026-11-15T16:45:18.227Z",
- "antall": 560,
+ "oppdatert": "2026-11-16T10:18:34.334Z",
+ "antall": 571,
  "saker": [
+  {
+   "id": 157810,
+   "publisert": "2026-11-16 11:00",
+   "publisert_iso": "2026-11-16T10:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kan en perfekt Pinheiro Braathen true Odermatt? Et svært krevende regnestykke",
+   "ingress": "En perfekt sesong fra Pinheiro Braathen kan teoretisk true Marco Odermatt, men oppgaven er ekstremt vanskelig. Tallene er gjort opp.",
+   "spik": "Spørsmålet om Lucas Pinheiro Braathen kan utfordre Marco Odermatt om den store krystallkula er blitt analysert nøye, og tallene viser at oppgaven er ekstremt krevende. Odermatt har vunnet den totale verdenscupen fire sesonger på rad og er regnet som den dominerende krafta i moderne alpint. Braathen, som kjører for Brasil etter å ha forlatt det norske landslaget, er en av de få som har vist kapasitet til å utfordre østerrikerens overlegenhet – særlig i teknikkdisiplinene – men krever trolig nær perfekte resultater gjennom hele sesongen.",
+   "utovere": [
+    "Lucas Braathen",
+    "Marco Odermatt"
+   ],
+   "land": [
+    "BRA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/un-pinheiro-braathen-perfetto-puo-insidiare-odermatt-resta-una-missione-complicatissima-ma-facciamo-i-conti"
+  },
+  {
+   "id": 157826,
+   "publisert": "2026-11-16 10:51",
+   "publisert_iso": "2026-11-16T09:51:58.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Lettere endret Swiss-Ski-tropp til Gurgl",
+   "ingress": "Swiss Ski har gjort mindre justeringer i troppen som skal representere Sveits i Gurgl.",
+   "spik": "Swiss Ski har gjort mindre justeringer i troppen sin foran slalåmrennet i Gurgl i Østerrike, som tradisjonelt er blant de første teknikkrunnene i verdenscupsesongen. Gurgl-rennet på cirka 2 000 meters høyde er kjent for å gi utfordrende snøforhold tidlig i sesongen. Sveits har for øyeblikket et bredt og sterkt slalåmlag, med utøvere som Loïc Meillard og Daniel Yule blant de mest aktuelle kandidatene til pallplasser.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/leicht-veraendertes-aufgebot/"
+  },
+  {
+   "id": 157866,
+   "publisert": "2026-11-16 09:56",
+   "publisert_iso": "2026-11-16T08:56:47.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Kriechmayr holder alle muligheter åpne",
+   "ingress": "Vincent Kriechmayr har ikke bestemt seg for hvilke disipliner han satser på, og holder foreløpig alle dører åpne.",
+   "spik": "Vincent Kriechmayr holder alle muligheter åpne foran det første fartsrennet i sesongen, super-G i Copper Mountain om to uker. 35-åringen fra Østerrike gjennomførte en skadefri forberedelse og viser til sesongen der han vant utfor i Courchevel og super-G i Beaver Creek som bevis på at han fortsatt hører hjemme i verdenstoppen. Kriechmayr, som er dobbel verdensmester fra Cortina 2021, omtaler selv dette som muligens sin siste sesong og sier han vil avslutte karrieren den dagen han ikke lenger kan hevde seg blant de beste.",
+   "utovere": [
+    "Vincent Kriechmayr"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164808/"
+  },
+  {
+   "id": 157812,
+   "publisert": "2026-11-16 09:45",
+   "publisert_iso": "2026-11-16T08:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Levi tenner pallen-kampen: Allerede rykk i toppen mot Val di Fassa",
+   "ingress": "Etter Levi er pallkampen i Verdenscupen allerede i gang, og løpet mot Val di Fassa har for alvor begynt.",
+   "spik": "Etter åpningshelgen i Levi har pallkampen i verdenscupens slalåmklassement allerede tatt form, og rivaliseringen frem mot neste teknikkhelg i Val di Fassa er for alvor i gang. Levi-rennet markerer tradisjonelt startskuddet for slalåmsesongen for herrer, og resultatene herfra legger premissene for hvem som er i form tidlig i vinter. Poengsummen fra Finland gir allerede viktige indikasjoner på styrkeforholdet mellom de beste slalåmkjørerne i verdenstoppen denne sesongen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/fantasy/giocodeipodi/news/levi-accende-il-gioco-dei-podi-e-gia-fuga-in-vetta-la-corsa-verso-la-val-di-fassa-entra-nel-vivo"
+  },
+  {
+   "id": 157815,
+   "publisert": "2026-11-15 20:15",
+   "publisert_iso": "2026-11-15T19:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Noel med god start! Pinheiro Braathen og Meillard dobbelt på pallen – Vinatzer nær topp 15 i slalåm",
+   "ingress": "Noel imponerte med en sterk åpning, mens Pinheiro Braathen og Meillard begge kapret pallplasser. Vinatzer var svært nær topp 15.",
+   "spik": "Clément Noel åpnet sesongen sterkt i Levi-slalåmen, mens Lucas Pinheiro Braathen og Loïc Meillard begge tok pallplasser og markerte seg som toppkandidater videre i vinter. Noel, som er regjerende verdensmester i slalåm, er kjent for å levere noen av de mest aggressive og presise kjøringene i verdenscupen. Meillard fra Sveits er en allsidig utøver som hevder seg i flere disipliner, mens Braathen-Brasil-satsingen fortsetter å gi resultater på høyeste nivå. Alex Vinatzer fra Italia var også nær topp 15 og viser stigende form.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Clement Noel",
+    "Loïc Meillard",
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA",
+    "FRA",
+    "ITA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/noel-ok-la-partenza-e-giusta-pinheiro-braathen-e-meillard-da-doppio-podio-vinatzer-ad-un-soffio-dalla-top-15-di-slalom"
+  },
+  {
+   "id": 157873,
+   "publisert": "2026-11-15 19:52",
+   "publisert_iso": "2026-11-15T18:52:37.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "U20-VM i Canada uten Russland",
+   "ingress": "U20-VM i alpint i Canada arrangeres uten deltakelse fra Russland.",
+   "spik": "U20-VM i ishockey i Canada avholdes uten Russland etter at canadiske myndigheter nekter å utstede visum til det russiske laget. Beslutningen kommer i kjølvannet av et CAS-kjennelse fra oktober som opphevet suspensjonen av russiske ishockeylag til tross for den pågående krigen mot Ukraina. Norge, som hadde varslet boikott dersom Russland fikk delta, stiller nå til start. Turneringen spilles i Edmonton og Red Deer fra 26. desember 2026 til 5. januar 2027. Merk: denne saken handler om ishockey, ikke alpint.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164987/"
+  },
+  {
+   "id": 157816,
+   "publisert": "2026-11-15 19:45",
+   "publisert_iso": "2026-11-15T18:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "De Aliprandini, Talacci, Della Vite, Seppi og Gerosa til Sulden – deretter storslalåm i USA",
+   "ingress": "En rekke italienske alpinister samles i Sulden, før oppmerksomheten rettes mot storslalåmrenn i USA.",
+   "spik": "En gruppe italienske alpinister, deriblant Luca De Aliprandini, Giovanni Franzoni Talacci, Filippo Della Vite, Simon Seppi og Mattia Gerosa, samles til treningsleir i Sulden i Sør-Tirol før sesongens første storslalåmrenn i USA. Sulden er et populært høyfjellsområde i Italia som brukes aktivt til teknikktrening tidlig i sesongen på grunn av stabile snøforhold. De Aliprandini er den mest meritterte av gruppen og har tidligere stått på pallen i verdenscupen i storslalåm.",
+   "utovere": [
+    "Filippo Della Vite",
+    "Luca De Aliprandini"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/a-solda-anche-de-aliprandini-talacci-della-vite-seppi-e-gerosa-poi-sara-tempo-di-giganti-negli-states"
+  },
+  {
+   "id": 157817,
+   "publisert": "2026-11-15 19:10",
+   "publisert_iso": "2026-11-15T18:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Goggia feirer bursdag på pisten i Copper – fartsgjengen ankommet, og Killington nær klar",
+   "ingress": "Sofia Goggia markerte bursdagen sin på trening i Copper Mountain, der de italienske fartskjørerne også er ankommet. I Killington er forberedelsene nesten i mål.",
+   "spik": "Sofia Goggia markerte bursdagen sin med trening på snø i Copper Mountain i Colorado, der det italienske fartslaget forbereder seg til sesongens første super-G-renn. Goggia, som har vunnet verdenscupen i utfor tre ganger og er kjent for sin eksplosive og aggressive kjørestil, er en av favorittene i fartsøvelsene også denne sesongen. Parallelt er forberedelsene til slalåmrennet i Killington, Vermont – tradisjonelt det store amerikanske damerennet tidlig i november – nesten fullført.",
+   "utovere": [
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/compleanno-in-pista-per-goggia-a-copper-dove-sono-arrivati-anche-gli-azzurri-della-velocita-a-killington-la-superstar-e-quasi-p"
+  },
+  {
+   "id": 157790,
+   "publisert": "2026-11-15 18:41",
+   "publisert_iso": "2026-11-15T17:41:42.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Jakobsen og Hansson om slalåm, svenske røtter og livet utenfor løypene",
+   "ingress": "Kristoffer Jakobsen og William Hansson åpner opp om slalåm, sine svenske røtter og tilværelsen som toppidrettsutøvere utenfor konkurransene.",
+   "spik": "Kristoffer Jakobsen og William Hansson åpner opp om livet som slalåmkjørere med svenske røtter og tilværelsen utenfor løypene. Jakobsen er en av Sveriges mest meritterte slalåmkjørere i nyere tid og har flere pallplasseringer i verdenscupen. Hansson er en yngre profil på vei opp på elitenivå. Intervjuet gir et sjeldent innblikk i hverdagen og motivasjonen bak to utøvere som representerer en ny generasjon svensk alpinisme.",
+   "utovere": [
+    "Kristoffer Jakobsen"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/kristoffer-jakobsen-and-william-hansson-talk-slalom-swedish-roots-and-life-beyond-racing/"
+  },
+  {
+   "id": 157818,
+   "publisert": "2026-11-15 18:35",
+   "publisert_iso": "2026-11-15T17:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Fire slalåmrenn i Kaabdalis i helgen: Norske ungdommer dominerer – Bettoni Mameli nummer seks i renn 2",
+   "ingress": "Helgens fire FIS-slalåmrenn i Kaabdalis ble dominert av unge norske utøvere. Angelica Bettoni Mameli endte på sjetteplass i det andre rennet.",
+   "spik": "Fire FIS-slalåmrenn i Kaabdalis i Sverige ble dominert av unge norske alpinister i helgen, noe som understreker bredden i norsk teknikkalpint på juniornivå. Italia ble representert av Angelica Bettoni Mameli, som tok en sjetteplass i det andre rennet. Kaabdalis i Nord-Sverige er et hyppig brukt sted for FIS-renn tidlig i sesongen takket være gode snøforhold, og fungerer som en viktig arena der unge løpere samler FIS-poeng og internasjonal erfaring.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/a-kaabdalis-un-poker-di-slalom-fis-nel-week-end-dominano-i-giovani-norge-angelica-bettoni-mameli-6-in-gara-2"
+  },
   {
    "id": 157688,
    "publisert": "2026-11-15 17:42",
@@ -61,6 +244,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/meillard-la-dedica-e-per-melanie-so-quanto-aveva-lavorato-noel-nella-sua-levi-non-sbaglia-mai-due-manche-in-controllo"
+  },
+  {
+   "id": 157951,
+   "publisert": "2026-11-15 15:54",
+   "publisert_iso": "2026-11-15T14:54:23.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Straßer imponert over tetninga i Levi-slalåmen: – Rett og slett perverst",
+   "ingress": "Linus Straßer er overrasket over hvor jevnt nivået er i slalåmen i Levi. Konkurransen er tøffere enn noen gang.",
+   "spik": "Linus Straßer endte på 13. plass i slalåmrennet i Levi, og mistet én posisjon i annenomgangen. Den tyske slalåmspesialisten beskriver nivået i verdenstoppen som \"perverst\" jevnt, og erkjenner selv at kjøringen hans ikke var helhetlig nok på den islagte og krevende finske bakken. Straßer, som har tre verdenscupseire i slalåm, er likevel optimistisk fremover og peker på at rytmeskiftene i løypen gjorde det ekstremt vanskelig å finne en god flytsone gjennom hele rennet.",
+   "utovere": [
+    "Linus Straßer"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/regional/br/br-strasser-staunt-ueber-leistungsdichte-nur-noch-pervers-102.html"
   },
   {
    "id": 155937,
