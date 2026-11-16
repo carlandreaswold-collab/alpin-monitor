@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-16T10:45:20.451Z",
- "antall": 573,
+ "oppdatert": "2026-11-16T11:00:19.304Z",
+ "antall": 574,
  "saker": [
+  {
+   "id": 158458,
+   "publisert": "2026-11-16 11:45",
+   "publisert_iso": "2026-11-16T10:45:51.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Direktesending: Vintersport på Das Erste",
+   "ingress": "Vintersport sendes direkte på den tyske TV-kanalen Das Erste.",
+   "spik": "Das Erste sender vintersport direkte gjennom sin Sportschau-plattform, som dekker disipliner som skiskyting, skihopp og alpint. Den tyske offentlige kringkasteren har lange tradisjoner for å sende vintersport og er en av de viktigste visningsflatene for sporten i det tyske markedet. Sportschau.de tilbyr også direktestrømming på nett, noe som gjør innholdet tilgjengelig for et bredt publikum utover tradisjonell TV.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/wintersport-im-ersten,livestream-wintersport-im-ersten-108.html"
+  },
   {
    "id": 158163,
    "publisert": "2026-11-16 11:35",
