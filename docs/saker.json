@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-16T15:30:07.236Z",
- "antall": 580,
+ "oppdatert": "2026-11-16T15:45:19.244Z",
+ "antall": 581,
  "saker": [
+  {
+   "id": 162675,
+   "publisert": "2026-11-16 16:35",
+   "publisert_iso": "2026-11-16T15:35:21.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Ti poeng og en planendring for Charlotte Lingg",
+   "ingress": "Charlotte Lingg sikret seg ti verdenscuppoeng og måtte samtidig endre sine opprinnelige planer.",
+   "spik": "Charlotte Lingg, som konkurrerer for Liechtenstein, satte karrierebeste i verdenscupslalåmen i Levi med en 21.-plass og ti poeng – noe som også førte til en endring i hennes opprinnelige planer fremover. Den 27 år gamle Zermatt-utøveren tok resultatet til tross for bagasjekaoset som oppsto under reisen til Lappland, der deler av utstyret hennes kom frem forsinket. Liechtenstein er et lite alpinland som tradisjonelt har hatt enkeltutøvere på høyt nivå, og Lingg representerer denne tradisjonen med en lovende utvikling på verdenscupnivå.",
+   "utovere": [
+    "Charlotte Lingg"
+   ],
+   "land": [
+    "LIE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/punkte-planaenderung-charlotte/"
+  },
   {
    "id": 160956,
    "publisert": "2026-11-16 14:58",
