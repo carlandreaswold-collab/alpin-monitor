@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-16T13:00:11.747Z",
- "antall": 577,
+ "oppdatert": "2026-11-16T13:15:20.323Z",
+ "antall": 578,
  "saker": [
+  {
+   "id": 160259,
+   "publisert": "2026-11-16 14:10",
+   "publisert_iso": "2026-11-16T13:10:14.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Vinnersuksess for Magnus Nygren",
+   "ingress": "Magnus Nygren markerte seg med en imponerende seier i alpint.",
+   "spik": "Denne saken handler ikke om alpint, men om ishockeystjernen Magnus Nygren som vant stort på travspillet V85. Nygren, kjent som Tre Kronor-profil på isen, vant i august over 43 000 svenske kroner på travtipping, og slo til igjen i helgen med en totalgevinst på 391 345 kroner. Saken har ingen tilknytning til alpinsport og er ikke relevant som bakgrunnsnotat for NRK Sport alpint.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/trav/vinstsucce-for-magnus-nygren/"
+  },
   {
    "id": 159469,
    "publisert": "2026-11-16 13:10",
