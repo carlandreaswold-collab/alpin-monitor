@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-11-16T10:18:34.334Z",
- "antall": 571,
+ "oppdatert": "2026-11-16T10:30:22.637Z",
+ "antall": 572,
  "saker": [
+  {
+   "id": 158043,
+   "publisert": "2026-11-16 11:19",
+   "publisert_iso": "2026-11-16T10:19:19.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Truppe beundrer Aichers «uinteresse»",
+   "ingress": "Truppe har latt seg imponere av Aichers tilsynelatende likegyldighet.",
+   "spik": "Katharina Truppe startet sesongen med tredjeplass i Levi og befester sin posisjon som Østerrikes nummer én i slalåm. Øverst på pallen endte Emma Aicher, som imponerte Truppe med sin tilsynelatende ro og likegyldighet på banen. «Det ser ut som om det ikke interesserer henne», sa Truppe anerkjennende om den unge tyske løperens stil. Aicher pekes nå ut som en potensiell arvtaker etter Mikaela Shiffrin i slalåm-verdenskvpen, ettersom amerikaneren kun planlegger å delta i utvalgte renn denne sesongen.",
+   "utovere": [
+    "Emma Aicher",
+    "Katharina Truppe"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3164969/"
+  },
   {
    "id": 157810,
    "publisert": "2026-11-16 11:00",
