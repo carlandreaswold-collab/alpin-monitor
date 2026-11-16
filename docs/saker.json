@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-16T12:00:14.267Z",
- "antall": 576,
+ "oppdatert": "2026-11-16T12:15:22.969Z",
+ "antall": 577,
  "saker": [
+  {
+   "id": 159469,
+   "publisert": "2026-11-16 13:10",
+   "publisert_iso": "2026-11-16T12:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Sveits stiller med kun åtte utøvere i Gurgl – Rast og Holdener vil innløse seg",
+   "ingress": "Sveits møter opp med et redusert lag på åtte utøvere i Gurgl, der Rast og Holdener er klare for å slå tilbake.",
+   "spik": "Sveits stiller med kun åtte utøvere i slalåmen i Gurgl, der de mangler den skadde Mélanie Meillard for resten av sesongen etter at hun rev over korsbåndet og menisken i høyre kne under oppkjøringen til Levi. Camille Rast, som er verdensmester i slalåm og hadde to tredjeplasser i Gurgl fra før, og Wendy Holdener er utpekt som lagets ledere og ønsker begge å slå tilbake etter skuffende resultater. Også Anuk Braendli er utelatt sammenlignet med Levi-stafetten, da hun prioriterer Europa Cup. Michelle Hoepli er med etter å ha satt personlig rekord i forrige renn.",
+   "utovere": [
+    "Camille Rast",
+    "Melanie Meillard",
+    "Wendy Holdener"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/contingente-ridotto-a-8-unita-anche-per-la-svizzera-presente-a-gurgl-rast-e-holdener-per-il-riscatto"
+  },
   {
    "id": 159118,
    "publisert": "2026-11-16 12:35",
