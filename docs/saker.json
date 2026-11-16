@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-16T16:45:07.307Z",
- "antall": 582,
+ "oppdatert": "2026-11-16T17:00:25.805Z",
+ "antall": 583,
  "saker": [
+  {
+   "id": 163508,
+   "publisert": "2026-11-16 17:45",
+   "publisert_iso": "2026-11-16T16:45:52.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Også Schmid utgår – Jungwirth og Weinhandl debuterer",
+   "ingress": "Schmid er også bekreftet utgått, mens Jungwirth og Weinhandl er klare for sine debuts i alpint.",
+   "spik": "Dette er en fotballsak, ikke alpint – artikkelen handler om det østerrikske landslaget i Nations League, der Romano Schmid har reist hjem av private grunner og keeper Lukas Jungwirth samt 17-åringen Luca Weinhandl er klare for sine landslagsdebuter. Saken har ingen tilknytning til alpint eller vintersport.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165017/"
+  },
   {
    "id": 163142,
    "publisert": "2026-11-16 17:15",
