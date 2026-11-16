@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-16T20:45:12.602Z",
- "antall": 587,
+ "oppdatert": "2026-11-16T21:00:26.084Z",
+ "antall": 588,
  "saker": [
+  {
+   "id": 166145,
+   "publisert": "2026-11-16 21:57",
+   "publisert_iso": "2026-11-16T20:57:26.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Jared Goldberg deler sin verdenscupreise på Snowbird",
+   "ingress": "Jared Goldberg forteller om sin vei gjennom verdenscupen og hva det betyr å konkurrere på Snowbird.",
+   "spik": "Jared Goldberg avsluttet sin aktive karriere etter 14 sesonger på verdenscupnivå og er nå tilbake på Snowbird som assistenttrener, primært for utøvere i U14-gruppen. Goldberg vokste selv opp på Snowbird, lærte seg alpint der som fireåring etter at familien flyttet fra Boston til Utah, og ble trent av Bridger Call – som i dag er daglig leder ved Snowbird Sports Education Foundation. I et møte med juniorene oppfordret Goldberg de unge til å fokusere på én dag av gangen fremfor å drømme om OL eller verdenscup, et råd som springer ut av hans egen erfaring som eliteutøver gjennom et og et halvt tiår.",
+   "utovere": [
+    "Jared Goldberg"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/jared-goldberg-shares-his-world-cup-journey-at-snowbird/"
+  },
   {
    "id": 165465,
    "publisert": "2026-11-16 20:55",
