@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-16T10:30:22.637Z",
- "antall": 572,
+ "oppdatert": "2026-11-16T10:45:20.451Z",
+ "antall": 573,
  "saker": [
+  {
+   "id": 158163,
+   "publisert": "2026-11-16 11:35",
+   "publisert_iso": "2026-11-16T10:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Italia bekrefter troppen til Gurgl – samme lag som i Finland",
+   "ingress": "Det italienske herrelaget til Gurgl er allerede offisielt bekreftet, med samme sammensetning som ble benyttet i Finland neste søndag.",
+   "spik": "Italia stiller med samme syv mann i Gurgl slalåm 22. november som de brukte i Levi helgen før. Alex Vinatzer er lagets fremste kort etter å ha tatt en femteplass i Finland, mens Saccardi var uheldig og miste adgang til 2. omgang med kun fem hundredeler. Gurgl i Østerrike er en relativt ny destinasjon på World Cup-programmet, og menn kjører her for fjerde år på rad – i fjor vant franskmannen Paco Rassat sitt første verdenscuprenn foran Atle Lie McGrath, som siden tok slalåmkula.",
+   "utovere": [
+    "Alex Vinatzer"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/e-gia-ufficiale-l-italia-maschile-per-gurgl-domenica-prossima-la-stessa-formazione-proposta-in-finlandia"
+  },
   {
    "id": 158043,
    "publisert": "2026-11-16 11:19",
