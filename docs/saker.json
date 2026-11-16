@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-16T11:30:17.104Z",
- "antall": 575,
+ "oppdatert": "2026-11-16T11:45:23.759Z",
+ "antall": 576,
  "saker": [
+  {
+   "id": 159118,
+   "publisert": "2026-11-16 12:35",
+   "publisert_iso": "2026-11-16T11:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kun åtte italienske alpinister til Gurgl – Peterlini og Della Mea leder an",
+   "ingress": "Det italienske kvinnelaget omdirigeres til Europacupen, og bare åtte utøvere stiller til start i Gurgl med Peterlini og Della Mea i spissen.",
+   "spik": "Italia stiller med kun åtte utøvere i slalåmen i Gurgl lørdag, der Martina Peterlini og Lara Della Mea leder troppen. Beatrice «Tite» Sola, som var Italias beste i Levi, er sendt til Europacupen i stedet. Gurgl-bakken «Kirchenkar» har bare vært arrangert for kvinner to ganger tidligere, og begge gangene endte med samme podium: Shiffrin øverst, foran Colturi og Rast. Mikaela Shiffrin er heller ikke denne gangen til stede – hun returnerer i Killington.",
+   "utovere": [
+    "Martina Peterlini"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/tite-sola-dirottata-sulla-coppa-europa-saranno-solo-8-le-azzurre-in-gara-a-gurgl-guidano-peterlini-e-della-mea"
+  },
   {
    "id": 158807,
    "publisert": "2026-11-16 12:10",
