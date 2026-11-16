@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-16T17:15:12.100Z",
- "antall": 583,
+ "oppdatert": "2026-11-16T17:30:17.757Z",
+ "antall": 584,
  "saker": [
+  {
+   "id": 163858,
+   "publisert": "2026-11-16 18:28",
+   "publisert_iso": "2026-11-16T17:28:07.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Sverige sikret VM-bronse",
+   "ingress": "Det svenske laget sikret seg bronsemedalje i verdensmesterskapet i alpint.",
+   "spik": "Det svenske ishockeylaget sikret seg bronsemedalje i VM, men dette er ikke fra alpint – artikkelteksten handler om svensk ishockey for kvinner, ikke alpint. Sverige slo Finland 2–1 på straffeslag i bronsekampen i Herning, Danmark. Det er landets tredje VM-bronse i ishockey, etter medaljer i 2005 og 2007. Ingen relevant alpininnhold er tilgjengelig i denne saken.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165018/"
+  },
   {
    "id": 163508,
    "publisert": "2026-11-16 17:45",
