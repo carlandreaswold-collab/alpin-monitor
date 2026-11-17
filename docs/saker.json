@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-17T10:00:17.575Z",
- "antall": 592,
+ "oppdatert": "2026-11-17T10:15:26.726Z",
+ "antall": 593,
  "saker": [
+  {
+   "id": 175422,
+   "publisert": "2026-11-17 11:10",
+   "publisert_iso": "2026-11-17T10:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Østerrike bekreftet til Gurgl – Feller ute, Vinatzer starter blant topp 15",
+   "ingress": "Østerrike har bekreftet troppen til Gurgl med sterke profiler, men uten Manuel Feller. Hans fravær åpner for at Henrik Vinatzer kan starte blant de første 15.",
+   "spik": "Østerrike stiller med et sterkt lag til slalåmrennet i Gurgl, men uten Manuel Feller, som regjerende verdensmester i slalåm er en av de fremste favorittene i verdenstoppen. Hans fravær får direkte konsekvenser for startrekkefølgen: italienske Henrik Vinatzer rykker opp og får starte blant de første 15, noe som gir ham fordelen av bedre spor. For Østerrikes herrelag blir Feller-fraværet en ekstra utfordring etter at de skuffet i sesongåpningens slalåm, og det er nå Noel Gstrein og Marco Schwarz som må bære lasset.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Katharina Truppe",
+    "Manuel Feller"
+   ],
+   "land": [
+    "AUT",
+    "GER",
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/ufficiale-l-austria-per-gurgl-con-truppe-stella-e-l-assenza-di-feller-che-portera-vinatzer-a-partire-nei-15"
+  },
   {
    "id": 175071,
    "publisert": "2026-11-17 10:35",
