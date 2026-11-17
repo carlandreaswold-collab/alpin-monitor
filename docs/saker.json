@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-17T11:15:16.499Z",
- "antall": 597,
+ "oppdatert": "2026-11-17T11:30:25.391Z",
+ "antall": 598,
  "saker": [
+  {
+   "id": 176409,
+   "publisert": "2026-11-17 12:21",
+   "publisert_iso": "2026-11-17T11:21:54.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Nasjonsmester Nika Bobnar tar steget opp til verdenscupen",
+   "ingress": "Den slovenske nasjonsmesteren Nika Bobnar rykker opp og skal nå konkurrere i verdenscupen i alpint.",
+   "spik": "Den slovenske nasjonsmesteren Nika Bobnar tar steget opp til verdenscupen i alpint. Slovenia har en sterk alpintradisjon med utøvere som Ilka Štuhec, som har vunnet VM-gull og verdenscupkugler i utfor, som inspirasjon. Bobnar har markert seg på nasjonalt nivå og er nå klar for den internasjonale eliteserien. Opprykket til verdenscupen er et betydelig steg i karrieren for den unge sloveneren.",
+   "utovere": [
+    "Nika Bobnar"
+   ],
+   "land": [
+    "SLO"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/drzavna-prvakinja-nika-bobnar-se-seli-v-svetovno-serijo/800382"
+  },
   {
    "id": 176122,
    "publisert": "2026-11-17 12:00",
