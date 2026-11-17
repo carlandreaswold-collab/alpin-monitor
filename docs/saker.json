@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-17T13:45:06.001Z",
- "antall": 602,
+ "oppdatert": "2026-11-17T14:00:21.331Z",
+ "antall": 603,
  "saker": [
+  {
+   "id": 178237,
+   "publisert": "2026-11-17 14:55",
+   "publisert_iso": "2026-11-17T13:55:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Valentina Greggio tilbake på snøtrening i Cervinia",
+   "ingress": "Alpinstjernen Valentina Greggio har gjenopptatt snøtreningen i Cervinia sammen med trenerne Herin og Capello.",
+   "spik": "Valentina Greggio har gjenopptatt snøtreningen på Cervinia-breen i Aostadalen, denne gangen sammen med de mannlige landslagsløperne Joel Herin og Samuele Capello. Den italienske fartsstjernen fra Verbania, født i 1991, avsluttet forrige sesong med en fullstendig dominans: hun vant sin åttende verdenscup sammenlagt, forsvarte VM-tittelen i Vars og satte ny verdensrekord i april med 248,270 km/t. Treningsblokken på Cervinia-breen strekker seg over tre dager, fra 18. til 20. november.",
+   "utovere": [
+    "Valentina Greggio"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/speedskiing/news/riprende-la-preparazione-sulla-neve-di-sua-maesta-valentina-greggio-con-herin-e-capello-lavoro-a-cervinia"
+  },
   {
    "id": 177883,
    "publisert": "2026-11-17 14:15",
