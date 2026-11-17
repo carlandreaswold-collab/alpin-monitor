@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-17T10:45:19.888Z",
- "antall": 595,
+ "oppdatert": "2026-11-17T11:00:20.774Z",
+ "antall": 596,
  "saker": [
+  {
+   "id": 176004,
+   "publisert": "2026-11-17 11:46",
+   "publisert_iso": "2026-11-17T10:46:08.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Feller usikker på start i Gurgl-slalåm",
+   "ingress": "Manuel Feller har ikke bestemt seg for om han vil stille til start i slalåmen i Gurgl.",
+   "spik": "Manuel Feller er usikker på om han stiller til start i slalåmen i Gurgl denne helgen, etter at han manglet i Levi-åpningen grunnet treningsunderskudd – særlig kondisjonsmessig. Den 34 år gamle tiroleren var Østerrikes store slalåmhåp forrige sesong og er en av de jevneste toppkjørerne i verdenscupen, men ÅSF-herrene fikk en tung sesongstart da kun Johannes Strolz kom i mål som nr. 22 i Levi, der Lucas Pinheiro Braathen vant. Sportlig leder Christian Mitter erkjenner at laget er i gjeld til resultatene, og et hjemme-verdenscuprenn i Gurgl gir mulighet til oppreisning.",
+   "utovere": [
+    "Manuel Feller"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165035/"
+  },
   {
    "id": 175772,
    "publisert": "2026-11-17 11:35",
