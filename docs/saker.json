@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-17T11:00:20.774Z",
- "antall": 596,
+ "oppdatert": "2026-11-17T11:15:16.499Z",
+ "antall": 597,
  "saker": [
+  {
+   "id": 176122,
+   "publisert": "2026-11-17 12:00",
+   "publisert_iso": "2026-11-17T11:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Sorì: Ny app for å booke alpinske treningsbakker",
+   "ingress": "Sorì er en ny applikasjon som lar brukere booke treningsbakker for alpint ski på en enkel og effektiv måte.",
+   "spik": "Sorì er en ny app som lar alpintrenere booke treningsbakker enkelt og raskt, uten å måtte ringe skisentrene direkte. Appen er utviklet av 25 år gamle Alessio Gottardi fra Moena i Val di Fassa – alpintrener på nivå II i det italienske skiforbundet FISI og medisinstudent ved Universitetet i Ferrara. Navnet «Sorì» betyr «enkelt» på ladino, språket som snakkes i Val di Fassa. Appen gir tilgang til en oversikt over alle italienske skisentre og er myntet særlig på trenere som reiser med klubber til ukjente anlegg.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/nasce-sori-l-applicazione-per-prenotare-le-piste-di-allenamento-di-sci-alpino"
+  },
   {
    "id": 176004,
    "publisert": "2026-11-17 11:46",
