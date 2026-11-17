@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-11-17T09:15:12.555Z",
- "antall": 590,
+ "oppdatert": "2026-11-17T09:30:20.183Z",
+ "antall": 591,
  "saker": [
+  {
+   "id": 174895,
+   "publisert": "2026-11-17 10:15",
+   "publisert_iso": "2026-11-17T09:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kroatia stiller med fem kort til Gurgl",
+   "ingress": "Med en gjenfunnet Ljutic og bidrag fra Popovic og Kolega stiller Kroatia sterkt til alpine renn i Gurgl.",
+   "spik": "Kroatia stiller med fem utøvere til slalomrennene i Gurgl, og inkluderer en tilbakevendt Leona Popovic, som mistet åpningsrennet i Levi etter å ha blitt operert i kneet i september. På damesiden har Zrinka Ljutic vunnet slalomcupen sammenlagt i sesongen 2024/25 og er lagets fremste kort, mens Samuel Kolega, Filip Zubcic og Rodes utgjør herrenes bidrag. Kroatia er en av alpinverdenens mest overraskende suksesshistorier i slalom, med Ivica Kostelic og nå en ny generasjon som holder nasjonen på verdenskartet.",
+   "utovere": [
+    "Leona Popovic",
+    "Zrinka Ljutic"
+   ],
+   "land": [
+    "CRO"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/con-una-ljutic-ritrovata-e-la-presenza-di-popovic-ma-anche-un-bel-kolega-la-croazia-si-propone-con-cinque-punte-per-gurgl"
+  },
   {
    "id": 174423,
    "publisert": "2026-11-17 09:38",
