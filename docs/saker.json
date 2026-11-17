@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-17T12:45:13.142Z",
- "antall": 600,
+ "oppdatert": "2026-11-17T13:00:22.923Z",
+ "antall": 601,
  "saker": [
+  {
+   "id": 177529,
+   "publisert": "2026-11-17 13:45",
+   "publisert_iso": "2026-11-17T12:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Seksten italienske alpinister trener i Copper – Shiffrin forkjølet på Speed Center",
+   "ingress": "Seksten italienske utøvere fortsetter treningsarbeidet i Copper, mens Mikaela Shiffrin dukket opp på Speed Center med forkjølelse.",
+   "spik": "Seksten italienske alpinister er i gang med treningsarbeid på Copper Mountain i Colorado, og gruppen vokser til 23 utøvere i løpet av uken når hastighetsgruppen under trener Johnny Feltrin ankommer fra Solda. Mikaela Shiffrin, som er regjerende verdenscupvinner og bor i nærheten, har trent på Speed Center til tross for en forkjølelse og beskriver arbeidsforholdene som fantastiske. De tolv italienske herrene er også i gang og skal debutere i verdenscupen på samme Copper Mountain 28. november. Blant damene som allerede trener er fartsspesialistene Sofia Goggia, Laura Pirovano og Marta Bassino.",
+   "utovere": [
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/prosegue-a-copper-il-lavoro-dei-16-azzurri-impegnati-e-nello-speed-center-c-e-una-shiffrin-raffreddata"
+  },
   {
    "id": 177177,
    "publisert": "2026-11-17 13:15",
