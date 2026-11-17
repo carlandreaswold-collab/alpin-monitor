@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-17T10:15:26.726Z",
- "antall": 593,
+ "oppdatert": "2026-11-17T10:30:24.960Z",
+ "antall": 594,
  "saker": [
+  {
+   "id": 175613,
+   "publisert": "2026-11-17 11:17",
+   "publisert_iso": "2026-11-17T10:17:09.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Feller-start i Gurgl: Ja? Nei? Kanskje!",
+   "ingress": "Det er fortsatt usikkert om Manuel Feller stiller til start i Gurgl. Spørsmålet om han deltar forblir ubesvart.",
+   "spik": "Det er fortsatt usikkert om Manuel Feller stiller til start i hjemmerennet i Gurgl 22. november – avgjørelsen tas i siste liten. Feller er en av Østerrikes fremste slalomkjørere og vant slalomcupen sammenlagt i sesongen 2023/24, men har slitt med skader som har påvirket forberedelsene. Gurgl-rennet er et av de mest prestisjefylte for østerrikske utøvere, med krevende Kirchenkar-løype og stort hjemmepublikum, og landslaget trenger ham i kampen om viktige verdenscuppoeng etter sesongåpningen i Levi.",
+   "utovere": [
+    "Manuel Feller"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/feller-start-vielleicht/"
+  },
   {
    "id": 175422,
    "publisert": "2026-11-17 11:10",
