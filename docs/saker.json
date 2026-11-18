@@ -1,7 +1,41 @@
 {
- "oppdatert": "2026-11-18T16:45:10.959Z",
- "antall": 615,
+ "oppdatert": "2026-11-18T17:00:36.501Z",
+ "antall": 617,
  "saker": [
+  {
+   "id": 180229,
+   "publisert": "2026-11-18 17:55",
+   "publisert_iso": "2026-11-18T16:55:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kan vi tro på en «ny» Vinatzer? Storslalåmrennene i Colorado kan gi svarene",
+   "ingress": "Alex Vinatzer har muligheten til å bevise sitt potensial under storslalåmrennene i Colorado, der han presterte sterkt i 2025.",
+   "spik": "Alex Vinatzer fra Gröden har aldri vunnet et verdenscuprenn, men han nærmet seg gjentatte ganger i 2025 — ni hundredeler bak Noel i slalåm i Kitzbühel og andreplass i storslalåm i Beaver Creek, bak Marco Odermatt. Den 27 år gamle italieneren imponerte i Levi i åpningshelgen med en av karrierens beste omganger, og Colorado-rennene i Copper Mountain og Beaver Creek ses nå som en viktig lakmustest på om han endelig har funnet den tekniske stabiliteten som tidligere har sviktet. Dette er den niende sesongen hans i verdenscupen.",
+   "utovere": [
+    "Alex Vinatzer"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/si-puo-credere-in-un-nuovo-vinatzer-si-con-i-giganti-in-colorado-dove-fece-benissimo-nel-2025-che-daranno-tante-risposte"
+  },
+  {
+   "id": 180209,
+   "publisert": "2026-11-18 17:50",
+   "publisert_iso": "2026-11-18T16:50:08.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "FIS' sikkerhetskode for skitrening: 10 viktige punkter for trenere",
+   "ingress": "FIS har utarbeidet en sikkerhetskode for skitrening, og her er de ti viktigste punktene alle trenere bør kjenne til.",
+   "spik": "FIS lanserte 18. november 2026 en frivillig sikkerhetskode for trening på snø, med ti anbefalinger rettet mot trenere, lag, utøvere og skianlegg. Koden tar blant annet for seg hvem som kan stanse et løyp, hvordan nødsituasjoner koordineres fra start, og krav til daglig sjekk av sikkerhetsinstallasjoner. Bakgrunnen er behovet for felles retningslinjer når flere lag deler samme bakke, noe som er vanlig i treningsleirer og i forkant av verdenscuprenn. Koden gjelder på alle nivåer, fra klubbtrening til internasjonale konkurranser.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/fis-ski-training-safety-code-10-takeaways-for-coaches/"
+  },
   {
    "id": 179572,
    "publisert": "2026-11-18 16:55",
