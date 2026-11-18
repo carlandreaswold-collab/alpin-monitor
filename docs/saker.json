@@ -1,7 +1,113 @@
 {
- "oppdatert": "2026-11-17T14:15:15.016Z",
- "antall": 603,
+ "oppdatert": "2026-11-18T14:32:50.560Z",
+ "antall": 609,
  "saker": [
+  {
+   "id": 178591,
+   "publisert": "2026-11-18 15:05",
+   "publisert_iso": "2026-11-18T14:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Ambisiøst italiensk slalåmlag til Europacupen",
+   "ingress": "Italia stiller med et ambisiøst slalåmlag i Europacupen, men D'Antonio er ikke med.",
+   "spik": "Italia stiller med et ambisiøst slalåmlag i Europacupen, selv om D'Antonio ikke er med i troppen. Europacupen fungerer som det viktigste steget mellom FIS-renn og Verdenscup, og er en sentral arena for utvikling av neste generasjons alpinister. Italia har tradisjonelt hatt sterke slalåmkjørere og bruker Europacupen aktivt til å modne talenter mot Verdenscupnivå.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/da-sola-a-mathiou-da-carolli-a-bieler-sara-ambiziosa-l-italslalom-di-coppa-europa-d-antonio-non-gareggera"
+  },
+  {
+   "id": 178593,
+   "publisert": "2026-11-18 14:05",
+   "publisert_iso": "2026-11-18T13:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kranjska Gora i gang med kunstsnø – herrerenn åpner 2027-sesongen",
+   "ingress": "Kranjska Gora har startet snøproduksjon på Podkoren-3-løypen, og herrekonkurransene vil åpne sesongen i 2027.",
+   "spik": "Kranjska Gora er i gang med kunstsnøproduksjon på den klassiske Podkoren-3-løypen, og herrekonkurransene er satt til å åpne 2027-sesongen der. Den slovenske skibyen har lange tradisjoner som Verdenscup-arrangør, særlig kjent for Vitranc-rennet i storslalåm og slalåm. Kunstsnøanlegg er blitt avgjørende for å sikre tidlig sesongstart uavhengig av naturlige snøforhold.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/primo-freddo-e-kranjska-gora-gia-lavora-a-tutta-neve-artificiale-sulla-podkoren-3-le-gare-maschili-apriranno-il-2027"
+  },
+  {
+   "id": 178595,
+   "publisert": "2026-11-18 12:40",
+   "publisert_iso": "2026-11-18T11:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "To tyske trioer i Gurgl – Aicher jakter ledelse i cupen",
+   "ingress": "Tyskland stiller med to trioer på Kirchenkar-løypen i Gurgl, der Aicher søker å øke ledelsen i Europacupen.",
+   "spik": "Tyskland stiller med to komplette trioer til slalåmrennet i Gurgl, der Fabian Aicher ønsker å befeste ledelsen sin i Europacup-sammendraget. Kirchenkar-løypen i Gurgl er kjent for tekniske utfordringer og har raskt blitt en populær arena siden den kom inn på Europacup-programmet. Aicher har vært en av de mest konstante tyske profilene i Europacupen og peker seg ut som en kandidat til Verdenscup-gjennombrudd.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/due-terzetti-in-casa-germania-sulla-kirchenkar-sabato-a-gurgl-il-timone-per-aicher-che-cerca-l-allungo-in-coppa"
+  },
+  {
+   "id": 178607,
+   "publisert": "2026-11-18 12:04",
+   "publisert_iso": "2026-11-18T11:04:43.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Melanie Meillard skuffet over sin skjebne",
+   "ingress": "Den sveitsiske alpinisten Melanie Meillard sliter med å forsone seg med en vanskelig situasjon i karrieren sin.",
+   "spik": "Sveitsiske Melanie Meillard har pådratt seg et nytt korsbåndbrudd i forberedelsene til Verdenscup-slalåmen i Levi, og mister dermed hele 2026/27-sesongen. For 28-åringen fra Neuchâtel er det særlig bittert fordi hun også går glipp av VM på hjemmebane i Wallis. Meillard har slitt med alvorlige skader gjennom karrieren og er en kjent allrounder som tidligere har konkurrert i både slalåm og storslalåm på Verdenscup-nivå.",
+   "utovere": [
+    "Melanie Meillard"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/melanie-meillard-schicksal/"
+  },
+  {
+   "id": 178608,
+   "publisert": "2026-11-18 11:35",
+   "publisert_iso": "2026-11-18T10:35:41.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Lena Dürr optimistisk foran slalåmen i Gurgl",
+   "ingress": "Lena Dürr ser frem til slalåmrennet i Gurgl med stor optimisme.",
+   "spik": "Lena Dürr stiller optimistisk til start i slalåmrennet i Gurgl på Kirchenkar-løypen. Den tyske slalåmspesialisten har de siste sesongene etablert seg blant verdens beste i disiplinen og har flere pallplasseringer i Verdenscup. Gurgl har blitt en fast post på den tidlige delen av alpinkalenderen og gir utøverne mulighet til å bygge på resultater fra Levi-åpningen.",
+   "utovere": [
+    "Lena Dürr"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/duerrs-zuversicht-hinblick/"
+  },
+  {
+   "id": 178727,
+   "publisert": "2026-11-17 18:27",
+   "publisert_iso": "2026-11-17T17:27:32.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Slalåm på grensen: «Alle er helt maxed out»",
+   "ingress": "Slalåmkjøringen er presset til det ytterste, og utøverne går på absolutt maksimalt nivå.",
+   "spik": "Slalåmsporten er blitt så jevn og ekstremdrevet at selv en 13.-plass til Linus Straßer i Levi ga grunnlag for refleksjon: «Nivået som vises her er rett og slett perverst», sa tyskeren etter åpningsrennet. I tolv slalåmrenn forrige sesong – inkludert OL – var det åtte forskjellige vinnere, et tall som illustrerer bredden i feltet. Tidligere slalåmkjører Sebastian Holzmann oppsummerer det slik: «Det er blitt et lotteri – alle er raske, det handler bare om hvem som gjør færrest feil.»",
+   "utovere": [
+    "Linus Straßer"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/slalom-am-limit-die-sind-alle-so-maxxed-out,ski-alpin-slalom-am-limit-100.html"
+  },
   {
    "id": 178237,
    "publisert": "2026-11-17 14:55",
