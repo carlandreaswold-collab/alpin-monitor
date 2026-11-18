@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-18T14:32:50.560Z",
- "antall": 609,
+ "oppdatert": "2026-11-18T14:45:49.648Z",
+ "antall": 614,
  "saker": [
   {
    "id": 178591,
@@ -88,6 +88,95 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.skinews.ch/news/2026/duerrs-zuversicht-hinblick/"
+  },
+  {
+   "id": 178598,
+   "publisert": "2026-11-18 11:05",
+   "publisert_iso": "2026-11-18T10:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Kun sju nordmenn til Gurgl – Steen Olsen ikke med",
+   "ingress": "Bare sju norske utøvere reiser til Gurgl, der McGrath tidligere har tatt to pallplasser. Kristoffersen og Haugan leder an, men Steen Olsen er ikke med.",
+   "spik": "Bare sju norske utøvere reiser til Gurgl for slalomrennene 21.–22. november, tre færre enn til åpningsrennene i Levi. Henrik Kristoffersen og Timon Haugan leder troppen, mens Mina Fuerst Holtmann er eneste norske kvinne. Alexander Steen Olsen er ikke med – han sto også over Levi og Sölden på grunn av fysiske problemer, og neste mål skal etter planen være storslalåmen i Copper Mountain 29. november. Aidan McGrath har to pallplasser fra Gurgl tidligere og er blant dem som reiser.",
+   "utovere": [
+    "Alexander Steen Olsen",
+    "Atle Lie McGrath",
+    "Henrik Kristoffersen",
+    "Mina Fürst Holtmann",
+    "Timon Haugan"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/solo-sette-norge-a-gurgl-con-mcgrath-qui-due-podi-per-risalire-assieme-a-kristoffersen-e-haugan-non-c-e-steen-olsen"
+  },
+  {
+   "id": 178599,
+   "publisert": "2026-11-18 10:25",
+   "publisert_iso": "2026-11-18T09:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Beaver Creek-rennene utsatt på grunn av snømangel",
+   "ingress": "Det er svært lite snø ved Beaver Creek, og de planlagte sju rennene på «Birds of Prey»-løypa er utsatt for å redde arrangementet.",
+   "spik": "Rennene på den klassiske «Birds of Prey»-løypa i Beaver Creek er utsatt på grunn av kritisk lite snø i Colorado. FIS-tekniker Trinkl melder at det er enda dårligere snøforhold enn på samme tid i fjor, og forberedelsene av løypa er langt fra fullført. Val Gardena pekes ut som den primære reserveløsningen dersom Beaver Creek ikke blir klar i tide. Utøvere som Marco Odermatt har i mellomtiden valgt å bli i Sankt Moritz for å trene under bedre forhold.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [
+    "ORF Sport"
+   ],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/beaver-creek-e-un-posticipo-necessario-per-salvarsi-c-e-pochissima-neve-per-le-7-gare-sulla-birds-of-prey"
+  },
+  {
+   "id": 178601,
+   "publisert": "2026-11-18 09:30",
+   "publisert_iso": "2026-11-18T08:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Gurgl i toppform, men trues av super-G-renn på Rettenbach i Sölden",
+   "ingress": "Gurgl er i utmerket stand og klar for renn, men arrangørene frykter at super-G-løpene på Rettenbachbreen i Sölden setter stedets fremtid i fare.",
+   "spik": "Gurgl og Kirchenkar-løypa er i strålende stand foran slalomrennene 21.–22. november, den fjerde gangen alpinverdenscupen besøker den lille tirolske landsbyen. Likevel bekymrer arrangørene seg for fremtiden: Alban Scheiber, leder for den lokale organisasjonskomiteen, advarer om at planene om å legge super-G-renn til Rettenbachbreen i Sölden kan tvinge Gurgl ut av Verdenscup-kalenderen. FIS har foreløpig ikke presentert en langsiktig kalenderplan som gir arrangørene forutsigbarhet utover ett år.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/gurgl-prontissima-in-condizioni-top-ma-il-futuro-e-in-pericolo-a-causa-di-soelden-i-super-g-sul-rettenbach-ci-mettono-a-rischio"
+  },
+  {
+   "id": 178602,
+   "publisert": "2026-11-18 09:00",
+   "publisert_iso": "2026-11-18T08:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Liensberger tilbake på ski – Courchevel mest aktuelt for comeback",
+   "ingress": "Katharina Liensberger er tilbake på ski, men returen til konkurranser er fortsatt langt unna. Courchevel, nesten ett år etter skaden, er det mest realistiske målet.",
+   "spik": "Østerrikske Katharina Liensberger er tilbake på ski etter at hun pådro seg en alvorlig kneskade på trening 2. januar 2026. Liensberger, som er dobbelt verdensmester i slalåm fra Cortina 2021, trener nå på pistene i Mayrhofen i Zillertal og beskrives som i riktig retning – men comebacket er fortsatt langt unna. Nattslalåmen i Courchevel 22. desember, nesten ett år etter hennes siste konkurranse i Semmering, er det mest konkrete målet for retur til Verdenscupen.",
+   "utovere": [
+    "Katharina Liensberger"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/liensberger-ancora-sugli-sci-ma-il-rientro-e-abbastanza-lontano-courchevel-a-quasi-un-anno-dal-crac-l-ipotesi-piu-concreta"
+  },
+  {
+   "id": 178573,
+   "publisert": "2026-11-17 19:46",
+   "publisert_iso": "2026-11-17T18:46:22.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Den usynlige veggen: Om konkurranseangst i alpint",
+   "ingress": "En artikkel belyser fenomenet konkurranseangst blant alpinister og hvordan den mentale barrieren på renndagen kan påvirke prestasjoner.",
+   "spik": "En personlig artikkel i Ski Racing-magasinet setter søkelyset på konkurranseangst i alpint – den mentale barrieren mange utøvere møter i startboksen til tross for grundig forberedelse. Forfatteren, som har drevet med skiløp i tolv år, beskriver hvordan adrenalinet i startøyeblikket kan snu til lammende nervøsitet og forestillinger om feil – en tilstand han kaller «den usynlige veggen». Mentalt press og prestasjonsangst er et tema som har fått stadig mer oppmerksomhet i toppidretten, og i alpint er det særlig relevant gitt sportens krav til risikovillighet og konsentrasjon.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/the-invisible-wall-race-day-anxiety-in-ski-racing/"
   },
   {
    "id": 178727,
