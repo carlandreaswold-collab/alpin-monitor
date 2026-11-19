@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-19T09:00:14.460Z",
- "antall": 620,
+ "oppdatert": "2026-11-19T09:15:21.791Z",
+ "antall": 621,
  "saker": [
+  {
+   "id": 185125,
+   "publisert": "2026-11-19 10:00",
+   "publisert_iso": "2026-11-19T09:00:13.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Philip Lindkvist Flötten får sjansen i verdenscupåpningen",
+   "ingress": "Philip Lindkvist Flötten er tatt ut til å konkurrere i årets første verdenscuprenn i alpint.",
+   "spik": "Den 20 år gamle svenske skiskytteren Philip Lindkvist Flötten er tatt ut som en av seks ordinære herreskyttere til verdenscupåpningen i Kontiolax, Finland, 26.–29. november. Flötten tok tre medaljer under junior-VM sist vinter – ett gull, ett sølv og ett bronse – og debuterte i verdenscupen i Oslo der han endte på 68.-plass. Nå er han for første gang tatt ut på ordinær kvote, og setter seg en topp 20-plassering og U23-trøyen som mål.",
+   "utovere": [
+    "Philip Lindkvist Flötten"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/skidskytte/philip-lindkvist-flotten-far-chansen-i-varldscuppremiaren"
+  },
   {
    "id": 184229,
    "publisert": "2026-11-19 08:56",
