@@ -322,6 +322,10 @@ body {
   padding: 16px;
   position: sticky;
   top: 97px;
+  max-height: calc(100vh - 113px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
 }
 .sidebar-header {
   font-family: 'IBM Plex Mono', monospace;
