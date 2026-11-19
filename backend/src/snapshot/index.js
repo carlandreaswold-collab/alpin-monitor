@@ -458,7 +458,11 @@ export async function generateSnapshot() {
     fs.writeFileSync(OUT_JSON, buildJson(records, new Date().toISOString()), 'utf8')
     console.log(`✓ Snapshot generert: ${htmlArticles.length} saker → docs/index.html, ${records.length} saker → saker.csv/json`)
 
-    try {
+    // Commit/push KUN når SNAPSHOT_PUSH=1 (kjøres nå på NRK-maskin; ingen automatisk push til GitHub).
+    // Standard: filene i docs/ skrives lokalt, men git røres ikke. Gjelder både kvartersjobb og Hent-knappen.
+    if (process.env.SNAPSHOT_PUSH !== '1') {
+      console.log('  Snapshot skrevet lokalt (ingen commit/push)')
+    } else try {
       // status (ikke diff) så nye, usporede filer også oppdages. saker.json har tidsstempel, så
       // den ene sammenlignes uten det: pushes bare hvis csv eller siden endret seg.
       const FILES = 'docs/index.html docs/saker.csv docs/saker.json'

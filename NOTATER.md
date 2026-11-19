@@ -34,3 +34,12 @@ Commit `8428a45`.
 ## 2026-11-19 – Spik-listen scroller
 
 `.sidebar-col` (`frontend/src/index.css`) fikk `max-height: calc(100vh - 113px)` og `overflow-y: auto`, så lange spik-lister kan scrolles uavhengig av feeden. Commit `7a90a2f`. Bygget med `npm run build` uten restart av PM2. Ikke testet i nettleser.
+
+## 2026-11-19 – Automatisk push til GitHub slått av (venter på restart)
+
+Alpin Monitor skal kjøres agentisk på en NRK-maskin, og backend skal ikke lenger pushe snapshot til GitHub hvert kvarter.
+
+- **Endret:** `backend/src/snapshot/index.js`: commit/push skjer nå bare hvis miljøvariabelen `SNAPSHOT_PUSH=1` er satt (som i langrenns-monitoren). Standard er av. Filene `docs/index.html`, `saker.csv` og `saker.json` skrives fortsatt lokalt (andre verktøy leser dem), men git røres ikke. Gjelder både kvartersjobben og Hent-knappen (begge går via `runFetch`). Sikkerhetskopi: `index.js.bak-fore-pushbryter`.
+- **Status:** restartet 19.11. kl. ca. 11:03 og testet med manuell henting: loggen sier «Snapshot skrevet lokalt (ingen commit/push)», ingen ny commit, HEAD = origin/main.
+- **Slå push på igjen:** sett `SNAPSHOT_PUSH=1` i miljøet til PM2-prosessen og restart.
+- Ikke committet.
