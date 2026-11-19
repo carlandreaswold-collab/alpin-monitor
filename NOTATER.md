@@ -30,3 +30,7 @@ Commit `8428a45`.
 - Gateway er nå `http://litellm.internal.nrk-coder.dev:4000` (var `10.10.0.10`). AI-stegene bruker `claude-sonnet-4-6`. «Haiku» i loggen er bare gammel tekst.
 - API-nøkkelen skal ha utløpt, men oversetting, faktasjekk, tagging og spik fungerte likevel. Årsak uavklart (annen nøkkel eller ikke håndhevet). Sjekk utløpsdato i LiteLLM-admin hvis AI-stegene plutselig feiler.
 - 10 kilder, inkludert Expressen og RTV SLO.
+
+## 2026-11-19 – Spik-listen scroller
+
+`.sidebar-col` (`frontend/src/index.css`) fikk `max-height: calc(100vh - 113px)` og `overflow-y: auto`, så lange spik-lister kan scrolles uavhengig av feeden. Commit `7a90a2f`. Bygget med `npm run build` uten restart av PM2. Ikke testet i nettleser.
