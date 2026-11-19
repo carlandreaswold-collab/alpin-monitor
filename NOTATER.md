@@ -43,3 +43,7 @@ Alpin Monitor skal kjøres agentisk på en NRK-maskin, og backend skal ikke leng
 - **Status:** restartet 19.11. kl. ca. 11:03 og testet med manuell henting: loggen sier «Snapshot skrevet lokalt (ingen commit/push)», ingen ny commit, HEAD = origin/main.
 - **Slå push på igjen:** sett `SNAPSHOT_PUSH=1` i miljøet til PM2-prosessen og restart.
 - Ikke committet.
+
+## 2026-11-19 (senere) – Snapshot-push slått på igjen
+
+NRK-maskin-oppsettet ble ikke helt klart, så push er på igjen: PM2-prosessen `alpin-monitor` er restartet med `SNAPSHOT_PUSH=1` (`pm2 restart alpin-monitor --update-env`) og lagret med `pm2 save`, så den overlever omstart av maskinen. Koden er uendret (bryteren fra 030d916 ligger der fortsatt). Slå av igjen: restart uten variabelen og `pm2 save` (eller `SNAPSHOT_PUSH=0`).
