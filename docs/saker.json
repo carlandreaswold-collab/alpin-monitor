@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-19T15:15:19.406Z",
- "antall": 622,
+ "oppdatert": "2026-11-19T15:22:13.184Z",
+ "antall": 623,
  "saker": [
+  {
+   "id": 190442,
+   "publisert": "2026-11-19 16:17",
+   "publisert_iso": "2026-11-19T15:17:26.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Se klassiske bilder fra Sverigepremiären i 1985",
+   "ingress": "Et tilbakeblikk på klassiske bilder fra Sveriges alpinpremiere i 1985.",
+   "spik": "SVT Sport har gravd frem arkivbilder fra den svenske langrennssesongens åpning i Bruksvallarna i 1985. Bildene viser blant annet Gunde Svan som sjokkerer omgivelsene med et par gigantiske staver, og temperaturen var høy rundt den nye teknikken som skapte splittelse i skisportmiljøet. Svan var på denne tiden en av verdens dominerende langrennsløpere og vant fire OL-gull i karrieren. Sakens innhold er langrenn, ikke alpin, og det finnes lite alpint stoff å arbeide ut fra her.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/langdskidor/se-klassiska-bilderna-fran-sverigepremiaren-1985"
+  },
   {
    "id": 190192,
    "publisert": "2026-11-19 16:10",
