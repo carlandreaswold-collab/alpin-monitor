@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-19T07:48:29.862Z",
- "antall": 619,
+ "oppdatert": "2026-11-19T08:00:19.341Z",
+ "antall": 620,
  "saker": [
+  {
+   "id": 184229,
+   "publisert": "2026-11-19 08:56",
+   "publisert_iso": "2026-11-19T07:56:35.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Phenix lanserer replika av Sveriges VM-drakt",
+   "ingress": "Phenix gjør den svenske alpinlandslags-drakten fra verdenscupen tilgjengelig for vanlige skiløpere, slik at fansen kan kle seg som sine favoritter på hjemmebakken.",
+   "spik": "Phenix lanserer en publikumsversjon av det svenske alpinlandslagets offisielle drakt for sesongen 2026/27, kalt Svezia AW26-kolleksjonen. Drakten er designet etter plaggene som brukes av blant andre Sara Hector og resten av det svenske landslaget i verdenscupen. En av nyhetene er det såkalte WIRE Ventilation System, der glidelåsene er flyttet til forsiden slik at luftsirkulasjonen kan reguleres uten å åpne drakten helt. Phenix har vært offisiell leverandør for det svenske alpinlandslaget og er kjent for å kombinere konkurranseteknologi med produkter tilgjengelig for vanlige skiløpere.",
+   "utovere": [
+    "Sara Hector"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/materiali/abbigliamento/news/phenix-dalla-coppa-del-mondo-alle-piste-di-casa-ecco-la-replica-della-divisa-svedese"
+  },
   {
    "id": 184053,
    "publisert": "2026-11-19 08:20",
