@@ -39,7 +39,7 @@ Commit `8428a45`.
 
 Alpin Monitor skal kjøres agentisk på en NRK-maskin, og backend skal ikke lenger pushe snapshot til GitHub hvert kvarter.
 
-- **Endret:** `backend/src/snapshot/index.js`: commit/push skjer nå bare hvis miljøvariabelen `SNAPSHOT_PUSH=1` er satt (som i langrenns-monitoren). Standard er av. Filene `docs/index.html`, `saker.csv` og `saker.json` skrives fortsatt lokalt (andre verktøy leser dem), men git røres ikke. Gjelder både kvartersjobben og Hent-knappen (begge går via `runFetch`). Sikkerhetskopi: `index.js.bak-fore-pushbryter`.
+- **Endret:** `backend/src/snapshot/index.js`: commit/push skjer nå bare hvis miljøvariabelen `SNAPSHOT_PUSH=1` er satt (som i langrenns-monitoren). Standard er av. Filene `docs/index.html`, `saker.csv` og `saker.json` skrives fortsatt lokalt (andre verktøy leser dem), men git røres ikke. Gjelder både kvartersjobben og Hent-knappen (begge går via `runFetch`).
 - **Status:** restartet 19.11. kl. ca. 11:03 og testet med manuell henting: loggen sier «Snapshot skrevet lokalt (ingen commit/push)», ingen ny commit, HEAD = origin/main.
 - **Slå push på igjen:** sett `SNAPSHOT_PUSH=1` i miljøet til PM2-prosessen og restart.
 - Ikke committet.
