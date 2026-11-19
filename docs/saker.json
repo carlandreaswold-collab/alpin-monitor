@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-11-19T10:15:13.575Z",
- "antall": 621,
+ "oppdatert": "2026-11-19T10:30:23.404Z",
+ "antall": 622,
  "saker": [
+  {
+   "id": 186114,
+   "publisert": "2026-11-19 11:20",
+   "publisert_iso": "2026-11-19T10:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Slovenia stiller med tre utøvere i Gurgl til lørdagens slalåm",
+   "ingress": "Slovenia stiller med Neja Dvornik, som imponerte i Levi, samt Slokar og Tomsic til slalåmrennet i Gurgl lørdag.",
+   "spik": "Slovenia stiller med tre utøvere i slalåmrennet i Gurgl lørdag: Neja Dvornik, Andreja Slokar og Ana Tomsic. Dvornik, født 2001, imponerte i Levi og er tilbake på den samme pisten i Gurgl der hun skadet seg under oppvarmingen for et år siden. Slokar er i retur etter skade og rykket ut i første omgang i Levi, mens hun fortsatt starter fra en utvidet andregruppa. Caterina Sinigoi og Anja Oplotnik er ikke med til Østerrike denne helgen.",
+   "utovere": [
+    "Andreja Slokar",
+    "Neja Dvornik"
+   ],
+   "land": [
+    "SLO"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/la-slovenia-con-un-terzetto-a-gurgl-neja-dvornik-positiva-a-levi-con-slokar-e-tomsic-per-lo-slalom-di-sabato"
+  },
   {
    "id": 185125,
    "publisert": "2026-11-19 10:00",
