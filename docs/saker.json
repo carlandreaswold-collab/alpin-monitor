@@ -1,7 +1,45 @@
 {
- "oppdatert": "2026-11-20T13:45:34.223Z",
- "antall": 637,
+ "oppdatert": "2026-11-20T14:00:32.211Z",
+ "antall": 639,
  "saker": [
+  {
+   "id": 198766,
+   "publisert": "2026-11-20 14:51",
+   "publisert_iso": "2026-11-20T13:51:38.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Vlhova hopper over Gurgl – tvinges til pause",
+   "ingress": "Petra Vlhova trekker seg fra rennet i Gurgl og må ta en pause fra konkurransene.",
+   "spik": "Petra Vlhova hopper over slalåmen i Gurgl og vil heller ikke stille i Killington eller Mont-Tremblant i slutten av november og begynnelsen av desember. Den 31 år gamle slovaken vendte tilbake til verdenscupen i Sölden i slutten av oktober etter over to og et halvt års fravær som følge av en alvorlig kneskade, og tok en 16.-plass i Levi. Vlhova understreker at hun er frisk og smertefri, men trenger mer tid til å bygge fysisk form og finpusse teknikken før hun returnerer til konkurranse. Hun vant den samlede verdenscupen i sesongen 2020/21.",
+   "utovere": [
+    "Petra Vlhová"
+   ],
+   "land": [
+    "SVK"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/vericht-vlhova-einlegen/"
+  },
+  {
+   "id": 198889,
+   "publisert": "2026-11-20 14:46",
+   "publisert_iso": "2026-11-20T13:46:29.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "I Riesches fotspor: Aicher tar opp kampen i Gurgl",
+   "ingress": "Aicher gjør seg klar til å angripe i Gurgl, inspirert av den tidligere stjernen Riesch.",
+   "spik": "Emma Aicher går til start i Gurgl som favoritt etter å ha vunnet slalåmen i Levi forrige helg – hennes første verdenscupseier i disiplinen. 23-åringen fra Tyskland er nå på jakt etter sitt femte slalåmpall på rad i verdenscupen, og med det vil hun matche den tyske legenden Maria Riesch, som er den eneste DSV-utøveren som har klart fem strake slalåmpaller. Mikaela Shiffrin, som vant de to første utgavene av Gurgl-rennet, stiller ikke til start, noe som åpner feltet betraktelig.",
+   "utovere": [
+    "Emma Aicher"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/auf-den-spuren-von-hoefl-riesch-aicher-greift-in-gurgl-an,ski-alpin-aicher-auf-spuren-von-hoefl-riesch-100.html"
+  },
   {
    "id": 198438,
    "publisert": "2026-11-20 14:20",
