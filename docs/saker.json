@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-20T15:00:15.209Z",
- "antall": 639,
+ "oppdatert": "2026-11-20T15:15:19.708Z",
+ "antall": 640,
  "saker": [
+  {
+   "id": 199687,
+   "publisert": "2026-11-20 16:01",
+   "publisert_iso": "2026-11-20T15:01:59.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Resultater og strømming fra Mixed Team-konkurransen",
+   "ingress": "Her finner du stillinger og direktestrømming fra Mixed Team-konkurransen i alpint.",
+   "spik": "Mixed Team-konkurransen i Lillehammer åpner den nye hoppvintersen, og etter første omgang leder Norge foran Japan og Tyskland. Det norske laget består blant andre av Gyda Westvold Hansen og Marius Lindvik, to av verdens beste hoppere i sine respektive klasser. Lagkonkurransen i kombinert hopp er et relativt nytt format som samler to kvinner og to menn på hvert lag, og gir nasjoner med bred bredde i hoppstallen et fortrinn.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165178/"
+  },
   {
    "id": 198766,
    "publisert": "2026-11-20 14:51",
