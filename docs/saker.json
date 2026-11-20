@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-20T19:15:22.514Z",
- "antall": 643,
+ "oppdatert": "2026-11-20T19:30:17.902Z",
+ "antall": 644,
  "saker": [
+  {
+   "id": 202665,
+   "publisert": "2026-11-20 20:28",
+   "publisert_iso": "2026-11-20T19:28:49.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "FIS-snøkontroll i Beaver Creek utsatt",
+   "ingress": "FIS-snøkontrollen i Beaver Creek er blitt utsatt.",
+   "spik": "FIS-snøkontrollen i Beaver Creek er utsatt på grunn av dårlige snøforhold, og åpningsrennene i herrealpint denne sesongen er dermed i fare. I Beaver Creek er det planlagt to utfor-renn 3. og 4. desember, super-G 5. desember og storslalåm 6. desember. Beaver Creek er en av de mest tradisjonsrike alpinbakkene i USA og har vært fast del av verdenscupkalenderen siden 1983. Usikkerhet rundt snøforhold tidlig i sesongen er ikke uvanlig i Colorado, men skaper ekstra press i et VM-år der lagene ønsker tidlig konkurransepraksis.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165198/"
+  },
   {
    "id": 202433,
    "publisert": "2026-11-20 20:02",
