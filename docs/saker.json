@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-20T20:30:17.510Z",
- "antall": 644,
+ "oppdatert": "2026-11-20T20:45:25.353Z",
+ "antall": 645,
  "saker": [
+  {
+   "id": 203469,
+   "publisert": "2026-11-20 21:43",
+   "publisert_iso": "2026-11-20T20:43:12.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Lindsey Vonn starter ACL-rehabilitering etter niende operasjon",
+   "ingress": "Lindsey Vonn har påbegynt rehabilitering av korsbåndet etter å ha gjennomgått sin niende operasjon i karrieren.",
+   "spik": "Lindsey Vonn har påbegynt rehabilitering etter sin niende operasjon i karrieren — en ACL-rekonstruksjon i venstre kne som varte over fem timer. Den 42 år gamle amerikaneren skadet korsbåndet i et fall under verdenscuprenn i Crans-Montana i januar, og pådro seg deretter et lårbensbrudd under OL-utforsrennet i Cortina d'Ampezzo ni dager senere. Bruddet måtte først gro fullstendig før kirurgene kunne fjerne plater og skruer og rekonstruere korsbåndet i samme operasjon — derav den ni måneder lange ventetiden. Vonn, som er tidenes mestvinnende kvinne i alpint med 82 verdenscupseirer, anslår at hun trenger seks til ni måneder til med rehabilitering.",
+   "utovere": [
+    "Lindsey Vonn"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/lindsey-vonn-begins-acl-rehab-after-ninth-surgery/"
+  },
   {
    "id": 202665,
    "publisert": "2026-11-20 20:28",
