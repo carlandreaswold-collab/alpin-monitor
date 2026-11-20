@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-20T21:45:18.822Z",
- "antall": 645,
+ "oppdatert": "2026-11-20T22:00:24.000Z",
+ "antall": 646,
  "saker": [
+  {
+   "id": 204428,
+   "publisert": "2026-11-20 22:50",
+   "publisert_iso": "2026-11-20T21:50:14.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Alpinistene gir full gass i Gurgl",
+   "ingress": "Alpintroppene er tilbake i Gurgl og kjører for fullt igjen.",
+   "spik": "Den østerrikske slalomkjøreren Katharina Truppe kom inn til helgens renn i Gurgl med god selvtillit etter en tredjeplass i sesongåpningen i Levi. 30-åringen fra Kärnten håper å gjenta bragden i hjemlig terreng, selv om treningsøktene i Gurgl har gått trått. De to tidligere slalomrennene i Gurgl – Europas høyest liggende ikke-bre-skisenter – ble begge vunnet av Mikaela Shiffrin, men amerikaneren er fraværende denne helgen og fokuserer på raskere disipliner frem mot Killington neste uke, noe som åpner feltet betraktelig.",
+   "utovere": [
+    "Katharina Truppe"
+   ],
+   "land": [
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165180/"
+  },
   {
    "id": 203469,
    "publisert": "2026-11-20 21:43",
