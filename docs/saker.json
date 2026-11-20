@@ -1,7 +1,31 @@
 {
- "oppdatert": "2026-11-20T18:00:12.744Z",
- "antall": 641,
+ "oppdatert": "2026-11-20T18:15:26.987Z",
+ "antall": 642,
  "saker": [
+  {
+   "id": 201752,
+   "publisert": "2026-11-20 19:05",
+   "publisert_iso": "2026-11-20T18:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Holdener med startnummer 1 i Gurgl-slalåm – her er startlisten",
+   "ingress": "Holdener åpner med startnummer 1, mens Rast trekker nummer 4 foran Aicher og Colturi. Della Mea starter som nummer 13 i slalåmen i Gurgl.",
+   "spik": "Wendy Holdener åpner slalåmen i Gurgl med startnummer 1, og sveitseren er samtidig leder i slalåmcupen denne sesongen. Gurgl er inne i World Cup-kalenderen for tredje år på rad, og rennet på Kirchenkar-løypa i 2500 meters høyde har blitt en fast del av november-programmet. Holdener er en av slalåmens mest meritterte utøvere uten en individuell World Cup-seier i slalåm – hun har ni pallplasser i disiplinen og er stadig på jakt etter den første triumfen. Lena Dürr og Mikaela Shiffrin har dominert i Gurgl de to foregående årene.",
+   "utovere": [
+    "Camille Rast",
+    "Emma Aicher",
+    "Lara Colturi",
+    "Wendy Holdener"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/holdener-con-l-1-rast-pesca-il-4-poi-aicher-e-colturi-in-uno-slalom-di-gurgl-tutto-da-vedere-della-mea-n-13-la-startlist"
+  },
   {
    "id": 201380,
    "publisert": "2026-11-20 18:38",
