@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-20T19:00:13.567Z",
- "antall": 642,
+ "oppdatert": "2026-11-20T19:15:22.514Z",
+ "antall": 643,
  "saker": [
+  {
+   "id": 202433,
+   "publisert": "2026-11-20 20:02",
+   "publisert_iso": "2026-11-20T19:02:45.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Startliste for kvinneslalåm i Gurgl: Aicher leder, Colturi jakter første seier",
+   "ingress": "Aicher går ut som favoritt i kvinneslalåmen i Gurgl, mens Colturi sikter mot sin aller første verdenscupseier.",
+   "spik": "Emma Aicher leder startlisten i kvinneslalåmen i Gurgl etter at hun vant sesongåpningen i Levi, og topper dermed slalåmcupen med 100 poeng. Lara Colturi har vært toer i begge tidligere Gurgl-slalåmer og jakter sin aller første verdenscupseier. Camille Rast har vært tredjedeler i begge disse rennene og er også å regne med. Mikaela Shiffrin, som har vunnet begge tidligere Gurgl-slalåmer, er fraværende og trener i USA foran sin planlagte comeback i Killington – noe som garanterer en ny vinner på pallen i Gurgl i år.",
+   "utovere": [
+    "Camille Rast",
+    "Emma Aicher",
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB",
+    "GER",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/gurgl-womens-slalom-start-list-2026/"
+  },
   {
    "id": 201752,
    "publisert": "2026-11-20 19:05",
