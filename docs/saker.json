@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-20T09:45:27.719Z",
- "antall": 631,
+ "oppdatert": "2026-11-20T10:00:22.742Z",
+ "antall": 632,
  "saker": [
+  {
+   "id": 195707,
+   "publisert": "2026-11-20 10:55",
+   "publisert_iso": "2026-11-20T09:55:56.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Oscar Heine overtar Manuel Fellers startplass i Gurgl",
+   "ingress": "Oscar Heine rykker inn og overtar startplassen til Manuel Feller i alpinrennet i Gurgl.",
+   "spik": "Manuel Feller er ikke klar for start i hjemmerennet i Gurgl, og Oscar Heine rykker inn på det østerrikske slalåmlaget. 34 år gamle Feller fra Tirol gjennomførte riktignok trening fredag, men var ikke fornøyd med resultatet og valgte å stå over. Feller er en av Østerrikes mest profilerte slalåmkjørere og har vunnet flere verdenscuprenner, så fraværet hans i et hjemmerenn er et merkbart tap for vertsnasjonens lag.",
+   "utovere": [
+    "Manuel Feller",
+    "Oscar Heine"
+   ],
+   "land": [
+    "AUT",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/uebernimmt-startplatz-manuel/"
+  },
   {
    "id": 195590,
    "publisert": "2026-11-20 10:43",
