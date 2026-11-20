@@ -1,7 +1,37 @@
 {
- "oppdatert": "2026-11-20T12:03:55.938Z",
- "antall": 632,
+ "oppdatert": "2026-11-20T12:15:25.223Z",
+ "antall": 634,
  "saker": [
+  {
+   "id": 197454,
+   "publisert": "2026-11-20 13:09",
+   "publisert_iso": "2026-11-20T12:09:42.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Hvem er Anton Grahn?",
+   "ingress": "Et portrett av den svenske alpinisten Anton Grahn.",
+   "spik": "Anton Grahn er en av de mest omtalte unge langrennsløperne i Sverige, og blir trukket frem som en fremtidig bærebjelke i det svenske herrelaget. Med flere medaljer på juniornivå og en pallplats i verdenscupen allerede bak seg, vekker den 22 år gamle sprinteren stor begeistring. Eksperter hyller ham, og forventningene er høye etter flere tunge år for svensk langrenn på herresiden.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/langdskidor/vem-ar-anton-grahn"
+  },
+  {
+   "id": 197455,
+   "publisert": "2026-11-20 13:07",
+   "publisert_iso": "2026-11-20T12:07:09.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Anton Grahn vinner Sverige-premieren",
+   "ingress": "Anton Grahn tok seieren i den første svenske alpinkonkurransen i sesongen.",
+   "spik": "Anton Grahn vant sprintfinalen i Sverigepremiären i Bruksvallarna og slo blant andre kanadieren Antoine Cyr og lagkamerat Johan Ekberg. SVT Sports ekspert Anders Blomquist var full av lovord: «Han eier dette! Han viser hvor dyktig han er.» Den 22 år gamle sprinteren erkjenner selv at sesongstarten kan være ujevn, men sikter mot en plass på det svenske verdenscuplaget. I helgen venter 10 km klassisk og 10 km fri i Bruksvallarna.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/langdskidor/anton-grahn-vinner-sverigepremiaren"
+  },
   {
    "id": 195707,
    "publisert": "2026-11-20 10:55",
