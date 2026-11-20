@@ -1,7 +1,56 @@
 {
- "oppdatert": "2026-11-19T21:45:13.435Z",
- "antall": 626,
+ "oppdatert": "2026-11-20T09:30:14.795Z",
+ "antall": 629,
  "saker": [
+  {
+   "id": 195358,
+   "publisert": "2026-11-20 09:40",
+   "publisert_iso": "2026-11-20T08:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Tøffe forhold i Gurgl – bedring ventet til morgendagens slalåm",
+   "ingress": "Forholdene i Gurgl er krevende, men det ventes bedring til slalåmrennet som arrangeres fredag. Favorittene er i gang med forberedelsene.",
+   "spik": "Forholdene i den østerrikske landsbyen Gurgl er krevende foran helgens slalåmrenn, men bedring ventes til fredag. Gurgl har vært en relativt ny destinasjon på verdenscupkalenderen og arrangerer renn på høy høyde i Ötztal-alpene, noe som kan gi ustabilt vær tidlig i sesongen. Rennledelsen og favorittene er likevel i gang med forberedelsene, og forholdene er ventet å stabilisere seg til konkurransen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/a-gurgl-condizioni-toste-ma-per-lo-slalom-di-domani-in-miglioramento-la-vigilia-delle-big"
+  },
+  {
+   "id": 195360,
+   "publisert": "2026-11-20 08:15",
+   "publisert_iso": "2026-11-20T07:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Tommaso Sala operert i høyre kne – kan nå planlegge ny rehabiliteringsplan",
+   "ingress": "Tommaso Sala har gjennomgått en operasjon på høyre kne og kan nå se fremover mot en ny restitusjonsprosess.",
+   "spik": "Den italienske slalåmkjøreren Tommaso Sala har gjennomgått en operasjon på høyre kne og kan nå legge en plan for rehabiliteringen. Sala har vært en del av det italienske landslaget og har hentet resultater i verdenscupen i tekniske disipliner, men har slitt med skader som har hindret kontinuitet i karrieren. En vellykket operasjon er første steg, men veien tilbake til konkurransenivå vil kreve flere måneder med systematisk opptrening.",
+   "utovere": [
+    "Tommy Sala"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/intervento-al-ginocchio-destro-effettuato-tommaso-sala-puo-pensare-ad-un-nuovo-percorso-di-recupero"
+  },
+  {
+   "id": 195337,
+   "publisert": "2026-11-19 23:30",
+   "publisert_iso": "2026-11-19T22:30:30.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Vinterens fokus: Hvordan en alpinski-skole hjalp to utøvere til college-skiing",
+   "ingress": "To unge alpinister forteller hvordan en vinterskole for vintersport hjalp dem å nå college-nivå i alpint.",
+   "spik": "To unge alpinister forteller hvordan en vinterskole med spesialisert alpintrening hjalp dem å nå college-nivå i USA. College-skiing er en viktig utviklingsarena i Nord-Amerika, der universiteter rekrutterer lovende utøvere og tilbyr dem strukturert trening kombinert med utdanning. For mange unge alpinister utenfor den tradisjonelle verdenscupbanen er dette en alternativ vei til toppidrett.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/winter-in-focus-how-winter-sports-school-helped-two-racers-reach-college-skiing/"
+  },
   {
    "id": 194719,
    "publisert": "2026-11-19 21:56",
