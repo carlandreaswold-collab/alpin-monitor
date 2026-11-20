@@ -1,7 +1,47 @@
 {
- "oppdatert": "2026-11-20T09:30:14.795Z",
- "antall": 629,
+ "oppdatert": "2026-11-20T09:45:27.719Z",
+ "antall": 631,
  "saker": [
+  {
+   "id": 195590,
+   "publisert": "2026-11-20 10:43",
+   "publisert_iso": "2026-11-20T09:43:44.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Feller avstår fra hjemslalåmen",
+   "ingress": "Manuel Feller har valgt å ikke stille til start i hjemslalåmen.",
+   "spik": "Manuel Feller avstår fra helgens hjemslalåm i Gurgl etter at treningskjøringene fredag ikke ga tilstrekkelig trygghet – østerrikeren sier selv at han bare er «ved 85 prosent». Den 34 år gamle tiroleren har vært plaget av kroniske rygg- og skiveproblemer over lengre tid og måtte av samme grunn også melde forfall til saisongsåpningen i Levi. Feller vant sammenlagtcupen i slalåm sesongen 2023/24 og planlegger nå comebacken til herreslalåmen i Val d'Isère 13. desember.",
+   "utovere": [
+    "Manuel Feller"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165167/"
+  },
+  {
+   "id": 195534,
+   "publisert": "2026-11-20 10:35",
+   "publisert_iso": "2026-11-20T09:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Feller bekrefter fravær i Gurgl – Vinatzer starter søndag",
+   "ingress": "Det er offisielt at Feller ikke deltar i slalåmen i Gurgl etter siste test. Vinatzer vil søndag starte blant de 15 første.",
+   "spik": "Det er nå offisielt bekreftet at Manuel Feller ikke stiller i søndagens herreslalåm i Gurgl, etter at en siste test på hjemmesnøen ikke overbevisste ham om at han er klar. Feller vant nettopp på Kirchenkar-løypen i Gurgl da rennet ble arrangert for første gang i 2023, noe som gjør fraværet ekstra bittert. I hans sted er unggutten Oscar Heine bekreftet på startlisten, han som allerede debuterte i Levi. For italiensk del er nyheten at Alex Vinatzer vil starte blant de 15 første søndag.",
+   "utovere": [
+    "Alex Vinatzer",
+    "Manuel Feller"
+   ],
+   "land": [
+    "AUT",
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/ufficiale-il-no-di-feller-allo-slalom-di-gurgl-dopo-l-ultimo-test-vinatzer-domenica-partira-nei-15"
+  },
   {
    "id": 195358,
    "publisert": "2026-11-20 09:40",
