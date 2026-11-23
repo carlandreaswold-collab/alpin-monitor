@@ -1,7 +1,62 @@
 {
- "oppdatert": "2026-11-23T19:57:07.701Z",
- "antall": 657,
+ "oppdatert": "2026-11-23T20:02:34.413Z",
+ "antall": 681,
  "saker": [
+  {
+   "id": 206655,
+   "publisert": "2026-11-23 20:30",
+   "publisert_iso": "2026-11-23T19:30:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Blir Colturi Shiffrins største rival i søndagens slalåm i Killington?",
+   "ingress": "Lara Colturi pekes ut som den fremste utfordreren til Mikaela Shiffrin i slalåmen i Killington søndag, men Shiffrin er fortsatt klar favoritt.",
+   "spik": "Lara Colturi ble utpekt som den fremste utfordreren til Mikaela Shiffrin foran slalåmen i Killington. Den 20 år gamle Colturi, som kjører for Albania, imponerte tidlig i sesongen med sterke resultater i slalåm og viste i Sölden at hun kan matche verdens beste. Shiffrin har historisk dominert på Killington, der hun har vunnet en rekke ganger og det amerikanske hjemmepublikumet alltid møter henne med enorm begeistring.",
+   "utovere": [
+    "Lara Colturi",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "ALB",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/sara-colturi-la-prima-rivale-di-shiffrin-domenica-probabile-mikaela-resta-la-grande-favorita-per-lo-slalom-di-killington"
+  },
+  {
+   "id": 206635,
+   "publisert": "2026-11-23 19:29",
+   "publisert_iso": "2026-11-23T18:29:22.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "FIS godkjenner herrerenn i Beaver Creek i 2026",
+   "ingress": "FIS har gitt klarsignal for Stifel Birds of Prey-rennene for menn i Beaver Creek i 2026-sesongen.",
+   "spik": "FIS ga grønt lys for Stifel Birds of Prey-rennene for menn i Beaver Creek i 2026-sesongen. Beaver Creek er en av de mest tradisjonsrike arenaene på herresirkusen, og Birds of Prey-løypen regnes som en av de mest krevende utforløypene i verdenscupen. Godkjenningen fra FIS var avhengig av at snø- og banestandarder ble oppfylt innen fastsatte frister, noe arrangørene altså klarte.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/fis-clears-2026-mens-stifel-birds-of-prey-races-at-beaver-creek/"
+  },
+  {
+   "id": 206657,
+   "publisert": "2026-11-23 19:15",
+   "publisert_iso": "2026-11-23T18:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Sarrazin klar for comeback – ni franskmenn tatt ut til lørdag, én debutant fra Kroatia",
+   "ingress": "Cyprien Sarrazin er blant ni franske utøvere tatt ut til lørdagens renn, og Kroatia stiller med en debutant.",
+   "spik": "Cyprien Sarrazin var blant ni franske utøvere tatt ut til lørdagens renn i Beaver Creek, og comebacket hans ble fulgt med stor interesse. Den franske fartskjøreren har vært en av de mest spennende profilene i verdenscupen og har tidligere vist seg som en utfordrer i både utfor og super-G. I tillegg stilte Kroatia med en debutant, noe som understreker at alpinsporten stadig rekrutterer utøvere fra nye nasjoner.",
+   "utovere": [
+    "Cyprien Sarrazin"
+   ],
+   "land": [
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/sarrazin-e-tutto-pronto-per-il-gran-rientro-cyp-tra-i-9-francesi-convocati-per-sabato-un-esordiente-nella-croazia"
+  },
   {
    "id": 206712,
    "publisert": "2026-11-23 19:12",
@@ -75,6 +130,55 @@
    "url": "https://sport.orf.at/stories/3165350/"
   },
   {
+   "id": 206658,
+   "publisert": "2026-11-23 18:45",
+   "publisert_iso": "2026-11-23T17:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Beaver Creek klart: fire herrerenn bekreftet 3.–6. desember",
+   "ingress": "Beaver Creek har bestått snøkontrollen og er klar for fire herrerenn i desember. Rennene er offisielt bekreftet av FIS.",
+   "spik": "FIS bekreftet offisielt fire herrerenn i Beaver Creek i perioden 3.–6. desember etter at snøkontrollen var bestått. Beaver Creek arrangerer tradisjonelt Birds of Prey-helgen, som er en av de mest prestisjefylte på herresirkusen med utfor og super-G i Colorado. Løypen er kjent for sin tekniske krevende karakter og bratte partier som tester kjørerne til det ytterste, og rennet trekker alltid et stort internasjonalt publikum.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/beaver-creek-ce-l-ha-fatta-superato-il-controllo-neve-e-confermato-il-poker-di-gare-maschili-dal-3-al-6-dicembre"
+  },
+  {
+   "id": 206671,
+   "publisert": "2026-11-23 18:41",
+   "publisert_iso": "2026-11-23T17:41:41.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "FIS gir grønt lys for rennene i Beaver Creek",
+   "ingress": "Det internasjonale skiforbundet FIS har godkjent avviklingen av rennene i Beaver Creek.",
+   "spik": "FIS har gitt klarsignal for verdenscuprennene i Beaver Creek etter at en snøkontroll mandag 23. november ga positivt resultat. Kontrollen ble utsatt to dager, men lave temperaturer og noe natursnø har sikret tilstrekkelig underlag til å preparere den berømte «Birds of Prey»-løypa. Rennene er planlagt i perioden 3. til 6. desember, og Beaver Creek er et av alpinens mest tradisjonsrike steder for fart.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/rennen-beaver-gruenes/"
+  },
+  {
+   "id": 206659,
+   "publisert": "2026-11-23 18:10",
+   "publisert_iso": "2026-11-23T17:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Meillard går glipp av super-G i Copper – Piller trekker seg fra Killington",
+   "ingress": "Loic Meillard er ikke med i den sveitsiske troppen til super-G i Copper Mountain. Piller har også trukket seg fra konkurransen i Killington.",
+   "spik": "Loic Meillard var ikke med i den sveitsiske troppen til super-G i Copper Mountain, noe som vakte oppsikt gitt hans sterke form i tekniske disipliner. Meillard er en allsidig kjører som har markert seg i både slalåm, storslalåm og kombinerte disipliner gjennom karrieren. I tillegg trakk Piller seg fra konkurransen i Killington, noe som svekket startfeltet ytterligere i det som er et travelt program tidlig i sesongen.",
+   "utovere": [
+    "Loïc Meillard"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/niente-super-g-a-copper-per-loic-meillard-ecco-lo-squadrone-svizzero-per-il-colorado-piller-rinuncia-a-killington"
+  },
+  {
    "id": 206787,
    "publisert": "2026-11-23 17:38",
    "publisert_iso": "2026-11-23T16:38:02.000Z",
@@ -92,6 +196,51 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin/pres-de-deux-ans-apres-sa-grave-chute-a-bormio-le-skieur-francais-cyprien-sarrazin-annonce-sur-le-super-g-de-la-prochaine-etape-de-coupe-du-monde_8296386.html#xtor=RSS-3-%5Bsports%2Fsports-d-hiver%2Fski-alpin%5D"
+  },
+  {
+   "id": 206672,
+   "publisert": "2026-11-23 15:39",
+   "publisert_iso": "2026-11-23T14:39:40.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Flere comebacks og en forsinket debut i Copper Mountain",
+   "ingress": "Flere utøvere gjør comeback i Copper Mountain, samtidig som én utøver endelig får sin forsinkede verdenscupdebut.",
+   "spik": "I Copper Mountain kjøres det super-G lørdag 28. november og storslalåm dagen etter som en del av herrenesernes verdenscupåpning for fartsøvelsene i 2026/27-sesongen. Det sveitsiske laget stiller med en sterk troika bestående av Marco Odermatt, Franjo von Allmen og Loic Meillard, men flere utøvere gjør også comeback etter skader, og én kjører venter på sin forsinkede verdenscupdebut. Rennarenaen i Colorado er et relativt nytt tilskudd til verdenscupkalenderen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/comebacks-verspaetete-premiere/"
+  },
+  {
+   "id": 206664,
+   "publisert": "2026-11-23 14:45",
+   "publisert_iso": "2026-11-23T13:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Skitest: Vi har testet Head 2027-kolleksjonen",
+   "ingress": "Den nye Head-skikolleksjonen for 2027 er satt under lupen i en grundig skitest.",
+   "spik": "Head er et av de ledende skimerkene i alpinsporten og utstyrer en rekke toppkjørere på verdenscupsirkusen. Testen av 2027-kolleksjonen gir et tidlig innblikk i hvilken retning merket tar sin teknologi og konstruksjon. Skitester er viktige for både forhandlere og utøvere på mosjonsnivå, og Head har tradisjonelt investert tungt i utvikling basert på erfaringer fra toppidrettsarenaen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/test/news/ski-test-abbiamo-testato-la-nuova-gamma-head-2027"
+  },
+  {
+   "id": 206673,
+   "publisert": "2026-11-23 11:44",
+   "publisert_iso": "2026-11-23T10:44:03.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Elleve sveitsiske kvinner skal kjøre verdenscuprenn i Killington",
+   "ingress": "Sveits stiller med elleve utøvere til verdenscuprennene i Killington.",
+   "spik": "Sveits stiller med elleve utøvere til verdenscuprennene i Killington, Vermont, der det kjøres storslalåm 28. november og slalåm 29. november. Sue Piller og Janine Mächler er ikke med på grunn av helseproblemer. Det er niende gang Killington arrangerer verdenscuprenn for kvinner på «Super Star»-løypa, og sveitserne har tidligere hatt suksess her.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/schweizerinnen-killington-bestreiten/"
   },
   {
    "id": 206734,
@@ -128,6 +277,48 @@
    "url": "https://www.sportschau.de/wintersport/ski-alpin/lara-colturi-schreibt-geschichte-mit-hilfe-der-ganzen-familie,ski-alpin-lara-colturi-schreibt-geschichte-100.html"
   },
   {
+   "id": 206674,
+   "publisert": "2026-11-22 15:46",
+   "publisert_iso": "2026-11-22T14:46:11.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "To nordmenn og Tangy Nef på pallen i Gurgl-slalåmen",
+   "ingress": "To norske utøvere og sveitsiske Tangy Nef kapret pallplasser i slalåmen i Gurgl.",
+   "spik": "Timon Haugan og Eirik Hystad Solberg tok norsk dobbeltseier i verdenscupslalåmen i Gurgl, Østerrike, mens sveitsiske Tanguy Nef kom på tredjeplass og tok sitt første verdenscuppodium bare tre dager etter at han fylte 30 år. Det er fjerde gang herrene kjører slalåm på Kirchenkar-løypa i Gurgl, som har hatt vinnere fra Østerrike, Frankrike og nå Norge. Lucas Pinheiro Braathen, som hadde vunnet de to foregående verdenscuprennene, falt ut tidlig i første omgang.",
+   "utovere": [
+    "Tanguy Nef",
+    "Timon Haugan"
+   ],
+   "land": [
+    "NOR",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/video/2026/norweger-podest-slaloms/"
+  },
+  {
+   "id": 206636,
+   "publisert": "2026-11-22 15:32",
+   "publisert_iso": "2026-11-22T14:32:06.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Haugan vinner slalåm i Gurgl – Solberg og Nef tar første pallplass i verdenscupen",
+   "ingress": "Timon Haugan tok seieren i Gurgl-slalåmen. Henrik Solberg og Marc Nef kunne juble for sine første pallplasseringer i verdenscupen.",
+   "spik": "Timon Haugan vant slalåmen i Gurgl og befestet sin posisjon som en av Norges fremste teknikkjørere. Henrik Solberg og sveitseren Marc Nef kunne begge feire sine første pallplasseringer i verdenscupen – en milepæl for to av de yngre talentene i det internasjonale startfeltet. Gurgl i Østerrike er et relativt nytt stopp på verdenscupsirkusen, men har raskt etablert seg som et populært sted for tidlige slalåmrenn på herresiden.",
+   "utovere": [
+    "Tanguy Nef",
+    "Timon Haugan"
+   ],
+   "land": [
+    "NOR",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/haugan-wins-gurgl-slalom-as-solberg-and-nef-celebrate-first-world-cup-podiums/"
+  },
+  {
    "id": 206798,
    "publisert": "2026-11-22 15:28",
    "publisert_iso": "2026-11-22T14:28:55.000Z",
@@ -147,6 +338,145 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.sportschau.de/wintersport/ski-alpin/strasser-faehrt-bei-haugans-slalomsieg-hinterher,rennbericht-gurgl-slalom-maenner-100.html"
+  },
+  {
+   "id": 206675,
+   "publisert": "2026-11-22 14:23",
+   "publisert_iso": "2026-11-22T13:23:47.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Norsk dobbeltseier i Gurgl og første pallplass til Tangy Nef",
+   "ingress": "Norge tok dobbeltseier i slalåmen i Gurgl, mens Tangy Nef sikret sin første pallplass i verdenscupen.",
+   "spik": "Timon Haugan ledet etter første omgang og holdt unna for å vinne slalåmen i Gurgl foran lagkamerat Eirik Hystad Solberg, som dermed ga Norge en historisk dobbeltseier på Kirchenkar-løypa. Tanguy Nef tok sin første verdenscuppall i karrieren som 30-åring, bare tre dager etter bursdagen. Lucas Pinheiro Braathen, som kjører for Brasil, var storfavoritt etter seirer i Sølden og Levi, men falt ut på einfädler tidlig i første omgang og mistet sjansen til tre strake seirer.",
+   "utovere": [
+    "Atle Lie McGrath",
+    "Clement Noel",
+    "Lucas Braathen",
+    "Manuel Feller",
+    "Tanguy Nef",
+    "Timon Haugan"
+   ],
+   "land": [
+    "AUT",
+    "BRA",
+    "FRA",
+    "NOR",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/norwegischer-doppelsieg-podest/"
+  },
+  {
+   "id": 206676,
+   "publisert": "2026-11-22 14:05",
+   "publisert_iso": "2026-11-22T13:05:09.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "EC: Anna Flatscher bekrefter formen med 6. plass",
+   "ingress": "Anna Flatscher leverte en sterk prestasjon med en 6. plass i europacupen og bekreftet dermed sin gode form.",
+   "spik": "18 år gamle sveitsiske Anna Flatscher viste solid form med en sjetteplass i det andre europacup-slalåmrennet i Levi, bare et par dager etter at hun tok tredjeplass i åpningsrennet. Det var kun hennes tredje europacuprenn totalt, og resultatene peker mot en lovende karriere. Topp fem i rennet besto av utøvere med verdenscuperfaring, noe som gjør Flatschers plasseringer ekstra imponerende.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/flatscher-liefert-bestaetigung/"
+  },
+  {
+   "id": 206637,
+   "publisert": "2026-11-22 12:24",
+   "publisert_iso": "2026-11-22T11:24:26.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Haugan leder i Gurgl med 0,01 sekund – Seymour på 10.-plass",
+   "ingress": "Timon Haugan leder etter første omgang i Gurgl med kun hundredelen til gode. Seymour imponerte med en tiendeplass fra startnummer 26.",
+   "spik": "Timon Haugan leder etter første omgang i slalåmrennet i Gurgl med kun én hundredel ned til nærmeste rival. Haugan er en av Norges mest stabile slalåmkjørere og har vært på pallen i verdenscupen tidligere, men venter fortsatt på sin første seier på øverste nivå. At Sebastian Seymour kjørte seg inn på 10.-plass fra startnummer 26 er også oppsiktsvekkende, og viser bredden i det norske slalåmlaget.",
+   "utovere": [
+    "Timon Haugan"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/haugan-leads-gurgl-by-0-01-seymour-charges-into-10th/"
+  },
+  {
+   "id": 206677,
+   "publisert": "2026-11-22 11:21",
+   "publisert_iso": "2026-11-22T10:21:48.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Norske utøvere dominerte 1. omgang i Gurgl-slalåmen",
+   "ingress": "Norske alpinister satte sitt preg på den første omgangen av slalåmen i Gurgl.",
+   "spik": "Norge dominerte første omgang av verdenscupslalåmen i Gurgl med Timon Haugan øverst, kun ett hundredels sekund foran lagkamerat Atle Lie McGrath. Belgianske Armand Marchant lå på tredjeplass etter første omgang, mens sveitsiske Tanguy Nef var beste sveitsiske løper på sjuendeplass. Storfavoritten Lucas Pinheiro Braathen, som nettopp hadde vunnet i Sølden og Levi, mistet staven og falt ut tidlig i løypa.",
+   "utovere": [
+    "Atle Lie McGrath",
+    "Lucas Braathen",
+    "Tanguy Nef",
+    "Timon Haugan"
+   ],
+   "land": [
+    "BRA",
+    "NOR",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/weltcup/2026/norweger-druecken-slaloms/"
+  },
+  {
+   "id": 206678,
+   "publisert": "2026-11-22 09:00",
+   "publisert_iso": "2026-11-22T08:00:25.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "EC-dameskalåm (2. omgang) sendes direkte fra Levi kl. 13",
+   "ingress": "Den andre omgangen av europacup-slalåmen for kvinner i Levi kan følges direkte fra klokken 13.",
+   "spik": "Andre omgang av europacup-slalåmen for kvinner i Levi ble sendt direkte fra klokken 13. Levi i Finland er et klassisk åpningssted for slalåmsesongen, og europacupen her gir unge og fremadstormende utøvere viktig konkurranseerfaring tidlig i sesongen. Rennet inngår i europacupkalenderen for 2026/27-sesongen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/video/2026/europacup-auftakt-frauen/"
+  },
+  {
+   "id": 206679,
+   "publisert": "2026-11-22 08:44",
+   "publisert_iso": "2026-11-22T07:44:58.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Korsbåndskade – sesongen over for Mary Bocock",
+   "ingress": "Mary Bocock har pådratt seg et korsbåndsbrudd og er ferdig for sesongen.",
+   "spik": "23 år gamle amerikanske Mary Bocock har pådratt seg brudd på fremre korsbånd og ytre ligament i høyre kne og er allerede operert, noe som betyr at sesongen er over for henne. Skaden er et hardt slag ettersom 2026/27-sesongen er en VM-sesong, og Bocock fra Salt Lake City hadde håpet på å representere USA i fartsøvelsene og storslalåm på hjemmebane. Hun meldte om skaden via Instagram fra sykehussengen.",
+   "utovere": [
+    "Mary Bocock"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/kreuzbandriss-saison-bereits/"
+  },
+  {
+   "id": 206638,
+   "publisert": "2026-11-21 20:04",
+   "publisert_iso": "2026-11-21T19:04:24.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Startliste herres slalåm Gurgl 2026: Braathen jakter historisk bragd",
+   "ingress": "Startlisten for herres slalåm i Gurgl er klar, med Lucas Braathen som en av de store favorittene i jakten på historisk suksess.",
+   "spik": "Lucas Braathen er blant favorittene i herres slalåm i Gurgl, og jakter det som omtales som en historisk bragd. Braathen, som tidligere kjørte for Norge, valgte i 2023 å skifte nasjonalitet til Brasil – et land han har tilknytning til gjennom sin mor. Han ble den første brasilianeren til å vinne et verdenscuprenn da han tok seier i Schladming i januar 2024, og en ny triumf i Gurgl ville ytterligere sementere hans plass i alpinhistorien.",
+   "utovere": [
+    "Lucas Braathen"
+   ],
+   "land": [
+    "BRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/gurgl-mens-slalom-start-list-2026-braathen-chases-history/"
   },
   {
    "id": 206799,
@@ -183,6 +513,123 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.sportschau.de/wintersport/ski-alpin/der-slalom-der-frauen-in-gurgl-die-zusammenfassung,zusammenfassung-ski-alpin-gurl-slalom-frauen-100.html"
+  },
+  {
+   "id": 206639,
+   "publisert": "2026-11-21 15:23",
+   "publisert_iso": "2026-11-21T14:23:52.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Lara Colturi tar sin første verdenscupseier i Gurgl",
+   "ingress": "Lara Colturi sikret seg sin aller første verdenscupseier i slalåmrennene i Gurgl.",
+   "spik": "Lara Colturi tok sin aller første verdenscupseier i slalåmrennet i Gurgl, en merkedag for den unge italiensk-albanskfødte utøveren. Colturi er født i 2006 og regnes som et av de største talentene i kvinnealpint de siste årene – hun ble verdensmester i slalåm i juniorklassen og har lenge vært ventet å slå gjennom på seniornivå. Seieren bekrefter at hun nå er klar for å utfordre de etablerte stjernene i verdenscupen.",
+   "utovere": [
+    "Lara Colturi"
+   ],
+   "land": [
+    "ALB"
+   ],
+   "kategori": "",
+   "flere_kilder": [
+    "SkinEWS"
+   ],
+   "url": "https://skiracing.com/lara-colturi-claims-first-world-cup-win-in-gurgl/"
+  },
+  {
+   "id": 206681,
+   "publisert": "2026-11-21 14:42",
+   "publisert_iso": "2026-11-21T13:42:11.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "EC: Anna Flatscher på pallen i åpningsrennet i Levi",
+   "ingress": "Anna Flatscher startet europacupsesongen sterkt med en pallplass i Levi.",
+   "spik": "18 år gamle sveitsiske Anna Flatscher tok tredjeplass i åpningsrennet av europacupsesongen i Levi, Finland, allerede i sitt andre europacuprenn noensinne. Italienske Beatrice Sola vant rennet foran norske Bianca Bakke Westhoff, mens syv sveitsiske løpere totalt klarte topp 25. Flatscher er fra Øst-Sveits og fremstår som et av de store sveitsiske slalåmtalentene i damealpint.",
+   "utovere": [
+    "Anna Flatscher"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/flatscher-faehrt-auftakt/"
+  },
+  {
+   "id": 206682,
+   "publisert": "2026-11-21 14:27",
+   "publisert_iso": "2026-11-21T13:27:12.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Lara Colturi sørger for Albanias første verdenscupseier",
+   "ingress": "Lara Colturi gikk til topps og ga Albania sin historiske første verdenscupseier i alpint.",
+   "spik": "Lara Colturi vant slalåmrennet i Gurgl og ga Albania sin aller første seier i alpint verdenscup. Den 20 år gamle utøveren er italiensk av fødsel, men konkurrerer under albansk flagg – en situasjon som har vakt oppsikt i alpinmiljøet. Seieren kom knapt overraskende: i sesongåpningen i Sölden skilte det bare ett hundredels sekund fra topplasseringen. Sara Hector og Anna Swenn Larsson tok de to neste plassene på pallen.",
+   "utovere": [
+    "Anna Swenn-Larsson",
+    "Lara Colturi",
+    "Sara Hector"
+   ],
+   "land": [
+    "ALB",
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/colturi-albanischen-weltcup/"
+  },
+  {
+   "id": 206640,
+   "publisert": "2026-11-21 12:17",
+   "publisert_iso": "2026-11-21T11:17:43.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Swenn Larsson leder Gurgl-slalåm – Hurt stormer inn på sjetteplass",
+   "ingress": "Anna Swenn Larsson leder etter første omgang i Gurgl. Paula Hurt imponerte med en sjetteplass fra startnummer 26.",
+   "spik": "Anna Swenn Larsson leder etter første omgang i dameslagåmrennet i Gurgl, og den svenske veteranen er godt kjent i rollen som ledende etter første omgang. Swenn Larsson har vært en av verdenscupens mest stabile slalåmkjørere gjennom flere sesonger, men har ventet lenge på sin første seier på øverste nivå. At Paula Hurt stormet inn på sjetteplass fra startnummer 26 er et overraskende og positivt innslag i andreomgangen.",
+   "utovere": [
+    "Anna Swenn-Larsson"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/anna-swenn-larsson-leads-gurgl-slalom-as-hurt-charges-into-sixth-from-bib-26/"
+  },
+  {
+   "id": 206683,
+   "publisert": "2026-11-21 11:21",
+   "publisert_iso": "2026-11-21T10:21:57.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Anna Swenn Larsson jakter sin tredje slalåmseier",
+   "ingress": "Svenske Anna Swenn Larsson sikter mot en tredje slalåmseier i verdenscupen.",
+   "spik": "Anna Swenn Larsson ledet etter første omgang i slalåmen i Gurgl og siktet mot sin tredje verdenscupseier. De to foregående utgavene av Gurgl-slalåmen ble begge vunnet av Mikaela Shiffrin, men amerikaneren var ikke i stand til å forsvare tittelen denne gang. Swenn Larsson, som er en av de mest erfarne slalåmkjørerne på den svenske troppen, har gjennom karrieren vist seg som en stødig pallkandidat i tekniske disipliner.",
+   "utovere": [
+    "Anna Swenn-Larsson",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "SWE",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/weltcup/2026/larsson-greift-dritten/"
+  },
+  {
+   "id": 206684,
+   "publisert": "2026-11-21 09:49",
+   "publisert_iso": "2026-11-21T08:49:46.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Beaver Creek – et kappløp mot klokken",
+   "ingress": "Arrangørene i Beaver Creek kjemper mot tiden for å få rennene gjennomført.",
+   "spik": "Arrangørene i Beaver Creek stod overfor store utfordringer med å få rennene på plass til planlagt tid. Beaver Creek er et av de mest tradisjonsrike stoppene på herresirkusen, kjent for den krevende Birds of Prey-løypen som er godt egnet for utfor og super-G. Snø- og værforhold i Colorado kan skape uforutsigbare situasjoner tidlig i sesongen, og arrangørene har ved flere anledninger tidligere måttet jobbe intenst for å oppfylle FIS sine krav til baneforhold.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/beaver-creek-wettlauf/"
   },
   {
    "id": 204619,
