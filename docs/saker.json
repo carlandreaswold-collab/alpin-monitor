@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-11-24T16:15:12.100Z",
- "antall": 698,
+ "oppdatert": "2026-11-24T16:30:21.623Z",
+ "antall": 699,
  "saker": [
+  {
+   "id": 224734,
+   "publisert": "2026-11-24 17:20",
+   "publisert_iso": "2026-11-24T16:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Rast og Holdener leder det sveitsiske laget i Killington",
+   "ingress": "Wendy Holdener og Michelle Rast er Sveits' fremste kort i Killington, et sted som alltid har vært godt for sveitsiske alpinister.",
+   "spik": "Wendy Holdener og Camille Rast leder det sveitsiske laget inn til slalåm og storslalåm i Killington i Vermont denne helgen. Killington har historisk sett vært et godt sted for Sveits: Holdener har stått på pallen i slalåm de fire siste gangene på «Superstar»-løypa, inkludert seier i 2022, mens Rast vant sin aller første verdenscupseier nettopp her i fjor. Rast åpnet sesongen solid i Sölden, men slet noe i andre omgang i storslalåmen.",
+   "utovere": [
+    "Camille Rast",
+    "Wendy Holdener"
+   ],
+   "land": [
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/rast-e-holdener-killington-e-sempre-stata-dolcissima-le-punte-elvetiche-guidano-il-team-anche-nel-vermont"
+  },
   {
    "id": 224262,
    "publisert": "2026-11-24 16:49",
