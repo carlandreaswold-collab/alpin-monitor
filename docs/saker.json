@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-24T09:00:21.892Z",
- "antall": 687,
+ "oppdatert": "2026-11-24T09:15:17.225Z",
+ "antall": 688,
  "saker": [
+  {
+   "id": 218369,
+   "publisert": "2026-11-24 10:10",
+   "publisert_iso": "2026-11-24T09:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "SKI-TEST: Völkls nyheter for neste sesong",
+   "ingress": "En gjennomgang av Völkls nye skimodeller og nyheter som er klare for kommende sesong.",
+   "spik": "Völkl presenterer nye skimodeller for sesongen 2026/27, og det italienske testpanelet NeveItalia har prøvekjørt elleve modeller fra produsentens sortiment. Høydepunktet er den nye Racetiger GS Master, en racingski med opphav fra konkurranseavdelingen, som beskrives som svært stabil i høy fart, men krever god teknikk og fysisk form. Racetiger SL og den nye allround-modellen Racetiger MC Blue mottar begge utmerkelsen «Valgt av testerne» — for henholdsvis kjøreegenskaper og komfort. Völkl er et av de store alpinmerkene med lang tradisjon innen både konkurranseski og breddemarkedet.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/test/news/ski-test-le-novita-della-prossima-stagione-in-casa-volkl"
+  },
   {
    "id": 218063,
    "publisert": "2026-11-24 09:47",
