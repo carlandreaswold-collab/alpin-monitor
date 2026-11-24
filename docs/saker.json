@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-24T08:15:05.271Z",
- "antall": 684,
+ "oppdatert": "2026-11-24T08:30:25.645Z",
+ "antall": 685,
  "saker": [
+  {
+   "id": 217645,
+   "publisert": "2026-11-24 09:25",
+   "publisert_iso": "2026-11-24T08:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Via Buffalo mot Killington: De italienske alpinistene krysser USA foran lørdagens storslalåm",
+   "ingress": "De italienske alpinistjentene er på vei til Killington via Buffalo for å forberede seg til lørdagens storslalåmrenn i USA.",
+   "spik": "Det italienske alpinlandslaget for kvinner er på vei til Killington i Vermont via Buffalo, der de skal delta i verdenscupens storslalåm lørdag. Kvartetten – Asja Zenere, Marta Bassino, Laura Pirovano og Sofia Goggia – har tilbrakt nesten to uker på treningssenteret i Copper Mountain i Colorado. Killington har en særlig plass i italiensk alpinhistorie: Bassino vant her i 2019, og Goggia tok sitt første verdenscuppall på denne bakken for ti år siden. Zenere gikk inn i reisen som lagets beste i åpningsrennet i Sölden.",
+   "utovere": [
+    "Laura Pirovano",
+    "Marta Bassino",
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/volo-su-buffalo-e-poi-direzione-killington-le-azzurre-attraversano-gli-stati-uniti-verso-il-gigante-di-sabato"
+  },
   {
    "id": 216202,
    "publisert": "2026-11-24 07:55",
