@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-11-24T11:00:13.014Z",
- "antall": 691,
+ "oppdatert": "2026-11-24T11:15:18.278Z",
+ "antall": 692,
  "saker": [
+  {
+   "id": 220002,
+   "publisert": "2026-11-24 12:05",
+   "publisert_iso": "2026-11-24T11:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Schwarz dobbeltstart, Eichberger tilbake og Brennsteiners triumfbakke: Østerrike klart for Copper",
+   "ingress": "Østerrike stiller med et bredt lag til Copper Mountain, med Schwarz i dobbelt oppdrag, comeback for Eichberger og en bakke der Brennsteiner tidligere har triumfert.",
+   "spik": "Østerrike stiller med et bredt lag til Copper Mountain, der Marco Schwarz er aktuell i to disipliner og Stefan Eichberger gjør comeback etter en alvorlig kneskade han pådro seg i Val Gardena i desember i fjor. Eichberger, som fyller 26 år nettopp nå, er klar for super-G-åpningen lørdag 28. november. Vincent Kriechmayr, som ble nummer to i Colorado i fjor, gjør sesongdebut, mens veteranen Stefan Brennsteiner stiller i kjempesvingen der han har tatt sin eneste verdenscupseier.",
+   "utovere": [
+    "Marco Schwarz",
+    "Stefan Brennsteiner"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/doppio-impegno-per-schwarz-il-ritorno-di-eichberger-e-la-pista-del-trionfo-di-brennsteiner-ecco-l-austria-per-copper"
+  },
   {
    "id": 219652,
    "publisert": "2026-11-24 11:43",
