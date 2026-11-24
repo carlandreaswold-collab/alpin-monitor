@@ -1,7 +1,42 @@
 {
- "oppdatert": "2026-11-24T11:30:13.333Z",
- "antall": 692,
+ "oppdatert": "2026-11-24T11:44:04.476Z",
+ "antall": 694,
  "saker": [
+  {
+   "id": 220551,
+   "publisert": "2026-11-24 12:40",
+   "publisert_iso": "2026-11-24T11:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Her er de italienske kvinnene som utfordrer «Superstjernen»",
+   "ingress": "Italia presenterer sitt kvinnelag, med Sofia Goggia tilbake etter skade og en sulten Rossetti klar for utfordringen.",
+   "spik": "Italia presenterer sitt kvinnelag til verdenscuphelgen i Killington, Vermont, der den ikoniske «Superstar»-løypa er tilbake på programmet etter to års fravær. Høydepunktet er Sofia Goggias sesongdebut — den regjerende olympiske utforkjøringsmesteren har øvet seg opp ved Copper Mountain og er klar for å kjempe i storslalåm lørdag. Italia stiller med elleve startnumre i storslalåm og ni i slalåm, der Marta Bassino og Federica Brignone normalt er lagets fremste kort i tekniske øvelser.",
+   "utovere": [
+    "Marta Rossetti",
+    "Sofia Goggia"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/ufficiali-le-azzurre-che-sfideranno-la-superstar-dal-rientro-di-goggia-alla-fame-di-rossetti-si-presenta-l-italdonne"
+  },
+  {
+   "id": 220646,
+   "publisert": "2026-11-24 12:29",
+   "publisert_iso": "2026-11-24T11:29:10.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Ken Fagerberg er død – ble 37 år",
+   "ingress": "Den svenske alpinisten Ken Fagerberg er død, bare 37 år gammel.",
+   "spik": "Artikkelteksten handler ikke om alpinisten Ken Fagerberg, men om den svenske fotballspilleren Ken Fagerberg, som ble funnet død i sengen sin på Færøyene mandag, 37 år gammel. Fagerberg fikk sitt gjennombrudd i Örgryte IS i 2007 og spilte senere i flere danske klubber før han vendte tilbake til Sverige. Han har i intervjuer åpent fortalt om problemer med alkohol og rusmidler gjennom karrieren. Dødsårsaken er foreløpig uklar.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/fotboll/ken-fagerberg-ar-dod--blev-37-ar/"
+  },
   {
    "id": 220002,
    "publisert": "2026-11-24 12:05",
@@ -111,7 +146,9 @@
     "NOR"
    ],
    "kategori": "",
-   "flere_kilder": [],
+   "flere_kilder": [
+    "RTV SLO"
+   ],
    "url": "https://sport.orf.at/stories/3165363/"
   },
   {
