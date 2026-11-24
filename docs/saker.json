@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-24T12:30:13.574Z",
- "antall": 694,
+ "oppdatert": "2026-11-24T12:45:22.285Z",
+ "antall": 695,
  "saker": [
+  {
+   "id": 221649,
+   "publisert": "2026-11-24 13:35",
+   "publisert_iso": "2026-11-24T12:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Tigeren er tilbake: Brignone på ski igjen etter 91 dager",
+   "ingress": "Federica Brignone er tilbake på ski bare 91 dager etter operasjonen, og trente i dag på pisten i Cervinia.",
+   "spik": "Federica Brignone er tilbake på ski 91 dager etter en operasjon i venstre bein, der hun fikk fjernet osteosyntesemateriell, og trente mandag på glacieret ved Cervinia i sin hjemregion Valle d'Aosta. Den 35 år gamle italieneren, som vant den samlede verdenscupen i 2020 og 2025 samt to OL-gull i Milano-Cortina 2026, har hatt en svært vanskelig høst — et forsøk på å teste skiene 30. juli gikk ikke bra og utløste beslutningen om ny operasjon. Nordamerika-rundene er trolig uaktuelle, og når hun kan debutere konkurransemessig i sesongen 2026/27 er fortsatt uklart.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/la-tigre-e-tornata-di-nuovo-a-91-giorni-dall-intervento-federica-brignone-in-pista-oggi-a-cervinia"
+  },
   {
    "id": 220551,
    "publisert": "2026-11-24 12:40",
