@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-24T13:45:08.241Z",
- "antall": 695,
+ "oppdatert": "2026-11-24T14:00:24.109Z",
+ "antall": 696,
  "saker": [
+  {
+   "id": 222564,
+   "publisert": "2026-11-24 14:55",
+   "publisert_iso": "2026-11-24T13:55:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Mange italienske alpinister samlet i Solda til europacuptrening",
+   "ingress": "Både herrer og damer fra det italienske europacuplaget er i Solda for å trene på pisten.",
+   "spik": "Det italienske europacuplaget samler både herrer og damer til fartstrening i Solda i Sør-Tirol denne uken. På dameside er blant andre Camilla Vanni, Sofia Parravicini og Ambra Pomaré i arbeid, mens herrelaget med Emanuel Lamp, Leonardo Rigamonti og Pietro Broglio avslutter sitt opphold torsdag 26. november. Solda, som ligger ved foten av Ortler-massivet, er et klassisk italiensk treningssted for alpinister om høsten, og samlingene markerer den siste forberedelsen før europacupsesongen starter.",
+   "utovere": [
+    "Ambra Pomaré"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/solda-accoglie-tantissimi-azzurri-velocisti-dei-team-femminile-e-maschile-di-coppa-europa-in-pista"
+  },
   {
    "id": 221649,
    "publisert": "2026-11-24 13:35",
