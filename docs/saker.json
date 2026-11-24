@@ -1,7 +1,46 @@
 {
- "oppdatert": "2026-11-24T10:30:07.216Z",
- "antall": 689,
+ "oppdatert": "2026-11-24T10:45:35.950Z",
+ "antall": 691,
  "saker": [
+  {
+   "id": 219652,
+   "publisert": "2026-11-24 11:43",
+   "publisert_iso": "2026-11-24T10:43:17.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Østerrike stiller med tolv utøvere i Copper Mountain",
+   "ingress": "Det østerrikske alpinlandslaget stiller med et dusin utøvere til konkurransene i Copper Mountain.",
+   "spik": "Østerrike stiller med tolv utøvere totalt i Copper Mountain, der det er satt opp Super-G lørdag og storslalåm søndag 28.–29. november. Patrick Feurstein er blant de få som er nominert til begge renn, og han sikret den siste startplassen i Super-G. Det østerrikske alpinforbundet ÖSV er tradisjonelt ett av de sterkeste nasjonene i alpint og sender jevnlig store tropper til nordamerikanske Verdenscup-renn tidlig i sesongen.",
+   "utovere": [
+    "Patrick Feurstein"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/oesterreich-mountain-athleten/"
+  },
+  {
+   "id": 219694,
+   "publisert": "2026-11-24 11:41",
+   "publisert_iso": "2026-11-24T10:41:45.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Feurstein sikrer siste Super-G-billett til Copper",
+   "ingress": "Feurstein har kvalifisert seg til Super-G-rennet i Copper Mountain og sikret den siste plassen på laget.",
+   "spik": "Patrick Feurstein har sikret den siste plassen i Super-G-rennet i Copper Mountain, som kjøres lørdag 28. november. Vorarlbergeren stiller sammen med blant andre Vincent Kriechmayr, Marco Schwarz og Raphael Haaser i det østerrikske laget på ti mann. Også Patricks yngre fetter Lukas Feurstein er nominert, og begge to er dessuten med i troppen til søndagens storslalåm. Copper Mountain er tradisjonelt den første nordamerikanske stopp på Verdenscup-programmet i alpint.",
+   "utovere": [
+    "Patrick Feurstein",
+    "Vincent Kriechmayr"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165368/"
+  },
   {
    "id": 219093,
    "publisert": "2026-11-24 11:05",
