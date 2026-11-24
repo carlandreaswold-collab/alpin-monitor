@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-24T18:34:01.280Z",
- "antall": 700,
+ "oppdatert": "2026-11-24T18:45:22.440Z",
+ "antall": 701,
  "saker": [
+  {
+   "id": 227187,
+   "publisert": "2026-11-24 19:36",
+   "publisert_iso": "2026-11-24T18:36:00.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Tre russiske utøvere uttatt til verdenscuppremieren",
+   "ingress": "Tre russiske alpinister er tatt ut til åpningsrennet i verdenscupen denne sesongen.",
+   "spik": "Tre russiske langrennsløpere – Natalja Terentjeva, Darja Nepryaeva og Savelij Korosteljov – er tatt ut til verdenscuppremieren i Ruka 27.–29. november, og får konkurrere under nøytral flagg. Finland har innført innreiserestriksjoner for russiske idrettsutøvere, men myndighetene bekrefter at disse tre er unntatt. Det finske skiforbundet understreker likevel sitt standpunkt: Russlands angrepskrig mot Ukraina er uakseptabel, og tiden er ikke moden for russere og hviterussere til å vende tilbake til internasjonal idrett mens krigen pågår.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/langdskidor/tre-ryska-akare-uttagna-till-varldscuppremiaren"
+  },
   {
    "id": 225994,
    "publisert": "2026-11-24 18:26",
