@@ -1,6 +1,6 @@
 {
- "oppdatert": "2026-11-25T08:39:53.613Z",
- "antall": 707,
+ "oppdatert": "2026-11-25T08:41:08.900Z",
+ "antall": 708,
  "saker": [
   {
    "id": 230589,
@@ -96,6 +96,25 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.skinews.ch/news/2026/abgesagt-riesenslaloms-tremblant/"
+  },
+  {
+   "id": 230695,
+   "publisert": "2026-11-24 23:22",
+   "publisert_iso": "2026-11-24T22:22:10.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Caijsa Hennemann etter dramaet i Polen: – Det var grusomt",
+   "ingress": "Alpinisten Caijsa Hennemann forteller åpenhjertig om det dramatiske som skjedde under konkurransen i Polen og beskriver opplevelsen som grusom.",
+   "spik": "Den svenske alpinisten Caijsa Hennemann beskriver opplevelsen fra en konkurranse i Polen som grusom, og forteller åpenhjertig om et dramatisk hendelsesforløp. Hennemann er en av Sveriges mest lovende unge alpinister og har konkurrert på høyt nivå i Europa de siste årene. Detaljer om hva som faktisk skjedde er foreløpig ikke kjent fra artikkelteksten, men Hennemanns egne ord tyder på at episoden var betydelig og preget henne sterkt.",
+   "utovere": [
+    "Caijsa Hennemann"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/tennis/caijsa-hennemann-efter-dramat-i-polen-det-var-hemskt/"
   },
   {
    "id": 227275,
