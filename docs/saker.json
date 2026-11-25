@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-25T14:30:08.765Z",
- "antall": 722,
+ "oppdatert": "2026-11-25T14:45:20.027Z",
+ "antall": 723,
  "saker": [
+  {
+   "id": 235385,
+   "publisert": "2026-11-25 15:35",
+   "publisert_iso": "2026-11-25T14:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Brignone med sjokkbeskjed: Legger opp",
+   "ingress": "Federica Brignone kunngjør at hun avslutter karrieren på grunn av for sterke smerter i beinet, men vil åpne én siste startport.",
+   "spik": "Federica Brignone kunngjør at hun avslutter alpinkarrieren etter for sterke smerter i beinet, men vil åpne én siste startport. Den 34 år gamle italieneren er den mest meritterte alpinisten i italiensk skihistorie, med over 30 verdenscupseire og sammenlagtseieren i verdenscupen 2019–20. Brignone tok også OL-gull i kombinasjon i 2022, og har vært aktiv i alle disipliner gjennom karrieren. Testdagene i Cervinia ga ikke de svarene hun håpet på, og beslutningen ble tatt via en videobeskjed til det italienske skiforbundet FISI.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/fede-l-annuncio-shock-brignone-si-ritira-la-gamba-mi-fa-troppo-male-ho-deciso-di-finire-la-mia-carriera-apriro-un-ultimo-cancel"
+  },
   {
    "id": 235023,
    "publisert": "2026-11-25 15:10",
