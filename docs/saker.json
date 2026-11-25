@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-25T14:45:20.027Z",
- "antall": 723,
+ "oppdatert": "2026-11-25T14:59:38.336Z",
+ "antall": 724,
  "saker": [
+  {
+   "id": 235622,
+   "publisert": "2026-11-25 15:47",
+   "publisert_iso": "2026-11-25T14:47:22.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Dobbelt-olympiamester Brignone legger opp",
+   "ingress": "Federica Brignone, som har vunnet to olympiske gull, avslutter sin karriere som alpinist.",
+   "spik": "Federica Brignone avslutter karrieren etter at et venstre ben hun pådro seg under et fall i Val di Fassa i april 2025 ikke har grodd godt nok. 36-åringen kunngjorde beslutningen på Instagram og forklarer at smertene fortsatt er for sterke til å konkurrere. Det dramatiske ved avskjeden er at Brignone gikk til topps i begge sine øvelser – super-G og storslalåm – under OL i Milano/Cortina i februar 2026, bare måneder etter den alvorlige skaden. Med to OL-gull, ett VM-gull og en sammenlagttittel i verdenscupen er hun en av de mest dekorerte alpinistene Italia har hatt.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165422/"
+  },
   {
    "id": 235385,
    "publisert": "2026-11-25 15:35",
