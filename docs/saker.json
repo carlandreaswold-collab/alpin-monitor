@@ -1,7 +1,37 @@
 {
- "oppdatert": "2026-11-25T13:30:11.312Z",
- "antall": 719,
+ "oppdatert": "2026-11-25T13:45:32.910Z",
+ "antall": 721,
  "saker": [
+  {
+   "id": 234754,
+   "publisert": "2026-11-25 14:40",
+   "publisert_iso": "2026-11-25T13:40:05.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Skiforbundet endrer reglene etter OL-furoren",
+   "ingress": "Det svenske alpinlandslaget endrer sine interne regler etter at sinne og misnøye oppsto under de olympiske leker.",
+   "spik": "Det svenske langrennslandslaget endrer sine interne uttaksregler etter den kraftige kritikken som oppsto under OL i vinter. Kjernen i striden var at landslagsledelsen sendte hjem flere løpere tidlig i mesterskapet, og da Frida Karlsson og Jonna Sundling ble syke, kunne Sverige stille med bare to utøvere i damenes fem mil. TV 2s ekspert Petter Skinstad kalte det «en skandale uten sidestykke» og mente det nesten var grunn til oppsigelse. Nå skal landslagstrenere med egne bindinger til utøvere tre tilbake ved uttaksavgjørelser.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/langdskidor/skidlandslaget-andrar-reglerna-efter-ilskan-pa-os/"
+  },
+  {
+   "id": 234661,
+   "publisert": "2026-11-25 14:35",
+   "publisert_iso": "2026-11-25T13:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Mont-Tremblant-skuffelsen: Kravene for verdenscup ikke oppfylt – Quebec tilbake i 2027",
+   "ingress": "Mont-Tremblant klarte ikke å oppfylle kravene til et verdenscuparrangement, men Quebec-stedet ventes å være tilbake på kalenderen i desember 2027.",
+   "spik": "Mont-Tremblant i Quebec måtte avlyse sine planlagte verdenscuprenn i storslalåm 5.–6. desember på grunn av for lite snø, og klarte ikke å oppfylle FIS sine krav til arrangementet. Bakken «Flying Mile» debuterte i verdenscupen i 2023, da Federica Brignone vant og ble en publikumsfavoritt i det skiglade lokalsamfunnet, mens rennet i 2024 gikk bedre snømessig. Stedet er allerede lovet tilbake på kalenderen i desember 2027, men FIS jobber nå med å finne alternativ for de to avlyste storslalåmrennene denne sesongen.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/tutta-la-delusione-di-mont-tremblant-non-e-stato-possibile-soddisfare-i-requisiti-da-cdm-nel-dicembre-2027-si-tornera-in-quebec"
+  },
   {
    "id": 233792,
    "publisert": "2026-11-25 13:24",
