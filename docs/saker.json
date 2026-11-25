@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-25T16:00:31.027Z",
- "antall": 729,
+ "oppdatert": "2026-11-25T16:15:27.847Z",
+ "antall": 730,
  "saker": [
+  {
+   "id": 236765,
+   "publisert": "2026-11-25 17:07",
+   "publisert_iso": "2026-11-25T16:07:18.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Olympisk mester Brignone annonserer karriereslutt",
+   "ingress": "Olympisk mester Federica Brignone har annonsert at hun avslutter sin aktive karriere som alpinist.",
+   "spik": "Federica Brignone har annonsert at hun avslutter karrieren som alpinist. Den 34 år gamle italieneren er en av de mest dekorerte alpinistene i nyere tid – hun vant OL-gull i kombinasjon under Beijing-lekene i 2022 og har tatt totalt to store krystallkuler, senest den samlede verdenscuptittelen i sesongen 2024/25. I løpet av karrieren har hun vunnet over 30 verdenscuprenn og VM-medaljer i flere disipliner, og hun regnes som en av de mest allsidige utøverne Italia har hatt i alpint.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/olimpijska-zmagovalka-brignone-napovedala-konec-kariere/801279"
+  },
   {
    "id": 236451,
    "publisert": "2026-11-25 16:56",
