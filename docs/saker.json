@@ -1,7 +1,43 @@
 {
- "oppdatert": "2026-11-25T09:00:10.899Z",
- "antall": 708,
+ "oppdatert": "2026-11-25T09:15:29.020Z",
+ "antall": 710,
  "saker": [
+  {
+   "id": 231269,
+   "publisert": "2026-11-25 10:00",
+   "publisert_iso": "2026-11-25T09:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Desgrippes dominerte første omgang i Europacup-åpningen i Suomu – Pizzato leverte solid",
+   "ingress": "Desgrippes tok kommandoen i første omgang da herrenes Europacup åpnet i Suomu. Pizzato leverte en positiv innsats.",
+   "spik": "Franskmannen Hugo Desgrippes dominerte første omgang av Europacup-åpningen i finske Suomu, med 45 hundredeler ned til rumenske Nickco Palamaras på andreplass og norske Elias Kvael på tredjeplass. Desgrippes, født i 2000, har tidligere vunnet i Europacup-kretsen, blant annet i Baqueira-Beret forrige sesong, og regnes som et av de fremste talentene i den franske alpinlandslaget-pipelinen. Italienske Pizzato leverte en solid innsats med sjuendeplass etter første omgang, mens den avgjørende andreetappen starter klokken 12.00.",
+   "utovere": [
+    "Nickco Palamaras",
+    "Stefano Pizzato"
+   ],
+   "land": [
+    "GER",
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/desgrippes-fa-il-vuoto-nella-1-manche-che-apre-la-coppa-europa-maschile-a-suomu-positivo-pizzato"
+  },
+  {
+   "id": 231362,
+   "publisert": "2026-11-25 09:58",
+   "publisert_iso": "2026-11-25T08:58:26.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Damenes storslalom i Tremblant avlyst på grunn av snømangel",
+   "ingress": "Begge damenes storslalomrenn i Tremblant er avlyst etter at det viste seg å være for lite snø.",
+   "spik": "Begge damenes storslalomrenn i Mont-Tremblant i Canada er avlyst fordi det er for lite snø på løypene. Tremblant har vært en fast post på verdenscupkalenderen for damer, og avlysninger på grunn av snømangel understreker en vedvarende utfordring for vintersportarrangementer i Nord-Amerika tidlig i sesongen. Det er foreløpig uklart om rennene vil bli erstattet med alternative arrangement andre steder.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/zenska-veleslaloma-v-tremblantu-odpadla-zaradi-premalo-snega/801171"
+  },
   {
    "id": 230589,
    "publisert": "2026-11-25 09:35",
