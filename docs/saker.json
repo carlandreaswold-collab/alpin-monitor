@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-25T12:00:15.691Z",
- "antall": 715,
+ "oppdatert": "2026-11-25T12:15:22.356Z",
+ "antall": 716,
  "saker": [
+  {
+   "id": 233410,
+   "publisert": "2026-11-25 13:00",
+   "publisert_iso": "2026-11-25T12:00:24.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "EC: Perfekt sesongstart for Hugo Desgrippes",
+   "ingress": "Hugo Desgrippes leverte en imponerende start på sesongen i europacupen og slo til med en perfekt åpning.",
+   "spik": "Den franske slalåmkjøreren Hugo Desgrippes vant åpningsrennet i europacupen i Suomu i Finland, og starter dermed sesongen 2026/27 på aller beste vis. 26-åringen tok sin fjerde strake europacup-pall i slalåm på tvers av sesonger, og fortsetter der han slapp etter å ha vunnet den sammenlagte slalåmcupen i europacupen forrige sesong. Desgrippes er et av de fremste navnene i europacupen på tekniske disipliner, og har ambisjoner om å etablere seg på verdenscupnivå.",
+   "utovere": [
+    "Hugo Desgrippes"
+   ],
+   "land": [
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/perfekter-saisonstart-desgrippes/"
+  },
   {
    "id": 233032,
    "publisert": "2026-11-25 12:40",
