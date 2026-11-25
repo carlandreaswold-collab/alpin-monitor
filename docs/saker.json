@@ -1,7 +1,49 @@
 {
- "oppdatert": "2026-11-25T14:59:38.336Z",
- "antall": 724,
+ "oppdatert": "2026-11-25T15:00:25.102Z",
+ "antall": 726,
  "saker": [
+  {
+   "id": 235763,
+   "publisert": "2026-11-25 15:59",
+   "publisert_iso": "2026-11-25T14:59:35.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Karriereslutt – dobbelt olympisk mester Federica Brignone legger opp",
+   "ingress": "Federica Brignone, som har vunnet to olympiske gull, avslutter sin karriere som alpinist.",
+   "spik": "Den italienske alpinstjernen Federica Brignone legger opp som aktiv utøver, 36 år gammel, etter at smertene har vist seg å være for store til å fortsette. Brignone er en av de mest meritterte alpinistene i historien: hun vant sammenlagtcupen i 2020 og tok dobbelt OL-gull under Milano-Cortina-lekene i februar 2026. Gjennom karrieren samlet hun over 30 verdenscupseire på tvers av flere disipliner, noe som plasserer henne blant tidenes beste i italiensk alpinsport.",
+   "utovere": [
+    "Federica Brignone",
+    "Nick Rickenbach",
+    "Wiley Maple"
+   ],
+   "land": [
+    "ITA",
+    "SUI",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/karriereende-doppelolympiasiegerin-federica/"
+  },
+  {
+   "id": 235820,
+   "publisert": "2026-11-25 15:55",
+   "publisert_iso": "2026-11-25T14:55:27.000Z",
+   "kilde": "SVT Sport",
+   "kilde_land": "SWE",
+   "tittel": "Federica Brignone avslutter karrieren: – For mye smerte",
+   "ingress": "Den italienske alpinisten Federica Brignone legger opp og begrunner beslutningen med at smertene har blitt for store.",
+   "spik": "Federica Brignone bekrefter karriereslutten i en melding på sosiale medier, der hun skriver at hun fortsatt kjenner for mye smerte til å returnere til konkurransepistene. Den 36 år gamle italieneren tok sine to olympiske gull under Milano-Cortina-lekene i 2026 på hjemmebane, noe som ble et høydepunkt i en ekstraordinær karriere. Brignone er en av svært få alpinister som har vunnet verdenscuprenn i alle de klassiske tekniske og fartsdisiplinene, og hun vant også sammenlagtcupen i 2020.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.svt.se/sport/alpint/federica-brignone-avslutar-karriaren-for-mycket-smarta"
+  },
   {
    "id": 235622,
    "publisert": "2026-11-25 15:47",
