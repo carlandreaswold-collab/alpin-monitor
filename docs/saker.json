@@ -1,7 +1,48 @@
 {
- "oppdatert": "2026-11-25T15:45:21.136Z",
- "antall": 727,
+ "oppdatert": "2026-11-25T16:00:31.027Z",
+ "antall": 729,
  "saker": [
+  {
+   "id": 236451,
+   "publisert": "2026-11-25 16:56",
+   "publisert_iso": "2026-11-25T15:56:48.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "OL-gullvinner Federica Brignone legger opp på grunn av smerter",
+   "ingress": "Den olympiske gullvinneren Federica Brignone avslutter karrieren etter vedvarende smerter i benet.",
+   "spik": "Federica Brignone kunngjorde sin karriereslutt onsdag 25. november 2026, ni måneder etter at hun vant to olympiske gullmedaljer på hjemmebane i Cortina d'Ampezzo. Den 36 år gamle italieneren brukket tibia og fibula og rev ACL under det italienske mesterskapet i storslalåm 3. april 2025, men kjempet seg tilbake og tok OL-gull i super-G og en disiplin til. Etter at en plate og skruer ble fjernet fra venstre ben i august, klargjorde to dager på ski i Cervinia at smertene fremdeles var for store til å fortsette. Brignone avsluttet sesongen 2024/25 med ti verdenscupseire og krystallkuler i sammenlagt, utfor og storslalåm.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/federica-brignone-retires/"
+  },
+  {
+   "id": 236471,
+   "publisert": "2026-11-25 16:45",
+   "publisert_iso": "2026-11-25T15:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Vonn og Shiffrin hyllet Brignone: – Et av historiens største comebacks",
+   "ingress": "Lindsey Vonn og Mikaela Shiffrin sendte rørende meldinger til Federica Brignone og hyllet hennes historiske comeback i Cortina.",
+   "spik": "Lindsey Vonn og Mikaela Shiffrin var blant de mange store alpinstjernene som hyllet Federica Brignone etter at italieneren kunngjorde sin karriereslutt onsdag 25. november 2026. Vonn, som selv kjemper for å komme tilbake etter en alvorlig skade i februar, kalte Brignones opptreden i Cortina for «et grandios comeback som alltid vil leve i oss». Også Tina Maze, Viktoria Rebensburg og Giuliano Razzoli var blant dem som sendte meldinger til 36-åringen, som vant OL-gull på hjemmebane bare ti måneder etter å ha brukket leggen.",
+   "utovere": [
+    "Federica Brignone",
+    "Lindsey Vonn",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "ITA",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/vonn-e-shiffrin-messaggi-da-brividi-per-federica-a-cortina-ci-hai-regalato-uno-dei-piu-grandi-ritorni-della-storia"
+  },
   {
    "id": 236109,
    "publisert": "2026-11-25 16:15",
