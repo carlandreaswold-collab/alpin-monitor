@@ -1,7 +1,102 @@
 {
- "oppdatert": "2026-11-24T22:00:15.553Z",
- "antall": 702,
+ "oppdatert": "2026-11-25T08:39:53.613Z",
+ "antall": 707,
  "saker": [
+  {
+   "id": 230589,
+   "publisert": "2026-11-25 09:35",
+   "publisert_iso": "2026-11-25T08:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Norge med stjerner og striper: Moeller og McGrath angriper i Copper, Stjernesund er spissen i Killington",
+   "ingress": "Det norske alpinlandslaget stiller med amerikanskfødte profiler i Copper Mountain, mens Thea Louise Stjernesund er Norges fremste kort i Killington.",
+   "spik": "Det norske alpinlandslaget stiller med amerikanskfødte profiler Fredrik Moeller og Atle Lie McGrath i Copper Mountain, mens Thea Louise Stjernesund er Norges fremste kort i storslalåm i Killington. Moeller, født i 2000 og oppvokst i USA, er spesialist i super-G og ventes endelig fri fra fysiske problemer, mens McGrath deltar i storslalåm sammen med Haugan og Kristoffersen. Aleksander Aamodt Kilde, som skadet seg alvorlig nettopp i Copper Mountain for to sesonger siden, er ikke med i troppen.",
+   "utovere": [
+    "Atle Lie McGrath",
+    "Thea Louise Stjernesund"
+   ],
+   "land": [
+    "NOR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/norvegia-a-stelle-e-strisce-i-vichinghi-all-attacco-di-copper-con-moeller-e-mcgrath-a-killington-la-punta-e-stjernesund"
+  },
+  {
+   "id": 230605,
+   "publisert": "2026-11-25 09:28",
+   "publisert_iso": "2026-11-25T08:28:28.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Europacup-slalåm for menn i Suomu (FIN) – direkte",
+   "ingress": "Europacup-slalåmen for menn i Suomu i Finland sendes direkte.",
+   "spik": "Det kjøres Europacup-slalåm for menn i Suomu i Finland onsdag 25. november. Suomu er et lite alpinsenter i Lappland og har vært en fast arrangørsted i Europacupen, som fungerer som den nest høyeste nivået i internasjonal alpinsport under verdenscupen. For mange unge løpere er Europacupen den viktigste arenaen for å kjempe seg opp mot verdenscupnivå.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/video/2026/europacup-slalom-maenner-suomu/"
+  },
+  {
+   "id": 230645,
+   "publisert": "2026-11-25 08:37",
+   "publisert_iso": "2026-11-25T07:37:12.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Damereslaløpene i Mont-Tremblant avlyst",
+   "ingress": "Damenesenes storslalåmrenn i Mont-Tremblant er avlyst.",
+   "spik": "De to planlagte verdenscup-storslalåmrennene for kvinner i Mont-Tremblant 5. og 6. desember er avlyst på grunn av snømangel. FIS bekreftet avlysningen onsdag og opplyser at det jobbes med å finne en erstatningsarena. Neste helg er det Killington som står for tur med storslalåm lørdag og slalåm søndag, før sesongens første fartsuker i Beaver Creek venter 11.–13. desember.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165408/"
+  },
+  {
+   "id": 230591,
+   "publisert": "2026-11-25 08:25",
+   "publisert_iso": "2026-11-25T07:25:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Ingen snø i Mont-Tremblant – nok en bitter avlysning. FIS jobber med plan B",
+   "ingress": "Mangel på snø tvinger frem en ny avlysning i Mont-Tremblant, akkurat som i 2024. FIS jobber med en alternativ løsning.",
+   "spik": "De to verdenscup-storslalåmrennene for kvinner i Mont-Tremblant er avlyst for andre gang på tre sesonger – også i 2024 ble Canada-etappen strøket på grunn av snømangel. FIS hadde planlagt snøkontroll torsdag, men gikk ut med avlysningen allerede onsdag morgen fordi prognosene var for dårlige. Forbundet jobber nå med en plan B og forsøker å finne en erstatningsarena til de samme datoene 5.–6. desember, før fartsuken i Beaver Creek.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/non-c-e-neve-a-mont-tremblant-come-nel-2024-e-una-cancellazione-amarissima-la-fis-lavora-al-piano-b-ma"
+  },
+  {
+   "id": 230627,
+   "publisert": "2026-11-25 08:20",
+   "publisert_iso": "2026-11-25T07:20:52.000Z",
+   "kilde": "VG",
+   "kilde_land": "NOR",
+   "tittel": "Verdenscuprenn avlyst etter snømangel",
+   "ingress": "",
+   "spik": "Verdenscuprennene i storslalåm for kvinner i Mont-Tremblant 5. og 6. desember er avlyst på grunn av snømangel. FIS oppgir at snøkanonene kjøres på nattestid, men at plussgrader og lett regn om dagen gjør det umulig å bygge opp løypa. Forbundet jobber med å finne en alternativ arrangørby for de to rennene. Neste helg kjører alpinkvinnene storslalåm og slalåm i Killington i Vermont.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.vg.no/sport/i/9Bv9br/verdenscuprenn-avlyst-etter-snoemangel?utm_medium=rss"
+  },
+  {
+   "id": 230606,
+   "publisert": "2026-11-25 08:12",
+   "publisert_iso": "2026-11-25T07:12:35.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Avlyst – ingen verdenscup-storslalåm i Tremblant",
+   "ingress": "Verdenscup-rennene i storslalåm i Tremblant er avlyst og vil ikke bli gjennomført.",
+   "spik": "De to verdenscup-storslalåmrennene for kvinner i Mont-Tremblant 5. og 6. desember er avlyst på grunn av utilstrekkelig snø. Snøkanonene har gått for fullt om natten, men plussgrader og regn om dagen har gjort det umulig å forberede løypa på den kjente \"Flying Mile\"-traseen. FIS søker nå etter en alternativ arrangørby for de samme datoene. Avlysningen er en gjentakelse av situasjonen fra 2024, da Canada-etappen også ble strøket.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/abgesagt-riesenslaloms-tremblant/"
+  },
   {
    "id": 227275,
    "publisert": "2026-11-24 19:57",
@@ -16,21 +111,6 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://skiracing.com/how-steamboat-mountain-school-and-steamboat-springs-winter-sports-club-help-families-make-ski-racing-work/"
-  },
-  {
-   "id": 227187,
-   "publisert": "2026-11-24 19:36",
-   "publisert_iso": "2026-11-24T18:36:00.000Z",
-   "kilde": "SVT Sport",
-   "kilde_land": "SWE",
-   "tittel": "Tre russiske utøvere uttatt til verdenscuppremieren",
-   "ingress": "Tre russiske alpinister er tatt ut til åpningsrennet i verdenscupen denne sesongen.",
-   "spik": "Tre russiske langrennsløpere – Natalja Terentjeva, Darja Nepryaeva og Savelij Korosteljov – er tatt ut til verdenscuppremieren i Ruka 27.–29. november, og får konkurrere under nøytral flagg. Finland har innført innreiserestriksjoner for russiske idrettsutøvere, men myndighetene bekrefter at disse tre er unntatt. Det finske skiforbundet understreker likevel sitt standpunkt: Russlands angrepskrig mot Ukraina er uakseptabel, og tiden er ikke moden for russere og hviterussere til å vende tilbake til internasjonal idrett mens krigen pågår.",
-   "utovere": [],
-   "land": [],
-   "kategori": "",
-   "flere_kilder": [],
-   "url": "https://www.svt.se/sport/langdskidor/tre-ryska-akare-uttagna-till-varldscuppremiaren"
   },
   {
    "id": 225994,
