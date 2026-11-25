@@ -1,7 +1,27 @@
 {
- "oppdatert": "2026-11-25T10:15:14.953Z",
- "antall": 710,
+ "oppdatert": "2026-11-25T10:30:22.129Z",
+ "antall": 711,
  "saker": [
+  {
+   "id": 232129,
+   "publisert": "2026-11-25 11:15",
+   "publisert_iso": "2026-11-25T10:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Italia satser på Franzoni og Paris i super-G i Copper",
+   "ingress": "Det italienske alpinlandslaget har tatt ut troppen til super-G i Copper, med Franzoni og Paris i fokus. I storslalåm velges samme lag som i Sølden.",
+   "spik": "Italia stiller med åtte utøvere i super-G i Copper Mountain, der Dominik Paris og Giovanni Franzoni er de fremste satsingene. Paris er en av tidenes mest meritterte italienske utfartskjørere med over 20 World Cup-seire og VM-gull i utfor, men har slitt med skader de siste sesongene. Franzoni er et av de store unge talentene i det italienske landslaget. Copper Mountain-rennene markerer starten på fartsdisiplinene for herrer i World Cup-sesongen 2025/26.",
+   "utovere": [
+    "Dominik Paris",
+    "Giovanni Franzoni"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/definito-l-ottovolante-azzurro-per-il-super-g-di-copper-si-punta-su-franzoni-e-paris-gigantisti-stesse-scelte-di-soelden"
+  },
   {
    "id": 231269,
    "publisert": "2026-11-25 10:00",
