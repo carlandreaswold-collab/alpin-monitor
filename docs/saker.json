@@ -1,7 +1,60 @@
 {
- "oppdatert": "2026-11-25T11:15:27.073Z",
- "antall": 711,
+ "oppdatert": "2026-11-25T11:30:33.731Z",
+ "antall": 714,
  "saker": [
+  {
+   "id": 232907,
+   "publisert": "2026-11-25 12:27",
+   "publisert_iso": "2026-11-25T11:27:55.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Nina Astner pådro seg korsbåndskade under trening",
+   "ingress": "Den østerrikske alpinisten Nina Astner har pådratt seg et korsbåndsbrudd under trening.",
+   "spik": "",
+   "utovere": [
+    "Nina Astner"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165415/"
+  },
+  {
+   "id": 232686,
+   "publisert": "2026-11-25 12:11",
+   "publisert_iso": "2026-11-25T11:11:00.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Kneskade tvinger Nina Aster til pause",
+   "ingress": "Nina Aster må ta en pause fra konkurransene etter å ha pådratt seg en kneskade.",
+   "spik": "Nina Astner må stå over Verdenscup-helgen i Killington etter å ha pådratt seg en kneskade, og Østerrike stiller dermed med et begrenset lag på kun åtte utøvere totalt for de to rennene i Vermont. Astner er en av de mer lovende østerrikske teknikkutøverne og har vært en del av ÖSV-troppen de siste sesongene. Skaden kommer på et uheldig tidspunkt, tidlig i sesongen, og gjør at hun går glipp av viktige Verdenscup-poeng.",
+   "utovere": [
+    "Nina Astner"
+   ],
+   "land": [
+    "AUT"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/knieverletzung-zwingt-aster/"
+  },
+  {
+   "id": 232670,
+   "publisert": "2026-11-25 12:10",
+   "publisert_iso": "2026-11-25T11:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "G.S. Fiamme Gialle henter sju nye utøvere – blant dem D'Antonio og Zorzi",
+   "ingress": "Det italienske idrettslaget G.S. Fiamme Gialle har tatt opp sju nye utøvere, deriblant Giada D'Antonio, Sofia Amigoni, Edoardo Zorzi og Marco Pinzani.",
+   "spik": "Det italienske militæridrettslaget G.S. Fiamme Gialle har tatt opp sju nye utøvere fra vinteridrettene, blant dem alpinistene Giada D'Antonio (f. 2009) og Edoardo Zorzi, samt sofía Amigoni og Marco Pinzani. Fiamme Gialle, tilknyttet den italienske finansvakten Guardia di Finanza, er en av de viktigste støtteordningene for italienske vinteridrettsutøvere og gir unge talenter mulighet til å kombinere en militær karriere med toppidrett. Opptaket skjer gjennom en seleksjonsprosess der internasjonale og nasjonale resultater er avgjørende, og representerer en betydelig trygghet for utøvere som ellers ville hatt begrenset finansiering.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/eventi/news/il-gs-fiamme-gialle-accoglie-altri-sette-atleti-tra-di-loro-giada-d-antonio-sofia-amigoni-edoardo-zorzi-e-marco-pinzani"
+  },
   {
    "id": 232129,
    "publisert": "2026-11-25 11:15",
