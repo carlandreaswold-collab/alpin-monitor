@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-25T11:30:33.731Z",
- "antall": 714,
+ "oppdatert": "2026-11-25T11:45:25.546Z",
+ "antall": 715,
  "saker": [
+  {
+   "id": 233032,
+   "publisert": "2026-11-25 12:40",
+   "publisert_iso": "2026-11-25T11:40:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Desgrippes vant første Europa Cup-slalåm i Suomu",
+   "ingress": "Hugo Desgrippes sikret fransk seier i det første Europa Cup-slalåmrennet i Suomu. Pizzato og Barbera tok seg inn på topp ti.",
+   "spik": "Den 26 år gamle franskmannen Hugo Desgrippes vant det første Europa Cup-slalåmrennet i finske Suomu, og tok dermed sin andre seier totalt i Europa Cup-sirkuset. Han ledet etter første omgang og holdt unna for svenske Wissting, som tok andreplassen, mens unge norske Kvael fulgte på tredjeplass. For Italia ble Stefano Pizzato nummer syv og Corrado Barbera nummer ti etter en sterk opphenting. Det kjøres et nytt slalåmrenn i Suomu torsdag.",
+   "utovere": [
+    "Gustav Wissting",
+    "Stefano Pizzato"
+   ],
+   "land": [
+    "ITA",
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/hugo-desgrippes-non-sbaglia-e-francese-il-primo-slalom-di-coppa-europa-a-suomu-top-ten-per-pizzato-e-barbera"
+  },
   {
    "id": 232907,
    "publisert": "2026-11-25 12:27",
@@ -10,7 +31,7 @@
    "kilde_land": "AUT",
    "tittel": "Nina Astner pådro seg korsbåndskade under trening",
    "ingress": "Den østerrikske alpinisten Nina Astner har pådratt seg et korsbåndsbrudd under trening.",
-   "spik": "",
+   "spik": "Østerrikske Nina Astner har pådratt seg et fremre korsbåndsbrudd under storslalåmtrening i Østerrike, og må dermed stå over resten av sesongen. Den 26 år gamle tiroleren var allerede uheldig i høst, da et treningsfall i oktober ga henne en benbruise i høyre legg som gjorde at hun gikk glipp av sesongåpningen i Sölden. Skaden kommer på et dårlig tidspunkt for Østerrike, som nå stiller med et svekket lag i teknikkdisiplinene fremover.",
    "utovere": [
     "Nina Astner"
    ],
