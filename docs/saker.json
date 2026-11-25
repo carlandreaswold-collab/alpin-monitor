@@ -1,7 +1,44 @@
 {
- "oppdatert": "2026-11-25T12:15:22.356Z",
- "antall": 716,
+ "oppdatert": "2026-11-25T12:30:29.675Z",
+ "antall": 718,
  "saker": [
+  {
+   "id": 233575,
+   "publisert": "2026-11-25 13:20",
+   "publisert_iso": "2026-11-25T12:20:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Redusert tropp for Wunderteam: Scheib vil ta revansj i Killington – Astner fortsatt ute",
+   "ingress": "Østerrike stiller med redusert tropp i Killington, der Scheib er klar for revansj mens Astner fortsatt er skadet. Truppe leder an blant slalomistene.",
+   "spik": "Østerrike stiller med sterkt redusert tropp til Killington, der Julia Scheib er lagets store håp i storslalåm etter en skuffende sesongåpning i Sölden. Nina Astner er igjen skadet – denne gangen med en delvis korsbåndskade – etter at hun allerede mistet Sölden-rennet. Blant slalåmistene er Katharina Liensberger og Katharina Gallhuber fortsatt ute med skader, og det er Katharina Truppe som leder an. Scheib vant storslalåm-cupen forrige sesong og er høymotivert for å ta revansj etter sesongstarten.",
+   "utovere": [
+    "Julia Scheib",
+    "Katharina Truppe",
+    "Nina Astner"
+   ],
+   "land": [
+    "AUT",
+    "GER"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/contingente-ridotto-per-il-wunderteam-scheib-vuole-il-riscatto-a-killington-ancora-out-astner-truppe-guida-le-slalomiste"
+  },
+  {
+   "id": 233555,
+   "publisert": "2026-11-25 13:19",
+   "publisert_iso": "2026-11-25T12:19:46.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "PwC Tremblant verdenscup avlyst på grunn av manglende snøproduksjon",
+   "ingress": "Verdenscuprennet i Tremblant er avlyst etter at begrensede muligheter for kunstsnøproduksjon gjorde arrangementet umulig å gjennomføre.",
+   "spik": "Verdenscuprennet i Mont-Tremblant i Quebec, planlagt til 5. og 6. desember 2026, er avlyst etter at kalde nok perioder for kunstsnøproduksjon har vært svært begrenset de siste ukene. Arrangørene og Alpine Canada konkluderte med at løypekvaliteten ikke ville tilfredsstille FIS sine krav til sikkerhet og konkurransenivå. Avlysningen er et tilbakeslag særlig for kanadiske utøvere, som skulle ha fått konkurrere foran hjemmepublikum. Tremblant har vært en fast del av verdenscupkalenderen og pleier å trekke stor interesse i det alpininteresserte Quebec.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/pwc-tremblant-world-cup-canceled-after-limited-snowmaking-windows/"
+  },
   {
    "id": 233410,
    "publisert": "2026-11-25 13:00",
