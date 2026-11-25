@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-25T14:00:12.958Z",
- "antall": 721,
+ "oppdatert": "2026-11-25T14:15:21.149Z",
+ "antall": 722,
  "saker": [
+  {
+   "id": 235023,
+   "publisert": "2026-11-25 15:10",
+   "publisert_iso": "2026-11-25T14:10:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Store verdenscupbegivenheter i Sør-Tirol: Val Gardena og Alta Badia i rampelyset",
+   "ingress": "De store herreverdenscupene i Sør-Tirol presenteres, med Val Gardena som oppkjøring til VM og en ny slalomkonkurranse i Alta Badia.",
+   "spik": "Val Gardena og Alta Badia presenterte nylig sitt felles program for fire dager med herreverdenscup i desember, der det går super-G og utfor på Saslong 18.–19. desember, fulgt av storslalåm og en ny nattslalåm på Gran Risa i Alta Badia. Val Gardena-løpene fungerer som ekstra viktig oppkjøring med tanke på at Saslong-traseen skal være VM-arena i 2031. Østerrikeren Max Franz, som vant sitt første verdenscuprenn nettopp i Val Gardena for ti år siden, vil ha en sentral rolle under prisutdelingene.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/i-grandi-eventi-altoatesini-della-cdm-maschile-lanciati-tra-una-val-gardena-pre-mondiale-e-l-alta-badia-con-lo-slalom-novita"
+  },
   {
    "id": 234754,
    "publisert": "2026-11-25 14:40",
