@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-26T12:00:19.020Z",
+ "oppdatert": "2026-11-26T12:15:21.841Z",
  "antall": 744,
  "saker": [
+  {
+   "id": 240147,
+   "publisert": "2026-11-26 13:05",
+   "publisert_iso": "2026-11-26T12:05:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Den vantroende jenta med startnummer 34 på seierspallen i Aspen",
+   "ingress": "Tilbakeblikk på 28. november 2009, da en ung Federica tok plass på seierspallen i verdenscupens storslalåm i Aspen med startnummer 34.",
+   "spik": "Den 28. november 2009 tok en ung Federica Brignone plass på seierspallen i verdenscupens storslalåm i Aspen med startnummer 34 – en bragd som normalt krever langt lavere startnummer. Det var hennes første av til slutt 85 pallplasser i verdenscupen, et imponerende karrieretall som spenner over mer enn 15 år. Brignone debuterte i verdenscupen allerede i desember 2007, 17 år gammel i Lienz, og vant siden den samlede verdenscupen to ganger. Hennes første seier kom i Söldeni oktober 2015, og hun har vunnet 37 individuelle verdenscuprenn.",
+   "utovere": [
+    "Federica Brignone",
+    "Lara Gut-Behrami"
+   ],
+   "land": [
+    "ITA",
+    "SUI"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/quella-ragazzina-incredula-col-pettorale-34-sul-podio-in-cdm-nel-gigante-di-aspen-fede-era-il-28-novembre-2009"
+  },
   {
    "id": 239788,
    "publisert": "2026-11-26 12:40",
@@ -437,21 +458,6 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/i-grandi-eventi-altoatesini-della-cdm-maschile-lanciati-tra-una-val-gardena-pre-mondiale-e-l-alta-badia-con-lo-slalom-novita"
-  },
-  {
-   "id": 234754,
-   "publisert": "2026-11-25 14:40",
-   "publisert_iso": "2026-11-25T13:40:05.000Z",
-   "kilde": "Expressen",
-   "kilde_land": "SWE",
-   "tittel": "Skiforbundet endrer reglene etter OL-furoren",
-   "ingress": "Det svenske alpinlandslaget endrer sine interne regler etter at sinne og misnøye oppsto under de olympiske leker.",
-   "spik": "Det svenske langrennslandslaget endrer sine interne uttaksregler etter den kraftige kritikken som oppsto under OL i vinter. Kjernen i striden var at landslagsledelsen sendte hjem flere løpere tidlig i mesterskapet, og da Frida Karlsson og Jonna Sundling ble syke, kunne Sverige stille med bare to utøvere i damenes fem mil. TV 2s ekspert Petter Skinstad kalte det «en skandale uten sidestykke» og mente det nesten var grunn til oppsigelse. Nå skal landslagstrenere med egne bindinger til utøvere tre tilbake ved uttaksavgjørelser.",
-   "utovere": [],
-   "land": [],
-   "kategori": "",
-   "flere_kilder": [],
-   "url": "https://www.expressen.se/sport/langdskidor/skidlandslaget-andrar-reglerna-efter-ilskan-pa-os/"
   },
   {
    "id": 234661,
