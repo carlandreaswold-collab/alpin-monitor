@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-26T16:46:15.172Z",
- "antall": 755,
+ "oppdatert": "2026-11-26T17:00:21.304Z",
+ "antall": 756,
  "saker": [
+  {
+   "id": 244021,
+   "publisert": "2026-11-26 17:56",
+   "publisert_iso": "2026-11-26T16:56:38.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Amerikanske Wright feirer debutseier i åpningsrenn",
+   "ingress": "US-amerikaneren Wright tok sin første verdenscupseier i sesongåpningen.",
+   "spik": "NB: Dette er en skiskyttesak, ikke alpint. Campbell Wright fra USA vant sitt første verdenscupløp i sesongåpningens 20 km fellesstart i Kontiolahti torsdag, med feilfri skyting og over ett minutt ned til tyske Justus Strelow på andreplass. 24-åringen slo titelforsvarer Eric Perrot fra Frankrike, som slet med tre bom og endte på ellevteplass. Beste østerrikere var Dominic Unterweger på 19. plass.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165460/"
+  },
   {
    "id": 243507,
    "publisert": "2026-11-26 17:25",
