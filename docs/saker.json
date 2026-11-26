@@ -1,7 +1,30 @@
 {
- "oppdatert": "2026-11-26T15:00:15.118Z",
- "antall": 750,
+ "oppdatert": "2026-11-26T15:15:18.224Z",
+ "antall": 751,
  "saker": [
+  {
+   "id": 242312,
+   "publisert": "2026-11-26 16:00",
+   "publisert_iso": "2026-11-26T15:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Slokar utelukket fra Killington – fire slovenske menn til Copper",
+   "ingress": "Andreja Slokar er ikke aktuell for rennet i Killington, mens fire slovenske menn stiller til start i Copper Mountain. Tyskland stiller med Aicher, Gratz og flere.",
+   "spik": "Andreja Slokar er ikke aktuell for slalomrennet i Killington denne helgen, og hopper over den nordamerikanske runden etter et tyngre comeback fra skade. Den slovenske spesialisten har to verdenscupseire på merittlisten, begge i slalom, men returnen har vært mer komplisert enn ventet. I stedet satser hun på Courchevel 22. desember. Lagvenninne Neja Dvornik leder det slovenske damelandslaget i Killington, mens fire slovenske menn stiller til start i fartsdisiplinene på Copper Mountain.",
+   "utovere": [
+    "Andreja Slokar",
+    "Emma Aicher",
+    "Petra Vlhová"
+   ],
+   "land": [
+    "GER",
+    "SLO",
+    "SVK"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/news/niente-killington-per-slokar-quattro-gli-uomini-sloveni-a-copper-germania-con-aicher-gratz-e"
+  },
   {
    "id": 242080,
    "publisert": "2026-11-26 15:35",
