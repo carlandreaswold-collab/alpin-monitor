@@ -1,7 +1,28 @@
 {
- "oppdatert": "2026-11-26T17:15:17.416Z",
- "antall": 756,
+ "oppdatert": "2026-11-26T17:30:23.943Z",
+ "antall": 757,
  "saker": [
+  {
+   "id": 244477,
+   "publisert": "2026-11-26 18:29",
+   "publisert_iso": "2026-11-26T17:29:22.000Z",
+   "kilde": "Sportschau",
+   "kilde_land": "GER",
+   "tittel": "Federica Brignone – tigrinnen sier farvel",
+   "ingress": "Federica Brignone avslutter karrieren. Den italienske alpinstjernen, kjent for sin aggressive kjørestil, tar et endelig farvel med sporten.",
+   "spik": "Federica Brignone avslutter karrieren etter 37 Verdenscupseiere, to olympiske gull og to sammenlagtseirer i Verdenscupen. Den italienske alpinstjernen klarte det svært få har lykkes med i Mikaela Shiffrins storhetstid – å etablere seg som en selvstendig vinner på øverste nivå. Brignone vokste selv opp i alpinmiljøet som datter av Verdenscup-utøveren Maria Rosa Quario, og måtte lenge leve med stempelet «datterens av», før hun skapte sin egen legendariske karriere. Det er smerter som til slutt tvang frem beslutningen om å legge skiene på hylla.",
+   "utovere": [
+    "Federica Brignone",
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "ITA",
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.sportschau.de/wintersport/ski-alpin/die-grosse-karriere-der-federica-brignone,federica-brignone-162.html"
+  },
   {
    "id": 244021,
    "publisert": "2026-11-26 17:56",
