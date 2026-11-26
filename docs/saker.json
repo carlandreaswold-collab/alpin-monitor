@@ -1,7 +1,65 @@
 {
- "oppdatert": "2026-11-26T12:30:14.831Z",
- "antall": 744,
+ "oppdatert": "2026-11-26T12:45:39.269Z",
+ "antall": 747,
  "saker": [
+  {
+   "id": 240618,
+   "publisert": "2026-11-26 13:43",
+   "publisert_iso": "2026-11-26T12:43:12.000Z",
+   "kilde": "RTV SLO",
+   "kilde_land": "SLO",
+   "tittel": "Rok Bračko: I farens fotspor, men på sin egen vei",
+   "ingress": "Sloveneren Rok Bračko følger i farens fotspor som alpinist, men skaper sin helt egen karriere.",
+   "spik": "Sloveneren Rok Bračko er sønn av en tidligere alpinist og er i ferd med å etablere seg på egne premisser i den internasjonale alpinsporten. Slovenia har en sterk tradisjon i alpint, med utøvere som Ilka Štuhec og Žan Kranjec i verdenstoppen. Artikkelteksten gir få konkrete detaljer om Bračkos resultater, men historien om en ung utøver som vokser opp i en alpinfamilie og forsøker å skape sin egen identitet er et kjent motiv i sporten. Han representerer en ny generasjon slovenske alpinister.",
+   "utovere": [
+    "Rok Bračko"
+   ],
+   "land": [
+    "SLO"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.rtvslo.si/sport/rok-bracko-ocetove-stopinje-a-povsem-njegova-pot/801367"
+  },
+  {
+   "id": 240523,
+   "publisert": "2026-11-26 13:41",
+   "publisert_iso": "2026-11-26T12:41:47.000Z",
+   "kilde": "SkinEWS",
+   "kilde_land": "SUI",
+   "tittel": "Jakobsen vant i Suomu og er nå «Mister 50 prosent»",
+   "ingress": "Kristoffer Jakobsen tok seieren i europacupen i Suomu og har nå en imponerende vinnerstatistikk som gir ham kallenavnet «Mister 50 prosent».",
+   "spik": "Svenske Kristoffer Jakobsen vant sitt andre europacupslalåm denne vinteren i Suomu i Finland, og har nå vunnet tre av seks renn i sesongen 2026/27 — en vinnerrate på 50 prosent som har gitt ham kallenavnet «Mister 50 prosent». 32-åringen er en erfaren slalåmspesialist som har kombinert europacup- og verdenscupdeltagelse gjennom karrieren, og har tidligere vist at han er i stand til å hevde seg på begge nivåer. I Suomu slo han svenske lagkamerat Gustav Wissting med kun 0,08 sekunder, mens norske Elias Hartford Kvael tok tredjeplassen 0,15 sekunder bak.",
+   "utovere": [
+    "Gustav Wissting",
+    "Kristoffer Jakobsen"
+   ],
+   "land": [
+    "SWE"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.skinews.ch/news/2026/kristoffer-jakobsen-prozent/"
+  },
+  {
+   "id": 240563,
+   "publisert": "2026-11-26 13:37",
+   "publisert_iso": "2026-11-26T12:37:06.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Ukrainske Heraskevytsj fortsetter protestene mot krigen",
+   "ingress": "Den ukrainske alpinisten Heraskevytsj holder frem med sine protester mot krigen i hjemlandet.",
+   "spik": "Den ukrainske skeleton-utøveren Vladyslav Heraskevytsj stiller til start i Altenberg med hjelm og drakt designet for å synliggjøre krigens ødeleggelser i hjemlandet, inspirert av naturlandskaper i det okkuperte Sør-Ukraina. Han ble verdenskjent da IOC diskvalifiserte ham under OL fordi hjelmen hans bar bilder av omtrent 20 drepte ukrainske utøvere — noe som brøt reglementet mot politiske budskap. Nå slår ikke Det internasjonale bob- og skeletonforbundet IBSF ned på designet, siden det krever en forklaring for å forstås som protest. 27-åringen har konsekvent brukt sporten som en plattform for å rette oppmerksomhet mot krigen siden Russlands fullskalainvasjon i 2022.",
+   "utovere": [
+    "Vladislav Heraskevych"
+   ],
+   "land": [
+    "UKR"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165453/"
+  },
   {
    "id": 240147,
    "publisert": "2026-11-26 13:05",
