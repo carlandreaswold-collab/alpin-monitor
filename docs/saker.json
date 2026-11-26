@@ -1,7 +1,41 @@
 {
- "oppdatert": "2026-11-26T14:30:12.168Z",
- "antall": 748,
+ "oppdatert": "2026-11-26T14:45:34.041Z",
+ "antall": 750,
  "saker": [
+  {
+   "id": 242080,
+   "publisert": "2026-11-26 15:35",
+   "publisert_iso": "2026-11-26T14:35:20.000Z",
+   "kilde": "franceinfo",
+   "kilde_land": "FRA",
+   "tittel": "To år etter den alvorlige diagnosen: Sarrazin er tilbake i verdenscupen",
+   "ingress": "Cyprien Sarrazin vender tilbake til verdenscupen i alpint to år etter at han fikk en alvorlig diagnose som truet karrieren hans.",
+   "spik": "Cyprien Sarrazin er tilbake i verdenscupen to år etter en dramatisk treningsulykke i Bormio i desember 2024, der han pådro seg en hodeskade som ifølge franske medier kunne ha ført til lammelse. Den franske utfartsspesialisten hadde på det tidspunktet etablert seg som en av verdens beste i fartsøvelsene, med seire i klassikere som utforkjøringen i Wengen og Kitzbühel sesongen 2023/24. Nå er han tatt ut til super-G på Copper Mountain i USA 28. november, og comebacket hans er ventet å bli fulgt med stor interesse.",
+   "utovere": [
+    "Cyprien Sarrazin"
+   ],
+   "land": [
+    "FRA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.franceinfo.fr/sports/sports-d-hiver/ski-alpin/le-ski-le-sport-ta-vie-tu-peux-oublier-deux-ans-apres-ce-terrible-diagnostic-cyprien-sarrazin-retrouve-la-coupe-du-monde-de-ski_8301534.html#xtor=RSS-3-%5Bsports%2Fsports-d-hiver%2Fski-alpin%5D"
+  },
+  {
+   "id": 241948,
+   "publisert": "2026-11-26 15:35",
+   "publisert_iso": "2026-11-26T14:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "3Tre og Kandahar Ski Club fornyer historisk bånd – presentert i London",
+   "ingress": "Den 73. utgaven av 3Tre-rennet ble presentert ved Themsen i London, der arrangørene og Kandahar Ski Club feiret sitt langvarige historiske samarbeid.",
+   "spik": "Den 73. utgaven av 3Tre-slalåmen på Madonna di Campiglio ble presentert ved Themsen i London som del av arrangementets «3Tre on Tour»-konsept, der Kandahar Ski Club og de italienske arrangørene feiret sitt historiske fellesskap. Kandahar Ski Club, grunnlagt i 1924 og en av verdens eldste og mest prestisjefylte skiklubber, har lange røtter til klassisk alpint og er tett knyttet til rennet i Campiglio. Nattslalåmen på Canalone Miramonti er Italias eldste verdenscupkonkurranse og en fast favoritt på kalenderen, og årets renn er planlagt til natten mellom 23. og 24. desember.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/maschile/news/sulle-rive-del-tamigi-la-3tre-e-il-kandahar-ski-club-rinnovano-un-legame-storico-l-edizione-73-presentata-a-londra"
+  },
   {
    "id": 241047,
    "publisert": "2026-11-26 14:20",
