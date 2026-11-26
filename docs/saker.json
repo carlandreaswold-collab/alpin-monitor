@@ -1,7 +1,41 @@
 {
- "oppdatert": "2026-11-26T18:45:21.713Z",
- "antall": 758,
+ "oppdatert": "2026-11-26T19:00:29.757Z",
+ "antall": 760,
  "saker": [
+  {
+   "id": 245601,
+   "publisert": "2026-11-26 19:50",
+   "publisert_iso": "2026-11-26T18:50:05.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "5 mentale strategier for en sterk start på skisesongen",
+   "ingress": "Positiv tenkning er ikke nok – her er fem mentale strategier som hjelper alpinister med å starte skiracingsesongen på best mulig måte.",
+   "spik": "Idrettspsykolog og tidligere alpinist Dr. Haley Perlus presenterer fem mentale strategier for å starte skirasingsesongen sterkt, og understreker at mental robusthet handler om å håndtere tvil, nervøsitet og feil – ikke bare tenke positivt. Artikkelen er skrevet i forkant av 2026–27-sesongen og bruker blant andre Mikaela Shiffrin som eksempel, en utøver som selv har snakket åpent om det mentale presset i toppidretten. Strategiene er utviklet gjennom Perlus' arbeid med individuelle utøvere og er ment å hjelpe alpinister med å omsette trening til konkurranseresultater.",
+   "utovere": [
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/beyond-positive-thinking-5-mental-strategies-to-start-your-ski-racing-season-strong/"
+  },
+  {
+   "id": 245715,
+   "publisert": "2026-11-26 19:44",
+   "publisert_iso": "2026-11-26T18:44:37.000Z",
+   "kilde": "Expressen",
+   "kilde_land": "SWE",
+   "tittel": "Finlending dømt for å ha skutt gudfarens – kjørte åpningsrennet",
+   "ingress": "En finsk alpinist er dømt for å ha skutt gudfarens sin, men fikk likevel kjøre sesongpremieren.",
+   "spik": "Den finske skiskytterstjernen Arttu Heikkinen ble i høst dømt i lagmannsretten for grovt uaktsomt å ha skutt gudfarens sin under jakt i 2024 – mannen ble blind som følge av ulykken. 22-åringen er tidligere juniorverdensmesters i skiskyting, og dommen skulle automatisk medføre inndragelse av våpenlisensen. Heikkinen fikk likevel stille i sesongpremieren i Kontiolax fordi dommen ennå ikke er rettskraftig – han har søkt om anketillatelse i Finlands høyeste domstol. Utfallet av ankesaken kan bli avgjørende for om han i det hele tatt kan fortsette karrieren.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.expressen.se/sport/skidskytte/finlandaren-domd-for-att-ha-skjutit-sin-gudfar-korde-premiaren/"
+  },
   {
    "id": 244517,
    "publisert": "2026-11-26 18:35",
