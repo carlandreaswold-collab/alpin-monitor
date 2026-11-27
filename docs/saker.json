@@ -1,7 +1,22 @@
 {
- "oppdatert": "2026-11-27T22:00:18.856Z",
- "antall": 771,
+ "oppdatert": "2026-11-27T22:15:15.004Z",
+ "antall": 772,
  "saker": [
+  {
+   "id": 250577,
+   "publisert": "2026-11-27 23:07",
+   "publisert_iso": "2026-11-27T22:07:36.000Z",
+   "kilde": "ORF Sport",
+   "kilde_land": "AUT",
+   "tittel": "Italia i finalen for fjerde gang på rad",
+   "ingress": "Italia har kvalifisert seg til finalen for fjerde strake gang i alpint.",
+   "spik": "Dette er ikke en alpinsak – artikkelteksten handler om Davis Cup i tennis, der Italia har tatt seg til finalen for fjerde strake gang. Lorenzo Musetti og Andrea Vavassori sikret plassen med seier over Tsjekkia 2-1 i semifinalen i Bologna. Italia møter enten Spania eller Storbritannia i søndagens finale, og jakter sin fjerde strake Davis Cup-tittel.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://sport.orf.at/stories/3165522/"
+  },
   {
    "id": 248724,
    "publisert": "2026-11-27 20:40",
