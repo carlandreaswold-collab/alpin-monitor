@@ -1,7 +1,41 @@
 {
- "oppdatert": "2026-11-27T16:13:36.267Z",
- "antall": 767,
+ "oppdatert": "2026-11-27T16:16:08.029Z",
+ "antall": 772,
  "saker": [
+  {
+   "id": 246138,
+   "publisert": "2026-11-27 16:45",
+   "publisert_iso": "2026-11-27T15:45:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Mye regn og ingen trening før Killington – Zenere: «Det blir en overraskelse for alle»",
+   "ingress": "Forberedelsene til Killington er vanskelige med kraftig regn i Vermont og ingen mulighet til å trene på pisten. Zenere mener åpningsrennet blir en overraskelse for samtlige.",
+   "spik": "Forberedelsene til Killington-rennet lørdag er krevende etter kraftig regn i Vermont, og juryen har valgt å kansellere trening på pisten dagen før for å spare traseen. Asja Zenere, som imponerte med en sterk femteplass i sesongåpningen i Sölden, leder det italienske laget på elleve utøvere. Italia stiller blant annet med en tilbakevendende Sofia Goggia i hennes første renn denne sesongen, mens Giorgia Collomb er meldt klar til tross for et lite ankelbesvær.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/vigilia-di-killington-non-semplice-tanta-pioggia-nel-vermont-e-niente-sciata-in-pista-zenere-sara-una-sorpresa-per-tutte"
+  },
+  {
+   "id": 246139,
+   "publisert": "2026-11-27 16:15",
+   "publisert_iso": "2026-11-27T15:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Davide Brignone om søsteren Fede: «Det var riktig å prøve – kjærligheten er utrolig»",
+   "ingress": "Davide Brignone snakker varmt om søsteren Federica og hennes avgjørelse, og understreker at mengden av støtte og kjærlighet hun har mottatt er overveldende.",
+   "spik": "Davide Brignone, søster og personlig trener for Federica Brignone, forteller i et intervju med La Gazzetta dello Sport at det var riktig å forsøke et comeback, selv om alternativene var begrenset. Han har stått ved siden av henne på pisten siden 2016–17, og vant en hard kamp mot det italienske skiforbundet for å få rollen som hennes personlige coach. Siden da har Federica tatt sin første store kule i 2019–20 og blitt en av alpinskisportens mest dekorerte utøvere gjennom tidene. Davide understreker at de delte målet og at det å jobbe sammen har vært deres styrke.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/non-aveva-piu-scelta-ma-era-giusto-provarci-la-quantita-di-affetto-e-incredibile-davide-brignone-e-la-sua-fede"
+  },
   {
    "id": 245969,
    "publisert": "2026-11-27 15:28",
@@ -60,6 +94,25 @@
    "url": "https://www.rtvslo.si/sport/hrobat-optimisticen-pred-zacetkom-na-tekmah-sem-pogosto-se-boljsi-kot-na-treningih/801499"
   },
   {
+   "id": 246145,
+   "publisert": "2026-11-27 13:00",
+   "publisert_iso": "2026-11-27T12:00:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Federicas siste renn: ønsket er Italia eller VM i Crans-Montana",
+   "ingress": "Det diskuteres hvor Federica skal holde sitt avskjedsrenn, og ønsket er enten et renn i Italia eller under VM i Crans-Montana.",
+   "spik": "Federica Brignone ønsker å holde sitt avskjedsrenn enten i Italia eller under VM i Crans-Montana, noe hun bekreftet i et intervju på Rai 1. Den italienske stjernen tok to OL-gull under Milano Cortina 2026, men valgte å legge opp etter å ha slitt med smerter i venstre ben etter et alvorlig fall 3. april 2025. Brignone avsluttet karrieren som en av de mest meritterte alpinistene noensinne, med totalt ti VM-gull og tre store kuler å se tilbake på.",
+   "utovere": [
+    "Federica Brignone"
+   ],
+   "land": [
+    "ITA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/federica-e-l-ultima-gara-passerella-c-e-sempre-la-volonta-di-farla-in-italia-oppure-ai-mondiali-di-crans-montana"
+  },
+  {
    "id": 245989,
    "publisert": "2026-11-27 12:40",
    "publisert_iso": "2026-11-27T11:40:19.000Z",
@@ -77,6 +130,36 @@
    "kategori": "",
    "flere_kilder": [],
    "url": "https://www.skinews.ch/news/2026/reduzierten-training-mountain/"
+  },
+  {
+   "id": 246146,
+   "publisert": "2026-11-27 12:35",
+   "publisert_iso": "2026-11-27T11:35:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Lavinia Paci dobbelt på pallen i Mayrhofen – østerrikske seire til Sykora og Olivier",
+   "ingress": "Lavinia Paci tok to pallplasseringer i FIS-rennene i Mayrhofen, mens østerrikske Romy Sykora og Victoria Olivier vant sine respektive øvelser.",
+   "spik": "Den 18 år gamle trentineren Lavinia Paci tok to pallplasseringer i FIS-renn i Mayrhofen, med en andreplass bak Romy Sykora – datter av den tidligere storslalåmkjøreren Thomas Sykora – og en tredjeplass dagen etter bak Victoria Olivier, som har erfaring fra verdenscupen. Paci har nettopp fått plass i Europacup-troppen og skal kjøre i Zinal neste uke. Resultatene fra Mayrhofen understreker at den unge italieneren er i god form og klar for et steg opp i nivå.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/gran-doppio-podio-per-lavinia-paci-nelle-fis-di-mayrhofen-vittorie-austriache-con-romy-sykora-e-victoria-olivier"
+  },
+  {
+   "id": 246149,
+   "publisert": "2026-11-27 11:15",
+   "publisert_iso": "2026-11-27T10:15:00.000Z",
+   "kilde": "Neveitalia",
+   "kilde_land": "ITA",
+   "tittel": "Ti italienske kvinner til storslalåm i Zinal – Europacupen starter mandag",
+   "ingress": "Italia stiller med ti utøvere, fra Bieler til Carolli, til storslalåmrennene i Zinal når Europacupen sparker i gang mandag.",
+   "spik": "Italia stiller med ti utøvere i Europacup-rennene i Zinal 30. november og 1. desember, deriblant Tatum Bieler som nylig debuterte i verdenscupen under storslalåmen i Sölden, og den unge Lavinia Paci som nettopp imponerte i Mayrhofen. Zinal er sesongens andre Europacup-stopp for kvinner, etter slalomrennet i Levi. Etterpå er det herrenes tur på samme piste 3.–4. desember.",
+   "utovere": [],
+   "land": [],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://www.neveitalia.it/sport/scialpino/femminile/news/dieci-azzurre-per-i-giganti-di-zinal-lunedi-riparte-la-coppa-europa-da-bieler-a-carolli-le-convocate"
   },
   {
    "id": 246099,
