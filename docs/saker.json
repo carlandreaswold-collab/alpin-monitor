@@ -1,7 +1,26 @@
 {
- "oppdatert": "2026-11-27T18:15:14.474Z",
- "antall": 769,
+ "oppdatert": "2026-11-27T18:30:22.938Z",
+ "antall": 770,
  "saker": [
+  {
+   "id": 247723,
+   "publisert": "2026-11-27 19:26",
+   "publisert_iso": "2026-11-27T18:26:49.000Z",
+   "kilde": "Ski Racing",
+   "kilde_land": "INT",
+   "tittel": "Mikaela Shiffrin jakter sin første storslalåmseier i Killington",
+   "ingress": "Mikaela Shiffrin stiller til start i Killington med mål om å vinne storslalåmen for aller første gang på denne arena.",
+   "spik": "Mikaela Shiffrin stiller til start i storslalåmen i Killington lørdag, og jakter sin første GS-seier på denne arenaen. I november 2024 krasjet hun i andreomgangen mens hun ledet med 0,32 sekunder og jaktet sin historiske 100. verdenscupseier — skaden, et dypt stikksår i bukmuskulaturen, holdt henne ute store deler av sesongen. Shiffrin har åpent snakket om posttraumatisk stress etter ulykken og jobbet med sportpsykolog foran comebacket. Ingen amerikansk kvinne har noensinne vunnet en verdenscup-storslalåm i Killington.",
+   "utovere": [
+    "Mikaela Shiffrin"
+   ],
+   "land": [
+    "USA"
+   ],
+   "kategori": "",
+   "flere_kilder": [],
+   "url": "https://skiracing.com/mikaela-shiffrin-chases-her-first-killington-giant-slalom-win/"
+  },
   {
    "id": 246303,
    "publisert": "2026-11-27 17:20",
